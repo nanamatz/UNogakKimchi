@@ -36,7 +36,7 @@ public: \
 
 #define RossiNante_Source_RossiNante_RossiNanteGameModeBase_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ARossiNanteGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API ARossiNanteGameModeBase(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ARossiNanteGameModeBase) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ARossiNanteGameModeBase); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ARossiNanteGameModeBase); \
@@ -48,8 +48,6 @@ public:
 
 
 #define RossiNante_Source_RossiNante_RossiNanteGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ARossiNanteGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ARossiNanteGameModeBase(ARossiNanteGameModeBase&&); \
@@ -57,7 +55,7 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ARossiNanteGameModeBase); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ARossiNanteGameModeBase); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ARossiNanteGameModeBase)
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ARossiNanteGameModeBase)
 
 
 #define RossiNante_Source_RossiNante_RossiNanteGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET

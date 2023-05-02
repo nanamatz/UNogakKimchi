@@ -2,4 +2,9 @@
 
 
 #include "RossiNanteGameModeBase.h"
+#include "MyCharacter.h"
 
+ARossiNanteGameModeBase::ARossiNanteGameModeBase()
+{
+	DefaultPawnClass = AMyCharacter::StaticClass();
+}

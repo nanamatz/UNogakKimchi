@@ -13,5 +13,5 @@ UCLASS()
 class ROSSINANTE_API ARossiNanteGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
-	
+		ARossiNanteGameModeBase();
 };
