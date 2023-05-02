@@ -5,10 +5,21 @@
 #include "MyCharacter.h"
 #include "GameFramework/Character.h"
 #include "GameFramework/PawnMovementComponent.h"
+#include "UObject/ConstructorHelpers.h"
 
 UMyAnimInstance::UMyAnimInstance()
 {
-
+	
+	ConstructorHelpers::FObjectFinder<UAnimMontage> AttackMont(TEXT("AnimMontage'/Game/Animations/BP_AttackMontage.BP_AttackMontage'"));
+	if (AttackMont.Succeeded()) {
+		AttackMontage = AttackMont.Object;
+	}
+}
+void UMyAnimInstance::PlayAttackMontage()
+{
+	if (!Montage_IsPlaying(AttackMontage)) {
+		Montage_Play(AttackMontage, 1.f); 
+	}
 }
 void UMyAnimInstance::NativeUpdateAnimation(float DeltaSeconds)
 {

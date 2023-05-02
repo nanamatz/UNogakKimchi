@@ -18,7 +18,14 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-
+	virtual void PostInitializeComponents() override;
+private:
+	UPROPERTY(VisibleAnywhere, Category = Pawn)
+		bool IsAttacking = false;
+	UPROPERTY(VisibleAnywhere, Category = Pawn)
+		bool IsSkillCasting = false;
+	UPROPERTY()
+		class UMyAnimInstance* AnimInstance;
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -26,10 +33,15 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	void Attack();
+	void IsAttackHit();
+
 	void UpDown(float Value);
 	void LeftRight(float Value);
 	void Yaw(float Value);
 
+	UFUNCTION()
+		void OnAttackEnded(UAnimMontage* Montage, bool bInterrupted);
 public:
 	UPROPERTY()
 		float UpDownValue = 0;
