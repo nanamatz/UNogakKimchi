@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "RossiNante",
+			"Path": "C:\\Users\\owner\\Documents\\GitHub\\UNogakKimchi\\RossiNante\\Source\\RossiNante.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "RossiNanteEditor",
+			"Path": "C:\\Users\\owner\\Documents\\GitHub\\UNogakKimchi\\RossiNante\\Source\\RossiNanteEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
