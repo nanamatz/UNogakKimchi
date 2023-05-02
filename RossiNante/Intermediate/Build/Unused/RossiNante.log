@@ -1,16 +1,20 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\owner\Documents\GitHub\UNogakKimchi).
   Parsing headers for RossiNanteEditor
     Running UnrealHeaderTool "C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\RossiNante.uproject" "C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\RossiNanteEditor\Development\RossiNanteEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for RossiNanteEditor in 4.2818469 seconds
+  Reflection code generated for RossiNanteEditor in 8.7076872 seconds
   Building RossiNanteEditor...
   Using Visual Studio 2019 14.29.30147 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 5 actions with 12 processes...
-    [1/5] RossiNanteGameModeBase.gen.cpp
-    [2/5] RossiNanteGameModeBase.cpp
-    [3/5] UE4Editor-RossiNante-0004.lib
-       C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0004.lib ���̺귯�� �� C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0004.exp ��ü�� �����ϰ� �ֽ��ϴ�.
-    [4/5] UE4Editor-RossiNante-0004.dll
-       C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0004.suppressed.lib ���̺귯�� �� C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0004.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
-    [5/5] RossiNanteEditor.target
-  Total time in Parallel executor: 1.70 seconds
-  Total execution time: 6.63 seconds
+  Building 9 actions with 12 processes...
+    [1/9] RossiNante.init.gen.cpp
+    [2/9] MyAnimInstance.cpp
+    [3/9] RossiNanteGameModeBase.cpp
+    [4/9] MyAnimInstance.gen.cpp
+    [5/9] MyCharacter.gen.cpp
+    [6/9] MyCharacter.cpp
+    [7/9] UE4Editor-RossiNante-0007.lib
+       C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0007.lib ���̺귯�� �� C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0007.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [8/9] UE4Editor-RossiNante-0007.dll
+       C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0007.suppressed.lib ���̺귯�� �� C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0007.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [9/9] RossiNanteEditor.target
+  Total time in Parallel executor: 7.44 seconds
+  Total execution time: 16.99 seconds

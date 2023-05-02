@@ -271,8 +271,10 @@
     <None Include="..\..\Config\DefaultEditor.ini" />
     <None Include="..\..\Config\DefaultEngine.ini" />
     <None Include="..\..\Config\DefaultGame.ini" />
+    <ClCompile Include="..\..\Source\RossiNante\MyAnimInstance.cpp" />
     <ClCompile Include="..\..\Source\RossiNante\MyCharacter.cpp" />
     <ClCompile Include="..\..\Source\RossiNante\MyGameModeBase.cpp" />
+    <ClInclude Include="..\..\Source\RossiNante\MyAnimInstance.h" />
     <ClInclude Include="..\..\Source\RossiNante\MyCharacter.h" />
     <ClInclude Include="..\..\Source\RossiNante\MyGameModeBase.h" />
     <None Include="..\..\Source\RossiNante\RossiNante.Build.cs" />

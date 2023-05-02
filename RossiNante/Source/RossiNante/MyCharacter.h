@@ -28,7 +28,12 @@ public:
 
 	void UpDown(float Value);
 	void LeftRight(float Value);
+	void Yaw(float Value);
 
-
+public:
+	UPROPERTY()
+		float UpDownValue = 0;
+	UPROPERTY()
+		float LeftRightValue = 0;
 
 };

@@ -52,9 +52,15 @@
     <ClInclude Include="..\..\Source\RossiNante\MyCharacter.h">
       <Filter>Source\RossiNante</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\RossiNante\MyAnimInstance.h">
+      <Filter>Source\RossiNante</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\RossiNante\MyCharacter.cpp">
+      <Filter>Source\RossiNante</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RossiNante\MyAnimInstance.cpp">
       <Filter>Source\RossiNante</Filter>
     </ClCompile>
   </ItemGroup>
