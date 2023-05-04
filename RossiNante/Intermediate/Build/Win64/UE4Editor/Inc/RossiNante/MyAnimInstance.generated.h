@@ -14,8 +14,28 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define ROSSINANTE_MyAnimInstance_generated_h
 
 #define RossiNante_Source_RossiNante_MyAnimInstance_h_17_SPARSE_DATA
-#define RossiNante_Source_RossiNante_MyAnimInstance_h_17_RPC_WRAPPERS
-#define RossiNante_Source_RossiNante_MyAnimInstance_h_17_RPC_WRAPPERS_NO_PURE_DECLS
+#define RossiNante_Source_RossiNante_MyAnimInstance_h_17_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execAnimNotify_AttackHit) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->AnimNotify_AttackHit(); \
+		P_NATIVE_END; \
+	}
+
+
+#define RossiNante_Source_RossiNante_MyAnimInstance_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execAnimNotify_AttackHit) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->AnimNotify_AttackHit(); \
+		P_NATIVE_END; \
+	}
+
+
 #define RossiNante_Source_RossiNante_MyAnimInstance_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUMyAnimInstance(); \

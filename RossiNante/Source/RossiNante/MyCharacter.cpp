@@ -54,29 +54,62 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 void AMyCharacter::Attack()
 {
 	if (IsAttacking) return;
-	UE_LOG(LogTemp, Warning, TEXT("Attack"));
+	
 	AnimInstance->PlayAttackMontage();
+	
+	AnimInstance->JumpToSection(AttackIndex);
+
+	AttackIndex = (AttackIndex + 1)%2;
 
 	IsAttacking = true;
 }
 
 void AMyCharacter::IsAttackHit()
 {
+	FHitResult HitResult;
 
+	FCollisionQueryParams Params(NAME_None, false, this);
+
+	float AttackRange = 1000.f;
+	float AttackRadius = 10.f;
+
+	bool bResult = GetWorld()->SweepSingleByChannel(OUT HitResult,
+		GetActorLocation(),
+		GetActorLocation() + GetActorForwardVector() * AttackRange,
+		FQuat::Identity,
+		ECollisionChannel::ECC_EngineTraceChannel2,
+		FCollisionShape::MakeSphere(AttackRadius),
+		Params);
+
+	FVector Vec = GetActorForwardVector() * AttackRange;
+	FVector Center = GetActorLocation() + Vec * 0.5f;
+	float HalfHeight = AttackRange * 0.5f;
+	FQuat Rotation = FRotationMatrix::MakeFromZ(Vec).ToQuat();
+	FColor DrawColor;
+
+
+	if (bResult)
+		DrawColor = FColor::Green;
+	else
+		DrawColor = FColor::Red;
+
+	DrawDebugCapsule(GetWorld(), Center, HalfHeight, AttackRadius, Rotation, DrawColor, false, 3.f);
+
+	if (bResult && HitResult.Actor.IsValid()) {
+		UE_LOG(LogTemp, Log, TEXT("Hit Actor : %s"), *HitResult.Actor->GetName());
+	}
 }
 
 void AMyCharacter::UpDown(float Value)
 {
-	if (Value == 0.f)
-		return;
+
 	UpDownValue = Value;
 	AddMovementInput(GetActorForwardVector(), Value);
 }
 
 void AMyCharacter::LeftRight(float Value)
 {
-	if (Value == 0.f)
-		return;
+
 	LeftRightValue = Value;
 	AddMovementInput(GetActorRightVector(), Value);
 }

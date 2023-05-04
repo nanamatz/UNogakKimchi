@@ -47,5 +47,6 @@ public:
 		float UpDownValue = 0;
 	UPROPERTY()
 		float LeftRightValue = 0;
-
+	UPROPERTY()
+		int32 AttackIndex = 0;
 };

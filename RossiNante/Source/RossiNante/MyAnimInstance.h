@@ -24,6 +24,14 @@ public:
 
 	void PlayAttackMontage();//기본 공격 몽타주 실행 함수
 
+	void JumpToSection(int32 SectionIndex);
+
+	FName GetAttackMontageName(int32 SectionIndex);
+
+private:
+	UFUNCTION()
+		void AnimNotify_AttackHit();
+
 private:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn, Meta = (AllowPrivateAccess = true))
 		float Speed;//캐릭터의 이동 여부를 결정하기 위한 속도 변수

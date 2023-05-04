@@ -18,10 +18,38 @@ void EmptyLinkFunctionForGeneratedCodeMyAnimInstance() {}
 	ROSSINANTE_API UClass* Z_Construct_UClass_UMyAnimInstance();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimInstance();
 	UPackage* Z_Construct_UPackage__Script_RossiNante();
+	ROSSINANTE_API UFunction* Z_Construct_UFunction_UMyAnimInstance_AnimNotify_AttackHit();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 // End Cross Module References
 	void UMyAnimInstance::StaticRegisterNativesUMyAnimInstance()
 	{
+		UClass* Class = UMyAnimInstance::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "AnimNotify_AttackHit", &UMyAnimInstance::execAnimNotify_AttackHit },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_UMyAnimInstance_AnimNotify_AttackHit_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UMyAnimInstance_AnimNotify_AttackHit_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MyAnimInstance.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UMyAnimInstance_AnimNotify_AttackHit_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UMyAnimInstance, nullptr, "AnimNotify_AttackHit", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UMyAnimInstance_AnimNotify_AttackHit_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UMyAnimInstance_AnimNotify_AttackHit_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UMyAnimInstance_AnimNotify_AttackHit()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UMyAnimInstance_AnimNotify_AttackHit_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_UMyAnimInstance_NoRegister()
 	{
@@ -30,6 +58,7 @@ void EmptyLinkFunctionForGeneratedCodeMyAnimInstance() {}
 	struct Z_Construct_UClass_UMyAnimInstance_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -61,6 +90,9 @@ void EmptyLinkFunctionForGeneratedCodeMyAnimInstance() {}
 	UObject* (*const Z_Construct_UClass_UMyAnimInstance_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_UAnimInstance,
 		(UObject* (*)())Z_Construct_UPackage__Script_RossiNante,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_UMyAnimInstance_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_UMyAnimInstance_AnimNotify_AttackHit, "AnimNotify_AttackHit" }, // 3341276157
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyAnimInstance_Statics::Class_MetaDataParams[] = {
@@ -134,11 +166,11 @@ void EmptyLinkFunctionForGeneratedCodeMyAnimInstance() {}
 		nullptr,
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_UMyAnimInstance_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_UMyAnimInstance_Statics::PropPointers),
 		0,
 		0x009000A8u,
@@ -153,7 +185,7 @@ void EmptyLinkFunctionForGeneratedCodeMyAnimInstance() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMyAnimInstance, 3095809409);
+	IMPLEMENT_CLASS(UMyAnimInstance, 734663300);
 	template<> ROSSINANTE_API UClass* StaticClass<UMyAnimInstance>()
 	{
 		return UMyAnimInstance::StaticClass();
