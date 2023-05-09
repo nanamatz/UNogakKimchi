@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeRossiNante_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x91B32FE9,
-				0x56849041,
+				0xEB1E2783,
+				0x2F08602B,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

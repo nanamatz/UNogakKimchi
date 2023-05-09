@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\RossiNante.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{5B383DA5-E6DD-4143-9783-D8FE77BA3E27}</UniqueIdentifier>
+      <UniqueIdentifier>{EAC18FC8-A393-4A3C-9F49-906E4C94A263}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\RossiNante.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{8E67F9FF-677D-446D-97E9-758EFE32265C}</UniqueIdentifier>
+      <UniqueIdentifier>{CFD84695-2200-4F14-B6EF-2EBAF0BDC61A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,13 +23,22 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\RossiNante">
-      <UniqueIdentifier>{62F4412B-0201-47EE-A6CD-DB6B7582971F}</UniqueIdentifier>
+      <UniqueIdentifier>{CE2189A7-0C8D-4CEF-822B-7DF1B2669FFE}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\RossiNante\MyGameModeBase.cpp">
+    <ClCompile Include="..\..\Source\RossiNante\MyAnimInstance.cpp">
       <Filter>Source\RossiNante</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\RossiNante\MyGameModeBase.h">
+    <ClInclude Include="..\..\Source\RossiNante\MyAnimInstance.h">
+      <Filter>Source\RossiNante</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RossiNante\MyCharacter.cpp">
+      <Filter>Source\RossiNante</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RossiNante\MyCharacter.h">
       <Filter>Source\RossiNante</Filter>
     </ClInclude>
     <None Include="..\..\Source\RossiNante\RossiNante.Build.cs">
@@ -47,20 +56,32 @@
     <ClInclude Include="..\..\Source\RossiNante\RossiNanteGameModeBase.h">
       <Filter>Source\RossiNante</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\RossiNante\MyCharacter.h">
-      <Filter>Source\RossiNante</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\RossiNante\MyAnimInstance.h">
-      <Filter>Source\RossiNante</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\RossiNante\MyCharacter.cpp">
+    <ClCompile Include="..\..\Source\RossiNante\SLogin.cpp">
       <Filter>Source\RossiNante</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\RossiNante\MyAnimInstance.cpp">
+    <ClInclude Include="..\..\Source\RossiNante\SLogin.h">
+      <Filter>Source\RossiNante</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\RossiNante\MenuHUD.h">
+      <Filter>Source\RossiNante</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RossiNante\MenuPlayerController.h">
+      <Filter>Source\RossiNante</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RossiNante\SLoginWidget.h">
+      <Filter>Source\RossiNante</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\RossiNante\MenuHUD.cpp">
+      <Filter>Source\RossiNante</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RossiNante\MenuPlayerController.cpp">
+      <Filter>Source\RossiNante</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RossiNante\SLoginWidget.cpp">
       <Filter>Source\RossiNante</Filter>
     </ClCompile>
   </ItemGroup>

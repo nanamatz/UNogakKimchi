@@ -123,3 +123,13 @@ void AMyCharacter::OnAttackEnded(UAnimMontage* Montage, bool bInterrupted)
 {
 	IsAttacking = false;
 }
+
+void AMyCharacter::ShowMouseCursor()
+{
+	AMyCharacter::bShowMouseCursor = true;
+}
+
+void AMyCharacter::HideMouseCursor()
+{
+	AMyCharacter::bShowMouseCursor = false;
+}

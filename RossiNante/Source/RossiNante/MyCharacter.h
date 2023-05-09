@@ -49,4 +49,12 @@ public:
 		float LeftRightValue = 0;
 	UPROPERTY()
 		int32 AttackIndex = 0;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Cursor")
+		bool bShowMouseCursor;	// 마우스 커서 ON/OFF 변수
+
+	UFUNCTION(BlueprintCallable, Category = "Cursor")
+		void ShowMouseCursor();	// 마우스 커서 ON 함수
+
+	UFUNCTION(BlueprintCallable, Category = "Cursor")
+		void HideMouseCursor();	// 마우스 커서 OFF 함수
 };

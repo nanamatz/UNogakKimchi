@@ -17,6 +17,22 @@ class UAnimMontage;
 #define RossiNante_Source_RossiNante_MyCharacter_h_12_SPARSE_DATA
 #define RossiNante_Source_RossiNante_MyCharacter_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execHideMouseCursor) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->HideMouseCursor(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execShowMouseCursor) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ShowMouseCursor(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execOnAttackEnded) \
 	{ \
 		P_GET_OBJECT(UAnimMontage,Z_Param_Montage); \
@@ -29,6 +45,22 @@ class UAnimMontage;
 
 
 #define RossiNante_Source_RossiNante_MyCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHideMouseCursor) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->HideMouseCursor(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execShowMouseCursor) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ShowMouseCursor(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execOnAttackEnded) \
 	{ \
