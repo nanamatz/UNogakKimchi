@@ -56,32 +56,15 @@
     <ClInclude Include="..\..\Source\RossiNante\RossiNanteGameModeBase.h">
       <Filter>Source\RossiNante</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\RossiNante\SLogin.cpp">
-      <Filter>Source\RossiNante</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\RossiNante\SLogin.h">
+    <None Include="cpp.hint" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\RossiNante\LoginWidget.h">
       <Filter>Source\RossiNante</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Source\RossiNante\MenuHUD.h">
-      <Filter>Source\RossiNante</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\RossiNante\MenuPlayerController.h">
-      <Filter>Source\RossiNante</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\RossiNante\SLoginWidget.h">
-      <Filter>Source\RossiNante</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\RossiNante\MenuHUD.cpp">
-      <Filter>Source\RossiNante</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\RossiNante\MenuPlayerController.cpp">
-      <Filter>Source\RossiNante</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\RossiNante\SLoginWidget.cpp">
+    <ClCompile Include="..\..\Source\RossiNante\LoginWidget.cpp">
       <Filter>Source\RossiNante</Filter>
     </ClCompile>
   </ItemGroup>

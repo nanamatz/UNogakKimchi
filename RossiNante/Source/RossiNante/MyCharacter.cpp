@@ -18,7 +18,6 @@ AMyCharacter::AMyCharacter()
 void AMyCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 void AMyCharacter::PostInitializeComponents()

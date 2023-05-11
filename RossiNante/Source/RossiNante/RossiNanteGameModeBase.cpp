@@ -4,22 +4,24 @@
 #include "RossiNanteGameModeBase.h"
 #include "MyCharacter.h"
 #include "UObject/ConstructorHelpers.h"
-#include "MenuHUD.h"
-#include "MenuPlayerController.h"
 #include <winsock2.h>
 #include <ws2tcpip.h>
 
-ARossiNanteGameModeBase::ARossiNanteGameModeBase() {
-    static ConstructorHelpers::FClassFinder<AMyCharacter> PlayerCharacterBPClass(TEXT("/GAME/RossiNante/Blueprints/BP_Character"));
-    if (PlayerCharacterBPClass.Class != NULL) {
-        DefaultPawnClass = PlayerCharacterBPClass.Class;
-    }
 
-    PlayerControllerClass = AMenuPlayerController::StaticClass();
-    HUDClass = AMenuHUD::StaticClass();
+ARossiNanteGameModeBase::ARossiNanteGameModeBase() {
+    static ConstructorHelpers::FClassFinder<AMyCharacter> PlayerCharacterBPClass(TEXT("/Game/Blueprints/BP_Character"));
 
     ARossiNanteGameModeBase::ConnectToServer();
 
+}
+
+SOCKET ARossiNanteGameModeBase::getSocket()
+{
+    if (Socket == NULL) {
+        UE_LOG(LogTemp, Warning, TEXT("ERR! Socket NULL in getSocket\n"));
+        return NULL;
+    }
+    return Socket;
 }
 
 void ARossiNanteGameModeBase::ConnectToServer()
@@ -43,7 +45,7 @@ void ARossiNanteGameModeBase::ConnectToServer()
     inet_pton(AF_INET, ServerIP, &serverAddr.sin_addr);
 
     // 소켓 초기화
-    SOCKET Socket = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
+    Socket = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
     if (Socket == INVALID_SOCKET) {
         WSACleanup();
         UE_LOG(LogTemp, Warning, TEXT("SOCKET INIT FAILED\n"));
