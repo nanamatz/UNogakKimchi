@@ -28,6 +28,8 @@ void AMyCharacter::PostInitializeComponents()
 	AnimInstance = Cast<UMyAnimInstance>(GetMesh()->GetAnimInstance());
 	if (AnimInstance) {
 		AnimInstance->OnMontageEnded.AddDynamic(this, &AMyCharacter::OnAttackEnded);
+		AnimInstance->OnMontageEnded.AddDynamic(this, &AMyCharacter::OnSkillCastEnded);
+		AnimInstance->OnMontageEnded.AddDynamic(this, &AMyCharacter::OnTumbleEnded);
 		AnimInstance->OnAttackHit.AddUObject(this, &AMyCharacter::IsAttackHit);
 	}
 }
@@ -45,6 +47,8 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 	PlayerInputComponent->BindAction(TEXT("Attack"), EInputEvent::IE_Pressed, this, &AMyCharacter::Attack);
 	PlayerInputComponent->BindAction(TEXT("Jump"), EInputEvent::IE_Pressed, this, &AMyCharacter::Jump);
+	PlayerInputComponent->BindAction(TEXT("Skill_Q"), EInputEvent::IE_Pressed, this, &AMyCharacter::Skill_Q);
+	PlayerInputComponent->BindAction(TEXT("Tumble"), EInputEvent::IE_Pressed, this, &AMyCharacter::Tumble);
 
 	PlayerInputComponent->BindAxis(TEXT("UpDown"), this, &AMyCharacter::UpDown);
 	PlayerInputComponent->BindAxis(TEXT("LeftRight"), this, &AMyCharacter::LeftRight);
@@ -64,6 +68,20 @@ void AMyCharacter::Attack()
 	IsAttacking = true;
 }
 
+void AMyCharacter::Tumble()
+{
+	if (IsSkillCasting || AnimInstance->IsJumping || AnimInstance->IsTumbling) return;
+	AnimInstance->IsTumbling = true;
+	AnimInstance->PlayTumbleMontage();
+}
+
+void AMyCharacter::Skill_Q()
+{
+	if (IsSkillCasting || AnimInstance->IsJumping || AnimInstance->IsTumbling) return;
+	IsSkillCasting = true;
+	AnimInstance->PlaySkill_QMontage();
+}
+
 void AMyCharacter::IsAttackHit()
 {
 	FHitResult HitResult;
@@ -71,7 +89,7 @@ void AMyCharacter::IsAttackHit()
 	FCollisionQueryParams Params(NAME_None, false, this);
 
 	float AttackRange = 1000.f;
-	float AttackRadius = 10.f;
+	float AttackRadius = 20.f;
 
 	bool bResult = GetWorld()->SweepSingleByChannel(OUT HitResult,
 		GetActorLocation(),
@@ -102,14 +120,14 @@ void AMyCharacter::IsAttackHit()
 
 void AMyCharacter::UpDown(float Value)
 {
-
+	if (IsSkillCasting) return;
 	UpDownValue = Value;
 	AddMovementInput(GetActorForwardVector(), Value);
 }
 
 void AMyCharacter::LeftRight(float Value)
 {
-
+	if (IsSkillCasting) return;
 	LeftRightValue = Value;
 	AddMovementInput(GetActorRightVector(), Value);
 }
@@ -122,4 +140,14 @@ void AMyCharacter::Yaw(float Value)
 void AMyCharacter::OnAttackEnded(UAnimMontage* Montage, bool bInterrupted)
 {
 	IsAttacking = false;
+}
+
+void AMyCharacter::OnTumbleEnded(UAnimMontage* Montage, bool bInterrupted)
+{
+	AnimInstance->IsTumbling = false;
+}
+
+void AMyCharacter::OnSkillCastEnded(UAnimMontage* Montage, bool bInterrupted)
+{
+	IsSkillCasting = false;
 }

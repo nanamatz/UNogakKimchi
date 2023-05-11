@@ -26,6 +26,7 @@ private:
 		bool IsSkillCasting = false;
 	UPROPERTY()
 		class UMyAnimInstance* AnimInstance;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -34,7 +35,12 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	void Attack();
+	void Tumble();
+	void Skill_Q();
+	
 	void IsAttackHit();
+
+
 
 	void UpDown(float Value);
 	void LeftRight(float Value);
@@ -42,6 +48,10 @@ public:
 
 	UFUNCTION()
 		void OnAttackEnded(UAnimMontage* Montage, bool bInterrupted);
+	UFUNCTION()
+		void OnTumbleEnded(UAnimMontage* Montage, bool bInterrupted);
+	UFUNCTION()
+		void OnSkillCastEnded(UAnimMontage* Montage, bool bInterrupted);
 public:
 	UPROPERTY()
 		float UpDownValue = 0;

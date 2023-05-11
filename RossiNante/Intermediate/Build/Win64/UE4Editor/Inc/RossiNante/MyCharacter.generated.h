@@ -17,6 +17,26 @@ class UAnimMontage;
 #define RossiNante_Source_RossiNante_MyCharacter_h_12_SPARSE_DATA
 #define RossiNante_Source_RossiNante_MyCharacter_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execOnSkillCastEnded) \
+	{ \
+		P_GET_OBJECT(UAnimMontage,Z_Param_Montage); \
+		P_GET_UBOOL(Z_Param_bInterrupted); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnSkillCastEnded(Z_Param_Montage,Z_Param_bInterrupted); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnTumbleEnded) \
+	{ \
+		P_GET_OBJECT(UAnimMontage,Z_Param_Montage); \
+		P_GET_UBOOL(Z_Param_bInterrupted); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnTumbleEnded(Z_Param_Montage,Z_Param_bInterrupted); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execOnAttackEnded) \
 	{ \
 		P_GET_OBJECT(UAnimMontage,Z_Param_Montage); \
@@ -29,6 +49,26 @@ class UAnimMontage;
 
 
 #define RossiNante_Source_RossiNante_MyCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnSkillCastEnded) \
+	{ \
+		P_GET_OBJECT(UAnimMontage,Z_Param_Montage); \
+		P_GET_UBOOL(Z_Param_bInterrupted); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnSkillCastEnded(Z_Param_Montage,Z_Param_bInterrupted); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnTumbleEnded) \
+	{ \
+		P_GET_OBJECT(UAnimMontage,Z_Param_Montage); \
+		P_GET_UBOOL(Z_Param_bInterrupted); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnTumbleEnded(Z_Param_Montage,Z_Param_bInterrupted); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execOnAttackEnded) \
 	{ \

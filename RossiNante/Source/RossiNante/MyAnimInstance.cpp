@@ -14,12 +14,34 @@ UMyAnimInstance::UMyAnimInstance()
 	if (AttackMont.Succeeded()) {
 		AttackMontage = AttackMont.Object;
 	}
+	ConstructorHelpers::FObjectFinder<UAnimMontage> QMont(TEXT("AnimMontage'/Game/Animations/BP_SKillQMontage.BP_SKillQMontage'"));
+	if (QMont.Succeeded()) {
+		Skill_QMontage = QMont.Object;
+	}
+	ConstructorHelpers::FObjectFinder<UAnimMontage> TumbleMont(TEXT("AnimMontage'/Game/Animations/BP_TumbleMontage.BP_TumbleMontage'"));
+	if (TumbleMont.Succeeded()) {
+		TumbleMontage = TumbleMont.Object;
+	}
 }
 
 void UMyAnimInstance::PlayAttackMontage() //Play Attack Animation
 {
 	if (!Montage_IsPlaying(AttackMontage)) {
 		Montage_Play(AttackMontage, 1.f); 
+	}
+}
+
+void UMyAnimInstance::PlaySkill_QMontage()
+{
+	if (!Montage_IsPlaying(Skill_QMontage)) {
+		Montage_Play(Skill_QMontage,1.f);
+	}
+}
+
+void UMyAnimInstance::PlayTumbleMontage()
+{
+	if (!Montage_IsPlaying(TumbleMontage)) {
+		Montage_Play(TumbleMontage, 1.f);
 	}
 }
 
@@ -38,6 +60,12 @@ void UMyAnimInstance::AnimNotify_AttackHit() //When Attack Effect for example So
 {
 	//UE_LOG(LogTemp, Log, TEXT("AnimNotify_AttackHit"));
 	OnAttackHit.Broadcast();
+}
+
+void UMyAnimInstance::AnimNotify_OnTumbleEnd()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Tumble"));
+	OnTumbleEnd.Broadcast();
 }
 
 void UMyAnimInstance::NativeUpdateAnimation(float DeltaSeconds) //Every Frame, Update Animtaions

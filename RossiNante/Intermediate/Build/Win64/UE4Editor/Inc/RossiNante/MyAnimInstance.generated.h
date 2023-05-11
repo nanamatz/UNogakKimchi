@@ -16,6 +16,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define RossiNante_Source_RossiNante_MyAnimInstance_h_17_SPARSE_DATA
 #define RossiNante_Source_RossiNante_MyAnimInstance_h_17_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execAnimNotify_OnTumbleEnd) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->AnimNotify_OnTumbleEnd(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execAnimNotify_AttackHit) \
 	{ \
 		P_FINISH; \
@@ -26,6 +34,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define RossiNante_Source_RossiNante_MyAnimInstance_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execAnimNotify_OnTumbleEnd) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->AnimNotify_OnTumbleEnd(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execAnimNotify_AttackHit) \
 	{ \
@@ -82,7 +98,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMyAnimInstance); \
 	FORCEINLINE static uint32 __PPO__Speed() { return STRUCT_OFFSET(UMyAnimInstance, Speed); } \
 	FORCEINLINE static uint32 __PPO__Horizontal() { return STRUCT_OFFSET(UMyAnimInstance, Horizontal); } \
 	FORCEINLINE static uint32 __PPO__Vertical() { return STRUCT_OFFSET(UMyAnimInstance, Vertical); } \
-	FORCEINLINE static uint32 __PPO__AttackMontage() { return STRUCT_OFFSET(UMyAnimInstance, AttackMontage); }
+	FORCEINLINE static uint32 __PPO__AttackMontage() { return STRUCT_OFFSET(UMyAnimInstance, AttackMontage); } \
+	FORCEINLINE static uint32 __PPO__TumbleMontage() { return STRUCT_OFFSET(UMyAnimInstance, TumbleMontage); } \
+	FORCEINLINE static uint32 __PPO__Skill_QMontage() { return STRUCT_OFFSET(UMyAnimInstance, Skill_QMontage); }
 
 
 #define RossiNante_Source_RossiNante_MyAnimInstance_h_14_PROLOG

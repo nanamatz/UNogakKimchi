@@ -7,7 +7,7 @@
 #include "MyAnimInstance.generated.h"
 
 DECLARE_MULTICAST_DELEGATE(FOnAttackHit);
-
+DECLARE_MULTICAST_DELEGATE(FOnTumbleEnd);
 /**
  * 
  */
@@ -23,6 +23,8 @@ class ROSSINANTE_API UMyAnimInstance : public UAnimInstance
 public:
 
 	void PlayAttackMontage();//기본 공격 몽타주 실행 함수
+	void PlaySkill_QMontage();//기본 공격 몽타주 실행 함수
+	void PlayTumbleMontage();//기본 공격 몽타주 실행 함수
 
 	void JumpToSection(int32 SectionIndex);
 
@@ -31,6 +33,8 @@ public:
 private:
 	UFUNCTION()
 		void AnimNotify_AttackHit();
+	UFUNCTION()
+		void AnimNotify_OnTumbleEnd();
 
 private:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn, Meta = (AllowPrivateAccess = true))
@@ -44,11 +48,17 @@ private:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn, Meta = (AllowPrivateAccess = true))
 		UAnimMontage* AttackMontage;//기본 공격 몽타주 변수
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn, Meta = (AllowPrivateAccess = true))
+		UAnimMontage* TumbleMontage;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn, Meta = (AllowPrivateAccess = true))
+		UAnimMontage* Skill_QMontage;
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn)
 		bool IsJumping = false;//점프하는지를 판단하기 위한 변수
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn)
+		bool IsTumbling = false;//구르기하는지를 판단하기 위한 변수
 
 	FOnAttackHit OnAttackHit;
-
+	FOnTumbleEnd OnTumbleEnd;
 
 };
