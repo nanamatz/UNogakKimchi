@@ -61,3 +61,8 @@ void ARossiNanteGameModeBase::ConnectToServer()
         UE_LOG(LogTemp, Warning, TEXT("CONNECT SUCCESS\n"));
     }
 }
+
+void ARossiNanteGameModeBase::SetUserData(int user_id)
+{
+    user_data.user_id = user_id;
+}

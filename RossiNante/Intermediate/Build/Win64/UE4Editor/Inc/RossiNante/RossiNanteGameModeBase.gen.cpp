@@ -40,7 +40,6 @@ void EmptyLinkFunctionForGeneratedCodeRossiNanteGameModeBase() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARossiNanteGameModeBase_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "/**\n * \n */" },
 		{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering Utilities|Transformation" },
 		{ "IncludePath", "RossiNanteGameModeBase.h" },
 		{ "ModuleRelativePath", "RossiNanteGameModeBase.h" },
@@ -74,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodeRossiNanteGameModeBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ARossiNanteGameModeBase, 2401957582);
+	IMPLEMENT_CLASS(ARossiNanteGameModeBase, 3598199946);
 	template<> ROSSINANTE_API UClass* StaticClass<ARossiNanteGameModeBase>()
 	{
 		return ARossiNanteGameModeBase::StaticClass();

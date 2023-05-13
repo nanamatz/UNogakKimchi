@@ -7,6 +7,7 @@
 #include "Runtime/UMG/Public/Components/Button.h"
 #include "Runtime/UMG/Public/Components/EditableText.h"
 #include <winsock2.h>
+#include "RossiNanteGameModeBase.h"
 #include "LoginWidget.generated.h"
 
 /**
@@ -33,4 +34,5 @@ protected:
 
 private:
 	SOCKET Socket;
+	ARossiNanteGameModeBase* GameMode;
 };

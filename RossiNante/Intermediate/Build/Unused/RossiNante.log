@@ -1,16 +1,28 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\201911183\Documents\GitHub\UNogakKimchi).
+  Parsing headers for RossiNanteEditor
+    Running UnrealHeaderTool "C:\Users\201911183\Documents\GitHub\UNogakKimchi\RossiNante\RossiNante.uproject" "C:\Users\201911183\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\RossiNanteEditor\Development\RossiNanteEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for RossiNanteEditor in 4.7937199 seconds
   Building RossiNanteEditor...
   Using Visual Studio 2019 14.33.31630 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 16 processes...
-    [1/4] LoginWidget.cpp
+  Building 7 actions with 16 processes...
+    [1/7] RossiNanteGameModeBase.gen.cpp
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h(611): warning C4005: 'TEXT': ��ũ�� ������
     C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'�� ���� ���Ǹ� �����Ͻʽÿ�.
-C:\Users\201911183\Documents\GitHub\UNogakKimchi\RossiNante\Source\RossiNante\LoginWidget.cpp(19): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\201911183\Documents\GitHub\UNogakKimchi\RossiNante\Source\RossiNante\LoginWidget.cpp(20): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-    [2/4] UE4Editor-RossiNante-0017.lib
-       C:\Users\201911183\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0017.lib ���̺귯�� �� C:\Users\201911183\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0017.exp ��ü�� �����ϰ� �ֽ��ϴ�.
-    [3/4] UE4Editor-RossiNante-0017.dll
-       C:\Users\201911183\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0017.suppressed.lib ���̺귯�� �� C:\Users\201911183\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0017.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
-    [4/4] RossiNanteEditor.target
-  Total time in Parallel executor: 4.40 seconds
-  Total execution time: 5.11 seconds
+    [2/7] RossiNanteGameModeBase.cpp
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h(611): warning C4005: 'TEXT': ��ũ�� ������
+    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'�� ���� ���Ǹ� �����Ͻʽÿ�.
+    [3/7] LoginWidget.gen.cpp
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h(611): warning C4005: 'TEXT': ��ũ�� ������
+    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'�� ���� ���Ǹ� �����Ͻʽÿ�.
+    [4/7] LoginWidget.cpp
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h(611): warning C4005: 'TEXT': ��ũ�� ������
+    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'�� ���� ���Ǹ� �����Ͻʽÿ�.
+C:\Users\201911183\Documents\GitHub\UNogakKimchi\RossiNante\Source\RossiNante\LoginWidget.cpp(28): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\201911183\Documents\GitHub\UNogakKimchi\RossiNante\Source\RossiNante\LoginWidget.cpp(29): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+    [5/7] UE4Editor-RossiNante-0039.lib
+       C:\Users\201911183\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0039.lib ���̺귯�� �� C:\Users\201911183\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0039.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [6/7] UE4Editor-RossiNante-0039.dll
+       C:\Users\201911183\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0039.suppressed.lib ���̺귯�� �� C:\Users\201911183\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0039.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [7/7] RossiNanteEditor.target
+  Total time in Parallel executor: 3.37 seconds
+  Total execution time: 8.77 seconds

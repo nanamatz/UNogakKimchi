@@ -2,41 +2,66 @@
 
 
 #include "LoginWidget.h"
-#include "RossiNanteGameModeBase.h"
+#include "Kismet/GameplayStatics.h"
+#include <string>
 
 void ULoginWidget::OnSignInButtonClicked()
 {
-	FString InputID = ID->GetText().ToString();
-	FString InputPW = PW->GetText().ToString();
+	char* InputID = TCHAR_TO_UTF8(*ID->GetText().ToString());
+    
+	char* InputPW = TCHAR_TO_UTF8(*PW->GetText().ToString());
     
 	// 로그인 실행
-    LoginDataPacket ld_packet;
-    char* cID = TCHAR_TO_ANSI(*InputID);
-    char* cPW = TCHAR_TO_ANSI(*InputPW);
-    ld_packet.user_id = 0;
-    ld_packet.buffer = new char[strlen(cID) + strlen(cPW)];
-    strcpy(ld_packet.buffer, cID);
-    ld_packet.buffer[strlen(cID)] = '\0'; 
-    strcat(ld_packet.buffer, cPW);
-    ld_packet.packet_type = (int)EPacketType::C2S_LOGIN;
+    UserDataPacket login_packet;
+
     
-    if (send(Socket, (char*)&ld_packet, strlen((char*)&ld_packet), 0) == -1) {
+    if (strlen((InputID)) > 20) {
+        UE_LOG(LogTemp, Warning, TEXT("ID LENGTH IS TOO LONG!"));
+        return;
+    }
+    if (strlen(InputPW) > 20) {
+        UE_LOG(LogTemp, Warning, TEXT("PW LENGTH IS TOO LONG!"));
+        return;
+    }
+
+    login_packet.user_id = 0;
+
+    strcpy(login_packet.data1, InputID);
+    strcpy(login_packet.data2, InputPW);
+
+    login_packet.packet_type = (int)EPacketType::C2S_LOGIN;
+    UE_LOG(LogTemp, Warning, TEXT("%d"), login_packet.packet_type);
+    if (send(Socket, (char*)&login_packet, sizeof(UserDataPacket), 0) == -1) {
         UE_LOG(LogTemp, Warning, TEXT("ERR! send Socket\n"));
         for (int i = 0; i < 3; i++) {
-            if (send(Socket, (char*)&ld_packet, strlen((char*)&ld_packet), 0) != -1) {
+            if (send(Socket, (char*)&login_packet, sizeof(UserDataPacket), 0) != -1) {
                 break;
             }
         }
     }
 
-    UserDataPacket ud_packet;
-    if (recv(Socket, (char*)&ud_packet, strlen((char*)&ud_packet), 0) != strlen((char*)&ud_packet)) {
+    UserDataPacket ud;
+    if (recv(Socket, (char*)&ud, sizeof(UserDataPacket), 0) == -1) {
         for (int i = 0; i < 3; i++) {
-            if (recv(Socket, (char*)&ud_packet, strlen((char*)&ud_packet), 0) != strlen((char*)&ud_packet) == strlen((char*)&ud_packet)) {
+            if (recv(Socket, (char*)&ud, sizeof(UserDataPacket), 0) != -1) {
                 break;
             }
+
         }
     }
+    if (ud.packet_type == (int)EPacketType::S2C_LOGIN_SUCCESS) {
+        UGameplayStatics::OpenLevel(GetWorld(), FName("Default"), TRAVEL_Absolute);
+    } 
+    else if (ud.packet_type == (int)EPacketType::S2C_LOGIN_FAIL) {
+        UE_LOG(LogTemp, Warning, TEXT("ID or PW error! However you can join the game in test mode."));
+        UGameplayStatics::OpenLevel(GetWorld(), FName("Default"), TRAVEL_Absolute);
+    }
+    else {
+        UE_LOG(LogTemp, Warning, TEXT("recevied packet type error"));
+    }
+
+    GameMode->SetUserData(ud.user_id);
+
     // 여기까지 했고 server 코드 수정해야함 task queue에서 task보고 처리해주는 작업해주어야 함
 }
 
@@ -48,7 +73,7 @@ void ULoginWidget::NativeConstruct()
 
     if (World)
     {
-        ARossiNanteGameModeBase* GameMode = Cast<ARossiNanteGameModeBase>(World->GetAuthGameMode());
+        GameMode = Cast<ARossiNanteGameModeBase>(World->GetAuthGameMode());
         if (GameMode)
         {
             Socket = GameMode->Socket;
