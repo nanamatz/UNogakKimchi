@@ -76,36 +76,17 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 	}
 	struct Z_Construct_UFunction_AMyCharacter_OnSkillCastEnded_Statics
 	{
-		struct MyCharacter_eventOnSkillCastEnded_Parms
-		{
-			UAnimMontage* Montage;
-			bool bInterrupted;
-		};
-		static void NewProp_bInterrupted_SetBit(void* Obj);
-		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bInterrupted;
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Montage;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-	void Z_Construct_UFunction_AMyCharacter_OnSkillCastEnded_Statics::NewProp_bInterrupted_SetBit(void* Obj)
-	{
-		((MyCharacter_eventOnSkillCastEnded_Parms*)Obj)->bInterrupted = 1;
-	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_AMyCharacter_OnSkillCastEnded_Statics::NewProp_bInterrupted = { "bInterrupted", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(MyCharacter_eventOnSkillCastEnded_Parms), &Z_Construct_UFunction_AMyCharacter_OnSkillCastEnded_Statics::NewProp_bInterrupted_SetBit, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AMyCharacter_OnSkillCastEnded_Statics::NewProp_Montage = { "Montage", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyCharacter_eventOnSkillCastEnded_Parms, Montage), Z_Construct_UClass_UAnimMontage_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMyCharacter_OnSkillCastEnded_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMyCharacter_OnSkillCastEnded_Statics::NewProp_bInterrupted,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMyCharacter_OnSkillCastEnded_Statics::NewProp_Montage,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMyCharacter_OnSkillCastEnded_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "MyCharacter.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMyCharacter_OnSkillCastEnded_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMyCharacter, nullptr, "OnSkillCastEnded", nullptr, nullptr, sizeof(MyCharacter_eventOnSkillCastEnded_Parms), Z_Construct_UFunction_AMyCharacter_OnSkillCastEnded_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyCharacter_OnSkillCastEnded_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMyCharacter_OnSkillCastEnded_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyCharacter_OnSkillCastEnded_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMyCharacter_OnSkillCastEnded_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMyCharacter, nullptr, "OnSkillCastEnded", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMyCharacter_OnSkillCastEnded_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyCharacter_OnSkillCastEnded_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_AMyCharacter_OnSkillCastEnded()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -117,36 +98,17 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 	}
 	struct Z_Construct_UFunction_AMyCharacter_OnTumbleEnded_Statics
 	{
-		struct MyCharacter_eventOnTumbleEnded_Parms
-		{
-			UAnimMontage* Montage;
-			bool bInterrupted;
-		};
-		static void NewProp_bInterrupted_SetBit(void* Obj);
-		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bInterrupted;
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Montage;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-	void Z_Construct_UFunction_AMyCharacter_OnTumbleEnded_Statics::NewProp_bInterrupted_SetBit(void* Obj)
-	{
-		((MyCharacter_eventOnTumbleEnded_Parms*)Obj)->bInterrupted = 1;
-	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_AMyCharacter_OnTumbleEnded_Statics::NewProp_bInterrupted = { "bInterrupted", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(MyCharacter_eventOnTumbleEnded_Parms), &Z_Construct_UFunction_AMyCharacter_OnTumbleEnded_Statics::NewProp_bInterrupted_SetBit, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AMyCharacter_OnTumbleEnded_Statics::NewProp_Montage = { "Montage", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyCharacter_eventOnTumbleEnded_Parms, Montage), Z_Construct_UClass_UAnimMontage_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMyCharacter_OnTumbleEnded_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMyCharacter_OnTumbleEnded_Statics::NewProp_bInterrupted,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMyCharacter_OnTumbleEnded_Statics::NewProp_Montage,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMyCharacter_OnTumbleEnded_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "MyCharacter.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMyCharacter_OnTumbleEnded_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMyCharacter, nullptr, "OnTumbleEnded", nullptr, nullptr, sizeof(MyCharacter_eventOnTumbleEnded_Parms), Z_Construct_UFunction_AMyCharacter_OnTumbleEnded_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyCharacter_OnTumbleEnded_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMyCharacter_OnTumbleEnded_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyCharacter_OnTumbleEnded_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMyCharacter_OnTumbleEnded_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMyCharacter, nullptr, "OnTumbleEnded", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMyCharacter_OnTumbleEnded_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyCharacter_OnTumbleEnded_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_AMyCharacter_OnTumbleEnded()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -203,8 +165,8 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AMyCharacter_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AMyCharacter_OnAttackEnded, "OnAttackEnded" }, // 2504896255
-		{ &Z_Construct_UFunction_AMyCharacter_OnSkillCastEnded, "OnSkillCastEnded" }, // 1919160814
-		{ &Z_Construct_UFunction_AMyCharacter_OnTumbleEnded, "OnTumbleEnded" }, // 2427416352
+		{ &Z_Construct_UFunction_AMyCharacter_OnSkillCastEnded, "OnSkillCastEnded" }, // 1220475929
+		{ &Z_Construct_UFunction_AMyCharacter_OnTumbleEnded, "OnTumbleEnded" }, // 3277593103
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyCharacter_Statics::Class_MetaDataParams[] = {
@@ -294,7 +256,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyCharacter, 2304499441);
+	IMPLEMENT_CLASS(AMyCharacter, 1720601751);
 	template<> ROSSINANTE_API UClass* StaticClass<AMyCharacter>()
 	{
 		return AMyCharacter::StaticClass();

@@ -8,6 +8,7 @@
 
 DECLARE_MULTICAST_DELEGATE(FOnAttackHit);
 DECLARE_MULTICAST_DELEGATE(FOnTumbleEnd);
+DECLARE_MULTICAST_DELEGATE(FOnSkillEnd);
 /**
  * 
  */
@@ -22,9 +23,10 @@ class ROSSINANTE_API UMyAnimInstance : public UAnimInstance
 
 public:
 
-	void PlayAttackMontage();//기본 공격 몽타주 실행 함수
-	void PlaySkill_QMontage();//기본 공격 몽타주 실행 함수
-	void PlayTumbleMontage();//기본 공격 몽타주 실행 함수
+	void PlayAttackMontage();//몽타주 실행 함수
+	void PlaySkill_QMontage();
+	void PlaySkill_EMontage();
+	void PlayTumbleMontage();
 
 	void JumpToSection(int32 SectionIndex);
 
@@ -35,7 +37,8 @@ private:
 		void AnimNotify_AttackHit();
 	UFUNCTION()
 		void AnimNotify_OnTumbleEnd();
-
+	UFUNCTION()
+		void AnimNotify_SkillCastEnd();
 private:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn, Meta = (AllowPrivateAccess = true))
 		float Speed;//캐릭터의 이동 여부를 결정하기 위한 속도 변수
@@ -52,6 +55,8 @@ private:
 		UAnimMontage* TumbleMontage;
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn, Meta = (AllowPrivateAccess = true))
 		UAnimMontage* Skill_QMontage;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn, Meta = (AllowPrivateAccess = true))
+		UAnimMontage* Skill_EMontage;
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn)
 		bool IsJumping = false;//점프하는지를 판단하기 위한 변수
@@ -60,5 +65,7 @@ public:
 
 	FOnAttackHit OnAttackHit;
 	FOnTumbleEnd OnTumbleEnd;
-
+	FOnSkillEnd OnSkillEnd;
+	
+	
 };

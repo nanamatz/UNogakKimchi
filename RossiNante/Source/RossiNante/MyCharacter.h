@@ -37,6 +37,7 @@ public:
 	void Attack();
 	void Tumble();
 	void Skill_Q();
+	void Skill_E();
 	
 	void IsAttackHit();
 
@@ -49,9 +50,9 @@ public:
 	UFUNCTION()
 		void OnAttackEnded(UAnimMontage* Montage, bool bInterrupted);
 	UFUNCTION()
-		void OnTumbleEnded(UAnimMontage* Montage, bool bInterrupted);
+		void OnTumbleEnded();
 	UFUNCTION()
-		void OnSkillCastEnded(UAnimMontage* Montage, bool bInterrupted);
+		void OnSkillCastEnded();
 public:
 	UPROPERTY()
 		float UpDownValue = 0;

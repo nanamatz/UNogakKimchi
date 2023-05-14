@@ -19,21 +19,17 @@ class UAnimMontage;
  \
 	DECLARE_FUNCTION(execOnSkillCastEnded) \
 	{ \
-		P_GET_OBJECT(UAnimMontage,Z_Param_Montage); \
-		P_GET_UBOOL(Z_Param_bInterrupted); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->OnSkillCastEnded(Z_Param_Montage,Z_Param_bInterrupted); \
+		P_THIS->OnSkillCastEnded(); \
 		P_NATIVE_END; \
 	} \
  \
 	DECLARE_FUNCTION(execOnTumbleEnded) \
 	{ \
-		P_GET_OBJECT(UAnimMontage,Z_Param_Montage); \
-		P_GET_UBOOL(Z_Param_bInterrupted); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->OnTumbleEnded(Z_Param_Montage,Z_Param_bInterrupted); \
+		P_THIS->OnTumbleEnded(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -52,21 +48,17 @@ class UAnimMontage;
  \
 	DECLARE_FUNCTION(execOnSkillCastEnded) \
 	{ \
-		P_GET_OBJECT(UAnimMontage,Z_Param_Montage); \
-		P_GET_UBOOL(Z_Param_bInterrupted); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->OnSkillCastEnded(Z_Param_Montage,Z_Param_bInterrupted); \
+		P_THIS->OnSkillCastEnded(); \
 		P_NATIVE_END; \
 	} \
  \
 	DECLARE_FUNCTION(execOnTumbleEnded) \
 	{ \
-		P_GET_OBJECT(UAnimMontage,Z_Param_Montage); \
-		P_GET_UBOOL(Z_Param_bInterrupted); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->OnTumbleEnded(Z_Param_Montage,Z_Param_bInterrupted); \
+		P_THIS->OnTumbleEnded(); \
 		P_NATIVE_END; \
 	} \
  \

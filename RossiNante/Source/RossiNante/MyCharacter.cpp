@@ -28,8 +28,8 @@ void AMyCharacter::PostInitializeComponents()
 	AnimInstance = Cast<UMyAnimInstance>(GetMesh()->GetAnimInstance());
 	if (AnimInstance) {
 		AnimInstance->OnMontageEnded.AddDynamic(this, &AMyCharacter::OnAttackEnded);
-		AnimInstance->OnMontageEnded.AddDynamic(this, &AMyCharacter::OnSkillCastEnded);
-		AnimInstance->OnMontageEnded.AddDynamic(this, &AMyCharacter::OnTumbleEnded);
+		AnimInstance->OnSkillEnd.AddUObject(this, &AMyCharacter::OnSkillCastEnded);
+		AnimInstance->OnTumbleEnd.AddUObject(this, &AMyCharacter::OnTumbleEnded);
 		AnimInstance->OnAttackHit.AddUObject(this, &AMyCharacter::IsAttackHit);
 	}
 }
@@ -48,6 +48,7 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	PlayerInputComponent->BindAction(TEXT("Attack"), EInputEvent::IE_Pressed, this, &AMyCharacter::Attack);
 	PlayerInputComponent->BindAction(TEXT("Jump"), EInputEvent::IE_Pressed, this, &AMyCharacter::Jump);
 	PlayerInputComponent->BindAction(TEXT("Skill_Q"), EInputEvent::IE_Pressed, this, &AMyCharacter::Skill_Q);
+	PlayerInputComponent->BindAction(TEXT("Skill_E"), EInputEvent::IE_Pressed, this, &AMyCharacter::Skill_E);
 	PlayerInputComponent->BindAction(TEXT("Tumble"), EInputEvent::IE_Pressed, this, &AMyCharacter::Tumble);
 
 	PlayerInputComponent->BindAxis(TEXT("UpDown"), this, &AMyCharacter::UpDown);
@@ -70,7 +71,7 @@ void AMyCharacter::Attack()
 
 void AMyCharacter::Tumble()
 {
-	if (IsSkillCasting || AnimInstance->IsJumping || AnimInstance->IsTumbling) return;
+	if (IsSkillCasting || AnimInstance->IsJumping || IsAttacking) return;
 	AnimInstance->IsTumbling = true;
 	AnimInstance->PlayTumbleMontage();
 }
@@ -80,6 +81,12 @@ void AMyCharacter::Skill_Q()
 	if (IsSkillCasting || AnimInstance->IsJumping || AnimInstance->IsTumbling) return;
 	IsSkillCasting = true;
 	AnimInstance->PlaySkill_QMontage();
+}
+void AMyCharacter::Skill_E()
+{
+	if (IsSkillCasting || AnimInstance->IsJumping || AnimInstance->IsTumbling) return;
+	IsSkillCasting = true;
+	AnimInstance->PlaySkill_EMontage();
 }
 
 void AMyCharacter::IsAttackHit()
@@ -139,15 +146,21 @@ void AMyCharacter::Yaw(float Value)
 
 void AMyCharacter::OnAttackEnded(UAnimMontage* Montage, bool bInterrupted)
 {
+	UE_LOG(LogTemp, Warning, TEXT("Attack End"));
+
 	IsAttacking = false;
 }
 
-void AMyCharacter::OnTumbleEnded(UAnimMontage* Montage, bool bInterrupted)
+void AMyCharacter::OnTumbleEnded()
 {
+	UE_LOG(LogTemp, Warning, TEXT("Tumble End"));
+
 	AnimInstance->IsTumbling = false;
 }
 
-void AMyCharacter::OnSkillCastEnded(UAnimMontage* Montage, bool bInterrupted)
+void AMyCharacter::OnSkillCastEnded()
 {
+	UE_LOG(LogTemp, Warning, TEXT("Skill End"));
+
 	IsSkillCasting = false;
 }
