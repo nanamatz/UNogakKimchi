@@ -33,7 +33,9 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	UFUNCTION(BlueprintCallable)
 	void Attack();
+	UFUNCTION(BlueprintCallable)
 	void IsAttackHit();
 
 	void UpDown(float Value);
@@ -42,6 +44,8 @@ public:
 
 	UFUNCTION()
 		void OnAttackEnded(UAnimMontage* Montage, bool bInterrupted);
+
+
 public:
 	UPROPERTY()
 		float UpDownValue = 0;

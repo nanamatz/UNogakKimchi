@@ -25,6 +25,22 @@ class UAnimMontage;
 		P_NATIVE_BEGIN; \
 		P_THIS->OnAttackEnded(Z_Param_Montage,Z_Param_bInterrupted); \
 		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execIsAttackHit) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->IsAttackHit(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execAttack) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Attack(); \
+		P_NATIVE_END; \
 	}
 
 
@@ -37,6 +53,22 @@ class UAnimMontage;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->OnAttackEnded(Z_Param_Montage,Z_Param_bInterrupted); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execIsAttackHit) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->IsAttackHit(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execAttack) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Attack(); \
 		P_NATIVE_END; \
 	}
 

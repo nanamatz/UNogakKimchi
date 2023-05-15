@@ -1,0 +1,12 @@
+C:\Users\Administrator\Downloads\UNogakKimchi-soohwan\UNogakKimchi-soohwan\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\Definitions.RossiNante.h
+D:\soohwan\Unreal\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\soohwan\Unreal\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\Administrator\Downloads\UNogakKimchi-soohwan\UNogakKimchi-soohwan\RossiNante\Source\RossiNante/MyTestBoss.h
+D:\soohwan\Unreal\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+D:\soohwan\Unreal\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+D:\soohwan\Unreal\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+D:\soohwan\Unreal\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+D:\soohwan\Unreal\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/DataTable.h
+D:\soohwan\Unreal\UE_4.24\Engine\Source\Runtime\Engine\Public\DataTableUtils.h
+D:\soohwan\Unreal\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DataTable.generated.h
+C:\Users\Administrator\Downloads\UNogakKimchi-soohwan\UNogakKimchi-soohwan\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\MyTestBoss.generated.h

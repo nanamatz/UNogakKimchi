@@ -5,6 +5,8 @@
 #include "Components/CapsuleComponent.h"
 #include "MyAnimInstance.h"
 #include "DrawDebugHelpers.h"
+#include "Kismet/GameplayStatics.h"
+#include "Engine.h"
 
 // Sets default values
 AMyCharacter::AMyCharacter()
@@ -81,6 +83,7 @@ void AMyCharacter::IsAttackHit()
 		FCollisionShape::MakeSphere(AttackRadius),
 		Params);
 
+
 	FVector Vec = GetActorForwardVector() * AttackRange;
 	FVector Center = GetActorLocation() + Vec * 0.5f;
 	float HalfHeight = AttackRange * 0.5f;
@@ -97,6 +100,12 @@ void AMyCharacter::IsAttackHit()
 
 	if (bResult && HitResult.Actor.IsValid()) {
 		UE_LOG(LogTemp, Log, TEXT("Hit Actor : %s"), *HitResult.Actor->GetName());
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, *HitResult.Actor->GetName());
+
+		FPointDamageEvent damageEvent;
+
+		// 데미지 주기
+		HitResult.Actor->TakeDamage(10.f, damageEvent, GetController(), this);
 	}
 }
 
