@@ -5,6 +5,7 @@
 #include "Components/CapsuleComponent.h"
 #include "MyAnimInstance.h"
 #include "DrawDebugHelpers.h"
+#include "MyStatComponent.h"
 
 // Sets default values
 AMyCharacter::AMyCharacter()
@@ -12,6 +13,7 @@ AMyCharacter::AMyCharacter()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	Stat = CreateDefaultSubobject<UMyStatComponent>(TEXT("STAT"));
 }
 
 // Called when the game starts or when spawned
@@ -58,7 +60,7 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 void AMyCharacter::Attack()
 {
-	if (IsAttacking) return;
+	if (IsAttacking || IsSkillCasting) return;
 	
 	AnimInstance->PlayAttackMontage();
 	
@@ -71,7 +73,7 @@ void AMyCharacter::Attack()
 
 void AMyCharacter::Tumble()
 {
-	if (IsSkillCasting || AnimInstance->IsJumping || IsAttacking) return;
+	if (IsSkillCasting || AnimInstance->IsJumping) return;
 	AnimInstance->IsTumbling = true;
 	AnimInstance->PlayTumbleMontage();
 }
@@ -122,6 +124,9 @@ void AMyCharacter::IsAttackHit()
 
 	if (bResult && HitResult.Actor.IsValid()) {
 		UE_LOG(LogTemp, Log, TEXT("Hit Actor : %s"), *HitResult.Actor->GetName());
+
+		FDamageEvent DamageEvent;
+		HitResult.Actor->TakeDamage(Stat->GetAttack(), DamageEvent, GetController(), this);
 	}
 }
 
@@ -163,4 +168,11 @@ void AMyCharacter::OnSkillCastEnded()
 	UE_LOG(LogTemp, Warning, TEXT("Skill End"));
 
 	IsSkillCasting = false;
+}
+
+float AMyCharacter::TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser)
+{
+	Stat->OnAttacked(DamageAmount);
+
+	return DamageAmount;
 }

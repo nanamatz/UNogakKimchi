@@ -41,8 +41,6 @@ public:
 	
 	void IsAttackHit();
 
-
-
 	void UpDown(float Value);
 	void LeftRight(float Value);
 	void Yaw(float Value);
@@ -53,6 +51,8 @@ public:
 		void OnTumbleEnded();
 	UFUNCTION()
 		void OnSkillCastEnded();
+
+	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser) override;
 public:
 	UPROPERTY()
 		float UpDownValue = 0;
@@ -60,4 +60,7 @@ public:
 		float LeftRightValue = 0;
 	UPROPERTY()
 		int32 AttackIndex = 0;
+
+	UPROPERTY(EditAnywhere)
+	class UMyStatComponent* Stat;
 };

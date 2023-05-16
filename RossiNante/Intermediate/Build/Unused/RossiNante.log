@@ -2,11 +2,11 @@
   Building RossiNanteEditor...
   Using Visual Studio 2019 14.29.30147 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 4 actions with 12 processes...
-    [1/4] MyCharacter.cpp
-    [2/4] UE4Editor-RossiNante-0043.lib
-       C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0043.lib ���̺귯�� �� C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0043.exp ��ü�� �����ϰ� �ֽ��ϴ�.
-    [3/4] UE4Editor-RossiNante-0043.dll
-       C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0043.suppressed.lib ���̺귯�� �� C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0043.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [1/4] MyStatComponent.cpp
+    [2/4] UE4Editor-RossiNante-0079.lib
+       C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0079.lib ���̺귯�� �� C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0079.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [3/4] UE4Editor-RossiNante-0079.dll
+       C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0079.suppressed.lib ���̺귯�� �� C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0079.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
     [4/4] RossiNanteEditor.target
-  Total time in Parallel executor: 1.30 seconds
-  Total execution time: 1.87 seconds
+  Total time in Parallel executor: 1.21 seconds
+  Total execution time: 1.75 seconds
