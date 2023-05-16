@@ -26,6 +26,14 @@ UMyAnimInstance::UMyAnimInstance()
 	if (TumbleMont.Succeeded()) {
 		TumbleMontage = TumbleMont.Object;
 	}
+	ConstructorHelpers::FObjectFinder<UAnimMontage> DeathMont(TEXT("AnimMontage'/Game/Animations/BP_DeathMontage.BP_DeathMontage'"));
+	if (DeathMont.Succeeded()) {
+		DeathMontage = DeathMont.Object;
+	}
+	ConstructorHelpers::FObjectFinder<UAnimMontage> HitReactMont(TEXT("AnimMontage'/Game/Animations/BP_HitReactMontage.BP_HitReactMontage'"));
+	if (HitReactMont.Succeeded()) {
+		HitReactMontage = HitReactMont.Object;
+	}
 }
 
 void UMyAnimInstance::PlayAttackMontage() //Play Attack Animation
@@ -52,6 +60,20 @@ void UMyAnimInstance::PlayTumbleMontage()
 {
 	if (!Montage_IsPlaying(TumbleMontage)) {
 		Montage_Play(TumbleMontage, 1.f);
+	}
+}
+
+void UMyAnimInstance::PlayDeathMontage()
+{
+	if (!Montage_IsPlaying(DeathMontage)) {
+		Montage_Play(DeathMontage, 1.f);
+	}
+}
+
+void UMyAnimInstance::PlayHitReactMontage()
+{
+	if (!Montage_IsPlaying(HitReactMontage)) {
+		Montage_Play(HitReactMontage, 1.f);
 	}
 }
 
@@ -83,6 +105,12 @@ void UMyAnimInstance::AnimNotify_SkillCastEnd()
 	UE_LOG(LogTemp, Warning, TEXT("broadCast Skill"));
 	OnSkillEnd.Broadcast();
 }
+
+//void UMyAnimInstance::AnimNotify_HitEnd()
+//{
+//	UE_LOG(LogTemp, Warning, TEXT("Hit Reaction"));
+//	OnHitEnd.Broadcast();
+//}
 
 void UMyAnimInstance::NativeUpdateAnimation(float DeltaSeconds) //Every Frame, Update Animtaions
 {

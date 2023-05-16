@@ -172,7 +172,16 @@ void AMyCharacter::OnSkillCastEnded()
 
 float AMyCharacter::TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser)
 {
+	AnimInstance->IsAttacked = true;
 	Stat->OnAttacked(DamageAmount);
+	if (Stat->GetHp() <= 0) {
+		UE_LOG(LogTemp, Warning, TEXT("Die"));
+		AnimInstance->PlayDeathMontage();
+	}
+	else {
+		AnimInstance->PlayHitReactMontage();
+	}
+	UE_LOG(LogTemp, Warning, TEXT("%d"),AnimInstance->IsAttacked);
 
 	return DamageAmount;
 }

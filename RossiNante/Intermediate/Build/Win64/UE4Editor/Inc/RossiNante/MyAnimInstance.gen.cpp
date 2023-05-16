@@ -111,6 +111,11 @@ void EmptyLinkFunctionForGeneratedCodeMyAnimInstance() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_IsAttacked_MetaData[];
+#endif
+		static void NewProp_IsAttacked_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_IsAttacked;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_IsTumbling_MetaData[];
 #endif
 		static void NewProp_IsTumbling_SetBit(void* Obj);
@@ -120,6 +125,14 @@ void EmptyLinkFunctionForGeneratedCodeMyAnimInstance() {}
 #endif
 		static void NewProp_IsJumping_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_IsJumping;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HitReactMontage_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HitReactMontage;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DeathMontage_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_DeathMontage;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Skill_EMontage_MetaData[];
 #endif
@@ -170,6 +183,19 @@ void EmptyLinkFunctionForGeneratedCodeMyAnimInstance() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyAnimInstance_Statics::NewProp_IsAttacked_MetaData[] = {
+		{ "Category", "Pawn" },
+		{ "Comment", "//???????\xcf\xb4????? ?\xc7\xb4??\xcf\xb1? ???? ????\n" },
+		{ "ModuleRelativePath", "MyAnimInstance.h" },
+		{ "ToolTip", "???????\xcf\xb4????? ?\xc7\xb4??\xcf\xb1? ???? ????" },
+	};
+#endif
+	void Z_Construct_UClass_UMyAnimInstance_Statics::NewProp_IsAttacked_SetBit(void* Obj)
+	{
+		((UMyAnimInstance*)Obj)->IsAttacked = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UMyAnimInstance_Statics::NewProp_IsAttacked = { "IsAttacked", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UMyAnimInstance), &Z_Construct_UClass_UMyAnimInstance_Statics::NewProp_IsAttacked_SetBit, METADATA_PARAMS(Z_Construct_UClass_UMyAnimInstance_Statics::NewProp_IsAttacked_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMyAnimInstance_Statics::NewProp_IsAttacked_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyAnimInstance_Statics::NewProp_IsTumbling_MetaData[] = {
 		{ "Category", "Pawn" },
 		{ "Comment", "//?????\xcf\xb4????? ?\xc7\xb4??\xcf\xb1? ???? ????\n" },
@@ -194,10 +220,32 @@ void EmptyLinkFunctionForGeneratedCodeMyAnimInstance() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UMyAnimInstance_Statics::NewProp_IsJumping = { "IsJumping", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UMyAnimInstance), &Z_Construct_UClass_UMyAnimInstance_Statics::NewProp_IsJumping_SetBit, METADATA_PARAMS(Z_Construct_UClass_UMyAnimInstance_Statics::NewProp_IsJumping_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMyAnimInstance_Statics::NewProp_IsJumping_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyAnimInstance_Statics::NewProp_HitReactMontage_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "Pawn" },
+		{ "Comment", "//???? ??\xc5\xb8?? ????\n" },
+		{ "ModuleRelativePath", "MyAnimInstance.h" },
+		{ "ToolTip", "???? ??\xc5\xb8?? ????" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UMyAnimInstance_Statics::NewProp_HitReactMontage = { "HitReactMontage", nullptr, (EPropertyFlags)0x0040000000000015, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyAnimInstance, HitReactMontage), Z_Construct_UClass_UAnimMontage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UMyAnimInstance_Statics::NewProp_HitReactMontage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMyAnimInstance_Statics::NewProp_HitReactMontage_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyAnimInstance_Statics::NewProp_DeathMontage_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "Pawn" },
+		{ "Comment", "//E??\xc5\xb3 ??\xc5\xb8?? ????\n" },
+		{ "ModuleRelativePath", "MyAnimInstance.h" },
+		{ "ToolTip", "E??\xc5\xb3 ??\xc5\xb8?? ????" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UMyAnimInstance_Statics::NewProp_DeathMontage = { "DeathMontage", nullptr, (EPropertyFlags)0x0040000000000015, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyAnimInstance, DeathMontage), Z_Construct_UClass_UAnimMontage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UMyAnimInstance_Statics::NewProp_DeathMontage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMyAnimInstance_Statics::NewProp_DeathMontage_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyAnimInstance_Statics::NewProp_Skill_EMontage_MetaData[] = {
 		{ "AllowPrivateAccess", "TRUE" },
 		{ "Category", "Pawn" },
+		{ "Comment", "//Q??\xc5\xb3 ??\xc5\xb8?? ????\n" },
 		{ "ModuleRelativePath", "MyAnimInstance.h" },
+		{ "ToolTip", "Q??\xc5\xb3 ??\xc5\xb8?? ????" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UMyAnimInstance_Statics::NewProp_Skill_EMontage = { "Skill_EMontage", nullptr, (EPropertyFlags)0x0040000000000015, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyAnimInstance, Skill_EMontage), Z_Construct_UClass_UAnimMontage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UMyAnimInstance_Statics::NewProp_Skill_EMontage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMyAnimInstance_Statics::NewProp_Skill_EMontage_MetaData)) };
@@ -205,7 +253,9 @@ void EmptyLinkFunctionForGeneratedCodeMyAnimInstance() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyAnimInstance_Statics::NewProp_Skill_QMontage_MetaData[] = {
 		{ "AllowPrivateAccess", "TRUE" },
 		{ "Category", "Pawn" },
+		{ "Comment", "//?????? ??\xc5\xb8?? ????\n" },
 		{ "ModuleRelativePath", "MyAnimInstance.h" },
+		{ "ToolTip", "?????? ??\xc5\xb8?? ????" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UMyAnimInstance_Statics::NewProp_Skill_QMontage = { "Skill_QMontage", nullptr, (EPropertyFlags)0x0040000000000015, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyAnimInstance, Skill_QMontage), Z_Construct_UClass_UAnimMontage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UMyAnimInstance_Statics::NewProp_Skill_QMontage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMyAnimInstance_Statics::NewProp_Skill_QMontage_MetaData)) };
@@ -258,8 +308,11 @@ void EmptyLinkFunctionForGeneratedCodeMyAnimInstance() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UMyAnimInstance_Statics::NewProp_Speed = { "Speed", nullptr, (EPropertyFlags)0x0040000000000015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyAnimInstance, Speed), METADATA_PARAMS(Z_Construct_UClass_UMyAnimInstance_Statics::NewProp_Speed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMyAnimInstance_Statics::NewProp_Speed_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UMyAnimInstance_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyAnimInstance_Statics::NewProp_IsAttacked,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyAnimInstance_Statics::NewProp_IsTumbling,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyAnimInstance_Statics::NewProp_IsJumping,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyAnimInstance_Statics::NewProp_HitReactMontage,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyAnimInstance_Statics::NewProp_DeathMontage,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyAnimInstance_Statics::NewProp_Skill_EMontage,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyAnimInstance_Statics::NewProp_Skill_QMontage,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyAnimInstance_Statics::NewProp_TumbleMontage,
@@ -295,7 +348,7 @@ void EmptyLinkFunctionForGeneratedCodeMyAnimInstance() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMyAnimInstance, 4000390684);
+	IMPLEMENT_CLASS(UMyAnimInstance, 3848828103);
 	template<> ROSSINANTE_API UClass* StaticClass<UMyAnimInstance>()
 	{
 		return UMyAnimInstance::StaticClass();

@@ -9,6 +9,7 @@
 DECLARE_MULTICAST_DELEGATE(FOnAttackHit);
 DECLARE_MULTICAST_DELEGATE(FOnTumbleEnd);
 DECLARE_MULTICAST_DELEGATE(FOnSkillEnd);
+//DECLARE_MULTICAST_DELEGATE(FOnHitEnd);
 /**
  * 
  */
@@ -23,14 +24,16 @@ class ROSSINANTE_API UMyAnimInstance : public UAnimInstance
 
 public:
 
-	void PlayAttackMontage();//몽타주 실행 함수
-	void PlaySkill_QMontage();
-	void PlaySkill_EMontage();
-	void PlayTumbleMontage();
+	void PlayAttackMontage();//기본 공격 몽타주 실행 함수
+	void PlaySkill_QMontage();//Q스킬 몽타주 실행 함수
+	void PlaySkill_EMontage();//E스킬 몽타주 실행 함수
+	void PlayTumbleMontage();//구르기 몽타주 실행 함수
+	void PlayDeathMontage();
+	void PlayHitReactMontage();
 
-	void JumpToSection(int32 SectionIndex);
+	void JumpToSection(int32 SectionIndex);//기본 공격 애니메이션 섹션 넘기는 함수
 
-	FName GetAttackMontageName(int32 SectionIndex);
+	FName GetAttackMontageName(int32 SectionIndex);//섹션 인덱스에 따라서 기본 공격 애니메이션 불러오는 함수
 
 private:
 	UFUNCTION()
@@ -52,20 +55,26 @@ private:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn, Meta = (AllowPrivateAccess = true))
 		UAnimMontage* AttackMontage;//기본 공격 몽타주 변수
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn, Meta = (AllowPrivateAccess = true))
-		UAnimMontage* TumbleMontage;
+		UAnimMontage* TumbleMontage;//구르기 몽타주 변수
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn, Meta = (AllowPrivateAccess = true))
-		UAnimMontage* Skill_QMontage;
+		UAnimMontage* Skill_QMontage;//Q스킬 몽타주 변수
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn, Meta = (AllowPrivateAccess = true))
-		UAnimMontage* Skill_EMontage;
+		UAnimMontage* Skill_EMontage;//E스킬 몽타주 변수
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn, Meta = (AllowPrivateAccess = true))
+		UAnimMontage* DeathMontage;//사망 몽타주 변수
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn, Meta = (AllowPrivateAccess = true))
+		UAnimMontage* HitReactMontage;//사망 몽타주 변수
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn)
 		bool IsJumping = false;//점프하는지를 판단하기 위한 변수
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn)
 		bool IsTumbling = false;//구르기하는지를 판단하기 위한 변수
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn)
+		bool IsAttacked = false;//피격을 판단하기 위한 변수
 
 	FOnAttackHit OnAttackHit;
 	FOnTumbleEnd OnTumbleEnd;
 	FOnSkillEnd OnSkillEnd;
-	
+	/*FOnHitEnd OnHitEnd;*/
 	
 };

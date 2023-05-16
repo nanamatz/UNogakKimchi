@@ -4,6 +4,7 @@
 #include "MyStatComponent.h"
 #include "MyGameInstance.h"
 #include "Kismet/GameplayStatics.h"
+#include "MyAnimInstance.h"
 
 
 // Sets default values for this component's properties
@@ -52,9 +53,8 @@ void UMyStatComponent::SetLevel(int32 NewLevel)
 
 void UMyStatComponent::OnAttacked(float DamageAmount)
 {
-	Hp -= DamageAmount;
-	if (Hp < 0)
-		Hp = 0;
+		Hp -= DamageAmount;
+	
 	UE_LOG(LogTemp, Warning, TEXT("OnAttacked %d"), Hp);
 }
 
