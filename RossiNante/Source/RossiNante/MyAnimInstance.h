@@ -31,6 +31,12 @@ public:
 	void PlayDeathMontage();
 	void PlayHitReactMontage();
 
+
+	void PlayBossAttackMontage();
+	void PlayBossSkillMontage();
+	void PlayBossHitReactMontage();
+	void PlayBossDeathMontage();
+
 	void JumpToSection(int32 SectionIndex);//기본 공격 애니메이션 섹션 넘기는 함수
 
 	FName GetAttackMontageName(int32 SectionIndex);//섹션 인덱스에 따라서 기본 공격 애니메이션 불러오는 함수
@@ -52,6 +58,8 @@ private:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn, Meta = (AllowPrivateAccess = true))
 		float Vertical;	//이동 블렌드 스페이스에서 세로축의 값을 나타내는 변수
 
+
+	//==========================플레이어 애니메이션=================================
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn, Meta = (AllowPrivateAccess = true))
 		UAnimMontage* AttackMontage;//기본 공격 몽타주 변수
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn, Meta = (AllowPrivateAccess = true))
@@ -64,6 +72,22 @@ private:
 		UAnimMontage* DeathMontage;//사망 몽타주 변수
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn, Meta = (AllowPrivateAccess = true))
 		UAnimMontage* HitReactMontage;//사망 몽타주 변수
+
+	//==========================보스 애니메이션=================================
+
+	UPROPERTY(EditDefaultsOnly, Category = Pawn)
+		UAnimMontage* Boss_AttackMontage; // 평타 콤보 애니메이션
+	UPROPERTY(EditDefaultsOnly, Category = Pawn)
+		UAnimMontage* Boss_SkillMontage; // 스킬 애니메이션
+
+	UPROPERTY(EditDefaultsOnly, Category = Pawn)
+		UAnimMontage* Boss_HitReactMontage; // 피격 애니메이션
+	UPROPERTY(EditDefaultsOnly, Category = Pawn)
+		UAnimMontage* Boss_DeathMontage; // 사망 애니메이션
+
+	UPROPERTY(EditDefaultsOnly, Category = Pawn)
+		UAnimMontage* Boss_Phase2Montage; // 페이즈2모션 애니메이션
+
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn)
 		bool IsJumping = false;//점프하는지를 판단하기 위한 변수

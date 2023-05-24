@@ -119,7 +119,12 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMyAnimInstance); \
 	FORCEINLINE static uint32 __PPO__Skill_QMontage() { return STRUCT_OFFSET(UMyAnimInstance, Skill_QMontage); } \
 	FORCEINLINE static uint32 __PPO__Skill_EMontage() { return STRUCT_OFFSET(UMyAnimInstance, Skill_EMontage); } \
 	FORCEINLINE static uint32 __PPO__DeathMontage() { return STRUCT_OFFSET(UMyAnimInstance, DeathMontage); } \
-	FORCEINLINE static uint32 __PPO__HitReactMontage() { return STRUCT_OFFSET(UMyAnimInstance, HitReactMontage); }
+	FORCEINLINE static uint32 __PPO__HitReactMontage() { return STRUCT_OFFSET(UMyAnimInstance, HitReactMontage); } \
+	FORCEINLINE static uint32 __PPO__Boss_AttackMontage() { return STRUCT_OFFSET(UMyAnimInstance, Boss_AttackMontage); } \
+	FORCEINLINE static uint32 __PPO__Boss_SkillMontage() { return STRUCT_OFFSET(UMyAnimInstance, Boss_SkillMontage); } \
+	FORCEINLINE static uint32 __PPO__Boss_HitReactMontage() { return STRUCT_OFFSET(UMyAnimInstance, Boss_HitReactMontage); } \
+	FORCEINLINE static uint32 __PPO__Boss_DeathMontage() { return STRUCT_OFFSET(UMyAnimInstance, Boss_DeathMontage); } \
+	FORCEINLINE static uint32 __PPO__Boss_Phase2Montage() { return STRUCT_OFFSET(UMyAnimInstance, Boss_Phase2Montage); }
 
 
 #define RossiNante_Source_RossiNante_MyAnimInstance_h_16_PROLOG

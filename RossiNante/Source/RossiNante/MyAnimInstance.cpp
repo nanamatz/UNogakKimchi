@@ -9,7 +9,7 @@
 
 UMyAnimInstance::UMyAnimInstance()
 {
-	
+
 	ConstructorHelpers::FObjectFinder<UAnimMontage> AttackMont(TEXT("AnimMontage'/Game/Animations/BP_AttackMontage.BP_AttackMontage'"));
 	if (AttackMont.Succeeded()) {
 		AttackMontage = AttackMont.Object;
@@ -34,6 +34,28 @@ UMyAnimInstance::UMyAnimInstance()
 	if (HitReactMont.Succeeded()) {
 		HitReactMontage = HitReactMont.Object;
 	}
+
+	ConstructorHelpers::FObjectFinder<UAnimMontage> Attack_AnimMt(TEXT("AnimMontage'/Game/Blueprints/Boss/Montage/BossAttack_Montage.BossAttack_Montage'"));
+	if (Attack_AnimMt.Succeeded()) {
+		Boss_AttackMontage = Attack_AnimMt.Object;
+	}
+	ConstructorHelpers::FObjectFinder<UAnimMontage> Skill_AnimMt(TEXT("AnimMontage'/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'"));
+	if (Skill_AnimMt.Succeeded()) {
+		Boss_SkillMontage= Skill_AnimMt.Object;
+	}
+	ConstructorHelpers::FObjectFinder<UAnimMontage> BossHitReact_AnimMt(TEXT("AnimMontage'/Game/Blueprints/Boss/Montage/BossHitReact.BossHitReact'"));
+	if (BossHitReact_AnimMt.Succeeded()) {
+		Boss_HitReactMontage = BossHitReact_AnimMt.Object;
+	}
+	ConstructorHelpers::FObjectFinder<UAnimMontage> Death_AnimMt(TEXT("AnimMontage'/Game/Blueprints/Boss/Montage/BossDeath_Montage.BossDeath_Montage'"));
+	if (Death_AnimMt.Succeeded()) {
+		Boss_DeathMontage = Death_AnimMt.Object;
+	}
+	ConstructorHelpers::FObjectFinder<UAnimMontage> Phase2_AnimMt(TEXT("AnimMontage'/Game/Blueprints/Boss/Montage/BossPhase2_Montage.BossPhase2_Montage'"));
+	if (Phase2_AnimMt.Succeeded()) {
+		Boss_Phase2Montage = Phase2_AnimMt.Object;
+	}
+
 }
 
 void UMyAnimInstance::PlayAttackMontage() //Play Attack Animation
@@ -74,6 +96,38 @@ void UMyAnimInstance::PlayHitReactMontage()
 {
 	if (!Montage_IsPlaying(HitReactMontage)) {
 		Montage_Play(HitReactMontage, 1.f);
+	}
+}
+
+
+
+
+
+void UMyAnimInstance::PlayBossAttackMontage()
+{
+	if (!Montage_IsPlaying(Boss_AttackMontage)) {
+		Montage_Play(Boss_AttackMontage, 1.f);
+	}
+}
+
+void UMyAnimInstance::PlayBossSkillMontage()
+{
+	if (!Montage_IsPlaying(Boss_SkillMontage)) {
+		Montage_Play(Boss_SkillMontage, 1.f);
+	}
+}
+
+void UMyAnimInstance::PlayBossHitReactMontage()
+{
+	if (!Montage_IsPlaying(Boss_HitReactMontage)) {
+		Montage_Play(Boss_HitReactMontage, 1.f);
+	}
+}
+
+void UMyAnimInstance::PlayBossDeathMontage()
+{
+	if (!Montage_IsPlaying(Boss_DeathMontage)) {
+		Montage_Play(Boss_DeathMontage, 1.f);
 	}
 }
 
