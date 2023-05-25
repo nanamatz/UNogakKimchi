@@ -1,8 +1,14 @@
 {
 	"SourceFiles": [
+<<<<<<< Updated upstream
 		"C:\\Users\\201911183\\Documents\\GitHub\\UNogakKimchi\\RossiNante\\Source\\RossiNante\\RossiNante.Build.cs",
 		"C:\\Users\\201911183\\Documents\\GitHub\\UNogakKimchi\\RossiNante\\Source\\RossiNante.Target.cs",
 		"C:\\Users\\201911183\\Documents\\GitHub\\UNogakKimchi\\RossiNante\\Source\\RossiNanteEditor.Target.cs"
+=======
+		"C:\\Users\\201911183\\Desktop\\unreal\\RossiNante\\Source\\RossiNante\\RossiNante.Build.cs",
+		"C:\\Users\\201911183\\Desktop\\unreal\\RossiNante\\Source\\RossiNante.Target.cs",
+		"C:\\Users\\201911183\\Desktop\\unreal\\RossiNante\\Source\\RossiNanteEditor.Target.cs"
+>>>>>>> Stashed changes
 	],
 	"EngineVersion": "4.24.3"
 }

@@ -3,7 +3,11 @@
   <ItemGroup>
     <None Include="..\..\RossiNante.uproject" />
     <Filter Include="Source">
+<<<<<<< Updated upstream
       <UniqueIdentifier>{EAC18FC8-A393-4A3C-9F49-906E4C94A263}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{74970DF6-6F05-40F5-AA9A-E8C2D54930E0}</UniqueIdentifier>
+>>>>>>> Stashed changes
     </Filter>
     <None Include="..\..\Source\RossiNante.Target.cs">
       <Filter>Source</Filter>
@@ -12,23 +16,28 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
+<<<<<<< Updated upstream
       <UniqueIdentifier>{CFD84695-2200-4F14-B6EF-2EBAF0BDC61A}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{AA93FB81-C1CF-486A-B7C6-A1F0266EDCF8}</UniqueIdentifier>
+>>>>>>> Stashed changes
     </Filter>
-    <None Include="..\..\Config\DefaultEditor.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEngine.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultGame.ini">
-      <Filter>Config</Filter>
-    </None>
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\RossiNante">
+<<<<<<< Updated upstream
       <UniqueIdentifier>{CE2189A7-0C8D-4CEF-822B-7DF1B2669FFE}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{8E2597F5-76E4-43FD-A91B-73E24E912685}</UniqueIdentifier>
+>>>>>>> Stashed changes
     </Filter>
+    <ClCompile Include="..\..\Source\RossiNante\LoginWidget.cpp">
+      <Filter>Source\RossiNante</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RossiNante\LoginWidget.h">
+      <Filter>Source\RossiNante</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\RossiNante\MyAnimInstance.cpp">
       <Filter>Source\RossiNante</Filter>
     </ClCompile>
@@ -41,6 +50,33 @@
     <ClInclude Include="..\..\Source\RossiNante\MyCharacter.h">
       <Filter>Source\RossiNante</Filter>
     </ClInclude>
+<<<<<<< Updated upstream
+=======
+    <ClCompile Include="..\..\Source\RossiNante\MyCharacterEnemy.cpp">
+      <Filter>Source\RossiNante</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RossiNante\MyCharacterEnemy.h">
+      <Filter>Source\RossiNante</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RossiNante\MyGameInstance.cpp">
+      <Filter>Source\RossiNante</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RossiNante\MyGameInstance.h">
+      <Filter>Source\RossiNante</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RossiNante\MyGameModeBase.cpp">
+      <Filter>Source\RossiNante</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RossiNante\MyGameModeBase.h">
+      <Filter>Source\RossiNante</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RossiNante\MyStatComponent.cpp">
+      <Filter>Source\RossiNante</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RossiNante\MyStatComponent.h">
+      <Filter>Source\RossiNante</Filter>
+    </ClInclude>
+>>>>>>> Stashed changes
     <None Include="..\..\Source\RossiNante\RossiNante.Build.cs">
       <Filter>Source\RossiNante</Filter>
     </None>

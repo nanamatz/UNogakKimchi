@@ -10,8 +10,11 @@
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
 				"Engine",
+<<<<<<< Updated upstream
 				"Slate",
 				"SlateCore",
+=======
+>>>>>>> Stashed changes
 				"UMG"
 			]
 		}

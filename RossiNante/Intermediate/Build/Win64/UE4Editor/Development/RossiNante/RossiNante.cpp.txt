@@ -1,2 +1,7 @@
+<<<<<<< Updated upstream
 C:\Users\201911183\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\Definitions.RossiNante.h
 C:\Users\201911183\Documents\GitHub\UNogakKimchi\RossiNante\Source\RossiNante\RossiNante.h
+=======
+C:\Users\201911183\Desktop\unreal\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\Definitions.RossiNante.h
+C:\Users\201911183\Desktop\unreal\RossiNante\Source\RossiNante\RossiNante.h
+>>>>>>> Stashed changes

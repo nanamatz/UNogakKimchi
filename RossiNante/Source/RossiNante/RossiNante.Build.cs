@@ -8,9 +8,15 @@ public class RossiNante : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
+<<<<<<< Updated upstream
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "UMG" });
+=======
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "UMG", "Slate", "SlateCore" });
+>>>>>>> Stashed changes
 
 		PrivateDependencyModuleNames.AddRange(new string[] { });
+
+		PublicDefinitions.Add("WIN32_LEAN_AND_MEAN");
 
 		PublicDefinitions.Add("WIN32_LEAN_AND_MEAN");
 

@@ -7,7 +7,11 @@
 #include "Runtime/UMG/Public/Components/Button.h"
 #include "Runtime/UMG/Public/Components/EditableText.h"
 #include <winsock2.h>
+<<<<<<< Updated upstream
 #include "RossiNanteGameModeBase.h"
+=======
+#include "MyGameModeBase.h"
+>>>>>>> Stashed changes
 #include "LoginWidget.generated.h"
 
 /**
@@ -34,5 +38,10 @@ protected:
 
 private:
 	SOCKET Socket;
+<<<<<<< Updated upstream
 	ARossiNanteGameModeBase* GameMode;
+=======
+	AMyGameModeBase* GameMode;
+	
+>>>>>>> Stashed changes
 };
