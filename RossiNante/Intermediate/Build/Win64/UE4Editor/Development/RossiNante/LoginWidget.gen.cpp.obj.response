@@ -228,21 +228,8 @@
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I Runtime\AudioMixerCore\Public
-<<<<<<< Updated upstream
-<<<<<<<< Updated upstream:RossiNante/Intermediate/Build/Win64/UE4Editor/Development/RossiNante/LoginWidget.gen.cpp.obj.response
-=======
-<<<<<<<< Updated upstream:RossiNante/Intermediate/Build/Win64/UE4Editor/Development/RossiNante/RossiNanteGameModeBase.cpp.obj.response
->>>>>>> Stashed changes
-/I C:\Users\201911183\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante
-/I C:\Users\201911183\Documents\GitHub\UNogakKimchi\RossiNante\Source
-========
 /I C:\Users\201911183\Desktop\unreal\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante
 /I C:\Users\201911183\Desktop\unreal\RossiNante\Source
-<<<<<<< Updated upstream
->>>>>>>> Stashed changes:RossiNante/Intermediate/Build/Win64/UE4Editor/Development/RossiNante/MyStatComponent.gen.cpp.obj.response
-=======
->>>>>>>> Stashed changes:RossiNante/Intermediate/Build/Win64/UE4Editor/Development/RossiNante/LoginWidget.gen.cpp.obj.response
->>>>>>> Stashed changes
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -272,38 +259,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-<<<<<<< Updated upstream
-<<<<<<<< Updated upstream:RossiNante/Intermediate/Build/Win64/UE4Editor/Development/RossiNante/LoginWidget.gen.cpp.obj.response
-/FI"C:\Users\201911183\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\RossiNanteEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\Users\201911183\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\RossiNanteEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\201911183\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\RossiNanteEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Users\201911183\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\LoginWidget.gen.cpp"
-/FI"C:\Users\201911183\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\Definitions.RossiNante.h"
-/Fo"C:\Users\201911183\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\LoginWidget.gen.cpp.obj"
-=======
-<<<<<<<< Updated upstream:RossiNante/Intermediate/Build/Win64/UE4Editor/Development/RossiNante/RossiNanteGameModeBase.cpp.obj.response
-/FI"C:\Users\201911183\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\RossiNanteEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\Users\201911183\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\RossiNanteEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\201911183\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\RossiNanteEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Users\201911183\Documents\GitHub\UNogakKimchi\RossiNante\Source\RossiNante\RossiNanteGameModeBase.cpp"
-/FI"C:\Users\201911183\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\Definitions.RossiNante.h"
-/Fo"C:\Users\201911183\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\RossiNanteGameModeBase.cpp.obj"
->>>>>>> Stashed changes
-========
 /FI"C:\Users\201911183\Desktop\unreal\RossiNante\Intermediate\Build\Win64\RossiNanteEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
 /Yu"C:\Users\201911183\Desktop\unreal\RossiNante\Intermediate\Build\Win64\RossiNanteEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
 /Fp"C:\Users\201911183\Desktop\unreal\RossiNante\Intermediate\Build\Win64\RossiNanteEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-<<<<<<< Updated upstream
-"C:\Users\201911183\Desktop\unreal\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\MyStatComponent.gen.cpp"
-/FI"C:\Users\201911183\Desktop\unreal\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\Definitions.RossiNante.h"
-/Fo"C:\Users\201911183\Desktop\unreal\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\MyStatComponent.gen.cpp.obj"
->>>>>>>> Stashed changes:RossiNante/Intermediate/Build/Win64/UE4Editor/Development/RossiNante/MyStatComponent.gen.cpp.obj.response
-=======
 "C:\Users\201911183\Desktop\unreal\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\LoginWidget.gen.cpp"
 /FI"C:\Users\201911183\Desktop\unreal\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\Definitions.RossiNante.h"
 /Fo"C:\Users\201911183\Desktop\unreal\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\LoginWidget.gen.cpp.obj"
->>>>>>>> Stashed changes:RossiNante/Intermediate/Build/Win64/UE4Editor/Development/RossiNante/LoginWidget.gen.cpp.obj.response
->>>>>>> Stashed changes
 /TP
 /GR-
 /W4

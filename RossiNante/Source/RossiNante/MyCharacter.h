@@ -24,8 +24,10 @@ private:
 		bool IsAttacking = false;
 	UPROPERTY(VisibleAnywhere, Category = Pawn)
 		bool IsSkillCasting = false;
+
 	UPROPERTY()
 		class UMyAnimInstance* AnimInstance;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -34,6 +36,10 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	void Attack();
+	void Tumble();
+	void Skill_Q();
+	void Skill_E();
+	
 	void IsAttackHit();
 
 	void UpDown(float Value);
@@ -42,19 +48,25 @@ public:
 
 	UFUNCTION()
 		void OnAttackEnded(UAnimMontage* Montage, bool bInterrupted);
+	UFUNCTION()
+		void OnHitEnded();
+	UFUNCTION()
+		void OnTumbleEnded();
+	UFUNCTION()
+		void OnSkillCastEnded();
+
+	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser) override;
+
 public:
+	UPROPERTY()
+		bool IsDie = false;
 	UPROPERTY()
 		float UpDownValue = 0;
 	UPROPERTY()
 		float LeftRightValue = 0;
 	UPROPERTY()
 		int32 AttackIndex = 0;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Cursor")
-		bool bShowMouseCursor;	// 마우스 커서 ON/OFF 변수
 
-	UFUNCTION(BlueprintCallable, Category = "Cursor")
-		void ShowMouseCursor();	// 마우스 커서 ON 함수
-
-	UFUNCTION(BlueprintCallable, Category = "Cursor")
-		void HideMouseCursor();	// 마우스 커서 OFF 함수
+	UPROPERTY(EditAnywhere)
+	class UMyStatComponent* Stat;
 };

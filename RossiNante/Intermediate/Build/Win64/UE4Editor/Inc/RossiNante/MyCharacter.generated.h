@@ -17,19 +17,27 @@ class UAnimMontage;
 #define RossiNante_Source_RossiNante_MyCharacter_h_12_SPARSE_DATA
 #define RossiNante_Source_RossiNante_MyCharacter_h_12_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execHideMouseCursor) \
+	DECLARE_FUNCTION(execOnSkillCastEnded) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->HideMouseCursor(); \
+		P_THIS->OnSkillCastEnded(); \
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execShowMouseCursor) \
+	DECLARE_FUNCTION(execOnTumbleEnded) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->ShowMouseCursor(); \
+		P_THIS->OnTumbleEnded(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnHitEnded) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnHitEnded(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -46,19 +54,27 @@ class UAnimMontage;
 
 #define RossiNante_Source_RossiNante_MyCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execHideMouseCursor) \
+	DECLARE_FUNCTION(execOnSkillCastEnded) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->HideMouseCursor(); \
+		P_THIS->OnSkillCastEnded(); \
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execShowMouseCursor) \
+	DECLARE_FUNCTION(execOnTumbleEnded) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->ShowMouseCursor(); \
+		P_THIS->OnTumbleEnded(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnHitEnded) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnHitEnded(); \
 		P_NATIVE_END; \
 	} \
  \

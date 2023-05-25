@@ -7,16 +7,6 @@
 
 void ULoginWidget::OnSignInButtonClicked()
 {
-<<<<<<< Updated upstream
-	char* InputID = TCHAR_TO_UTF8(*ID->GetText().ToString());
-    
-	char* InputPW = TCHAR_TO_UTF8(*PW->GetText().ToString());
-    
-	// 로그인 실행
-    UserDataPacket login_packet;
-
-    
-=======
     char* InputID = TCHAR_TO_UTF8(*ID->GetText().ToString());
 
     char* InputPW = TCHAR_TO_UTF8(*PW->GetText().ToString());
@@ -25,7 +15,6 @@ void ULoginWidget::OnSignInButtonClicked()
     UserDataPacket login_packet;
 
 
->>>>>>> Stashed changes
     if (strlen((InputID)) > 20) {
         UE_LOG(LogTemp, Warning, TEXT("ID LENGTH IS TOO LONG!"));
         return;
@@ -62,11 +51,7 @@ void ULoginWidget::OnSignInButtonClicked()
     }
     if (ud.packet_type == (int)EPacketType::S2C_LOGIN_SUCCESS) {
         UGameplayStatics::OpenLevel(GetWorld(), FName("Default"), TRAVEL_Absolute);
-<<<<<<< Updated upstream
-    } 
-=======
     }
->>>>>>> Stashed changes
     else if (ud.packet_type == (int)EPacketType::S2C_LOGIN_FAIL) {
         UE_LOG(LogTemp, Warning, TEXT("ID or PW error! However you can join the game in test mode."));
         UGameplayStatics::OpenLevel(GetWorld(), FName("Default"), TRAVEL_Absolute);
@@ -84,19 +69,11 @@ void ULoginWidget::NativeConstruct()
 {
     Super::NativeConstruct();
 
-<<<<<<< Updated upstream
-    UWorld* World = GetWorld(); 
-
-    if (World)
-    {
-        GameMode = Cast<ARossiNanteGameModeBase>(World->GetAuthGameMode());
-=======
     UWorld* World = GetWorld();
 
     if (World)
     {
         GameMode = Cast<AMyGameModeBase>(World->GetAuthGameMode());
->>>>>>> Stashed changes
         if (GameMode)
         {
             Socket = GameMode->Socket;
