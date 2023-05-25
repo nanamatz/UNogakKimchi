@@ -898,3 +898,10 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.05.25-01.35.26:023][345]LogStaticLightingSystem: Illumination: 16.3 sec (12 ms encoding lightmaps, 3 ms encoding shadowmaps)
 [2023.05.25-01.35.26:023][345]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
 [2023.05.25-01.35.26:023][345]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2023.05.25-01.35.31:871][345]DumpUnbuiltLightIteractions
+[2023.05.25-01.35.31:871][345]Lights with unbuilt interactions: 0
+[2023.05.25-01.35.31:871][345]
+[2023.05.25-01.35.31:871][345]Primitives with unbuilt interactions: 0
+[2023.05.25-01.35.31:978][346]Cmd: MAP CHECK NOTIFYRESULTS
+[2023.05.25-01.35.31:978][346]MapCheck: New page: Default - 2023. 5. 25. 오후 7:35:31
+[2023.05.25-01.35.31:978][346]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.316ms.
