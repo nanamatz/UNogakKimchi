@@ -800,3 +800,376 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.05.25-13.31.58:391][828]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
 [2023.05.25-13.31.58:503][828]AssetCheck: New page: Asset Save: BP_GameModeBase
 [2023.05.25-13.31.58:503][828]LogContentValidation: Display: Blueprint /Game/Blueprints/BP_GameModeBase.BP_GameModeBase 유효성 검사
+[2023.05.25-13.45.38:001][497]LogTemp: Repeating last play command: 선택된 뷰포트
+[2023.05.25-13.45.38:012][497]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.25-13.45.38:012][497]PIE: New page: PIE 세션: Default (2023. 5. 26. 오전 7:45:38)
+[2023.05.25-13.45.38:012][497]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Default
+[2023.05.25-13.45.38:015][497]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002914s)
+[2023.05.25-13.45.38:016][497]LogAIModule: Creating AISystem for world Default
+[2023.05.25-13.45.38:016][497]LogPlayLevel: PIE: World Init took: (0.000896s)
+[2023.05.25-13.45.38:016][497]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Default.Default to /Game/Maps/UEDPIE_0_Default.Default (0.003907s)
+[2023.05.25-13.45.38:044][497]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2023.05.25-13.45.38:049][497]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.25-13.45.38:049][497]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.25-13.45.38:049][497]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.25-13.45.38:049][497]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.25-13.45.38:049][497]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.05.25-13.45.38:049][497]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.05.25-13.45.38:049][497]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.05.25-13.45.38:049][497]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.25-13.45.38:050][497]LogAudio: Display: Using built-in audio occlusion.
+[2023.05.25-13.45.38:050][497]LogAudioMixer: Display: Initializing audio mixer.
+[2023.05.25-13.45.38:126][497]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2023.05.25-13.45.38:126][497]LogAudioMixer: Display: Name: Realtek HD Audio 2nd output(Realtek(R) Audio)
+[2023.05.25-13.45.38:126][497]LogAudioMixer: Display: Is Default: Yes
+[2023.05.25-13.45.38:126][497]LogAudioMixer: Display: Sample Rate: 48000
+[2023.05.25-13.45.38:126][497]LogAudioMixer: Display: Channel Count Used: 2
+[2023.05.25-13.45.38:126][497]LogAudioMixer: Display: Device Channel Count: 2
+[2023.05.25-13.45.38:126][497]LogAudioMixer: Display: Channel Order:
+[2023.05.25-13.45.38:126][497]LogAudioMixer: Display: 0: FrontLeft
+[2023.05.25-13.45.38:126][497]LogAudioMixer: Display: 1: FrontRight
+[2023.05.25-13.45.38:149][497]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output(Realtek(R) Audio)
+[2023.05.25-13.45.38:150][497]LogInit: FAudioDevice initialized.
+[2023.05.25-13.45.38:161][497]LogLinker: Warning: '{FileName}': 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2023.05.25-13.45.38:161][497]LogLinker: Warning: '{FileName}': 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2023.05.25-13.45.38:161][497]LogUObjectGlobals: Warning: 'Class /Game/Blueprints/BP_GameModeBase2.BP_GameModeBase2_C' 오브젝트를 찾는 데 실패했습니다.
+[2023.05.25-13.45.38:161][497]LogLoad: Game class is 'GameModeBase'
+[2023.05.25-13.45.38:165][497]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2023.05.25-22.45.38
+[2023.05.25-13.45.38:165][497]LogWorld: Bringing up level for play took: 0.003593
+[2023.05.25-13.45.38:165][497]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2023.05.25-13.45.38:167][497]PIE: /Game/Maps/UEDPIE_0_Default 에 대한 에디터에서 플레이 시작 시간: 0.921
+[2023.05.25-13.45.40:970][821]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.05.25-13.45.40:970][821]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.05.25-13.45.40:970][821]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.25-13.45.40:970][821]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Default
+[2023.05.25-13.45.40:970][821]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.05.25-13.45.40:970][821]LogWorld: UWorld::CleanupWorld for Default, bSessionEnded=true, bCleanupResources=true
+[2023.05.25-13.45.40:971][821]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.25-13.45.40:977][821]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.25-13.45.40:981][821]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.25-13.45.41:004][821]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.05.25-13.45.41:007][821]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.25-13.45.41:010][821]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2023.05.25-13.45.41:071][826]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2023.05.25-13.45.42:083][936]LogTemp: Repeating last play command: 선택된 뷰포트
+[2023.05.25-13.45.42:092][936]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.25-13.45.42:092][936]PIE: New page: PIE 세션: Default (2023. 5. 26. 오전 7:45:42)
+[2023.05.25-13.45.42:093][936]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Default
+[2023.05.25-13.45.42:095][936]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002497s)
+[2023.05.25-13.45.42:096][936]LogAIModule: Creating AISystem for world Default
+[2023.05.25-13.45.42:096][936]LogPlayLevel: PIE: World Init took: (0.000612s)
+[2023.05.25-13.45.42:096][936]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Default.Default to /Game/Maps/UEDPIE_0_Default.Default (0.003187s)
+[2023.05.25-13.45.42:122][936]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2023.05.25-13.45.42:123][936]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.25-13.45.42:123][936]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.25-13.45.42:123][936]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.25-13.45.42:123][936]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.25-13.45.42:123][936]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.05.25-13.45.42:123][936]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.05.25-13.45.42:123][936]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.05.25-13.45.42:123][936]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.25-13.45.42:123][936]LogAudio: Display: Using built-in audio occlusion.
+[2023.05.25-13.45.42:123][936]LogAudioMixer: Display: Initializing audio mixer.
+[2023.05.25-13.45.42:202][936]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2023.05.25-13.45.42:202][936]LogAudioMixer: Display: Name: Realtek HD Audio 2nd output(Realtek(R) Audio)
+[2023.05.25-13.45.42:202][936]LogAudioMixer: Display: Is Default: Yes
+[2023.05.25-13.45.42:202][936]LogAudioMixer: Display: Sample Rate: 48000
+[2023.05.25-13.45.42:202][936]LogAudioMixer: Display: Channel Count Used: 2
+[2023.05.25-13.45.42:202][936]LogAudioMixer: Display: Device Channel Count: 2
+[2023.05.25-13.45.42:202][936]LogAudioMixer: Display: Channel Order:
+[2023.05.25-13.45.42:202][936]LogAudioMixer: Display: 0: FrontLeft
+[2023.05.25-13.45.42:202][936]LogAudioMixer: Display: 1: FrontRight
+[2023.05.25-13.45.42:225][936]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output(Realtek(R) Audio)
+[2023.05.25-13.45.42:226][936]LogInit: FAudioDevice initialized.
+[2023.05.25-13.45.42:232][936]LogLoad: Game class is 'GameModeBase'
+[2023.05.25-13.45.42:235][936]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2023.05.25-22.45.42
+[2023.05.25-13.45.42:236][936]LogWorld: Bringing up level for play took: 0.003564
+[2023.05.25-13.45.42:236][936]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2023.05.25-13.45.42:237][936]PIE: /Game/Maps/UEDPIE_0_Default 에 대한 에디터에서 플레이 시작 시간: 0.991
+[2023.05.25-13.45.43:946][139]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.05.25-13.45.43:946][139]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.05.25-13.45.43:946][139]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.25-13.45.43:946][139]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Default
+[2023.05.25-13.45.43:946][139]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.05.25-13.45.43:946][139]LogWorld: UWorld::CleanupWorld for Default, bSessionEnded=true, bCleanupResources=true
+[2023.05.25-13.45.43:946][139]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.25-13.45.43:951][139]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.25-13.45.43:956][139]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.25-13.45.43:978][139]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.05.25-13.45.43:981][139]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.25-13.45.43:984][139]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2023.05.25-13.45.44:045][144]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2023.05.25-13.45.49:534][740]LogTemp: Repeating last play command: 선택된 뷰포트
+[2023.05.25-13.45.49:546][740]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.25-13.45.49:546][740]PIE: New page: PIE 세션: Default (2023. 5. 26. 오전 7:45:49)
+[2023.05.25-13.45.49:546][740]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Default
+[2023.05.25-13.45.49:548][740]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002614s)
+[2023.05.25-13.45.49:549][740]LogAIModule: Creating AISystem for world Default
+[2023.05.25-13.45.49:549][740]LogPlayLevel: PIE: World Init took: (0.000685s)
+[2023.05.25-13.45.49:549][740]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Default.Default to /Game/Maps/UEDPIE_0_Default.Default (0.003371s)
+[2023.05.25-13.45.49:576][740]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2023.05.25-13.45.49:579][740]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.25-13.45.49:579][740]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.25-13.45.49:579][740]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.25-13.45.49:579][740]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.25-13.45.49:579][740]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.05.25-13.45.49:579][740]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.05.25-13.45.49:579][740]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.05.25-13.45.49:579][740]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.25-13.45.49:579][740]LogAudio: Display: Using built-in audio occlusion.
+[2023.05.25-13.45.49:579][740]LogAudioMixer: Display: Initializing audio mixer.
+[2023.05.25-13.45.49:656][740]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2023.05.25-13.45.49:656][740]LogAudioMixer: Display: Name: Realtek HD Audio 2nd output(Realtek(R) Audio)
+[2023.05.25-13.45.49:656][740]LogAudioMixer: Display: Is Default: Yes
+[2023.05.25-13.45.49:656][740]LogAudioMixer: Display: Sample Rate: 48000
+[2023.05.25-13.45.49:656][740]LogAudioMixer: Display: Channel Count Used: 2
+[2023.05.25-13.45.49:656][740]LogAudioMixer: Display: Device Channel Count: 2
+[2023.05.25-13.45.49:656][740]LogAudioMixer: Display: Channel Order:
+[2023.05.25-13.45.49:656][740]LogAudioMixer: Display: 0: FrontLeft
+[2023.05.25-13.45.49:656][740]LogAudioMixer: Display: 1: FrontRight
+[2023.05.25-13.45.49:679][740]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output(Realtek(R) Audio)
+[2023.05.25-13.45.49:680][740]LogInit: FAudioDevice initialized.
+[2023.05.25-13.45.49:690][740]LogLoad: Game class is 'GameModeBase'
+[2023.05.25-13.45.49:695][740]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2023.05.25-22.45.49
+[2023.05.25-13.45.49:695][740]LogWorld: Bringing up level for play took: 0.005013
+[2023.05.25-13.45.49:695][740]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2023.05.25-13.45.49:696][740]PIE: /Game/Maps/UEDPIE_0_Default 에 대한 에디터에서 플레이 시작 시간: 0.451
+[2023.05.25-13.45.50:944][887]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.05.25-13.45.50:957][887]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2023.05.25-13.45.50:988][887]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2023.05.25-13.45.50:988][887]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.25-13.45.50:988][887]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Default
+[2023.05.25-13.45.50:988][887]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.05.25-13.45.50:988][887]LogWorld: UWorld::CleanupWorld for Default, bSessionEnded=true, bCleanupResources=true
+[2023.05.25-13.45.50:988][887]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.25-13.45.50:994][887]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.25-13.45.50:999][887]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.25-13.45.51:022][887]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.05.25-13.45.51:025][887]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.25-13.45.51:028][887]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2023.05.25-13.45.51:047][888]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2023.05.25-13.45.52:646][ 79]LogEditorViewport: Clicking on Actor (LMB): BP_Character_C (BP_Character2)
+[2023.05.25-13.45.55:228][366]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.05.25-13.45.58:967][716]LogTemp: Repeating last play command: 선택된 뷰포트
+[2023.05.25-13.45.58:979][716]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.25-13.45.58:979][716]PIE: New page: PIE 세션: Default (2023. 5. 26. 오전 7:45:58)
+[2023.05.25-13.45.58:979][716]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Default
+[2023.05.25-13.45.58:982][716]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002557s)
+[2023.05.25-13.45.58:983][716]LogAIModule: Creating AISystem for world Default
+[2023.05.25-13.45.58:983][716]LogPlayLevel: PIE: World Init took: (0.000687s)
+[2023.05.25-13.45.58:983][716]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Default.Default to /Game/Maps/UEDPIE_0_Default.Default (0.003314s)
+[2023.05.25-13.45.59:008][716]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2023.05.25-13.45.59:011][716]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.25-13.45.59:011][716]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.25-13.45.59:011][716]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.25-13.45.59:011][716]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.25-13.45.59:011][716]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.05.25-13.45.59:011][716]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.05.25-13.45.59:011][716]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.05.25-13.45.59:011][716]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.25-13.45.59:011][716]LogAudio: Display: Using built-in audio occlusion.
+[2023.05.25-13.45.59:011][716]LogAudioMixer: Display: Initializing audio mixer.
+[2023.05.25-13.45.59:087][716]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2023.05.25-13.45.59:087][716]LogAudioMixer: Display: Name: Realtek HD Audio 2nd output(Realtek(R) Audio)
+[2023.05.25-13.45.59:087][716]LogAudioMixer: Display: Is Default: Yes
+[2023.05.25-13.45.59:087][716]LogAudioMixer: Display: Sample Rate: 48000
+[2023.05.25-13.45.59:087][716]LogAudioMixer: Display: Channel Count Used: 2
+[2023.05.25-13.45.59:087][716]LogAudioMixer: Display: Device Channel Count: 2
+[2023.05.25-13.45.59:087][716]LogAudioMixer: Display: Channel Order:
+[2023.05.25-13.45.59:087][716]LogAudioMixer: Display: 0: FrontLeft
+[2023.05.25-13.45.59:087][716]LogAudioMixer: Display: 1: FrontRight
+[2023.05.25-13.45.59:109][716]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output(Realtek(R) Audio)
+[2023.05.25-13.45.59:110][716]LogInit: FAudioDevice initialized.
+[2023.05.25-13.45.59:116][716]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.05.25-13.45.59:121][716]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2023.05.25-22.45.59
+[2023.05.25-13.45.59:121][716]LogWorld: Bringing up level for play took: 0.004982
+[2023.05.25-13.45.59:121][716]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2023.05.25-13.45.59:124][716]PIE: /Game/Maps/UEDPIE_0_Default 에 대한 에디터에서 플레이 시작 시간: -0.121
+[2023.05.25-13.45.59:569][767]LogTemp: Warning: broadCast Attack
+[2023.05.25-13.46.00:710][904]LogTemp: Warning: broadCast Attack
+[2023.05.25-13.46.00:710][904]LogTemp: Hit Actor : DefaultMonsterBP_2
+[2023.05.25-13.46.00:710][904]LogBlueprintUserMessages: [DefaultMonsterBP_2] Hit
+[2023.05.25-13.46.00:710][904]LogBlueprintUserMessages: [DefaultMonsterBP_2] 90.0
+[2023.05.25-13.46.02:001][ 59]LogTemp: Warning: broadCast Attack
+[2023.05.25-13.46.02:001][ 59]LogTemp: Hit Actor : DefaultMonsterBP_2
+[2023.05.25-13.46.02:001][ 59]LogBlueprintUserMessages: [DefaultMonsterBP_2] Hit
+[2023.05.25-13.46.02:001][ 59]LogBlueprintUserMessages: [DefaultMonsterBP_2] 80.0
+[2023.05.25-13.46.03:960][294]LogTemp: 0
+[2023.05.25-13.46.03:960][294]LogTemp: Warning: OnAttacked 90
+[2023.05.25-13.46.03:960][294]LogTemp: 1
+[2023.05.25-13.46.04:693][382]LogTemp: 1
+[2023.05.25-13.46.04:693][382]LogTemp: Warning: OnAttacked 80
+[2023.05.25-13.46.04:693][382]LogTemp: 1
+[2023.05.25-13.46.04:784][393]LogTemp: Warning: broadCast Hit
+[2023.05.25-13.46.05:051][425]LogTemp: 0
+[2023.05.25-13.46.05:051][425]LogTemp: Warning: OnAttacked 70
+[2023.05.25-13.46.05:051][425]LogTemp: 1
+[2023.05.25-13.46.05:876][524]LogTemp: Warning: broadCast Hit
+[2023.05.25-13.46.06:384][585]LogTemp: 0
+[2023.05.25-13.46.06:384][585]LogTemp: Warning: OnAttacked 90
+[2023.05.25-13.46.06:384][585]LogTemp: 1
+[2023.05.25-13.46.06:585][609]LogTemp: Warning: broadCast Attack
+[2023.05.25-13.46.06:585][609]LogTemp: Hit Actor : DefaultMonsterBP_2
+[2023.05.25-13.46.06:585][609]LogBlueprintUserMessages: [DefaultMonsterBP_2] Hit
+[2023.05.25-13.46.06:585][609]LogBlueprintUserMessages: [DefaultMonsterBP_2] 70.0
+[2023.05.25-13.46.07:210][684]LogTemp: Warning: broadCast Hit
+[2023.05.25-13.46.07:351][701]LogTemp: Warning: broadCast Skill
+[2023.05.25-13.46.08:093][790]LogTemp: Warning: broadCast Attack
+[2023.05.25-13.46.08:093][790]LogTemp: Hit Actor : DefaultMonsterBP_2
+[2023.05.25-13.46.08:093][790]LogBlueprintUserMessages: [DefaultMonsterBP_2] Hit
+[2023.05.25-13.46.08:093][790]LogBlueprintUserMessages: [DefaultMonsterBP_2] 60.0
+[2023.05.25-13.46.09:494][958]LogTemp: Warning: broadCast Attack
+[2023.05.25-13.46.09:494][958]LogTemp: Hit Actor : DefaultMonsterBP_2
+[2023.05.25-13.46.09:494][958]LogBlueprintUserMessages: [DefaultMonsterBP_2] Hit
+[2023.05.25-13.46.09:494][958]LogBlueprintUserMessages: [DefaultMonsterBP_2] 50.0
+[2023.05.25-13.46.11:294][174]LogTemp: 0
+[2023.05.25-13.46.11:294][174]LogTemp: Warning: OnAttacked 80
+[2023.05.25-13.46.11:294][174]LogTemp: 1
+[2023.05.25-13.46.11:837][239]LogTemp: 1
+[2023.05.25-13.46.11:837][239]LogTemp: Warning: OnAttacked 70
+[2023.05.25-13.46.11:837][239]LogTemp: 1
+[2023.05.25-13.46.12:121][273]LogTemp: Warning: broadCast Hit
+[2023.05.25-13.46.12:838][359]LogTemp: Warning: broadCast Attack
+[2023.05.25-13.46.12:838][359]LogTemp: Hit Actor : DefaultMonsterBP_2
+[2023.05.25-13.46.12:838][359]LogBlueprintUserMessages: [DefaultMonsterBP_2] Hit
+[2023.05.25-13.46.12:838][359]LogBlueprintUserMessages: [DefaultMonsterBP_2] 40.0
+[2023.05.25-13.46.13:546][444]LogTemp: 0
+[2023.05.25-13.46.13:546][444]LogTemp: Warning: OnAttacked 60
+[2023.05.25-13.46.13:546][444]LogTemp: 1
+[2023.05.25-13.46.13:613][452]LogTemp: Warning: broadCast Skill
+[2023.05.25-13.46.14:039][503]LogTemp: Warning: broadCast Attack
+[2023.05.25-13.46.14:039][503]LogTemp: Hit Actor : DefaultMonsterBP_2
+[2023.05.25-13.46.14:039][503]LogBlueprintUserMessages: [DefaultMonsterBP_2] Hit
+[2023.05.25-13.46.14:039][503]LogBlueprintUserMessages: [DefaultMonsterBP_2] 30.0
+[2023.05.25-13.46.14:372][543]LogTemp: Warning: broadCast Hit
+[2023.05.25-13.46.14:388][545]LogTemp: Warning: broadCast Attack
+[2023.05.25-13.46.14:388][545]LogTemp: Hit Actor : DefaultMonsterBP_2
+[2023.05.25-13.46.14:388][545]LogBlueprintUserMessages: [DefaultMonsterBP_2] Hit
+[2023.05.25-13.46.14:388][545]LogBlueprintUserMessages: [DefaultMonsterBP_2] 20.0
+[2023.05.25-13.46.15:097][630]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.05.25-13.46.15:097][630]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.05.25-13.46.15:097][630]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.25-13.46.15:098][630]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Default
+[2023.05.25-13.46.15:098][630]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.05.25-13.46.15:098][630]LogWorld: UWorld::CleanupWorld for Default, bSessionEnded=true, bCleanupResources=true
+[2023.05.25-13.46.15:098][630]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.25-13.46.15:105][630]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.25-13.46.15:111][630]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.25-13.46.15:133][630]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.05.25-13.46.15:135][630]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.25-13.46.15:140][630]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2023.05.25-13.46.15:199][635]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2023.05.25-13.47.07:152][157]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.05.25-13.47.07:176][157]LogSavePackage: Moving '../../../../../../Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Default_Auto1F01BCA7B483D02CB37FC019F220F8DA6.tmp' to '../../../../../../Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Autosaves/Game/Maps/Default_Auto1.umap'
+[2023.05.25-13.47.07:178][157]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Default' took 0.050
+[2023.05.25-13.47.07:178][157]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.050
+[2023.05.25-13.52.53:853][281]LogAssetEditorSubsystem: Opening Asset editor for AnimMontage /Game/Animations/BP_StunMontage.BP_StunMontage
+[2023.05.25-13.52.53:867][281]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2023.05.25-13.52.54:036][281]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.05.25-13.52.54:040][281]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2023.05.25-13.52.54:094][281]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2023.05.25-13.52.54:496][281]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2023.05.25-13.52.54:502][281]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.05.25-13.52.59:017][760]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2023.05.25-13.52.59:017][760]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.25-13.52.59:090][760]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2023.05.25-13.52.59:090][760]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.25-13.56.16:306][977]LogEditorViewport: Clicking on Actor (LMB): DefaultMonsterBP_C (DefaultMonsterBP)
+[2023.05.25-13.56.20:900][525]LogEditorViewport: Clicking on Actor (LMB): DefaultMonsterBP_C (DefaultMonsterBP)
+[2023.05.25-13.56.57:694][744]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Boss/DefaultMonsterBP.DefaultMonsterBP
+[2023.05.25-13.56.57:952][744]LogSlate: Took 0.000721 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.05.25-13.56.58:068][745]LogSlate: Took 0.000847 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.05.25-13.57.01:007][ 76]LogSlate: Took 0.004525 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NotoNaskhArabicUI-Regular.ttf' (144K)
+[2023.05.25-13.57.21:213][417]LogEditorViewport: Clicking on Actor (LMB): BP_Character_C (BP_Character2)
+[2023.05.25-13.57.23:405][674]LogTemp: Repeating last play command: 선택된 뷰포트
+[2023.05.25-13.57.23:418][674]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.25-13.57.23:418][674]PIE: New page: PIE 세션: Default (2023. 5. 26. 오전 7:57:23)
+[2023.05.25-13.57.23:418][674]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Default
+[2023.05.25-13.57.23:421][674]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002687s)
+[2023.05.25-13.57.23:421][674]LogAIModule: Creating AISystem for world Default
+[2023.05.25-13.57.23:421][674]LogPlayLevel: PIE: World Init took: (0.000840s)
+[2023.05.25-13.57.23:421][674]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Default.Default to /Game/Maps/UEDPIE_0_Default.Default (0.003606s)
+[2023.05.25-13.57.23:512][674]LogUObjectHash: Compacting FUObjectHashTables data took   4.32ms
+[2023.05.25-13.57.23:513][674]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.25-13.57.23:513][674]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.25-13.57.23:513][674]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.25-13.57.23:513][674]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.25-13.57.23:513][674]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.05.25-13.57.23:513][674]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.05.25-13.57.23:513][674]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.05.25-13.57.23:513][674]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.25-13.57.23:514][674]LogAudio: Display: Using built-in audio occlusion.
+[2023.05.25-13.57.23:514][674]LogAudioMixer: Display: Initializing audio mixer.
+[2023.05.25-13.57.23:593][674]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2023.05.25-13.57.23:593][674]LogAudioMixer: Display: Name: Realtek HD Audio 2nd output(Realtek(R) Audio)
+[2023.05.25-13.57.23:593][674]LogAudioMixer: Display: Is Default: Yes
+[2023.05.25-13.57.23:593][674]LogAudioMixer: Display: Sample Rate: 48000
+[2023.05.25-13.57.23:593][674]LogAudioMixer: Display: Channel Count Used: 2
+[2023.05.25-13.57.23:593][674]LogAudioMixer: Display: Device Channel Count: 2
+[2023.05.25-13.57.23:593][674]LogAudioMixer: Display: Channel Order:
+[2023.05.25-13.57.23:593][674]LogAudioMixer: Display: 0: FrontLeft
+[2023.05.25-13.57.23:593][674]LogAudioMixer: Display: 1: FrontRight
+[2023.05.25-13.57.23:616][674]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output(Realtek(R) Audio)
+[2023.05.25-13.57.23:617][674]LogInit: FAudioDevice initialized.
+[2023.05.25-13.57.23:627][674]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.05.25-13.57.23:631][674]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2023.05.25-22.57.23
+[2023.05.25-13.57.23:632][674]LogWorld: Bringing up level for play took: 0.005095
+[2023.05.25-13.57.23:632][674]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2023.05.25-13.57.23:635][674]PIE: /Game/Maps/UEDPIE_0_Default 에 대한 에디터에서 플레이 시작 시간: 0.389
+[2023.05.25-13.57.24:226][742]LogTemp: Warning: broadCast Attack
+[2023.05.25-13.57.25:426][886]LogTemp: Warning: broadCast Attack
+[2023.05.25-13.57.25:426][886]LogTemp: Hit Actor : DefaultMonsterBP_2
+[2023.05.25-13.57.25:426][886]LogBlueprintUserMessages: [DefaultMonsterBP_2] Hit
+[2023.05.25-13.57.25:426][886]LogBlueprintUserMessages: [DefaultMonsterBP_2] 90.0
+[2023.05.25-13.57.27:626][150]LogTemp: Warning: broadCast Attack
+[2023.05.25-13.57.27:626][150]LogTemp: Hit Actor : DefaultMonsterBP_2
+[2023.05.25-13.57.27:626][150]LogBlueprintUserMessages: [DefaultMonsterBP_2] Hit
+[2023.05.25-13.57.27:626][150]LogBlueprintUserMessages: [DefaultMonsterBP_2] 80.0
+[2023.05.25-13.57.29:718][401]LogTemp: 0
+[2023.05.25-13.57.29:718][401]LogTemp: Warning: OnAttacked 90
+[2023.05.25-13.57.29:718][401]LogTemp: 1
+[2023.05.25-13.57.30:093][446]LogTemp: 1
+[2023.05.25-13.57.30:093][446]LogTemp: Warning: OnAttacked 80
+[2023.05.25-13.57.30:093][446]LogTemp: 1
+[2023.05.25-13.57.30:293][470]LogTemp: 0
+[2023.05.25-13.57.30:293][470]LogTemp: Warning: OnAttacked 90
+[2023.05.25-13.57.30:293][470]LogTemp: 1
+[2023.05.25-13.57.30:310][472]LogTemp: 1
+[2023.05.25-13.57.30:310][472]LogTemp: Warning: OnAttacked 70
+[2023.05.25-13.57.30:310][472]LogTemp: 1
+[2023.05.25-13.57.30:543][500]LogTemp: Warning: broadCast Hit
+[2023.05.25-13.57.30:793][530]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.05.25-13.57.30:793][530]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.05.25-13.57.30:794][530]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.25-13.57.30:794][530]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Default
+[2023.05.25-13.57.30:794][530]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.05.25-13.57.30:794][530]LogWorld: UWorld::CleanupWorld for Default, bSessionEnded=true, bCleanupResources=true
+[2023.05.25-13.57.30:794][530]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.25-13.57.30:810][530]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.25-13.57.30:815][530]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.25-13.57.30:845][530]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.05.25-13.57.30:849][530]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.25-13.57.30:863][530]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2023.05.25-13.57.30:899][532]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2023.05.25-13.57.40:908][623]LogEditorViewport: Clicking on Actor (LMB): BP_Character_C (BP_Character)
+[2023.05.25-13.57.41:730][717]Cmd: EDIT CUT
+[2023.05.25-13.57.41:757][717]LogEditorActor: Deleted Actor: BP_Character_C
+[2023.05.25-13.57.41:788][717]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2023.05.25-13.57.41:791][717]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2023.05.25-13.58.37:267][660]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.05.25-13.58.37:290][660]LogSavePackage: Moving '../../../../../../Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Default_Auto20DDDA5F94F99B4D39DC00D91F680C884.tmp' to '../../../../../../Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Autosaves/Game/Maps/Default_Auto2.umap'
+[2023.05.25-13.58.37:291][660]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Default' took 0.051
+[2023.05.25-13.58.37:291][660]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.051
+[2023.05.25-13.59.39:828][172]LogEditorViewport: Clicking on Actor (LMB): DefaultMonsterBP_C (DefaultMonsterBP)
+[2023.05.25-13.59.51:659][567]LogRenderer: Reallocating scene render targets to support 884x560 Format 10 NumSamples 1 (Frame:42225).
+[2023.05.25-13.59.51:714][567]LogRenderer: Reallocating scene render targets to support 908x560 Format 10 NumSamples 1 (Frame:42226).
+[2023.05.25-13.59.51:776][567]LogRenderer: Reallocating scene render targets to support 916x560 Format 10 NumSamples 1 (Frame:42227).
+[2023.05.25-13.59.51:826][567]LogRenderer: Reallocating scene render targets to support 920x560 Format 10 NumSamples 1 (Frame:42228).
+[2023.05.25-13.59.51:875][567]LogRenderer: Reallocating scene render targets to support 924x560 Format 10 NumSamples 1 (Frame:42229).
+[2023.05.25-13.59.51:925][567]LogRenderer: Reallocating scene render targets to support 928x560 Format 10 NumSamples 1 (Frame:42230).
+[2023.05.25-13.59.51:973][567]LogRenderer: Reallocating scene render targets to support 940x560 Format 10 NumSamples 1 (Frame:42231).
+[2023.05.25-13.59.52:009][567]LogRenderer: Reallocating scene render targets to support 952x560 Format 10 NumSamples 1 (Frame:42232).
+[2023.05.25-13.59.52:058][567]LogRenderer: Reallocating scene render targets to support 956x560 Format 10 NumSamples 1 (Frame:42233).
+[2023.05.25-14.07.31:313][366]LogAssetEditorSubsystem: Opening Asset editor for DataTable /Game/Data/StatTable.StatTable
+[2023.05.25-14.08.24:603][664]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2023.05.25-14.08.24:603][664]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
