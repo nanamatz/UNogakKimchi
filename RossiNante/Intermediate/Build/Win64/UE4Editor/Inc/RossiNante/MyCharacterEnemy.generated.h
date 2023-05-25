@@ -159,7 +159,12 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyCharacterEnemy); \
 	FORCEINLINE static uint32 __PPO__SkillCooldown() { return STRUCT_OFFSET(AMyCharacterEnemy, SkillCooldown); } \
 	FORCEINLINE static uint32 __PPO__SkillCooldownTime() { return STRUCT_OFFSET(AMyCharacterEnemy, SkillCooldownTime); } \
 	FORCEINLINE static uint32 __PPO__isDuringAttack() { return STRUCT_OFFSET(AMyCharacterEnemy, isDuringAttack); } \
-	FORCEINLINE static uint32 __PPO__isPhase2() { return STRUCT_OFFSET(AMyCharacterEnemy, isPhase2); }
+	FORCEINLINE static uint32 __PPO__isPhase2() { return STRUCT_OFFSET(AMyCharacterEnemy, isPhase2); } \
+	FORCEINLINE static uint32 __PPO__Boss_AttackMontage() { return STRUCT_OFFSET(AMyCharacterEnemy, Boss_AttackMontage); } \
+	FORCEINLINE static uint32 __PPO__Boss_SkillMontage() { return STRUCT_OFFSET(AMyCharacterEnemy, Boss_SkillMontage); } \
+	FORCEINLINE static uint32 __PPO__Boss_HitReactMontage() { return STRUCT_OFFSET(AMyCharacterEnemy, Boss_HitReactMontage); } \
+	FORCEINLINE static uint32 __PPO__Boss_DeathMontage() { return STRUCT_OFFSET(AMyCharacterEnemy, Boss_DeathMontage); } \
+	FORCEINLINE static uint32 __PPO__Boss_Phase2Montage() { return STRUCT_OFFSET(AMyCharacterEnemy, Boss_Phase2Montage); }
 
 
 #define RossiNante_Source_RossiNante_MyCharacterEnemy_h_9_PROLOG

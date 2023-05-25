@@ -9,6 +9,8 @@
 DECLARE_MULTICAST_DELEGATE(FOnAttackHit);
 DECLARE_MULTICAST_DELEGATE(FOnTumbleEnd);
 DECLARE_MULTICAST_DELEGATE(FOnSkillEnd);
+DECLARE_MULTICAST_DELEGATE(FOnHitEnd);
+
 //DECLARE_MULTICAST_DELEGATE(FOnHitEnd);
 /**
  * 
@@ -28,14 +30,14 @@ public:
 	void PlaySkill_QMontage();//Q스킬 몽타주 실행 함수
 	void PlaySkill_EMontage();//E스킬 몽타주 실행 함수
 	void PlayTumbleMontage();//구르기 몽타주 실행 함수
-	void PlayDeathMontage();
+	//void PlayDeathMontage();
 	void PlayHitReactMontage();
 
 
-	void PlayBossAttackMontage();
-	void PlayBossSkillMontage();
-	void PlayBossHitReactMontage();
-	void PlayBossDeathMontage();
+	//void PlayBossAttackMontage();
+	//void PlayBossSkillMontage();
+	//void PlayBossHitReactMontage();
+	//void PlayBossDeathMontage();
 
 	void JumpToSection(int32 SectionIndex);//기본 공격 애니메이션 섹션 넘기는 함수
 
@@ -48,6 +50,9 @@ private:
 		void AnimNotify_OnTumbleEnd();
 	UFUNCTION()
 		void AnimNotify_SkillCastEnd();
+	UFUNCTION()
+		void AnimNotify_OnHitEnd();
+
 private:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn, Meta = (AllowPrivateAccess = true))
 		float Speed;//캐릭터의 이동 여부를 결정하기 위한 속도 변수
@@ -68,25 +73,25 @@ private:
 		UAnimMontage* Skill_QMontage;//Q스킬 몽타주 변수
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn, Meta = (AllowPrivateAccess = true))
 		UAnimMontage* Skill_EMontage;//E스킬 몽타주 변수
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn, Meta = (AllowPrivateAccess = true))
-		UAnimMontage* DeathMontage;//사망 몽타주 변수
+	//UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn, Meta = (AllowPrivateAccess = true))
+	//	UAnimMontage* DeathMontage;//사망 몽타주 변수
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn, Meta = (AllowPrivateAccess = true))
 		UAnimMontage* HitReactMontage;//사망 몽타주 변수
 
 	//==========================보스 애니메이션=================================
 
-	UPROPERTY(EditDefaultsOnly, Category = Pawn)
-		UAnimMontage* Boss_AttackMontage; // 평타 콤보 애니메이션
-	UPROPERTY(EditDefaultsOnly, Category = Pawn)
-		UAnimMontage* Boss_SkillMontage; // 스킬 애니메이션
+	//UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn, Meta = (AllowPrivateAccess = true))
+	//	UAnimMontage* Boss_AttackMontage; // 평타 콤보 애니메이션
+	//UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn, Meta = (AllowPrivateAccess = true))
+	//	UAnimMontage* Boss_SkillMontage; // 스킬 애니메이션
 
-	UPROPERTY(EditDefaultsOnly, Category = Pawn)
-		UAnimMontage* Boss_HitReactMontage; // 피격 애니메이션
-	UPROPERTY(EditDefaultsOnly, Category = Pawn)
-		UAnimMontage* Boss_DeathMontage; // 사망 애니메이션
+	//UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn, Meta = (AllowPrivateAccess = true))
+	//	UAnimMontage* Boss_HitReactMontage; // 피격 애니메이션
+	//UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn, Meta = (AllowPrivateAccess = true))
+	//	UAnimMontage* Boss_DeathMontage; // 사망 애니메이션
 
-	UPROPERTY(EditDefaultsOnly, Category = Pawn)
-		UAnimMontage* Boss_Phase2Montage; // 페이즈2모션 애니메이션
+	//UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn, Meta = (AllowPrivateAccess = true))
+	//	UAnimMontage* Boss_Phase2Montage; // 페이즈2모션 애니메이션
 
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn)
@@ -95,10 +100,12 @@ public:
 		bool IsTumbling = false;//구르기하는지를 판단하기 위한 변수
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn)
 		bool IsAttacked = false;//피격을 판단하기 위한 변수
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn)
+		bool IsDied = false;
 
 	FOnAttackHit OnAttackHit;
 	FOnTumbleEnd OnTumbleEnd;
 	FOnSkillEnd OnSkillEnd;
-	/*FOnHitEnd OnHitEnd;*/
+	FOnHitEnd OnHitEnd;
 	
 };

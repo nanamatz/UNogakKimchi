@@ -24,6 +24,7 @@ private:
 		bool IsAttacking = false;
 	UPROPERTY(VisibleAnywhere, Category = Pawn)
 		bool IsSkillCasting = false;
+
 	UPROPERTY()
 		class UMyAnimInstance* AnimInstance;
 
@@ -48,12 +49,17 @@ public:
 	UFUNCTION()
 		void OnAttackEnded(UAnimMontage* Montage, bool bInterrupted);
 	UFUNCTION()
+		void OnHitEnded();
+	UFUNCTION()
 		void OnTumbleEnded();
 	UFUNCTION()
 		void OnSkillCastEnded();
 
 	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser) override;
+
 public:
+	UPROPERTY()
+		bool IsDie = false;
 	UPROPERTY()
 		float UpDownValue = 0;
 	UPROPERTY()

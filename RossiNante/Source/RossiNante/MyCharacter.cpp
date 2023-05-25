@@ -30,6 +30,7 @@ void AMyCharacter::PostInitializeComponents()
 	AnimInstance = Cast<UMyAnimInstance>(GetMesh()->GetAnimInstance());
 	if (AnimInstance) {
 		AnimInstance->OnMontageEnded.AddDynamic(this, &AMyCharacter::OnAttackEnded);
+		AnimInstance->OnHitEnd.AddUObject(this, &AMyCharacter::OnHitEnded);
 		AnimInstance->OnSkillEnd.AddUObject(this, &AMyCharacter::OnSkillCastEnded);
 		AnimInstance->OnTumbleEnd.AddUObject(this, &AMyCharacter::OnTumbleEnded);
 		AnimInstance->OnAttackHit.AddUObject(this, &AMyCharacter::IsAttackHit);
@@ -149,39 +150,42 @@ void AMyCharacter::Yaw(float Value)
 	AddControllerYawInput(Value);
 }
 
-void AMyCharacter::OnAttackEnded(UAnimMontage* Montage, bool bInterrupted)
+void AMyCharacter::OnAttackEnded(UAnimMontage* Montage, bool bInterrupted)//공격 델리게이트
 {
-	UE_LOG(LogTemp, Warning, TEXT("Attack End"));
-
 	IsAttacking = false;
 }
 
-void AMyCharacter::OnTumbleEnded()
+void AMyCharacter::OnTumbleEnded()//구르기 델리게이트
 {
-	UE_LOG(LogTemp, Warning, TEXT("Tumble End"));
-
 	AnimInstance->IsTumbling = false;
 }
 
-void AMyCharacter::OnSkillCastEnded()
+void AMyCharacter::OnSkillCastEnded()//스킬 델리게이트
 {
-	UE_LOG(LogTemp, Warning, TEXT("Skill End"));
-
 	IsSkillCasting = false;
+}
+
+void AMyCharacter::OnHitEnded() //피격 델리게이트
+{
+	AnimInstance->IsAttacked = false;
 }
 
 float AMyCharacter::TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser)
 {
+	UE_LOG(LogTemp, Log, TEXT("%d"), AnimInstance->IsAttacked);
 	AnimInstance->IsAttacked = true;
 	Stat->OnAttacked(DamageAmount);
 	if (Stat->GetHp() <= 0) {
-		UE_LOG(LogTemp, Warning, TEXT("Die"));
-		AnimInstance->PlayDeathMontage();
+		UE_LOG(LogTemp, Log, TEXT("Die"));
+		IsDie = true;
+		
+		DisableInput(Cast<APlayerController>(GetController()));
+		//AnimInstance->PlayDeathMontage();
 	}
 	else {
 		AnimInstance->PlayHitReactMontage();
 	}
-	UE_LOG(LogTemp, Warning, TEXT("%d"),AnimInstance->IsAttacked);
+	UE_LOG(LogTemp, Log, TEXT("%d"),AnimInstance->IsAttacked);
 
 	return DamageAmount;
 }

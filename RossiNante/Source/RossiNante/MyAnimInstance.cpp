@@ -26,34 +26,13 @@ UMyAnimInstance::UMyAnimInstance()
 	if (TumbleMont.Succeeded()) {
 		TumbleMontage = TumbleMont.Object;
 	}
-	ConstructorHelpers::FObjectFinder<UAnimMontage> DeathMont(TEXT("AnimMontage'/Game/Animations/BP_DeathMontage.BP_DeathMontage'"));
-	if (DeathMont.Succeeded()) {
-		DeathMontage = DeathMont.Object;
-	}
+	//ConstructorHelpers::FObjectFinder<UAnimMontage> DeathMont(TEXT("AnimMontage'/Game/Animations/BP_DeathMontage.BP_DeathMontage'"));
+	//if (DeathMont.Succeeded()) {
+	//	DeathMontage = DeathMont.Object;
+	//}
 	ConstructorHelpers::FObjectFinder<UAnimMontage> HitReactMont(TEXT("AnimMontage'/Game/Animations/BP_HitReactMontage.BP_HitReactMontage'"));
 	if (HitReactMont.Succeeded()) {
 		HitReactMontage = HitReactMont.Object;
-	}
-
-	ConstructorHelpers::FObjectFinder<UAnimMontage> Attack_AnimMt(TEXT("AnimMontage'/Game/Blueprints/Boss/Montage/BossAttack_Montage.BossAttack_Montage'"));
-	if (Attack_AnimMt.Succeeded()) {
-		Boss_AttackMontage = Attack_AnimMt.Object;
-	}
-	ConstructorHelpers::FObjectFinder<UAnimMontage> Skill_AnimMt(TEXT("AnimMontage'/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'"));
-	if (Skill_AnimMt.Succeeded()) {
-		Boss_SkillMontage= Skill_AnimMt.Object;
-	}
-	ConstructorHelpers::FObjectFinder<UAnimMontage> BossHitReact_AnimMt(TEXT("AnimMontage'/Game/Blueprints/Boss/Montage/BossHitReact.BossHitReact'"));
-	if (BossHitReact_AnimMt.Succeeded()) {
-		Boss_HitReactMontage = BossHitReact_AnimMt.Object;
-	}
-	ConstructorHelpers::FObjectFinder<UAnimMontage> Death_AnimMt(TEXT("AnimMontage'/Game/Blueprints/Boss/Montage/BossDeath_Montage.BossDeath_Montage'"));
-	if (Death_AnimMt.Succeeded()) {
-		Boss_DeathMontage = Death_AnimMt.Object;
-	}
-	ConstructorHelpers::FObjectFinder<UAnimMontage> Phase2_AnimMt(TEXT("AnimMontage'/Game/Blueprints/Boss/Montage/BossPhase2_Montage.BossPhase2_Montage'"));
-	if (Phase2_AnimMt.Succeeded()) {
-		Boss_Phase2Montage = Phase2_AnimMt.Object;
 	}
 
 }
@@ -85,12 +64,12 @@ void UMyAnimInstance::PlayTumbleMontage()
 	}
 }
 
-void UMyAnimInstance::PlayDeathMontage()
-{
-	if (!Montage_IsPlaying(DeathMontage)) {
-		Montage_Play(DeathMontage, 1.f);
-	}
-}
+//void UMyAnimInstance::PlayDeathMontage()
+//{
+//	if (!Montage_IsPlaying(DeathMontage)) {
+//		Montage_Play(DeathMontage, 1.f);
+//	}
+//}
 
 void UMyAnimInstance::PlayHitReactMontage()
 {
@@ -98,38 +77,35 @@ void UMyAnimInstance::PlayHitReactMontage()
 		Montage_Play(HitReactMontage, 1.f);
 	}
 }
+//void UMyAnimInstance::PlayBossAttackMontage()
+//{
+//	if (!Montage_IsPlaying(Boss_AttackMontage)) {
+//		Montage_Play(Boss_AttackMontage, 1.f);
+//	}
+//}
+//
+//void UMyAnimInstance::PlayBossSkillMontage()
+//{
+//	if (!Montage_IsPlaying(Boss_SkillMontage)) {
+//		Montage_Play(Boss_SkillMontage, 1.f);
+//	}
+//}
+//
+//void UMyAnimInstance::PlayBossHitReactMontage()
+//{
+//	if (!Montage_IsPlaying(Boss_HitReactMontage)) {
+//		Montage_Play(Boss_HitReactMontage, 1.f);
+//	}
+//}
+//
+//void UMyAnimInstance::PlayBossDeathMontage()
+//{
+//	if (!Montage_IsPlaying(Boss_DeathMontage)) {
+//		Montage_Play(Boss_DeathMontage, 1.f);
+//	}
+//}
 
 
-
-
-
-void UMyAnimInstance::PlayBossAttackMontage()
-{
-	if (!Montage_IsPlaying(Boss_AttackMontage)) {
-		Montage_Play(Boss_AttackMontage, 1.f);
-	}
-}
-
-void UMyAnimInstance::PlayBossSkillMontage()
-{
-	if (!Montage_IsPlaying(Boss_SkillMontage)) {
-		Montage_Play(Boss_SkillMontage, 1.f);
-	}
-}
-
-void UMyAnimInstance::PlayBossHitReactMontage()
-{
-	if (!Montage_IsPlaying(Boss_HitReactMontage)) {
-		Montage_Play(Boss_HitReactMontage, 1.f);
-	}
-}
-
-void UMyAnimInstance::PlayBossDeathMontage()
-{
-	if (!Montage_IsPlaying(Boss_DeathMontage)) {
-		Montage_Play(Boss_DeathMontage, 1.f);
-	}
-}
 
 void UMyAnimInstance::JumpToSection(int32 SectionIndex)//Jump Attack Montage Section 
 {
@@ -144,7 +120,7 @@ FName UMyAnimInstance::GetAttackMontageName(int32 SectionIndex)	//Get Attack Mon
 
 void UMyAnimInstance::AnimNotify_AttackHit() //When Attack Effect for example Sounds, Effects etc
 {
-	UE_LOG(LogTemp, Log, TEXT("broadCast Attack"));
+	UE_LOG(LogTemp, Warning, TEXT("broadCast Attack"));
 	OnAttackHit.Broadcast();
 }
 
@@ -160,11 +136,11 @@ void UMyAnimInstance::AnimNotify_SkillCastEnd()
 	OnSkillEnd.Broadcast();
 }
 
-//void UMyAnimInstance::AnimNotify_HitEnd()
-//{
-//	UE_LOG(LogTemp, Warning, TEXT("Hit Reaction"));
-//	OnHitEnd.Broadcast();
-//}
+void UMyAnimInstance::AnimNotify_OnHitEnd()
+{
+	UE_LOG(LogTemp, Warning, TEXT("broadCast Hit"));
+	OnHitEnd.Broadcast();
+}
 
 void UMyAnimInstance::NativeUpdateAnimation(float DeltaSeconds) //Every Frame, Update Animtaions
 {
@@ -180,7 +156,7 @@ void UMyAnimInstance::NativeUpdateAnimation(float DeltaSeconds) //Every Frame, U
 			IsJumping = Character->GetMovementComponent()->IsFalling();
 
 			Speed = Character->GetVelocity().Size();
-
+			IsDied = Character->IsDie;
 			Vertical = Character->UpDownValue;
 			Horizontal = Character->LeftRightValue;
 		}

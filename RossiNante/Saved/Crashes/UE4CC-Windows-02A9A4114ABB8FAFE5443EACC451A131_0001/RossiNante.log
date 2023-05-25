@@ -1,0 +1,783 @@
+﻿Log file open, 05/25/23 09:01:10
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: RossiNante
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.058692
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-11590370
+LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 2009) (), CPU: AMD Ryzen 5 5600X 6-Core Processor             , GPU: NVIDIA GeForce RTX 3060
+LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2023.05.25-00.01.11:063][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2023.05.25-00.01.11:063][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2023.05.25-00.01.11:063][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.05.25-00.01.11:063][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2023.05.25-00.01.11:063][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.05.25-00.01.11:063][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.05.25-00.01.11:063][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2023.05.25-00.01.11:063][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2023.05.25-00.01.11:063][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2023.05.25-00.01.11:063][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2023.05.25-00.01.11:063][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2023.05.25-00.01.11:063][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2023.05.25-00.01.11:063][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2023.05.25-00.01.11:063][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2023.05.25-00.01.11:063][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2023.05.25-00.01.11:063][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2023.05.25-00.01.11:063][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2023.05.25-00.01.11:063][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2023.05.25-00.01.11:063][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2023.05.25-00.01.11:063][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2023.05.25-00.01.11:063][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.05.25-00.01.11:063][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2023.05.25-00.01.11:063][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2023.05.25-00.01.11:063][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2023.05.25-00.01.11:063][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2023.05.25-00.01.11:063][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2023.05.25-00.01.11:063][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2023.05.25-00.01.11:063][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2023.05.25-00.01.11:063][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2023.05.25-00.01.11:063][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2023.05.25-00.01.11:063][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2023.05.25-00.01.11:063][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2023.05.25-00.01.11:063][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2023.05.25-00.01.11:063][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2023.05.25-00.01.11:063][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.05.25-00.01.11:063][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.05.25-00.01.11:065][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2023.05.25-00.01.11:065][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2023.05.25-00.01.11:066][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2023.05.25-00.01.11:066][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2023.05.25-00.01.11:066][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2023.05.25-00.01.11:066][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2023.05.25-00.01.11:066][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.05.25-00.01.11:066][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2023.05.25-00.01.11:066][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2023.05.25-00.01.11:066][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2023.05.25-00.01.11:066][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2023.05.25-00.01.11:066][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2023.05.25-00.01.11:066][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2023.05.25-00.01.11:066][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2023.05.25-00.01.11:066][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2023.05.25-00.01.11:066][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2023.05.25-00.01.11:066][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2023.05.25-00.01.11:066][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2023.05.25-00.01.11:066][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2023.05.25-00.01.11:066][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2023.05.25-00.01.11:066][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2023.05.25-00.01.11:066][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2023.05.25-00.01.11:066][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2023.05.25-00.01.11:066][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2023.05.25-00.01.11:066][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2023.05.25-00.01.11:066][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2023.05.25-00.01.11:066][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2023.05.25-00.01.11:066][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2023.05.25-00.01.11:066][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2023.05.25-00.01.11:066][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2023.05.25-00.01.11:066][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2023.05.25-00.01.11:066][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2023.05.25-00.01.11:066][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2023.05.25-00.01.11:066][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.05.25-00.01.11:066][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2023.05.25-00.01.11:066][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2023.05.25-00.01.11:066][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.05.25-00.01.11:066][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2023.05.25-00.01.11:066][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2023.05.25-00.01.11:066][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2023.05.25-00.01.11:066][  0]LogInit: Selected Device Profile: [Windows]
+[2023.05.25-00.01.11:066][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2023.05.25-00.01.11:068][  0]LogHAL: Display: Platform has ~ 16 GB [17101754368 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2023.05.25-00.01.11:068][  0]LogInit: Going up to parent DeviceProfile []
+[2023.05.25-00.01.11:068][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.05.25-00.01.11:068][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2023.05.25-00.01.11:068][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2023.05.25-00.01.11:069][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.05.25-00.01.11:069][  0]LogInit: Computer: DESKTOP-0FM8J8U
+[2023.05.25-00.01.11:069][  0]LogInit: User: owner
+[2023.05.25-00.01.11:069][  0]LogInit: CPU Page size=4096, Cores=6
+[2023.05.25-00.01.11:069][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.05.25-00.01.11:069][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2023.05.25-00.01.11:069][  0]LogMemory: Platform Memory Stats for Windows
+[2023.05.25-00.01.11:069][  0]LogMemory: Process Physical Memory: 108.75 MB used, 108.75 MB peak
+[2023.05.25-00.01.11:069][  0]LogMemory: Process Virtual Memory: 101.72 MB used, 101.72 MB peak
+[2023.05.25-00.01.11:069][  0]LogMemory: Physical Memory: 6681.07 MB used,  9628.43 MB free, 16309.50 MB total
+[2023.05.25-00.01.11:069][  0]LogMemory: Virtual Memory: 5168.50 MB used,  134212560.00 MB free, 134217728.00 MB total
+[2023.05.25-00.01.11:073][  0]LogWindows: WindowsPlatformFeatures enabled
+[2023.05.25-00.01.11:161][  0]LogInit: Using OS detected language (ko-KR).
+[2023.05.25-00.01.11:162][  0]LogInit: Using OS detected locale (ko-KR).
+[2023.05.25-00.01.11:163][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2023.05.25-00.01.11:211][  0]LogInit: Setting process to per monitor DPI aware
+[2023.05.25-00.01.11:233][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2023.05.25-00.01.11:233][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2023.05.25-00.01.11:385][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.05.25-00.01.11:385][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2023.05.25-00.01.11:385][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2023.05.25-00.01.11:385][  0]LogD3D11RHI: D3D11 adapters:
+[2023.05.25-00.01.11:532][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3060' (Feature Level 11_0)
+[2023.05.25-00.01.11:532][  0]LogD3D11RHI:       12142/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2023.05.25-00.01.11:533][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2023.05.25-00.01.11:533][  0]LogD3D11RHI:       0/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2023.05.25-00.01.11:533][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2023.05.25-00.01.11:539][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2023.05.25-00.01.11:539][  0]LogD3D11RHI:     GPU DeviceId: 0x2504 (for the marketing name, search the web for "GPU Device Id")
+[2023.05.25-00.01.11:539][  0]LogWindows: EnumDisplayDevices:
+[2023.05.25-00.01.11:539][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3060' (P:1 D:1)
+[2023.05.25-00.01.11:539][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3060' (P:0 D:0)
+[2023.05.25-00.01.11:540][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3060' (P:0 D:0)
+[2023.05.25-00.01.11:541][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3060' (P:0 D:0)
+[2023.05.25-00.01.11:541][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2023.05.25-00.01.11:541][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3060
+[2023.05.25-00.01.11:541][  0]LogD3D11RHI:   Driver Version: 516.01 (internal:31.0.15.1601, unified:516.01)
+[2023.05.25-00.01.11:541][  0]LogD3D11RHI:      Driver Date: 4-24-2022
+[2023.05.25-00.01.11:541][  0]LogRHI: Texture pool is 8499 MB (70% of 12142 MB)
+[2023.05.25-00.01.11:588][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2023.05.25-00.01.11:588][  0]LogD3D11RHI: Async texture creation enabled
+[2023.05.25-00.01.11:606][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2023.05.25-00.01.11:869][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2023.05.25-00.01.11:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2023.05.25-00.01.11:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2023.05.25-00.01.11:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2023.05.25-00.01.11:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2023.05.25-00.01.11:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2023.05.25-00.01.11:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2023.05.25-00.01.11:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2023.05.25-00.01.11:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2023.05.25-00.01.11:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2023.05.25-00.01.11:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2023.05.25-00.01.11:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2023.05.25-00.01.11:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2023.05.25-00.01.11:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2023.05.25-00.01.11:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2023.05.25-00.01.11:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2023.05.25-00.01.11:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2023.05.25-00.01.11:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2023.05.25-00.01.11:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2023.05.25-00.01.11:908][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2023.05.25-00.01.11:908][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2023.05.25-00.01.11:914][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2023.05.25-00.01.11:919][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2023.05.25-00.01.11:924][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2023.05.25-00.01.11:930][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2023.05.25-00.01.11:935][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2023.05.25-00.01.11:941][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2023.05.25-00.01.11:958][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2023.05.25-00.01.11:958][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2023.05.25-00.01.11:969][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2023.05.25-00.01.11:969][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2023.05.25-00.01.11:975][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2023.05.25-00.01.11:981][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2023.05.25-00.01.11:986][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2023.05.25-00.01.11:992][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2023.05.25-00.01.11:992][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2023.05.25-00.01.11:994][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2023.05.25-00.01.12:016][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Intermediate/Shaders/WorkingDirectory/2076/).
+[2023.05.25-00.01.12:017][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/owner/AppData/Local/Temp/UnrealShaderWorkingDir/0305D51B4083543EA90069B2C5E0D900/'.
+[2023.05.25-00.01.12:017][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2023.05.25-00.01.12:017][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2023.05.25-00.01.12:017][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2023.05.25-00.01.12:511][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2023.05.25-00.01.12:549][  0]LogDerivedDataCache: Loaded boot cache 0.04s 81MB C:/Users/owner/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2023.05.25-00.01.12:549][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/owner/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2023.05.25-00.01.12:549][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.05.25-00.01.12:549][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2023.05.25-00.01.12:549][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.05.25-00.01.12:549][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2023.05.25-00.01.12:558][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2023.05.25-00.01.12:558][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.05.25-00.01.12:558][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2023.05.25-00.01.12:559][  0]LogDerivedDataCache: Using Local data cache path C:/Users/owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.05.25-00.01.12:559][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2023.05.25-00.01.12:559][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2023.05.25-00.01.12:576][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2023.05.25-00.01.12:578][  0]LogSlate: Using FreeType 2.10.0
+[2023.05.25-00.01.12:578][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.05.25-00.01.12:620][  0]LogAssetRegistry: FAssetRegistry took 0.0020 seconds to start up
+[2023.05.25-00.01.12:852][  0]LogInit: Selected Device Profile: [Windows]
+[2023.05.25-00.01.12:954][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.05.25-00.01.12:954][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2023.05.25-00.01.12:954][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2023.05.25-00.01.12:954][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2023.05.25-00.01.12:954][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2023.05.25-00.01.12:963][  0]LogNetVersion: RossiNante 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 557242147)
+[2023.05.25-00.01.13:699][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.033427 seconds
+[2023.05.25-00.01.13:705][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2023.05.25-00.01.13:705][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2023.05.25-00.01.13:705][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.05.25-00.01.13:974][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.05.25-00.01.13:976][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.05.25-00.01.14:819][  0]LogLinker: Warning: '../../../../../../Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Content/Blueprints/Boss/Montage/BossSmash_Montage.uasset' 로드 도중 '/Game/Boss/FX/BossSkillFX' 로드에 실패했습니다: 파일을 찾을 수 없습니다.
+[2023.05.25-00.01.14:819][  0]LogLinker: Warning: '../../../../../../Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Content/Blueprints/Boss/Montage/BossSmash_Montage.uasset' 로드 도중 '/Game/Boss/FX/BossSkillFX' 로드에 실패했습니다: 애셋에 대한 파일을 찾을 수 없습니다.
+[2023.05.25-00.01.14:820][  0]LogLinker: Warning: '../../../../../../Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Content/Blueprints/Boss/Montage/BossSmash_Montage.uasset' 로드 도중 '/Game/Boss/FX/BossSkillFX' 로드에 실패했습니다: 파일을 찾을 수 없습니다.
+[2023.05.25-00.01.14:820][  0]LogLinker: Warning: '../../../../../../Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Content/Blueprints/Boss/Montage/BossSmash_Montage.uasset' 로드 도중 '/Game/Boss/FX/BossSkillFX' 로드에 실패했습니다: 애셋에 대한 파일을 찾을 수 없습니다.
+[2023.05.25-00.01.14:821][  0]LogLinker: Warning: '../../../../../../Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Content/Blueprints/Boss/Montage/BossSmash_Montage.uasset' 로드 도중 '/Game/Boss/FX/BossSkillFX' 로드에 실패했습니다: 파일을 찾을 수 없습니다.
+[2023.05.25-00.01.14:821][  0]LoadErrors: 로드에 실패했습니다. /Game/Boss/FX/BossSkillFX.BossSkillFX 참조한 것: AnimNotify_PlayParticleEffect_0
+[2023.05.25-00.01.14:821][  0]LogLinker: Warning: '../../../../../../Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Content/Blueprints/Boss/Montage/BossSmash_Montage.uasset' 로드 도중 '/Game/Boss/FX/BossSkillFX' 로드에 실패했습니다: 애셋에 대한 파일을 찾을 수 없습니다.
+[2023.05.25-00.01.14:821][  0]LoadErrors: 로드에 실패했습니다. /Game/Boss/FX/BossSkillFX.BossSkillFX 참조한 것: AnimNotify_PlayParticleEffect_0
+[2023.05.25-00.01.14:821][  0]LogLinker: Warning: '../../../../../../Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Content/Blueprints/Boss/Montage/BossSmash_Montage.uasset' 로드 도중 '/Game/Boss/FX/BossSkillFX' 로드에 실패했습니다: 파일을 찾을 수 없습니다.
+[2023.05.25-00.01.14:821][  0]LoadErrors: 로드에 실패했습니다. /Game/Boss/FX/BossSkillFX.BossSkillFX 참조한 것: AnimNotify_PlayParticleEffect_1
+[2023.05.25-00.01.14:821][  0]LogLinker: Warning: '../../../../../../Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Content/Blueprints/Boss/Montage/BossSmash_Montage.uasset' 로드 도중 '/Game/Boss/FX/BossSkillFX' 로드에 실패했습니다: 애셋에 대한 파일을 찾을 수 없습니다.
+[2023.05.25-00.01.14:821][  0]LoadErrors: 로드에 실패했습니다. /Game/Boss/FX/BossSkillFX.BossSkillFX 참조한 것: AnimNotify_PlayParticleEffect_1
+[2023.05.25-00.01.14:884][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2023.05.25-00.01.14:884][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2023.05.25-00.01.14:885][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2023.05.25-00.01.14:886][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2023.05.25-00.01.14:887][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2023.05.25-00.01.14:945][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.05.25-00.01.14:951][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.05.25-00.01.14:951][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.05.25-00.01.15:005][  0]LogOcInput: OculusInput pre-init called
+[2023.05.25-00.01.15:012][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2023.05.25-00.01.15:012][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2023.05.25-00.01.15:058][  0]LogEngine: Initializing Engine...
+[2023.05.25-00.01.15:058][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.05.25-00.01.15:059][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2023.05.25-00.01.15:268][  0]LogInit: Initializing FReadOnlyCVARCache
+[2023.05.25-00.01.15:272][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.05.25-00.01.15:278][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.25-00.01.15:278][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.25-00.01.15:278][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.25-00.01.15:278][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.25-00.01.15:278][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.05.25-00.01.15:278][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.05.25-00.01.15:278][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.05.25-00.01.15:278][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.25-00.01.15:279][  0]LogAudio: Display: Using built-in audio occlusion.
+[2023.05.25-00.01.15:279][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2023.05.25-00.01.15:342][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2023.05.25-00.01.15:342][  0]LogAudioMixer: Display: Name: 스피커(Realtek(R) Audio)
+[2023.05.25-00.01.15:342][  0]LogAudioMixer: Display: Is Default: Yes
+[2023.05.25-00.01.15:342][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2023.05.25-00.01.15:342][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2023.05.25-00.01.15:342][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2023.05.25-00.01.15:342][  0]LogAudioMixer: Display: Channel Order:
+[2023.05.25-00.01.15:342][  0]LogAudioMixer: Display: 0: FrontLeft
+[2023.05.25-00.01.15:342][  0]LogAudioMixer: Display: 1: FrontRight
+[2023.05.25-00.01.15:385][  0]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2023.05.25-00.01.15:387][  0]LogInit: FAudioDevice initialized.
+[2023.05.25-00.01.15:388][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2023.05.25-00.01.15:472][  0]LogDerivedDataCache: Saved boot cache 0.08s 81MB C:/Users/owner/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2023.05.25-00.01.15:472][  0]LogInit: Texture streaming: Enabled
+[2023.05.25-00.01.15:479][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2023.05.25-00.01.15:479][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2023.05.25-00.01.15:483][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2023.05.25-00.01.15:514][  0]LogInit: Transaction tracking system initialized
+[2023.05.25-00.01.15:522][  0]BlueprintLog: New page: 에디터 로드
+[2023.05.25-00.01.15:546][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2023.05.25-00.01.15:740][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2023.05.25-00.01.15:740][  0]LogCook: Display: Mobile HDR setting 1
+[2023.05.25-00.01.15:794][  0]LogFileCache: Scanning file cache for directory 'C:/Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Content/' took 0.03s
+[2023.05.25-00.01.16:248][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2023.05.25-00.01.16:248][  0]Cmd: MAP LOAD FILE="../../../../../../Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Content/Maps/Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.05.25-00.01.16:252][  0]LightingResults: New page: 라이팅 빌드
+[2023.05.25-00.01.16:253][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.05.25-00.01.16:253][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.25-00.01.16:253][  0]MapCheck: New page: 맵 체크
+[2023.05.25-00.01.16:253][  0]LightingResults: New page: 라이팅 빌드
+[2023.05.25-00.01.16:274][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.05.25-00.01.19:293][  0]LogAIModule: Creating AISystem for world Default
+[2023.05.25-00.01.19:302][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.25-00.01.19:324][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2023.05.25-00.01.19:326][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.25-00.01.19:326][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.426ms.
+[2023.05.25-00.01.19:326][  0]LogFileHelpers: Loading map 'Default' took 3.078
+[2023.05.25-00.01.19:395][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2023.05.25-00.01.19:490][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.25-00.01.19:496][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.25-00.01.19:500][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.25-00.01.19:505][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.25-00.01.19:521][  0]LogCollectionManager: Loaded 0 collections in 0.001454 seconds
+[2023.05.25-00.01.19:549][  0]LogFileCache: Scanning file cache for directory 'C:/Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Collections/' took 0.00s
+[2023.05.25-00.01.19:549][  0]LogFileCache: Scanning file cache for directory 'C:/Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Content/Developers/owner/Collections/' took 0.00s
+[2023.05.25-00.01.19:549][  0]LogFileCache: Scanning file cache for directory 'C:/Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Content/Collections/' took 0.00s
+[2023.05.25-00.01.19:549][  0]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 3020 classes and 719 folders.
+[2023.05.25-00.01.19:582][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2023.05.25-00.01.20:013][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2023.05.25-00.01.20:027][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 3 folders.
+[2023.05.25-00.01.20:250][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2023.05.25-00.01.20:250][  0]LogLoad: (Engine Initialization) Total time: 10.67 seconds
+[2023.05.25-00.01.20:250][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.05.25-00.01.20:306][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.05.25-00.01.20:387][  0]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.05.25-00.01.20:389][  0]LogSlate: Took 0.000956 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2023.05.25-00.01.20:389][  0]LogSlate: Took 0.000892 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2023.05.25-00.01.20:391][  0]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.05.25-00.01.20:397][  0]LogSlate: Took 0.003804 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.05.25-00.01.20:548][  0]LogRenderer: Reallocating scene render targets to support 872x452 Format 10 NumSamples 1 (Frame:1).
+[2023.05.25-00.01.20:548][  0]LogSlate: Took 0.010827 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.05.25-00.01.20:608][  1]LogAssetRegistry: Asset discovery search completed in 7.9889 seconds
+[2023.05.25-00.01.20:611][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000007 seconds (updated 0 objects)
+[2023.05.25-00.01.28:720][914]LogSlate: Window '메시지 로그' being destroyed
+[2023.05.25-00.01.28:722][914]LogSlate: Window '메시지 로그' being destroyed
+[2023.05.25-00.01.30:533][ 76]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.05.25-00.01.30:547][ 76]LogAssetEditorSubsystem: Opening Asset editor for AnimMontage /Game/Blueprints/Boss/Montage/BossHitReact.BossHitReact
+[2023.05.25-00.01.30:560][ 76]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2023.05.25-00.01.30:736][ 76]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.05.25-00.01.30:740][ 76]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2023.05.25-00.01.30:861][ 76]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2023.05.25-00.01.31:094][ 76]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0005 seconds. Added 1 classes and 0 folders.
+[2023.05.25-00.01.31:101][ 76]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.05.25-00.01.33:671][345]LogSlate: Window 'BossHitReact' being destroyed
+[2023.05.25-00.01.33:675][345]LogSlate: Window 'BossHitReact' being destroyed
+[2023.05.25-00.01.33:675][345]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2023.05.25-00.01.33:676][345]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.25-00.01.33:731][345]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2023.05.25-00.01.33:731][345]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.25-00.01.35:097][474]LogAssetEditorSubsystem: Opening Asset editor for AnimMontage /Game/Blueprints/Boss/Montage/BossPhase2_Montage.BossPhase2_Montage
+[2023.05.25-00.01.35:102][474]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.05.25-00.01.35:167][474]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2023.05.25-00.01.35:357][474]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.05.25-00.01.37:778][756]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossPhase2_Montage.BossPhase2_Montage'
+[2023.05.25-00.01.37:979][780]LogSlate: Window 'BossPhase2_Montage' being destroyed
+[2023.05.25-00.01.37:983][780]LogSlate: Window 'BossPhase2_Montage' being destroyed
+[2023.05.25-00.01.37:983][780]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2023.05.25-00.01.37:983][780]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.25-00.01.38:041][780]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2023.05.25-00.01.38:041][780]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.25-00.01.38:814][851]LogAssetEditorSubsystem: Opening Asset editor for AnimMontage /Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage
+[2023.05.25-00.01.38:819][851]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.05.25-00.01.38:879][851]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2023.05.25-00.01.39:077][851]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.05.25-00.01.39:085][852]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.01.39:237][867]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.01.40:221][983]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.01.40:405][  5]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.01.41:388][123]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.01.41:571][145]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.01.42:548][254]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.01.42:740][277]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.01.43:719][390]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.01.43:927][408]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.01.44:882][458]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.01.45:068][479]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.01.46:051][597]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.01.46:235][619]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.01.47:220][726]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.01.47:402][748]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.01.48:380][865]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.01.48:571][888]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.01.53:239][951]LogSlate: Window 'BossSmash_Montage' being destroyed
+[2023.05.25-00.01.53:796][ 16]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.01.53:996][ 38]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.01.55:249][139]LogAssetEditorSubsystem: Opening Asset editor for AnimMontage /Game/Blueprints/Boss/Montage/BossAttack_Montage.BossAttack_Montage
+[2023.05.25-00.01.55:563][169]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossAttack_Montage.BossAttack_Montage'
+[2023.05.25-00.01.56:567][286]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossAttack_Montage.BossAttack_Montage'
+[2023.05.25-00.01.57:567][406]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossAttack_Montage.BossAttack_Montage'
+[2023.05.25-00.01.58:592][507]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossAttack_Montage.BossAttack_Montage'
+[2023.05.25-00.01.59:575][607]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossAttack_Montage.BossAttack_Montage'
+[2023.05.25-00.02.00:563][695]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossAttack_Montage.BossAttack_Montage'
+[2023.05.25-00.02.01:568][791]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossAttack_Montage.BossAttack_Montage'
+[2023.05.25-00.02.02:567][862]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossAttack_Montage.BossAttack_Montage'
+[2023.05.25-00.02.03:569][974]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossAttack_Montage.BossAttack_Montage'
+[2023.05.25-00.02.04:568][ 92]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossAttack_Montage.BossAttack_Montage'
+[2023.05.25-00.02.05:568][212]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossAttack_Montage.BossAttack_Montage'
+[2023.05.25-00.02.07:244][332]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossAttack_Montage.BossAttack_Montage'
+[2023.05.25-00.02.08:246][452]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossAttack_Montage.BossAttack_Montage'
+[2023.05.25-00.02.32:615][637]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossAttack_Montage.BossAttack_Montage'
+[2023.05.25-00.02.33:618][718]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossAttack_Montage.BossAttack_Montage'
+[2023.05.25-00.02.34:617][828]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossAttack_Montage.BossAttack_Montage'
+[2023.05.25-00.02.39:929][426]LogSavePackage: Moving '../../../../../../Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Saved/BossAttack_Montage171994AE415E6EFA40DB94AD4275AAE6.tmp' to '../../../../../../Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Content/Blueprints/Boss/Montage/BossAttack_Montage.uasset'
+[2023.05.25-00.02.39:942][426]AssetCheck: New page: Asset Save: BossAttack_Montage
+[2023.05.25-00.02.39:942][426]LogContentValidation: Display: AnimMontage /Game/Blueprints/Boss/Montage/BossAttack_Montage.BossAttack_Montage 유효성 검사
+[2023.05.25-00.02.42:061][634]LogAssetEditorSubsystem: Opening Asset editor for AnimMontage /Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage
+[2023.05.25-00.02.42:384][667]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.02.42:569][689]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.02.43:549][799]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.02.43:733][821]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.02.44:725][907]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.02.44:900][915]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.02.45:885][ 31]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.02.46:067][ 52]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.02.47:049][169]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.02.47:233][191]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.02.48:218][302]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.02.48:401][324]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.03.02:135][454]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.03.02:326][477]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.03.03:308][584]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.03.03:492][599]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.03.04:471][696]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.03.04:654][718]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.03.07:659][834]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.03.07:841][852]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.03.08:825][937]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.03.09:011][958]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.03.10:845][ 88]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.03.12:008][198]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage'
+[2023.05.25-00.03.14:917][507]LogSavePackage: Moving '../../../../../../Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Saved/BossSmash_Montage93E0BCF44139901D39FA1098E42898BA.tmp' to '../../../../../../Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Content/Blueprints/Boss/Montage/BossSmash_Montage.uasset'
+[2023.05.25-00.03.14:929][507]AssetCheck: New page: Asset Save: BossSmash_Montage
+[2023.05.25-00.03.14:929][507]LogContentValidation: Display: AnimMontage /Game/Blueprints/Boss/Montage/BossSmash_Montage.BossSmash_Montage 유효성 검사
+[2023.05.25-00.03.17:329][751]LogAssetEditorSubsystem: Opening Asset editor for AnimMontage /Game/Blueprints/Boss/Montage/BossDeath_Montage.BossDeath_Montage
+[2023.05.25-00.04.41:461][793]LogAssetEditorSubsystem: Opening Asset editor for AnimMontage /Game/Blueprints/Boss/Montage/BossHitReact.BossHitReact
+[2023.05.25-00.04.44:364][125]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.05.25-00.04.46:901][418]Cmd: TRANSACTION UNDO
+[2023.05.25-00.04.46:901][418]LogEditorTransaction: Undo 애니메이션 마커 삭제
+[2023.05.25-00.04.46:956][418]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.05.25-00.04.46:957][418]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0' Bone: 'spine_03' 
+[2023.05.25-00.04.46:957][418]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0' Bone: 'hand_l' 
+[2023.05.25-00.04.46:957][418]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0' Bone: 'hand_r' 
+[2023.05.25-00.04.46:957][418]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0' Bone: 'foot_r' 
+[2023.05.25-00.04.46:957][418]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0' Bone: 'foot_l' 
+[2023.05.25-00.04.46:957][418]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0' Bone: 'chain_07' 
+[2023.05.25-00.04.46:957][418]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0' Bone: 'fin_arm_c_r_02' 
+[2023.05.25-00.04.46:957][418]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0' Bone: 'fin_arm_c_l_02' 
+[2023.05.25-00.04.46:957][418]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0' Bone: 'fin_spine_b_02' 
+[2023.05.25-00.04.46:957][418]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0' Bone: 'fin_arm_d_r_02' 
+[2023.05.25-00.04.46:957][418]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0' Bone: 'fin_arm_d_l_02' 
+[2023.05.25-00.05.29:848][113]LogSavePackage: Moving '../../../../../../Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Saved/BossHitReact1946CC3349C2352ABEAAAA82510B7DC6.tmp' to '../../../../../../Users/owner/Documents/GitHub/UNogakKimchi/RossiNante/Content/Blueprints/Boss/Montage/BossHitReact.uasset'
+[2023.05.25-00.05.29:858][113]AssetCheck: New page: Asset Save: BossHitReact
+[2023.05.25-00.05.29:858][113]LogContentValidation: Display: AnimMontage /Game/Blueprints/Boss/Montage/BossHitReact.BossHitReact 유효성 검사
+[2023.05.25-00.05.31:541][279]LogTemp: Repeating last play command: 선택된 뷰포트
+[2023.05.25-00.05.31:547][279]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.25-00.05.31:547][279]PIE: New page: PIE 세션: Default (2023. 5. 25. 오후 6:05:31)
+[2023.05.25-00.05.31:548][279]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2023.05.25-00.05.31:549][279]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.05.25-00.05.31:549][279]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Default
+[2023.05.25-00.05.31:552][279]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002090s)
+[2023.05.25-00.05.31:552][279]LogAIModule: Creating AISystem for world Default
+[2023.05.25-00.05.31:552][279]LogPlayLevel: PIE: World Init took: (0.000654s)
+[2023.05.25-00.05.31:552][279]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Default.Default to /Game/Maps/UEDPIE_0_Default.Default (0.002923s)
+[2023.05.25-00.05.31:574][279]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.05.25-00.05.31:576][279]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.25-00.05.31:576][279]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.25-00.05.31:576][279]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.25-00.05.31:576][279]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.25-00.05.31:576][279]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.05.25-00.05.31:576][279]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.05.25-00.05.31:576][279]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.05.25-00.05.31:576][279]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.25-00.05.31:576][279]LogAudio: Display: Using built-in audio occlusion.
+[2023.05.25-00.05.31:576][279]LogAudioMixer: Display: Initializing audio mixer.
+[2023.05.25-00.05.31:631][279]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2023.05.25-00.05.31:631][279]LogAudioMixer: Display: Name: 스피커(Realtek(R) Audio)
+[2023.05.25-00.05.31:631][279]LogAudioMixer: Display: Is Default: Yes
+[2023.05.25-00.05.31:631][279]LogAudioMixer: Display: Sample Rate: 48000
+[2023.05.25-00.05.31:631][279]LogAudioMixer: Display: Channel Count Used: 2
+[2023.05.25-00.05.31:631][279]LogAudioMixer: Display: Device Channel Count: 2
+[2023.05.25-00.05.31:631][279]LogAudioMixer: Display: Channel Order:
+[2023.05.25-00.05.31:631][279]LogAudioMixer: Display: 0: FrontLeft
+[2023.05.25-00.05.31:631][279]LogAudioMixer: Display: 1: FrontRight
+[2023.05.25-00.05.31:657][279]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2023.05.25-00.05.31:658][279]LogInit: FAudioDevice initialized.
+[2023.05.25-00.05.31:666][279]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.05.25-00.05.31:669][279]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2023.05.25-09.05.31
+[2023.05.25-00.05.31:669][279]LogWorld: Bringing up level for play took: 0.003565
+[2023.05.25-00.05.31:669][279]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2023.05.25-00.05.31:672][279]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2023.05.25-00.05.31:674][279]PIE: /Game/Maps/UEDPIE_0_Default 에 대한 에디터에서 플레이 시작 시간: 0.265
+[2023.05.25-00.05.32:448][369]LogTemp: broadCast Attack
+[2023.05.25-00.05.33:173][456]LogTemp: Warning: Attack End
+[2023.05.25-00.05.33:456][490]LogTemp: broadCast Attack
+[2023.05.25-00.05.33:456][490]LogTemp: Hit Actor : DefaultMonsterBP_2

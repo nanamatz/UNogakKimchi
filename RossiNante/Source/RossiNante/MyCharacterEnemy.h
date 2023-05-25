@@ -63,6 +63,19 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool isPhase2;
 
+	UPROPERTY(EditDefaultsOnly, Category = Pawn)
+		UAnimMontage* Boss_AttackMontage; // 평타 콤보 애니메이션
+	UPROPERTY(EditDefaultsOnly, Category = Pawn)
+		UAnimMontage* Boss_SkillMontage; // 스킬 애니메이션
+
+	UPROPERTY(EditDefaultsOnly, Category = Pawn)
+		UAnimMontage* Boss_HitReactMontage; // 피격 애니메이션
+	UPROPERTY(EditDefaultsOnly, Category = Pawn)
+		UAnimMontage* Boss_DeathMontage; // 사망 애니메이션
+
+	UPROPERTY(EditDefaultsOnly, Category = Pawn)
+		UAnimMontage* Boss_Phase2Montage; // 페이즈2모션 애니메이션
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
