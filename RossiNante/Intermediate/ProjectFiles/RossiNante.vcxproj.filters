@@ -3,7 +3,11 @@
   <ItemGroup>
     <None Include="..\..\RossiNante.uproject" />
     <Filter Include="Source">
+<<<<<<< HEAD
       <UniqueIdentifier>{81F6D959-84AF-4903-B8E3-646335041853}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{74970DF6-6F05-40F5-AA9A-E8C2D54930E0}</UniqueIdentifier>
+>>>>>>> jeonghoon
     </Filter>
     <None Include="..\..\Source\RossiNante.Target.cs">
       <Filter>Source</Filter>
@@ -12,24 +16,58 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
+<<<<<<< HEAD
       <UniqueIdentifier>{81323D58-03CC-4650-9EEB-7B3C19A9D51B}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{AA93FB81-C1CF-486A-B7C6-A1F0266EDCF8}</UniqueIdentifier>
+>>>>>>> jeonghoon
     </Filter>
-    <None Include="..\..\Config\DefaultEditor.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEngine.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultGame.ini">
+    <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\RossiNante">
+<<<<<<< HEAD
       <UniqueIdentifier>{6F946411-5E0C-42C8-92B8-94AA2882BA69}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\RossiNante\LoginWidget.cpp">
+=======
+      <UniqueIdentifier>{8E2597F5-76E4-43FD-A91B-73E24E912685}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\RossiNante\LoginWidget.cpp">
+      <Filter>Source\RossiNante</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RossiNante\LoginWidget.h">
+      <Filter>Source\RossiNante</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RossiNante\MyAnimInstance.cpp">
+      <Filter>Source\RossiNante</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RossiNante\MyAnimInstance.h">
+      <Filter>Source\RossiNante</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RossiNante\MyCharacter.cpp">
+      <Filter>Source\RossiNante</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RossiNante\MyCharacter.h">
+      <Filter>Source\RossiNante</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RossiNante\MyCharacterEnemy.cpp">
+      <Filter>Source\RossiNante</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RossiNante\MyCharacterEnemy.h">
+      <Filter>Source\RossiNante</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RossiNante\MyGameInstance.cpp">
+      <Filter>Source\RossiNante</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RossiNante\MyGameInstance.h">
+      <Filter>Source\RossiNante</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RossiNante\MyGameModeBase.cpp">
+>>>>>>> jeonghoon
       <Filter>Source\RossiNante</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\RossiNante\LoginWidget.h">
@@ -65,6 +103,12 @@
     <ClInclude Include="..\..\Source\RossiNante\MyStatComponent.h">
       <Filter>Source\RossiNante</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\RossiNante\MyStatComponent.cpp">
+      <Filter>Source\RossiNante</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RossiNante\MyStatComponent.h">
+      <Filter>Source\RossiNante</Filter>
+    </ClInclude>
     <None Include="..\..\Source\RossiNante\RossiNante.Build.cs">
       <Filter>Source\RossiNante</Filter>
     </None>
@@ -74,6 +118,7 @@
     <ClInclude Include="..\..\Source\RossiNante\RossiNante.h">
       <Filter>Source\RossiNante</Filter>
     </ClInclude>
+<<<<<<< HEAD
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Source\RossiNante\MyGameModeBase.h">
@@ -86,3 +131,7 @@
     </ClCompile>
   </ItemGroup>
 </Project>
+=======
+  </ItemGroup>
+</Project>
+>>>>>>> jeonghoon
