@@ -1,2 +1,2 @@
-D:\soohwanUnreal\UnrealProject\UNogakKimchi-soohwan\UNogakKimchi-soohwan\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\Definitions.RossiNante.h
-D:\soohwanUnreal\UnrealProject\UNogakKimchi-soohwan\UNogakKimchi-soohwan\RossiNante\Source\RossiNante\RossiNante.h
+C:\Users\Administrator\Downloads\UNogakKimchi-dong-gyu\UNogakKimchi-dong-gyu\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\Definitions.RossiNante.h
+C:\Users\Administrator\Downloads\UNogakKimchi-dong-gyu\UNogakKimchi-dong-gyu\RossiNante\Source\RossiNante\RossiNante.h

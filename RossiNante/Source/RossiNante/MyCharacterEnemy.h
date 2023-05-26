@@ -1,21 +1,5 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-/*
-
-2023.05.05 이수환 - 변수 추가 및 함수 정의
-몬스터 클래스
- - 플레이어 추적
- - 걷기
- - 뛰기
- - 일반 공격
- - 스킬 사용
- - 스킬 쿨타임 관리
- - HP감소
- - HP회복
- - 죽음
-
-*/
-
 #pragma once
 
 #include "CoreMinimal.h"
@@ -30,8 +14,16 @@ class ROSSINANTE_API AMyCharacterEnemy : public ACharacter
 public:
 	// Sets default values for this character's properties
 	AMyCharacterEnemy();
-
 protected:
+
+	virtual void PostInitializeComponents() override;
+
+private:
+	UPROPERTY()
+		class UMyAnimInstance* AnimInstance;
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Boss Monster")
 		float DefaultHP;
@@ -71,41 +63,44 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool isPhase2;
 
+	UPROPERTY(EditDefaultsOnly, Category = Pawn)
+		UAnimMontage* Boss_SpawnMontage; // 평타 콤보 애니메이션
+	UPROPERTY(EditDefaultsOnly, Category = Pawn)
+		UAnimMontage* Boss_AttackMontage; // 평타 콤보 애니메이션
+	UPROPERTY(EditDefaultsOnly, Category = Pawn)
+		UAnimMontage* Boss_SkillMontage; // 스킬 애니메이션
+
+	// Smash
+	UPROPERTY(EditDefaultsOnly, Category = Pawn)
+		UAnimMontage* Boss_SmashStartMontage; // Start
 
 	UPROPERTY(EditDefaultsOnly, Category = Pawn)
-		UAnimMontage* AttackCombo_AnimMt; // 평타 콤보 애니메이션
+		UAnimMontage* Boss_HitReactMontage; // 피격 애니메이션
 	UPROPERTY(EditDefaultsOnly, Category = Pawn)
-		UAnimMontage* AttackSkill_AnimMt; // 스킬 애니메이션
+		UAnimMontage* Boss_DeathMontage; // 사망 애니메이션
 
 	UPROPERTY(EditDefaultsOnly, Category = Pawn)
-		UAnimMontage* HitReact_AnimMt; // 히트 애니메이션
-	UPROPERTY(EditDefaultsOnly, Category = Pawn)
-		UAnimMontage* Death_AnimMt; // 히트 애니메이션
-
-	UPROPERTY(EditDefaultsOnly, Category = Pawn)
-		UAnimMontage* Phase2_AnimMt; // 페이즈2모션 애니메이션
-
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
+		UAnimMontage* Boss_Phase2Montage; // 페이즈2모션 애니메이션
 
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	// Called to bind functionality to input
-	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+	UFUNCTION(BlueprintCallable)
+		void Attack_Melee();
+	UFUNCTION(BlueprintCallable)
+		void Attack_Melee_End();
+	UFUNCTION(BlueprintCallable)
+		void Attack_Skill_Melee();
+	UFUNCTION(BlueprintCallable)
+		void Attack_Skill_End();
+	UFUNCTION(BlueprintCallable)
+		void Smash_Skill_Start();
 
 	UFUNCTION(BlueprintCallable)
-	void Attack_Melee();
+		void HitReact(float damage);
 	UFUNCTION(BlueprintCallable)
-	void Attack_Melee_End();
+		void SpawnAnim();
 	UFUNCTION(BlueprintCallable)
-	void Attack_Skill_Melee();
-	UFUNCTION(BlueprintCallable)
-	void Attack_Skill_End();
-	UFUNCTION(BlueprintCallable)
-	void HitReact(float damage);
-
-	void DieAnim();
-
+		void DieAnim();
 };

@@ -17,6 +17,30 @@ class UAnimMontage;
 #define RossiNante_Source_RossiNante_MyCharacter_h_12_SPARSE_DATA
 #define RossiNante_Source_RossiNante_MyCharacter_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execOnSkillCastEnded) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnSkillCastEnded(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnTumbleEnded) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnTumbleEnded(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnHitEnded) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnHitEnded(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execOnAttackEnded) \
 	{ \
 		P_GET_OBJECT(UAnimMontage,Z_Param_Montage); \
@@ -24,28 +48,36 @@ class UAnimMontage;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->OnAttackEnded(Z_Param_Montage,Z_Param_bInterrupted); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execIsAttackHit) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->IsAttackHit(); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execAttack) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->Attack(); \
 		P_NATIVE_END; \
 	}
 
 
 #define RossiNante_Source_RossiNante_MyCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execOnSkillCastEnded) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnSkillCastEnded(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnTumbleEnded) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnTumbleEnded(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnHitEnded) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnHitEnded(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execOnAttackEnded) \
 	{ \
 		P_GET_OBJECT(UAnimMontage,Z_Param_Montage); \
@@ -53,22 +85,6 @@ class UAnimMontage;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->OnAttackEnded(Z_Param_Montage,Z_Param_bInterrupted); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execIsAttackHit) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->IsAttackHit(); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execAttack) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->Attack(); \
 		P_NATIVE_END; \
 	}
 

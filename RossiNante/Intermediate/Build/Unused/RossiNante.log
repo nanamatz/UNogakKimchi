@@ -1,13 +1,16 @@
 ﻿  Parsing headers for RossiNanteEditor
-    Running UnrealHeaderTool "C:\Users\Administrator\Downloads\UNogakKimchi-soohwan\UNogakKimchi-soohwan\RossiNante\RossiNante.uproject" "C:\Users\Administrator\Downloads\UNogakKimchi-soohwan\UNogakKimchi-soohwan\RossiNante\Intermediate\Build\Win64\RossiNanteEditor\Development\RossiNanteEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for RossiNanteEditor in 4.7693981 seconds
+    Running UnrealHeaderTool "C:\Users\Administrator\Downloads\UNogakKimchi-dong-gyu\UNogakKimchi-dong-gyu\RossiNante\RossiNante.uproject" "C:\Users\Administrator\Downloads\UNogakKimchi-dong-gyu\UNogakKimchi-dong-gyu\RossiNante\Intermediate\Build\Win64\RossiNanteEditor\Development\RossiNanteEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for RossiNanteEditor in 5.5587143 seconds
   Building RossiNanteEditor...
   Using Visual Studio 2019 14.34.31937 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933) and Windows 10.0.22000.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 6 actions with 6 processes...
-    [1/6] MyCharacter.gen.cpp
-    [2/6] MyAnimInstance.cpp
-    [3/6] MyCharacter.cpp
-C:\Users\Administrator\Downloads\UNogakKimchi-soohwan\UNogakKimchi-soohwan\RossiNante\Source\RossiNante\MyCharacter.cpp(104): error C2660: 'AActor::TakeDamage': �Լ��� 0���� �μ��� ������� �ʽ��ϴ�.
-    D:\soohwan\Unreal\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(2658): note: 'AActor::TakeDamage' ������ �����Ͻʽÿ�.
-    C:\Users\Administrator\Downloads\UNogakKimchi-soohwan\UNogakKimchi-soohwan\RossiNante\Source\RossiNante\MyCharacter.cpp(104): note: �μ� ��� '()'��(��) ��ġ��Ű�� ����
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3075: "D:\soohwan\Unreal\UE_4.24\Engine\Build\BatchFiles\Build.bat RossiNanteEditor Win64 Development -Project="C:\Users\Administrator\Downloads\UNogakKimchi-soohwan\UNogakKimchi-soohwan\RossiNante\RossiNante.uproject" -WaitMutex -FromMsBuild" 명령이 종료되었습니다(코드: 5). 이 명령을 실행할 권한이 있는지 확인하세요.
+    [1/6] RossiNante.init.gen.cpp
+    [2/6] MyCharacterEnemy.gen.cpp
+    [3/6] MyCharacterEnemy.cpp
+    [4/6] UE4Editor-RossiNante-0006.lib
+       C:\Users\Administrator\Downloads\UNogakKimchi-dong-gyu\UNogakKimchi-dong-gyu\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0006.lib ���̺귯�� �� C:\Users\Administrator\Downloads\UNogakKimchi-dong-gyu\UNogakKimchi-dong-gyu\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0006.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [5/6] UE4Editor-RossiNante-0006.dll
+       C:\Users\Administrator\Downloads\UNogakKimchi-dong-gyu\UNogakKimchi-dong-gyu\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0006.suppressed.lib ���̺귯�� �� C:\Users\Administrator\Downloads\UNogakKimchi-dong-gyu\UNogakKimchi-dong-gyu\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0006.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [6/6] RossiNanteEditor.target
+  Total time in Parallel executor: 8.67 seconds
+  Total execution time: 15.01 seconds
