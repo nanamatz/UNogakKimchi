@@ -1,28 +1,103 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\owner\Documents\GitHub\UNogakKimchi).
-  Creating makefile for RossiNanteEditor (.uproject file is newer)
-  Parsing headers for RossiNanteEditor
-    Running UnrealHeaderTool "C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\RossiNante.uproject" "C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\RossiNanteEditor\Development\RossiNanteEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for RossiNanteEditor in 14.8125704 seconds
   Building RossiNanteEditor...
   Using Visual Studio 2019 14.29.30147 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 16 actions with 12 processes...
-    [1/16] SharedPCH.Engine.ShadowErrors.cpp
-    [2/16] RossiNante.cpp
-    [3/16] MyStatComponent.gen.cpp
-    [4/16] MyCharacterEnemy.gen.cpp
-    [5/16] MyCharacter.gen.cpp
-    [6/16] RossiNante.init.gen.cpp
-    [7/16] MyStatComponent.cpp
-    [8/16] MyAnimInstance.gen.cpp
-    [9/16] MyGameInstance.cpp
-    [10/16] MyGameInstance.gen.cpp
-    [11/16] MyAnimInstance.cpp
-    [12/16] MyCharacter.cpp
-    [13/16] MyCharacterEnemy.cpp
-    [14/16] UE4Editor-RossiNante-0116.lib
-       C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0116.lib ���̺귯�� �� C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0116.exp ��ü�� �����ϰ� �ֽ��ϴ�.
-    [15/16] UE4Editor-RossiNante-0116.dll
-       C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0116.suppressed.lib ���̺귯�� �� C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0116.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
-    [16/16] RossiNanteEditor.target
-  Total time in Parallel executor: 22.40 seconds
-  Total execution time: 39.08 seconds
+  Building 7 actions with 12 processes...
+    [1/7] MyGameModeBase.cpp
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h(611): warning C4005: 'TEXT': ��ũ�� ������
+    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'�� ���� ���Ǹ� �����Ͻʽÿ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10326): error C4668: '_WIN32_WINNT_WIN10_TH2'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10332): error C4668: '_WIN32_WINNT_WIN10_RS1'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10337): error C4668: '_WIN32_WINNT_WIN10_TH2'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10341): error C4668: '_WIN32_WINNT_WIN10_TH2'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10348): error C4668: '_WIN32_WINNT_WIN10_RS2'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10358): error C4668: '_WIN32_WINNT_WIN10_RS2'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10362): error C4668: '_WIN32_WINNT_WIN10_TH2'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10367): error C4668: '_WIN32_WINNT_WIN10_RS3'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10374): error C4668: '_WIN32_WINNT_WIN10_RS4'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10377): error C4668: '_WIN32_WINNT_WIN10_RS1'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10380): error C4668: '_WIN32_WINNT_WIN10_RS4'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10385): error C4668: '_WIN32_WINNT_WIN10_RS1'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10388): error C4668: '_WIN32_WINNT_WIN10_RS5'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10588): error C4668: '_WIN32_WINNT_WIN10_RS2'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10612): error C4668: '_WIN32_WINNT_WIN10_RS5'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(14093): error C4668: '_WIN32_WINNT_WIN10_RS5'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(15406): error C4668: '_WIN32_WINNT_WIN10_RS2'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(15525): error C4668: '_WIN32_WINNT_WIN10_RS3'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(15675): error C4668: '_WIN32_WINNT_WIN10_RS4'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(15688): error C4668: '_WIN32_WINNT_WIN10_RS4'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(15916): error C4668: '_WIN32_WINNT_WIN10_RS1'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+    [2/7] MyGameModeBase.gen.cpp
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h(611): warning C4005: 'TEXT': ��ũ�� ������
+    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'�� ���� ���Ǹ� �����Ͻʽÿ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10326): error C4668: '_WIN32_WINNT_WIN10_TH2'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10332): error C4668: '_WIN32_WINNT_WIN10_RS1'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10337): error C4668: '_WIN32_WINNT_WIN10_TH2'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10341): error C4668: '_WIN32_WINNT_WIN10_TH2'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10348): error C4668: '_WIN32_WINNT_WIN10_RS2'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10358): error C4668: '_WIN32_WINNT_WIN10_RS2'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10362): error C4668: '_WIN32_WINNT_WIN10_TH2'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10367): error C4668: '_WIN32_WINNT_WIN10_RS3'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10374): error C4668: '_WIN32_WINNT_WIN10_RS4'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10377): error C4668: '_WIN32_WINNT_WIN10_RS1'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10380): error C4668: '_WIN32_WINNT_WIN10_RS4'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10385): error C4668: '_WIN32_WINNT_WIN10_RS1'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10388): error C4668: '_WIN32_WINNT_WIN10_RS5'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10588): error C4668: '_WIN32_WINNT_WIN10_RS2'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10612): error C4668: '_WIN32_WINNT_WIN10_RS5'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(14093): error C4668: '_WIN32_WINNT_WIN10_RS5'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(15406): error C4668: '_WIN32_WINNT_WIN10_RS2'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(15525): error C4668: '_WIN32_WINNT_WIN10_RS3'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(15675): error C4668: '_WIN32_WINNT_WIN10_RS4'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(15688): error C4668: '_WIN32_WINNT_WIN10_RS4'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(15916): error C4668: '_WIN32_WINNT_WIN10_RS1'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+    [3/7] LoginWidget.gen.cpp
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h(611): warning C4005: 'TEXT': ��ũ�� ������
+    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'�� ���� ���Ǹ� �����Ͻʽÿ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10326): error C4668: '_WIN32_WINNT_WIN10_TH2'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10332): error C4668: '_WIN32_WINNT_WIN10_RS1'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10337): error C4668: '_WIN32_WINNT_WIN10_TH2'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10341): error C4668: '_WIN32_WINNT_WIN10_TH2'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10348): error C4668: '_WIN32_WINNT_WIN10_RS2'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10358): error C4668: '_WIN32_WINNT_WIN10_RS2'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10362): error C4668: '_WIN32_WINNT_WIN10_TH2'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10367): error C4668: '_WIN32_WINNT_WIN10_RS3'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10374): error C4668: '_WIN32_WINNT_WIN10_RS4'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10377): error C4668: '_WIN32_WINNT_WIN10_RS1'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10380): error C4668: '_WIN32_WINNT_WIN10_RS4'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10385): error C4668: '_WIN32_WINNT_WIN10_RS1'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10388): error C4668: '_WIN32_WINNT_WIN10_RS5'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10588): error C4668: '_WIN32_WINNT_WIN10_RS2'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10612): error C4668: '_WIN32_WINNT_WIN10_RS5'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(14093): error C4668: '_WIN32_WINNT_WIN10_RS5'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(15406): error C4668: '_WIN32_WINNT_WIN10_RS2'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(15525): error C4668: '_WIN32_WINNT_WIN10_RS3'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(15675): error C4668: '_WIN32_WINNT_WIN10_RS4'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(15688): error C4668: '_WIN32_WINNT_WIN10_RS4'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(15916): error C4668: '_WIN32_WINNT_WIN10_RS1'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+    [4/7] LoginWidget.cpp
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h(611): warning C4005: 'TEXT': ��ũ�� ������
+    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'�� ���� ���Ǹ� �����Ͻʽÿ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10326): error C4668: '_WIN32_WINNT_WIN10_TH2'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10332): error C4668: '_WIN32_WINNT_WIN10_RS1'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10337): error C4668: '_WIN32_WINNT_WIN10_TH2'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10341): error C4668: '_WIN32_WINNT_WIN10_TH2'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10348): error C4668: '_WIN32_WINNT_WIN10_RS2'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10358): error C4668: '_WIN32_WINNT_WIN10_RS2'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10362): error C4668: '_WIN32_WINNT_WIN10_TH2'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10367): error C4668: '_WIN32_WINNT_WIN10_RS3'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10374): error C4668: '_WIN32_WINNT_WIN10_RS4'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10377): error C4668: '_WIN32_WINNT_WIN10_RS1'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10380): error C4668: '_WIN32_WINNT_WIN10_RS4'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10385): error C4668: '_WIN32_WINNT_WIN10_RS1'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10388): error C4668: '_WIN32_WINNT_WIN10_RS5'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10588): error C4668: '_WIN32_WINNT_WIN10_RS2'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(10612): error C4668: '_WIN32_WINNT_WIN10_RS5'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(14093): error C4668: '_WIN32_WINNT_WIN10_RS5'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(15406): error C4668: '_WIN32_WINNT_WIN10_RS2'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(15525): error C4668: '_WIN32_WINNT_WIN10_RS3'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(15675): error C4668: '_WIN32_WINNT_WIN10_RS4'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(15688): error C4668: '_WIN32_WINNT_WIN10_RS4'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winioctl.h(15916): error C4668: '_WIN32_WINNT_WIN10_RS1'��(��) ��ó���� ��ũ�η� ���ǵǾ� ���� �����Ƿ� '#if/#elif'�� �ش��ϴ� '0'���� �ٲ�ϴ�.
+C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Source\RossiNante\LoginWidget.cpp(29): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Source\RossiNante\LoginWidget.cpp(30): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3075: ""C:\Program Files\Epic Games\UE_4.24\Engine\Build\BatchFiles\Build.bat" RossiNanteEditor Win64 Development -Project="C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\RossiNante.uproject" -WaitMutex -FromMsBuild" 명령이 종료되었습니다(코드: 5). 이 명령을 실행할 권한이 있는지 확인하세요.

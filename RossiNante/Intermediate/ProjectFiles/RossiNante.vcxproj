@@ -272,6 +272,8 @@
     <None Include="..\..\Config\DefaultEngine.ini" />
     <None Include="..\..\Config\DefaultGame.ini" />
     <None Include="..\..\Config\DefaultInput.ini" />
+    <ClCompile Include="..\..\Source\RossiNante\LoginWidget.cpp" />
+    <ClInclude Include="..\..\Source\RossiNante\LoginWidget.h" />
     <ClCompile Include="..\..\Source\RossiNante\MyAnimInstance.cpp" />
     <ClInclude Include="..\..\Source\RossiNante\MyAnimInstance.h" />
     <ClCompile Include="..\..\Source\RossiNante\MyCharacter.cpp" />
@@ -280,7 +282,9 @@
     <ClInclude Include="..\..\Source\RossiNante\MyCharacterEnemy.h" />
     <ClCompile Include="..\..\Source\RossiNante\MyGameInstance.cpp" />
     <ClInclude Include="..\..\Source\RossiNante\MyGameInstance.h" />
+    <ClCompile Include="..\..\Source\RossiNante\MyGameModeBase.cpp" />
     <ClCompile Include="..\..\Source\RossiNante\MyStatComponent.cpp" />
+    <ClInclude Include="..\..\Source\RossiNante\MyGameModeBase.h" />
     <ClInclude Include="..\..\Source\RossiNante\MyStatComponent.h" />
     <None Include="..\..\Source\RossiNante\RossiNante.Build.cs" />
     <ClCompile Include="..\..\Source\RossiNante\RossiNante.cpp" />
