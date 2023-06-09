@@ -1,23 +1,12 @@
-<<<<<<< HEAD
 C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\Definitions.RossiNante.h
 C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Source\RossiNante\MyCharacterEnemy.h
-=======
-C:\Users\201911183\Desktop\unreal\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\Definitions.RossiNante.h
-C:\Users\201911183\Desktop\unreal\RossiNante\Source\RossiNante\MyCharacterEnemy.h
->>>>>>> jeonghoon
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-<<<<<<< HEAD
 C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\MyCharacterEnemy.generated.h
 C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Source\RossiNante\MyAnimInstance.h
 C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\MyAnimInstance.generated.h
-=======
-C:\Users\201911183\Desktop\unreal\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\MyCharacterEnemy.generated.h
-C:\Users\201911183\Desktop\unreal\RossiNante\Source\RossiNante\MyAnimInstance.h
-C:\Users\201911183\Desktop\unreal\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\MyAnimInstance.generated.h
->>>>>>> jeonghoon
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Engine.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Core.h

@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "RossiNante",
-			"Path": "C:\\Users\\201911183\\Desktop\\unreal\\RossiNante\\Source\\RossiNante.Target.cs",
+			"Path": "C:\\Users\\owner\\Documents\\GitHub\\UNogakKimchi\\RossiNante\\Source\\RossiNante.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "RossiNanteEditor",
-			"Path": "C:\\Users\\201911183\\Desktop\\unreal\\RossiNante\\Source\\RossiNanteEditor.Target.cs",
+			"Path": "C:\\Users\\owner\\Documents\\GitHub\\UNogakKimchi\\RossiNante\\Source\\RossiNanteEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

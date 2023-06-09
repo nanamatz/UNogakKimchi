@@ -38,22 +38,11 @@ void UMyStatComponent::InitializeComponent()
 
 void UMyStatComponent::SetLevel(int32 NewLevel)
 {
-<<<<<<< HEAD
-	auto MyGameInstance = Cast<UMyGameInstance>(UGameplayStatics::GetGameInstance(Cast<UObject>(GetWorld())));
-
-	if (MyGameInstance) {
-
-		auto StatData = MyGameInstance->GetStatData(NewLevel);
-		if (StatData) {
-			
-=======
-
 	auto MyGameInstance = Cast<UMyGameInstance>(UGameplayStatics::GetGameInstance(Cast<UObject>(GetWorld())));
 	if (MyGameInstance) {
 		auto StatData = MyGameInstance->GetStatData(NewLevel);
 		if (StatData) {
 
->>>>>>> jeonghoon
 			Level = StatData->Level;
 			Hp = StatData->MaxHp;
 			Attack = StatData->Attack;

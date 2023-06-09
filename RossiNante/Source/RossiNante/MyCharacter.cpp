@@ -5,6 +5,7 @@
 #include "Components/CapsuleComponent.h"
 #include "MyAnimInstance.h"
 #include "DrawDebugHelpers.h"
+#include "Kismet/GameplayStatics.h"
 #include "MyStatComponent.h"
 
 // Sets default values
@@ -12,7 +13,6 @@ AMyCharacter::AMyCharacter()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
 	Stat = CreateDefaultSubobject<UMyStatComponent>(TEXT("STAT"));
 }
 
@@ -81,13 +81,13 @@ void AMyCharacter::Tumble()
 
 void AMyCharacter::Skill_Q()
 {
-	if (IsSkillCasting || AnimInstance->IsJumping || AnimInstance->IsTumbling) return;
+	if (IsSkillCasting || AnimInstance->IsJumping)return; //|| AnimInstance->IsTumbling) return;
 	IsSkillCasting = true;
 	AnimInstance->PlaySkill_QMontage();
 }
 void AMyCharacter::Skill_E()
 {
-	if (IsSkillCasting || AnimInstance->IsJumping || AnimInstance->IsTumbling) return;
+	if (IsSkillCasting || AnimInstance->IsJumping)return; //|| AnimInstance->IsTumbling) return;
 	IsSkillCasting = true;
 	AnimInstance->PlaySkill_EMontage();
 }

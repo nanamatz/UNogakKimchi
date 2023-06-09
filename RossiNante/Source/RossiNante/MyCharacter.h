@@ -20,14 +20,16 @@ protected:
 	virtual void BeginPlay() override;
 	virtual void PostInitializeComponents() override;
 private:
-	UPROPERTY(VisibleAnywhere, Category = Pawn)
+	UPROPERTY( EditAnywhere, Category = Pawn)
 		bool IsAttacking = false;
-	UPROPERTY(VisibleAnywhere, Category = Pawn)
+	UPROPERTY( EditAnywhere, Category = Pawn)
 		bool IsSkillCasting = false;
 
 	UPROPERTY()
 		class UMyAnimInstance* AnimInstance;
 
+	UPROPERTY(EditAnywhere, Category = "Movement")
+		float Speed = 200.f;
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;

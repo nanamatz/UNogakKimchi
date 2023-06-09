@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeRossiNante_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x74F1D6E7,
+				0x12E8D1E5,
 				0xF25CD93C,
 				METADATA_PARAMS(nullptr, 0)
 			};
