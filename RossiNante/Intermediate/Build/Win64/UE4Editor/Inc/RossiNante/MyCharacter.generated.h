@@ -49,6 +49,14 @@ class UAnimMontage;
 		P_NATIVE_BEGIN; \
 		P_THIS->OnAttackEnded(Z_Param_Montage,Z_Param_bInterrupted); \
 		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execTumble) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Tumble(); \
+		P_NATIVE_END; \
 	}
 
 
@@ -85,6 +93,14 @@ class UAnimMontage;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->OnAttackEnded(Z_Param_Montage,Z_Param_bInterrupted); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execTumble) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Tumble(); \
 		P_NATIVE_END; \
 	}
 

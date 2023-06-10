@@ -61,33 +61,33 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 void AMyCharacter::Attack()
 {
-	if (IsAttacking || IsSkillCasting) return;
-	
+	if (IsAttacking || IsSkillCasting || AnimInstance->IsTumbling) return;
+	UE_LOG(LogTemp, Warning, TEXT("Attack!"));
+	IsAttacking = true;
 	AnimInstance->PlayAttackMontage();
 	
 	AnimInstance->JumpToSection(AttackIndex);
 
 	AttackIndex = (AttackIndex + 1)%2;
-
-	IsAttacking = true;
 }
 
 void AMyCharacter::Tumble()
 {
-	if (IsSkillCasting || AnimInstance->IsJumping) return;
+	if (IsSkillCasting || AnimInstance->IsJumping || AnimInstance->IsTumbling) return;
 	AnimInstance->IsTumbling = true;
-	AnimInstance->PlayTumbleMontage();
+	UE_LOG(LogTemp, Warning, TEXT("Tumble"));
+	//AnimInstance->PlayTumbleMontage();
 }
 
 void AMyCharacter::Skill_Q()
 {
-	if (IsSkillCasting || AnimInstance->IsJumping)return; //|| AnimInstance->IsTumbling) return;
+	if (IsAttacking || IsSkillCasting || AnimInstance->IsJumping || AnimInstance->IsTumbling)return;
 	IsSkillCasting = true;
 	AnimInstance->PlaySkill_QMontage();
 }
 void AMyCharacter::Skill_E()
 {
-	if (IsSkillCasting || AnimInstance->IsJumping)return; //|| AnimInstance->IsTumbling) return;
+	if (IsAttacking || IsSkillCasting || AnimInstance->IsJumping || AnimInstance->IsTumbling)return;
 	IsSkillCasting = true;
 	AnimInstance->PlaySkill_EMontage();
 }
@@ -134,6 +134,7 @@ void AMyCharacter::IsAttackHit()
 void AMyCharacter::UpDown(float Value)
 {
 	if (IsSkillCasting) return;
+	UE_LOG(LogTemp, Warning, TEXT("UpDown %.2f"), Value);
 	UpDownValue = Value;
 	AddMovementInput(GetActorForwardVector(), Value);
 }
@@ -141,6 +142,8 @@ void AMyCharacter::UpDown(float Value)
 void AMyCharacter::LeftRight(float Value)
 {
 	if (IsSkillCasting) return;
+	UE_LOG(LogTemp, Warning, TEXT("LeftRight %.2f"), Value);
+
 	LeftRightValue = Value;
 	AddMovementInput(GetActorRightVector(), Value);
 }

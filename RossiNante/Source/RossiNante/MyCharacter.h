@@ -19,11 +19,13 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 	virtual void PostInitializeComponents() override;
-private:
-	UPROPERTY( EditAnywhere, Category = Pawn)
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn)
 		bool IsAttacking = false;
-	UPROPERTY( EditAnywhere, Category = Pawn)
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn)
 		bool IsSkillCasting = false;
+private:
+
 
 	UPROPERTY()
 		class UMyAnimInstance* AnimInstance;
@@ -38,8 +40,12 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	void Attack();
+
+	UFUNCTION(BlueprintCallable)
 	void Tumble();
+
 	void Skill_Q();
+
 	void Skill_E();
 	
 	void IsAttackHit();
