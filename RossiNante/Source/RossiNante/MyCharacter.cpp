@@ -62,7 +62,7 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 void AMyCharacter::Attack()
 {
 	if (IsAttacking || IsSkillCasting || AnimInstance->IsTumbling) return;
-	UE_LOG(LogTemp, Warning, TEXT("Attack!"));
+	UE_LOG(LogTemp, Warning, TEXT("Attack: %d"),AnimInstance->IsTumbling);
 	IsAttacking = true;
 	AnimInstance->PlayAttackMontage();
 	
@@ -73,9 +73,10 @@ void AMyCharacter::Attack()
 
 void AMyCharacter::Tumble()
 {
-	if (IsSkillCasting || AnimInstance->IsJumping || AnimInstance->IsTumbling) return;
-	AnimInstance->IsTumbling = true;
-	UE_LOG(LogTemp, Warning, TEXT("Tumble"));
+	if (IsAttacking || IsSkillCasting || AnimInstance->IsJumping || AnimInstance->IsTumbling) return;
+	IsTumbling = true;
+	AnimInstance->IsTumbling = IsTumbling;
+	UE_LOG(LogTemp, Warning, TEXT("Tumble: %d"), AnimInstance->IsTumbling);
 	//AnimInstance->PlayTumbleMontage();
 }
 
@@ -134,7 +135,6 @@ void AMyCharacter::IsAttackHit()
 void AMyCharacter::UpDown(float Value)
 {
 	if (IsSkillCasting) return;
-	UE_LOG(LogTemp, Warning, TEXT("UpDown %.2f"), Value);
 	UpDownValue = Value;
 	AddMovementInput(GetActorForwardVector(), Value);
 }
@@ -142,8 +142,6 @@ void AMyCharacter::UpDown(float Value)
 void AMyCharacter::LeftRight(float Value)
 {
 	if (IsSkillCasting) return;
-	UE_LOG(LogTemp, Warning, TEXT("LeftRight %.2f"), Value);
-
 	LeftRightValue = Value;
 	AddMovementInput(GetActorRightVector(), Value);
 }
@@ -160,7 +158,9 @@ void AMyCharacter::OnAttackEnded(UAnimMontage* Montage, bool bInterrupted)//공격
 
 void AMyCharacter::OnTumbleEnded()//구르기 델리게이트
 {
-	AnimInstance->IsTumbling = false;
+	IsTumbling = false;
+	AnimInstance->IsTumbling = IsTumbling;
+	UE_LOG(LogTemp, Warning, TEXT("Tumble End: %d"), AnimInstance->IsTumbling);
 }
 
 void AMyCharacter::OnSkillCastEnded()//스킬 델리게이트

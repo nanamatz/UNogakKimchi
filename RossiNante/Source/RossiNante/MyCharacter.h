@@ -24,6 +24,8 @@ protected:
 		bool IsAttacking = false;
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn)
 		bool IsSkillCasting = false;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn)
+		bool IsTumbling = false;
 private:
 
 
