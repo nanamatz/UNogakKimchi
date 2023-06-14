@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "Engine/GameInstance.h"
 #include "Engine/DataTable.h"
+#include "MyGameModeBase.h"
 #include "MyGameInstance.generated.h"
 
 USTRUCT()
@@ -28,10 +29,16 @@ class ROSSINANTE_API UMyGameInstance : public UGameInstance
 	GENERATED_BODY()
 public:
 		UMyGameInstance();
-
+		SOCKET Socket;
+		SOCKET GetSocket();
 		virtual void Init() override;
 		FMyCharacterData* GetStatData(int32 Level);
 private:
 	UPROPERTY()
 		class UDataTable* MyStats;
+
+	AMyGameModeBase* GameMode;
+	
+
+	void ConnectToServer();
 };
