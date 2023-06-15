@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "MyGameModeBase.h"
 #include "MyCharacter.generated.h"
 
 UCLASS()
@@ -19,32 +20,43 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 	virtual void PostInitializeComponents() override;
-private:
-	UPROPERTY(VisibleAnywhere, Category = Pawn)
-		bool IsAttacking = false;
-	UPROPERTY(VisibleAnywhere, Category = Pawn)
-		bool IsSkillCasting = false;
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn)
+		bool IsAttacking = false;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn)
+		bool IsSkillCasting = false;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn)
+		bool IsTumbling = false;
+
+private:
+	AMyGameModeBase* GameMode;
+	float q_waitingTime;
+	
 	UPROPERTY()
 		class UMyAnimInstance* AnimInstance;
+
+	UPROPERTY(EditAnywhere, Category = "Skill")
+		float q_coolTime;
+	UPROPERTY(EditAnywhere, Category = "Movement")
+		float Speed = 200.f;
 
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	void Attack();
-	void Tumble();
 	void Skill_Q();
 	void Skill_E();
-	
 	void IsAttackHit();
-
 	void UpDown(float Value);
 	void LeftRight(float Value);
 	void Yaw(float Value);
+	void UpdateHealthPercent();	// HealthBar HUD에 현재 체력을 Update함
+
+
+	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser) override;
 
 	UFUNCTION()
 		void OnAttackEnded(UAnimMontage* Montage, bool bInterrupted);
@@ -55,9 +67,9 @@ public:
 	UFUNCTION()
 		void OnSkillCastEnded();
 
-	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser) override;
+	UFUNCTION(BlueprintCallable)
+		void Tumble();
 
-public:
 	UPROPERTY()
 		bool IsDie = false;
 	UPROPERTY()
@@ -68,5 +80,8 @@ public:
 		int32 AttackIndex = 0;
 
 	UPROPERTY(EditAnywhere)
-	class UMyStatComponent* Stat;
+		class UMyStatComponent* Stat;
+
+	UPROPERTY()
+		class UHUDWidget* HUDWidget;
 };
