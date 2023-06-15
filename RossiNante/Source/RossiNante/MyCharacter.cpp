@@ -74,7 +74,8 @@ void AMyCharacter::Attack()
 void AMyCharacter::Tumble()
 {
 	if (IsSkillCasting || AnimInstance->IsJumping || AnimInstance->IsTumbling) return;
-	AnimInstance->IsTumbling = true;
+	IsTumbling = true;
+	AnimInstance->IsTumbling = IsTumbling;
 	UE_LOG(LogTemp, Warning, TEXT("Tumble"));
 	//AnimInstance->PlayTumbleMontage();
 }
@@ -160,7 +161,8 @@ void AMyCharacter::OnAttackEnded(UAnimMontage* Montage, bool bInterrupted)//공격
 
 void AMyCharacter::OnTumbleEnded()//구르기 델리게이트
 {
-	AnimInstance->IsTumbling = false;
+	IsTumbling = false;
+	AnimInstance->IsTumbling = IsTumbling;
 }
 
 void AMyCharacter::OnSkillCastEnded()//스킬 델리게이트

@@ -150,6 +150,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyCharacter); \
 #define RossiNante_Source_RossiNante_MyCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__IsAttacking() { return STRUCT_OFFSET(AMyCharacter, IsAttacking); } \
 	FORCEINLINE static uint32 __PPO__IsSkillCasting() { return STRUCT_OFFSET(AMyCharacter, IsSkillCasting); } \
+	FORCEINLINE static uint32 __PPO__IsTumbling() { return STRUCT_OFFSET(AMyCharacter, IsTumbling); } \
 	FORCEINLINE static uint32 __PPO__AnimInstance() { return STRUCT_OFFSET(AMyCharacter, AnimInstance); } \
 	FORCEINLINE static uint32 __PPO__Speed() { return STRUCT_OFFSET(AMyCharacter, Speed); }
 

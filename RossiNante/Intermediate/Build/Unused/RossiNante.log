@@ -2,14 +2,22 @@
 UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Config\DefaultEngine.ini
 UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Config\DefaultEngine.ini
 UnrealBuildTool : warning : Couldn't parse '>>>>>>> jeonghoon' in UnrealBuildTool.ConfigFileSection of C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Config\DefaultEngine.ini
+  Parsing headers for RossiNanteEditor
+    Running UnrealHeaderTool "C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\RossiNante.uproject" "C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\RossiNanteEditor\Development\RossiNanteEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for RossiNanteEditor in 4.271765 seconds
   Building RossiNanteEditor...
   Using Visual Studio 2019 14.29.30147 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 12 processes...
-    [1/4] MyCharacter.cpp
-    [2/4] UE4Editor-RossiNante-0040.lib
-       C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0040.lib ���̺귯�� �� C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0040.exp ��ü�� �����ϰ� �ֽ��ϴ�.
-    [3/4] UE4Editor-RossiNante-0040.dll
-       C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0040.suppressed.lib ���̺귯�� �� C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0040.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
-    [4/4] RossiNanteEditor.target
-  Total time in Parallel executor: 1.59 seconds
-  Total execution time: 2.15 seconds
+  Building 7 actions with 12 processes...
+    [1/7] MyAnimInstance.cpp
+    [2/7] MyCharacter.gen.cpp
+    [3/7] MyCharacter.cpp
+    [4/7] MyGameModeBase.cpp
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h(611): warning C4005: 'TEXT': ��ũ�� ������
+    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'�� ���� ���Ǹ� �����Ͻʽÿ�.
+    [5/7] UE4Editor-RossiNante-0042.lib
+       C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0042.lib ���̺귯�� �� C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0042.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [6/7] UE4Editor-RossiNante-0042.dll
+       C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0042.suppressed.lib ���̺귯�� �� C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0042.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [7/7] RossiNanteEditor.target
+  Total time in Parallel executor: 1.58 seconds
+  Total execution time: 6.56 seconds
