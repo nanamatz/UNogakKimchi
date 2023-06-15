@@ -60,7 +60,6 @@ void UMyAnimInstance::PlaySkill_EMontage()
 void UMyAnimInstance::PlayTumbleMontage()
 {
 	if (!Montage_IsPlaying(TumbleMontage)) {
-		UE_LOG(LogTemp, Warning, TEXT("TumbleMontage"));
 		Montage_Play(TumbleMontage, 1.f);
 	}
 }

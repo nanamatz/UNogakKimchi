@@ -5,33 +5,22 @@
 #include "Components/CapsuleComponent.h"
 #include "MyAnimInstance.h"
 #include "DrawDebugHelpers.h"
-#include "Kismet/GameplayStatics.h"
 #include "MyStatComponent.h"
-#include "HUDWidget.h"
-
 
 // Sets default values
 AMyCharacter::AMyCharacter()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-
 	PrimaryActorTick.bCanEverTick = true;
-	Stat = CreateDefaultSubobject<UMyStatComponent>(TEXT("STAT"));
 
+	Stat = CreateDefaultSubobject<UMyStatComponent>(TEXT("STAT"));
 }
 
 // Called when the game starts or when spawned
 void AMyCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-
-	GameMode = Cast<AMyGameModeBase>(GetWorld()->GetAuthGameMode());
-
-	HUDWidget = GameMode->CreateHUDWidget();
-	HUDWidget->InitHealthPercent(Stat);
-	GameMode->EnableHUDWidget();
-
-	q_waitingTime = 0;
+	
 }
 
 void AMyCharacter::PostInitializeComponents()
@@ -53,10 +42,6 @@ void AMyCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	if (q_waitingTime > 0) {
-		q_waitingTime -= DeltaTime;
-		HUDWidget->UpdateQSkillCoolTime(q_waitingTime, q_coolTime);
-	}
 }
 
 // Called to bind functionality to input
@@ -76,36 +61,33 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 void AMyCharacter::Attack()
 {
-	if (IsAttacking || IsSkillCasting || AnimInstance->IsTumbling) return;
-	UE_LOG(LogTemp, Warning, TEXT("Attack: %d"),AnimInstance->IsTumbling);
-	IsAttacking = true;
+	if (IsAttacking || IsSkillCasting) return;
+	
 	AnimInstance->PlayAttackMontage();
 	
 	AnimInstance->JumpToSection(AttackIndex);
 
 	AttackIndex = (AttackIndex + 1)%2;
+
+	IsAttacking = true;
 }
 
 void AMyCharacter::Tumble()
 {
-	if (IsAttacking || IsSkillCasting || AnimInstance->IsJumping || AnimInstance->IsTumbling) return;
-	IsTumbling = true;
-	AnimInstance->IsTumbling = IsTumbling;
-	UE_LOG(LogTemp, Warning, TEXT("Tumble: %d"), AnimInstance->IsTumbling);
-	//AnimInstance->PlayTumbleMontage();
+	if (IsSkillCasting || AnimInstance->IsJumping) return;
+	AnimInstance->IsTumbling = true;
+	AnimInstance->PlayTumbleMontage();
 }
 
 void AMyCharacter::Skill_Q()
 {
-	if (q_waitingTime > 0 || IsAttacking || IsSkillCasting || AnimInstance->IsJumping || AnimInstance->IsTumbling) return;
+	if (IsSkillCasting || AnimInstance->IsJumping || AnimInstance->IsTumbling) return;
 	IsSkillCasting = true;
-	q_waitingTime = q_coolTime;
-	HUDWidget->UpdateQSkillCoolTime(q_waitingTime, q_coolTime);
 	AnimInstance->PlaySkill_QMontage();
 }
 void AMyCharacter::Skill_E()
 {
-	if (IsAttacking || IsSkillCasting || AnimInstance->IsJumping || AnimInstance->IsTumbling)return;
+	if (IsSkillCasting || AnimInstance->IsJumping || AnimInstance->IsTumbling) return;
 	IsSkillCasting = true;
 	AnimInstance->PlaySkill_EMontage();
 }
@@ -175,9 +157,7 @@ void AMyCharacter::OnAttackEnded(UAnimMontage* Montage, bool bInterrupted)//공격
 
 void AMyCharacter::OnTumbleEnded()//구르기 델리게이트
 {
-	IsTumbling = false;
-	AnimInstance->IsTumbling = IsTumbling;
-	UE_LOG(LogTemp, Warning, TEXT("Tumble End: %d"), AnimInstance->IsTumbling);
+	AnimInstance->IsTumbling = false;
 }
 
 void AMyCharacter::OnSkillCastEnded()//스킬 델리게이트
@@ -195,9 +175,6 @@ float AMyCharacter::TakeDamage(float DamageAmount, struct FDamageEvent const& Da
 	UE_LOG(LogTemp, Log, TEXT("%d"), AnimInstance->IsAttacked);
 	AnimInstance->IsAttacked = true;
 	Stat->OnAttacked(DamageAmount);
-
-	/* 공격받을 시 HP를 업데이트 해준다. */
-
 	if (Stat->GetHp() <= 0) {
 		UE_LOG(LogTemp, Log, TEXT("Die"));
 		IsDie = true;
@@ -211,12 +188,4 @@ float AMyCharacter::TakeDamage(float DamageAmount, struct FDamageEvent const& Da
 	UE_LOG(LogTemp, Log, TEXT("%d"),AnimInstance->IsAttacked);
 
 	return DamageAmount;
-}
-
-void AMyCharacter::UpdateHealthPercent()
-{
-	if (GameMode->HUDWidget != nullptr) {
-		GameMode->HUDWidget->UpdateHealthPercent();
-	}
-	
 }

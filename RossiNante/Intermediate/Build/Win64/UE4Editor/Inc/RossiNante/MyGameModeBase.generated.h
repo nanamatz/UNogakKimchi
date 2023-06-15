@@ -36,7 +36,7 @@ public: \
 
 #define RossiNante_Source_RossiNante_MyGameModeBase_h_29_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AMyGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API AMyGameModeBase(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMyGameModeBase) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AMyGameModeBase); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyGameModeBase); \
@@ -48,8 +48,6 @@ public:
 
 
 #define RossiNante_Source_RossiNante_MyGameModeBase_h_29_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AMyGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AMyGameModeBase(AMyGameModeBase&&); \
@@ -57,13 +55,10 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AMyGameModeBase); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyGameModeBase); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMyGameModeBase)
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AMyGameModeBase)
 
 
-#define RossiNante_Source_RossiNante_MyGameModeBase_h_29_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__BP_HUDWidget() { return STRUCT_OFFSET(AMyGameModeBase, BP_HUDWidget); }
-
-
+#define RossiNante_Source_RossiNante_MyGameModeBase_h_29_PRIVATE_PROPERTY_OFFSET
 #define RossiNante_Source_RossiNante_MyGameModeBase_h_26_PROLOG
 #define RossiNante_Source_RossiNante_MyGameModeBase_h_29_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

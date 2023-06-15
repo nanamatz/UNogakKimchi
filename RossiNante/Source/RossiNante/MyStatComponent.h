@@ -12,7 +12,7 @@ class ROSSINANTE_API UMyStatComponent : public UActorComponent
 {
 	GENERATED_BODY()
 
-public:
+public:	
 	// Sets default values for this component's properties
 	UMyStatComponent();
 
@@ -20,17 +20,14 @@ protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
 	virtual void InitializeComponent() override;
-public:
+public:	
 	void SetLevel(int32 NewLevel);
 	void OnAttacked(float DamageAmount);
 
 	int32 GetLevel() { return Level; }
 	int32 GetHp() { return Hp; }
 	int32 GetAttack() { return Attack; }
-	int32 GetMaxHp() { return maxHp; }
 private:
-	int32 maxHp;
-
 	UPROPERTY(EditAnywhere, Category = Stat, Meta = (AllowPrivateAccess = true))
 		int32 Level;
 	UPROPERTY(EditAnywhere, Category = Stat, Meta = (AllowPrivateAccess = true))

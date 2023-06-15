@@ -38,13 +38,14 @@ void UMyStatComponent::InitializeComponent()
 
 void UMyStatComponent::SetLevel(int32 NewLevel)
 {
+
 	auto MyGameInstance = Cast<UMyGameInstance>(UGameplayStatics::GetGameInstance(Cast<UObject>(GetWorld())));
 	if (MyGameInstance) {
 		auto StatData = MyGameInstance->GetStatData(NewLevel);
 		if (StatData) {
+
 			Level = StatData->Level;
 			Hp = StatData->MaxHp;
-			maxHp = Hp;
 			Attack = StatData->Attack;
 		}
 	}
