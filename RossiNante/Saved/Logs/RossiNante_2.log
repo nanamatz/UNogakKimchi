@@ -1,4 +1,4 @@
-﻿Log file open, 06/14/23 10:30:39
+﻿Log file open, 06/16/23 15:10:34
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: RossiNante
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.071386
+LogStats: Stats thread started at 0.072151
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -163,380 +163,439 @@ LogInit: Presizing for max 25165824 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2023.06.14-01.30.39:270][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Engine.ini]
-[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2023.06.14-01.30.39:270][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Engine.ini]
-[2023.06.14-01.30.39:270][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Engine.ini]
-[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2023.06.14-01.30.39:270][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Engine.ini]
-[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2023.06.14-01.30.39:270][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Engine.ini]
-[2023.06.14-01.30.39:270][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Engine.ini]
-[2023.06.14-01.30.39:272][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Scalability.ini]
-[2023.06.14-01.30.39:272][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2023.06.14-01.30.39:272][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2023.06.14-01.30.39:272][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Scalability.ini]
-[2023.06.14-01.30.39:272][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2023.06.14-01.30.39:272][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Scalability.ini]
-[2023.06.14-01.30.39:272][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2023.06.14-01.30.39:272][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2023.06.14-01.30.39:272][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2023.06.14-01.30.39:272][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2023.06.14-01.30.39:272][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Scalability.ini]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Scalability.ini]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Scalability.ini]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Scalability.ini]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Scalability.ini]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2023.06.14-01.30.39:273][  0]LogInit: Selected Device Profile: [Windows]
-[2023.06.14-01.30.39:273][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2023.06.14-01.30.39:276][  0]LogHAL: Display: Platform has ~ 16 GB [17085329408 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2023.06.14-01.30.39:276][  0]LogInit: Going up to parent DeviceProfile []
-[2023.06.14-01.30.39:276][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@1] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Scalability.ini]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:1]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.6]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@1] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Scalability.ini]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:2]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@1] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Scalability.ini]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.ShadowQuality:3]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:1024]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.05]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.7]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.25]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:.5]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@1] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Scalability.ini]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:60]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:1]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:350]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:2]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.7]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:2]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:3                 ; low number of samples when gathering]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:0    ; no foreground scattering]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:0    ; no foreground scattering]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Applying CVar settings from Section [TextureQuality@1] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Scalability.ini]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:1]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:2]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:4]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:600]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@1] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Scalability.ini]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:32]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:2 ; Medium quality]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SSS.Scale:0.75]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SSGI.Quality:1]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.25]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2023.06.14-01.30.39:277][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@1] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Scalability.ini]
-[2023.06.14-01.30.39:277][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.4]]
-[2023.06.14-01.30.39:277][  0]LogConfig: Setting CVar [[grass.DensityScale:0.4]]
-[2023.06.14-01.30.39:277][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@1] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Scalability.ini]
-[2023.06.14-01.30.39:277][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2023.06.14-01.30.39:277][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2023.06.14-01.30.39:277][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2023.06.14-01.30.39:277][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2023.06.14-01.30.39:277][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2023.06.14-01.30.39:277][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2023.06.14-01.30.39:277][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Engine.ini]
-[2023.06.14-01.30.39:277][  0]LogInit: Computer: DESKTOP-SIQC98D
-[2023.06.14-01.30.39:277][  0]LogInit: User: 201911183
-[2023.06.14-01.30.39:277][  0]LogInit: CPU Page size=4096, Cores=8
-[2023.06.14-01.30.39:277][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2023.06.14-01.30.39:277][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2023.06.14-01.30.39:277][  0]LogMemory: Platform Memory Stats for Windows
-[2023.06.14-01.30.39:277][  0]LogMemory: Process Physical Memory: 109.77 MB used, 109.77 MB peak
-[2023.06.14-01.30.39:277][  0]LogMemory: Process Virtual Memory: 103.00 MB used, 103.00 MB peak
-[2023.06.14-01.30.39:277][  0]LogMemory: Physical Memory: 14378.37 MB used,  1915.47 MB free, 16293.84 MB total
-[2023.06.14-01.30.39:277][  0]LogMemory: Virtual Memory: 5188.29 MB used,  134212536.00 MB free, 134217728.00 MB total
-[2023.06.14-01.30.39:280][  0]LogWindows: WindowsPlatformFeatures enabled
-[2023.06.14-01.30.39:322][  0]LogInit: Overriding language with editor language configuration option (en).
-[2023.06.14-01.30.39:322][  0]LogInit: Overriding locale with editor culture configuration option ().
-[2023.06.14-01.30.39:322][  0]LogInit: Using OS detected locale (ko-KR).
-[2023.06.14-01.30.39:483][  0]LogInit: Setting process to per monitor DPI aware
-[2023.06.14-01.30.39:605][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2023.06.14-01.30.39:605][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2023.06.14-01.30.39:860][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2023.06.14-01.30.39:860][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2023.06.14-01.30.39:860][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2023.06.14-01.30.39:860][  0]LogD3D11RHI: D3D11 adapters:
-[2023.06.14-01.30.39:964][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080 SUPER' (Feature Level 11_0)
-[2023.06.14-01.30.39:964][  0]LogD3D11RHI:       8001/0/8146 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2023.06.14-01.30.39:966][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2023.06.14-01.30.39:966][  0]LogD3D11RHI:       0/0/8146 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2023.06.14-01.30.39:966][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2023.06.14-01.30.39:975][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2023.06.14-01.30.39:975][  0]LogD3D11RHI:     GPU DeviceId: 0x1e81 (for the marketing name, search the web for "GPU Device Id")
-[2023.06.14-01.30.39:975][  0]LogWindows: EnumDisplayDevices:
-[2023.06.14-01.30.39:975][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080 SUPER' (P:1 D:1)
-[2023.06.14-01.30.39:975][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080 SUPER' (P:0 D:1)
-[2023.06.14-01.30.39:976][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080 SUPER' (P:0 D:0)
-[2023.06.14-01.30.39:976][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080 SUPER' (P:0 D:0)
-[2023.06.14-01.30.39:976][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2023.06.14-01.30.39:976][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080 SUPER
-[2023.06.14-01.30.39:976][  0]LogD3D11RHI:   Driver Version: 535.98 (internal:31.0.15.3598, unified:535.98)
-[2023.06.14-01.30.39:976][  0]LogD3D11RHI:      Driver Date: 5-24-2023
-[2023.06.14-01.30.39:976][  0]LogRHI: Texture pool is 5600 MB (70% of 8001 MB)
-[2023.06.14-01.30.40:036][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2023.06.14-01.30.40:037][  0]LogD3D11RHI: Async texture creation enabled
-[2023.06.14-01.30.40:038][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061081).
-[2023.06.14-01.30.40:051][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2023.06.14-01.30.40:280][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2023.06.14-01.30.40:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2023.06.14-01.30.40:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2023.06.14-01.30.40:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
-[2023.06.14-01.30.40:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2023.06.14-01.30.40:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
-[2023.06.14-01.30.40:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
-[2023.06.14-01.30.40:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2023.06.14-01.30.40:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
-[2023.06.14-01.30.40:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2023.06.14-01.30.40:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2023.06.14-01.30.40:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
-[2023.06.14-01.30.40:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2023.06.14-01.30.40:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
-[2023.06.14-01.30.40:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
-[2023.06.14-01.30.40:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2023.06.14-01.30.40:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
-[2023.06.14-01.30.40:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2023.06.14-01.30.40:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2023.06.14-01.30.40:322][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2023.06.14-01.30.40:322][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2023.06.14-01.30.40:332][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2023.06.14-01.30.40:339][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2023.06.14-01.30.40:349][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2023.06.14-01.30.40:356][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2023.06.14-01.30.40:363][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2023.06.14-01.30.40:370][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2023.06.14-01.30.40:391][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2023.06.14-01.30.40:391][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2023.06.14-01.30.40:403][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2023.06.14-01.30.40:403][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2023.06.14-01.30.40:409][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2023.06.14-01.30.40:417][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2023.06.14-01.30.40:425][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2023.06.14-01.30.40:435][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2023.06.14-01.30.40:435][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2023.06.14-01.30.40:438][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2023.06.14-01.30.40:463][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Users/201911183/Desktop/unreal/0613/RossiNante/Intermediate/Shaders/WorkingDirectory/35188/).
-[2023.06.14-01.30.40:463][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/201911183/AppData/Local/Temp/UnrealShaderWorkingDir/1783EA62484046CBC0F204980C5CCFD9/'.
-[2023.06.14-01.30.40:463][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2023.06.14-01.30.40:463][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2023.06.14-01.30.40:463][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2023.06.14-01.30.41:079][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2023.06.14-01.30.41:121][  0]LogDerivedDataCache: Loaded boot cache 0.04s 86MB C:/Users/201911183/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2023.06.14-01.30.41:121][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/201911183/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
-[2023.06.14-01.30.41:121][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/201911183/Desktop/unreal/0613/RossiNante/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2023.06.14-01.30.41:121][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2023.06.14-01.30.41:121][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/201911183/Desktop/unreal/0613/RossiNante/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2023.06.14-01.30.41:121][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2023.06.14-01.30.41:130][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2023.06.14-01.30.41:130][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2023.06.14-01.30.41:130][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2023.06.14-01.30.41:131][  0]LogDerivedDataCache: Using Local data cache path C:/Users/201911183/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2023.06.14-01.30.41:131][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2023.06.14-01.30.41:131][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2023.06.14-01.30.41:153][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2023.06.14-01.30.41:156][  0]LogSlate: Using FreeType 2.10.0
-[2023.06.14-01.30.41:156][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2023.06.14-01.30.41:214][  0]LogAssetRegistry: FAssetRegistry took 0.0024 seconds to start up
-[2023.06.14-01.30.41:460][  0]LogInit: Selected Device Profile: [Windows]
-[2023.06.14-01.30.41:575][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2023.06.14-01.30.41:575][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2023.06.14-01.30.41:575][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2023.06.14-01.30.41:575][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2023.06.14-01.30.41:575][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2023.06.14-01.30.41:588][  0]LogNetVersion: RossiNante 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 557242147)
-[2023.06.14-01.30.42:711][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.027749 seconds
-[2023.06.14-01.30.42:715][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
-[2023.06.14-01.30.42:715][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
-[2023.06.14-01.30.42:715][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2023.06.14-01.30.43:046][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2023.06.14-01.30.43:049][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2023.06.14-01.30.44:405][  0]LogWindows: Error: === Critical error: ===
-[2023.06.14-01.30.44:405][  0]LogWindows: Error: 
-[2023.06.14-01.30.44:405][  0]LogWindows: Error: Fatal error!
-[2023.06.14-01.30.44:405][  0]LogWindows: Error: 
-[2023.06.14-01.30.44:405][  0]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x00000160
-[2023.06.14-01.30.44:405][  0]LogWindows: Error: 
-[2023.06.14-01.30.44:405][  0]LogWindows: Error: [Callstack] 0x00007ffd7fba6cac UE4Editor-RossiNante-0094.dll!AMyCharacter::AMyCharacter() [C:\Users\201911183\Desktop\unreal\0613\RossiNante\Source\RossiNante\MyCharacter.cpp:18]
-[2023.06.14-01.30.44:405][  0]LogWindows: Error: [Callstack] 0x00007ffdee68191a UE4Editor-CoreUObject.dll!UnknownFunction []
-[2023.06.14-01.30.44:405][  0]LogWindows: Error: [Callstack] 0x00007ffdee911ddf UE4Editor-CoreUObject.dll!UnknownFunction []
-[2023.06.14-01.30.44:405][  0]LogWindows: Error: [Callstack] 0x00007ffdee8f119f UE4Editor-CoreUObject.dll!UnknownFunction []
-[2023.06.14-01.30.44:405][  0]LogWindows: Error: [Callstack] 0x00007ffdee8257b5 UE4Editor-CoreUObject.dll!UnknownFunction []
-[2023.06.14-01.30.44:405][  0]LogWindows: Error: [Callstack] 0x00007ffdeeedc487 UE4Editor-Core.dll!UnknownFunction []
-[2023.06.14-01.30.44:405][  0]LogWindows: Error: [Callstack] 0x00007ffdeeefaa1b UE4Editor-Core.dll!UnknownFunction []
-[2023.06.14-01.30.44:405][  0]LogWindows: Error: [Callstack] 0x00007ffe2194af37 UE4Editor-Projects.dll!UnknownFunction []
-[2023.06.14-01.30.44:405][  0]LogWindows: Error: [Callstack] 0x00007ffe2194b229 UE4Editor-Projects.dll!UnknownFunction []
-[2023.06.14-01.30.44:405][  0]LogWindows: Error: [Callstack] 0x00007ff77656f671 UE4Editor.exe!UnknownFunction []
-[2023.06.14-01.30.44:405][  0]LogWindows: Error: [Callstack] 0x00007ff77657204b UE4Editor.exe!UnknownFunction []
-[2023.06.14-01.30.44:405][  0]LogWindows: Error: [Callstack] 0x00007ff77656c17c UE4Editor.exe!UnknownFunction []
-[2023.06.14-01.30.44:405][  0]LogWindows: Error: [Callstack] 0x00007ff77656c4ca UE4Editor.exe!UnknownFunction []
-[2023.06.14-01.30.44:405][  0]LogWindows: Error: [Callstack] 0x00007ff77657ceae UE4Editor.exe!UnknownFunction []
-[2023.06.14-01.30.44:405][  0]LogWindows: Error: [Callstack] 0x00007ff77657fcbe UE4Editor.exe!UnknownFunction []
-[2023.06.14-01.30.44:405][  0]LogWindows: Error: [Callstack] 0x00007ffe44fa55a0 KERNEL32.DLL!UnknownFunction []
-[2023.06.14-01.30.44:405][  0]LogWindows: Error: [Callstack] 0x00007ffe4612485b ntdll.dll!UnknownFunction []
-[2023.06.14-01.30.44:405][  0]LogWindows: Error: 
-[2023.06.14-01.30.44:415][  0]LogExit: Executing StaticShutdownAfterError
-[2023.06.14-01.30.44:417][  0]LogWindows: FPlatformMisc::RequestExit(1)
-[2023.06.14-01.30.44:417][  0]LogCore: Engine exit requested (reason: Win RequestExit)
-[2023.06.14-01.30.44:424][  0]Log file closed, 06/14/23 10:30:44
+[2023.06.16-06.10.34:690][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2023.06.16-06.10.34:690][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2023.06.16-06.10.34:690][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/201911183/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.06.16-06.10.34:690][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2023.06.16-06.10.34:690][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/201911183/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.06.16-06.10.34:690][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/201911183/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.06.16-06.10.34:690][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2023.06.16-06.10.34:690][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2023.06.16-06.10.34:690][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2023.06.16-06.10.34:690][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2023.06.16-06.10.34:690][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2023.06.16-06.10.34:690][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2023.06.16-06.10.34:690][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2023.06.16-06.10.34:690][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2023.06.16-06.10.34:690][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2023.06.16-06.10.34:690][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2023.06.16-06.10.34:690][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2023.06.16-06.10.34:690][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2023.06.16-06.10.34:690][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2023.06.16-06.10.34:690][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2023.06.16-06.10.34:690][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/201911183/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.06.16-06.10.34:690][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2023.06.16-06.10.34:690][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2023.06.16-06.10.34:690][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2023.06.16-06.10.34:690][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2023.06.16-06.10.34:690][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2023.06.16-06.10.34:690][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2023.06.16-06.10.34:690][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2023.06.16-06.10.34:690][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2023.06.16-06.10.34:690][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2023.06.16-06.10.34:690][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2023.06.16-06.10.34:690][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2023.06.16-06.10.34:690][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2023.06.16-06.10.34:690][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2023.06.16-06.10.34:690][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/201911183/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.06.16-06.10.34:690][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/201911183/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.06.16-06.10.34:693][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/201911183/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/201911183/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/201911183/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/201911183/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.06.16-06.10.34:693][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/201911183/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/201911183/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/201911183/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/201911183/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2023.06.16-06.10.34:694][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2023.06.16-06.10.34:694][  0]LogInit: Selected Device Profile: [Windows]
+[2023.06.16-06.10.34:694][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2023.06.16-06.10.34:696][  0]LogHAL: Display: Platform has ~ 16 GB [17085329408 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2023.06.16-06.10.34:696][  0]LogInit: Going up to parent DeviceProfile []
+[2023.06.16-06.10.34:697][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@1] File [C:/Users/201911183/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:1]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.6]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@1] File [C:/Users/201911183/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:2]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@1] File [C:/Users/201911183/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.ShadowQuality:3]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:1024]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.05]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.7]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.25]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:.5]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@1] File [C:/Users/201911183/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:60]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:1]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:350]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:2]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.7]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:2]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:3                 ; low number of samples when gathering]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:0    ; no foreground scattering]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:0    ; no foreground scattering]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Applying CVar settings from Section [TextureQuality@1] File [C:/Users/201911183/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:1]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:2]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:4]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:600]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@1] File [C:/Users/201911183/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:32]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:2 ; Medium quality]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.SSS.Scale:0.75]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.SSGI.Quality:1]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.25]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2023.06.16-06.10.34:697][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2023.06.16-06.10.34:698][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2023.06.16-06.10.34:698][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2023.06.16-06.10.34:698][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@1] File [C:/Users/201911183/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.16-06.10.34:698][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.4]]
+[2023.06.16-06.10.34:698][  0]LogConfig: Setting CVar [[grass.DensityScale:0.4]]
+[2023.06.16-06.10.34:698][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@1] File [C:/Users/201911183/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.16-06.10.34:698][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2023.06.16-06.10.34:698][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2023.06.16-06.10.34:698][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2023.06.16-06.10.34:698][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2023.06.16-06.10.34:698][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2023.06.16-06.10.34:698][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2023.06.16-06.10.34:698][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/201911183/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.06.16-06.10.34:698][  0]LogInit: Computer: DESKTOP-SIQC98D
+[2023.06.16-06.10.34:698][  0]LogInit: User: 201911183
+[2023.06.16-06.10.34:698][  0]LogInit: CPU Page size=4096, Cores=8
+[2023.06.16-06.10.34:698][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.06.16-06.10.34:698][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2023.06.16-06.10.34:698][  0]LogMemory: Platform Memory Stats for Windows
+[2023.06.16-06.10.34:698][  0]LogMemory: Process Physical Memory: 109.63 MB used, 109.63 MB peak
+[2023.06.16-06.10.34:698][  0]LogMemory: Process Virtual Memory: 102.95 MB used, 102.95 MB peak
+[2023.06.16-06.10.34:698][  0]LogMemory: Physical Memory: 9968.80 MB used,  6325.04 MB free, 16293.84 MB total
+[2023.06.16-06.10.34:698][  0]LogMemory: Virtual Memory: 5188.29 MB used,  134212536.00 MB free, 134217728.00 MB total
+[2023.06.16-06.10.34:701][  0]LogWindows: WindowsPlatformFeatures enabled
+[2023.06.16-06.10.34:748][  0]LogInit: Overriding language with editor language configuration option (en).
+[2023.06.16-06.10.34:748][  0]LogInit: Overriding locale with editor culture configuration option ().
+[2023.06.16-06.10.34:748][  0]LogInit: Using OS detected locale (ko-KR).
+[2023.06.16-06.10.34:894][  0]LogInit: Setting process to per monitor DPI aware
+[2023.06.16-06.10.34:955][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2023.06.16-06.10.34:955][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2023.06.16-06.10.35:125][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.06.16-06.10.35:125][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2023.06.16-06.10.35:125][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2023.06.16-06.10.35:125][  0]LogD3D11RHI: D3D11 adapters:
+[2023.06.16-06.10.35:253][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080 SUPER' (Feature Level 11_0)
+[2023.06.16-06.10.35:253][  0]LogD3D11RHI:       8001/0/8146 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2023.06.16-06.10.35:255][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2023.06.16-06.10.35:255][  0]LogD3D11RHI:       0/0/8146 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2023.06.16-06.10.35:255][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2023.06.16-06.10.35:263][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2023.06.16-06.10.35:263][  0]LogD3D11RHI:     GPU DeviceId: 0x1e81 (for the marketing name, search the web for "GPU Device Id")
+[2023.06.16-06.10.35:263][  0]LogWindows: EnumDisplayDevices:
+[2023.06.16-06.10.35:263][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080 SUPER' (P:1 D:1)
+[2023.06.16-06.10.35:264][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080 SUPER' (P:0 D:1)
+[2023.06.16-06.10.35:264][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080 SUPER' (P:0 D:0)
+[2023.06.16-06.10.35:265][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080 SUPER' (P:0 D:0)
+[2023.06.16-06.10.35:265][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2023.06.16-06.10.35:265][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080 SUPER
+[2023.06.16-06.10.35:265][  0]LogD3D11RHI:   Driver Version: 535.98 (internal:31.0.15.3598, unified:535.98)
+[2023.06.16-06.10.35:265][  0]LogD3D11RHI:      Driver Date: 5-24-2023
+[2023.06.16-06.10.35:265][  0]LogRHI: Texture pool is 5600 MB (70% of 8001 MB)
+[2023.06.16-06.10.35:324][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2023.06.16-06.10.35:324][  0]LogD3D11RHI: Async texture creation enabled
+[2023.06.16-06.10.35:325][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061081).
+[2023.06.16-06.10.35:407][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2023.06.16-06.10.35:791][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2023.06.16-06.10.35:814][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2023.06.16-06.10.35:814][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2023.06.16-06.10.35:814][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2023.06.16-06.10.35:814][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2023.06.16-06.10.35:814][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2023.06.16-06.10.35:814][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2023.06.16-06.10.35:814][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2023.06.16-06.10.35:814][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2023.06.16-06.10.35:814][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2023.06.16-06.10.35:814][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2023.06.16-06.10.35:814][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2023.06.16-06.10.35:814][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2023.06.16-06.10.35:814][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2023.06.16-06.10.35:814][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2023.06.16-06.10.35:814][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2023.06.16-06.10.35:814][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2023.06.16-06.10.35:814][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2023.06.16-06.10.35:814][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2023.06.16-06.10.35:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2023.06.16-06.10.35:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2023.06.16-06.10.35:835][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2023.06.16-06.10.35:840][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2023.06.16-06.10.35:847][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2023.06.16-06.10.35:852][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2023.06.16-06.10.35:859][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2023.06.16-06.10.35:864][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2023.06.16-06.10.35:884][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2023.06.16-06.10.35:884][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2023.06.16-06.10.35:896][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2023.06.16-06.10.35:896][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2023.06.16-06.10.35:902][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2023.06.16-06.10.35:908][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2023.06.16-06.10.35:914][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2023.06.16-06.10.35:920][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2023.06.16-06.10.35:920][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2023.06.16-06.10.35:923][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2023.06.16-06.10.35:942][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/201911183/Documents/GitHub/UNogakKimchi/RossiNante/Intermediate/Shaders/WorkingDirectory/5740/).
+[2023.06.16-06.10.35:942][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/201911183/AppData/Local/Temp/UnrealShaderWorkingDir/2C25735B4B3DAD002E87EAA78507B9BD/'.
+[2023.06.16-06.10.35:943][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2023.06.16-06.10.35:943][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2023.06.16-06.10.35:943][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2023.06.16-06.10.36:504][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2023.06.16-06.10.36:545][  0]LogDerivedDataCache: Loaded boot cache 0.04s 86MB C:/Users/201911183/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2023.06.16-06.10.36:545][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/201911183/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2023.06.16-06.10.36:545][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/201911183/Documents/GitHub/UNogakKimchi/RossiNante/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.06.16-06.10.36:545][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2023.06.16-06.10.36:545][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/201911183/Documents/GitHub/UNogakKimchi/RossiNante/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.06.16-06.10.36:545][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2023.06.16-06.10.36:553][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2023.06.16-06.10.36:553][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.06.16-06.10.36:553][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2023.06.16-06.10.36:555][  0]LogDerivedDataCache: Using Local data cache path C:/Users/201911183/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.06.16-06.10.36:555][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2023.06.16-06.10.36:555][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2023.06.16-06.10.36:573][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2023.06.16-06.10.36:575][  0]LogSlate: Using FreeType 2.10.0
+[2023.06.16-06.10.36:575][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.06.16-06.10.36:621][  0]LogAssetRegistry: FAssetRegistry took 0.0023 seconds to start up
+[2023.06.16-06.10.36:865][  0]LogInit: Selected Device Profile: [Windows]
+[2023.06.16-06.10.36:972][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.06.16-06.10.36:972][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2023.06.16-06.10.36:972][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2023.06.16-06.10.36:972][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2023.06.16-06.10.36:972][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2023.06.16-06.10.36:981][  0]LogNetVersion: RossiNante 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 557242147)
+[2023.06.16-06.10.37:821][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.044993 seconds
+[2023.06.16-06.10.37:827][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2023.06.16-06.10.37:827][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2023.06.16-06.10.37:827][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.06.16-06.10.38:129][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.06.16-06.10.38:132][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.06.16-06.10.38:756][  0]SourceControl: Source control is disabled
+[2023.06.16-06.10.38:756][  0]SourceControl: Source control is disabled
+[2023.06.16-06.10.38:757][  0]SourceControl: Source control is disabled
+[2023.06.16-06.10.38:757][  0]SourceControl: Source control is disabled
+[2023.06.16-06.10.38:758][  0]SourceControl: Source control is disabled
+[2023.06.16-06.10.38:840][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.06.16-06.10.38:849][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.06.16-06.10.38:849][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.06.16-06.10.38:913][  0]LogOcInput: OculusInput pre-init called
+[2023.06.16-06.10.38:921][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2023.06.16-06.10.38:921][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2023.06.16-06.10.38:968][  0]LogEngine: Initializing Engine...
+[2023.06.16-06.10.38:969][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.06.16-06.10.38:969][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2023.06.16-06.10.39:200][  0]LogInit: Initializing FReadOnlyCVARCache
+[2023.06.16-06.10.39:208][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.06.16-06.10.39:220][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.16-06.10.39:220][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.16-06.10.39:220][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.16-06.10.39:220][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.16-06.10.39:220][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.06.16-06.10.39:220][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.06.16-06.10.39:220][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.06.16-06.10.39:220][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.16-06.10.39:220][  0]LogAudio: Display: Using built-in audio occlusion.
+[2023.06.16-06.10.39:220][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2023.06.16-06.10.39:242][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2023.06.16-06.10.39:242][  0]LogAudioMixer: Display: Name: BenQ EX2710S(NVIDIA High Definition Audio)
+[2023.06.16-06.10.39:242][  0]LogAudioMixer: Display: Is Default: Yes
+[2023.06.16-06.10.39:242][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2023.06.16-06.10.39:242][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2023.06.16-06.10.39:242][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2023.06.16-06.10.39:242][  0]LogAudioMixer: Display: Channel Order:
+[2023.06.16-06.10.39:242][  0]LogAudioMixer: Display: 0: FrontLeft
+[2023.06.16-06.10.39:242][  0]LogAudioMixer: Display: 1: FrontRight
+[2023.06.16-06.10.39:257][  0]LogAudioMixer: Display: Using Audio Device BenQ EX2710S(NVIDIA High Definition Audio)
+[2023.06.16-06.10.39:262][  0]LogInit: FAudioDevice initialized.
+[2023.06.16-06.10.39:262][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2023.06.16-06.10.39:384][  0]LogDerivedDataCache: Saved boot cache 0.12s 86MB C:/Users/201911183/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2023.06.16-06.10.39:385][  0]LogInit: Texture streaming: Enabled
+[2023.06.16-06.10.39:399][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2023.06.16-06.10.39:399][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2023.06.16-06.10.39:409][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2023.06.16-06.10.39:442][  0]LogInit: Transaction tracking system initialized
+[2023.06.16-06.10.39:451][  0]BlueprintLog: New page: Editor Load
+[2023.06.16-06.10.39:477][  0]LocalizationService: Localization service is disabled
+[2023.06.16-06.10.40:478][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2023.06.16-06.10.40:478][  0]LogCook: Display: Mobile HDR setting 1
+[2023.06.16-06.10.40:537][  0]LogFileCache: Scanning file cache for directory 'C:/Users/201911183/Documents/GitHub/UNogakKimchi/RossiNante/Content/' took 0.03s
+[2023.06.16-06.10.41:130][  0]SourceControl: Source control is disabled
+[2023.06.16-06.10.41:130][  0]Cmd: MAP LOAD FILE="../../../../../../Users/201911183/Documents/GitHub/UNogakKimchi/RossiNante/Content/Maps/Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.06.16-06.10.41:130][  0]LightingResults: New page: Lighting Build
+[2023.06.16-06.10.41:131][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.06.16-06.10.41:131][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.16-06.10.41:131][  0]MapCheck: New page: Map Check
+[2023.06.16-06.10.41:131][  0]LightingResults: New page: Lighting Build
+[2023.06.16-06.10.41:157][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.06.16-06.10.41:974][  0]LogAIModule: Creating AISystem for world Default
+[2023.06.16-06.10.41:990][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.06.16-06.10.42:018][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2023.06.16-06.10.42:020][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.06.16-06.10.42:020][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.132ms to complete.
+[2023.06.16-06.10.42:020][  0]LogFileHelpers: Loading map 'Default' took 0.890
+[2023.06.16-06.10.42:149][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.16-06.10.42:154][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.16-06.10.42:159][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.16-06.10.42:164][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.16-06.10.42:174][  0]LogCollectionManager: Loaded 0 collections in 0.001469 seconds
+[2023.06.16-06.10.42:185][  0]LogFileCache: Scanning file cache for directory 'C:/Users/201911183/Documents/GitHub/UNogakKimchi/RossiNante/Saved/Collections/' took 0.00s
+[2023.06.16-06.10.42:185][  0]LogFileCache: Scanning file cache for directory 'C:/Users/201911183/Documents/GitHub/UNogakKimchi/RossiNante/Content/Developers/201911183/Collections/' took 0.00s
+[2023.06.16-06.10.42:185][  0]LogFileCache: Scanning file cache for directory 'C:/Users/201911183/Documents/GitHub/UNogakKimchi/RossiNante/Content/Collections/' took 0.00s
+[2023.06.16-06.10.42:185][  0]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 3024 classes and 719 folders.
+[2023.06.16-06.10.42:187][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2023.06.16-06.10.42:241][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2023.06.16-06.10.42:246][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2023.06.16-06.10.42:271][  0]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.06.16-06.10.42:273][  0]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.06.16-06.10.42:276][  0]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.06.16-06.10.42:322][  0]LogRenderer: Reallocating scene render targets to support 1200x568 Format 9 NumSamples 1 (Frame:1).
+[2023.06.16-06.10.42:404][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2023.06.16-06.10.42:404][  0]LogLoad: (Engine Initialization) Total time: 9.21 seconds
+[2023.06.16-06.10.42:404][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.06.16-06.10.42:466][  0]LogAssetRegistry: Asset discovery search completed in 5.8458 seconds
+[2023.06.16-06.10.42:469][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
+[2023.06.16-06.10.42:470][  0]LogContentStreaming: Texture pool size now 600 MB
+[2023.06.16-06.10.42:503][  0]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.06.16-06.10.42:756][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/201911183/Documents/GitHub/UNogakKimchi/RossiNante/Content/' took 0.33s
