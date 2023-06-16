@@ -1,4 +1,4 @@
-﻿Log file open, 05/27/23 00:03:10
+﻿Log file open, 06/14/23 10:30:39
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -8,8 +8,8 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
 LogInit: Display: Running engine for game: RossiNante
 LogPlatformFile: Not using cached read wrapper
-LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.056315
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.071386
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -125,13 +125,13 @@ LogInit: Build: ++UE4+Release-4.24-CL-11590370
 LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
 LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
 LogInit: Net CL: 10570792
-LogInit: OS: Windows 10 (Release 2009) (), CPU: AMD Ryzen 5 3500X 6-Core Processor             , GPU: NVIDIA GeForce GTX 1660 SUPER
+LogInit: OS: Windows 10 (Release 2009) (), CPU: AMD Ryzen 7 5800X 8-Core Processor             , GPU: NVIDIA GeForce RTX 2080 SUPER
 LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
 LogInit: Compiled with Visual C++: 19.16.27032.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.24
 LogInit: Command Line: 
-LogInit: Base Directory: D:/soohwan/Unreal/UE_4.24/Engine/Binaries/Win64/
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 25
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -163,1364 +163,380 @@ LogInit: Presizing for max 25165824 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2023.05.26-15.03.11:123][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2023.05.26-15.03.11:123][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2023.05.26-15.03.11:123][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Saved/Config/Windows/Engine.ini]
-[2023.05.26-15.03.11:123][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2023.05.26-15.03.11:123][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Saved/Config/Windows/Engine.ini]
-[2023.05.26-15.03.11:123][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Saved/Config/Windows/Engine.ini]
-[2023.05.26-15.03.11:123][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2023.05.26-15.03.11:123][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2023.05.26-15.03.11:123][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2023.05.26-15.03.11:123][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2023.05.26-15.03.11:123][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2023.05.26-15.03.11:123][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2023.05.26-15.03.11:123][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2023.05.26-15.03.11:123][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2023.05.26-15.03.11:123][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2023.05.26-15.03.11:123][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2023.05.26-15.03.11:123][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2023.05.26-15.03.11:123][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2023.05.26-15.03.11:123][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2023.05.26-15.03.11:123][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2023.05.26-15.03.11:123][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Saved/Config/Windows/Engine.ini]
-[2023.05.26-15.03.11:123][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2023.05.26-15.03.11:123][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2023.05.26-15.03.11:123][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2023.05.26-15.03.11:123][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2023.05.26-15.03.11:123][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2023.05.26-15.03.11:123][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2023.05.26-15.03.11:123][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2023.05.26-15.03.11:123][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2023.05.26-15.03.11:123][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2023.05.26-15.03.11:123][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2023.05.26-15.03.11:123][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2023.05.26-15.03.11:123][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2023.05.26-15.03.11:123][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2023.05.26-15.03.11:123][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Saved/Config/Windows/Engine.ini]
-[2023.05.26-15.03.11:123][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Saved/Config/Windows/Engine.ini]
-[2023.05.26-15.03.11:126][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Saved/Config/Windows/Scalability.ini]
-[2023.05.26-15.03.11:126][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2023.05.26-15.03.11:126][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2023.05.26-15.03.11:126][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Saved/Config/Windows/Scalability.ini]
-[2023.05.26-15.03.11:126][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2023.05.26-15.03.11:126][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Saved/Config/Windows/Scalability.ini]
-[2023.05.26-15.03.11:126][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2023.05.26-15.03.11:126][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2023.05.26-15.03.11:126][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2023.05.26-15.03.11:126][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2023.05.26-15.03.11:126][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2023.05.26-15.03.11:126][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2023.05.26-15.03.11:126][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2023.05.26-15.03.11:126][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2023.05.26-15.03.11:126][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Saved/Config/Windows/Scalability.ini]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Saved/Config/Windows/Scalability.ini]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Saved/Config/Windows/Scalability.ini]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Saved/Config/Windows/Scalability.ini]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Saved/Config/Windows/Scalability.ini]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2023.05.26-15.03.11:127][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2023.05.26-15.03.11:127][  0]LogInit: Selected Device Profile: [Windows]
-[2023.05.26-15.03.11:127][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2023.05.26-15.03.11:130][  0]LogHAL: Display: Platform has ~ 16 GB [17106452480 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2023.05.26-15.03.11:130][  0]LogInit: Going up to parent DeviceProfile []
-[2023.05.26-15.03.11:130][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Saved/Config/Windows/Scalability.ini]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2023.05.26-15.03.11:130][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Saved/Config/Windows/Scalability.ini]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2023.05.26-15.03.11:130][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Saved/Config/Windows/Scalability.ini]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2023.05.26-15.03.11:130][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Saved/Config/Windows/Scalability.ini]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2023.05.26-15.03.11:130][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2023.05.26-15.03.11:131][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2023.05.26-15.03.11:131][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2023.05.26-15.03.11:131][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2023.05.26-15.03.11:131][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2023.05.26-15.03.11:131][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2023.05.26-15.03.11:131][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2023.05.26-15.03.11:131][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2023.05.26-15.03.11:131][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2023.05.26-15.03.11:131][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2023.05.26-15.03.11:131][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2023.05.26-15.03.11:131][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Saved/Config/Windows/Scalability.ini]
-[2023.05.26-15.03.11:131][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2023.05.26-15.03.11:131][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2023.05.26-15.03.11:131][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2023.05.26-15.03.11:131][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2023.05.26-15.03.11:131][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2023.05.26-15.03.11:131][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2023.05.26-15.03.11:131][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2023.05.26-15.03.11:131][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2023.05.26-15.03.11:131][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2023.05.26-15.03.11:131][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Saved/Config/Windows/Scalability.ini]
-[2023.05.26-15.03.11:131][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2023.05.26-15.03.11:131][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2023.05.26-15.03.11:131][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2023.05.26-15.03.11:131][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2023.05.26-15.03.11:131][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2023.05.26-15.03.11:131][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2023.05.26-15.03.11:131][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2023.05.26-15.03.11:131][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2023.05.26-15.03.11:131][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2023.05.26-15.03.11:131][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2023.05.26-15.03.11:131][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2023.05.26-15.03.11:131][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2023.05.26-15.03.11:131][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2023.05.26-15.03.11:131][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2023.05.26-15.03.11:131][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2023.05.26-15.03.11:132][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2023.05.26-15.03.11:132][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2023.05.26-15.03.11:132][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2023.05.26-15.03.11:132][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2023.05.26-15.03.11:132][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2023.05.26-15.03.11:132][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2023.05.26-15.03.11:132][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2023.05.26-15.03.11:132][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2023.05.26-15.03.11:132][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2023.05.26-15.03.11:132][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2023.05.26-15.03.11:132][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2023.05.26-15.03.11:132][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Saved/Config/Windows/Scalability.ini]
-[2023.05.26-15.03.11:132][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2023.05.26-15.03.11:132][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2023.05.26-15.03.11:132][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Saved/Config/Windows/Scalability.ini]
-[2023.05.26-15.03.11:132][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2023.05.26-15.03.11:132][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2023.05.26-15.03.11:132][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2023.05.26-15.03.11:132][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2023.05.26-15.03.11:132][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2023.05.26-15.03.11:132][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2023.05.26-15.03.11:132][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Saved/Config/Windows/Engine.ini]
-[2023.05.26-15.03.11:132][  0]LogInit: Computer: DESKTOP-G79OQT2
-[2023.05.26-15.03.11:132][  0]LogInit: User: Administrator
-[2023.05.26-15.03.11:132][  0]LogInit: CPU Page size=4096, Cores=6
-[2023.05.26-15.03.11:132][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2023.05.26-15.03.11:132][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2023.05.26-15.03.11:132][  0]LogMemory: Platform Memory Stats for Windows
-[2023.05.26-15.03.11:132][  0]LogMemory: Process Physical Memory: 107.20 MB used, 107.20 MB peak
-[2023.05.26-15.03.11:132][  0]LogMemory: Process Virtual Memory: 100.22 MB used, 100.22 MB peak
-[2023.05.26-15.03.11:132][  0]LogMemory: Physical Memory: 10245.94 MB used,  6068.05 MB free, 16313.98 MB total
-[2023.05.26-15.03.11:132][  0]LogMemory: Virtual Memory: 5133.78 MB used,  134212592.00 MB free, 134217728.00 MB total
-[2023.05.26-15.03.11:134][  0]LogWindows: WindowsPlatformFeatures enabled
-[2023.05.26-15.03.11:144][  0]LogInit: Overriding language with editor language configuration option (en).
-[2023.05.26-15.03.11:144][  0]LogInit: Overriding locale with editor culture configuration option ().
-[2023.05.26-15.03.11:144][  0]LogInit: Using OS detected locale (ko-KR).
-[2023.05.26-15.03.11:284][  0]LogInit: Setting process to per monitor DPI aware
-[2023.05.26-15.03.11:324][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2023.05.26-15.03.11:324][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2023.05.26-15.03.11:433][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2023.05.26-15.03.11:433][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2023.05.26-15.03.11:433][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2023.05.26-15.03.11:433][  0]LogD3D11RHI: D3D11 adapters:
-[2023.05.26-15.03.11:529][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1660 SUPER' (Feature Level 11_0)
-[2023.05.26-15.03.11:529][  0]LogD3D11RHI:       5991/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2023.05.26-15.03.11:531][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2023.05.26-15.03.11:531][  0]LogD3D11RHI:       0/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2023.05.26-15.03.11:531][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2023.05.26-15.03.11:538][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2023.05.26-15.03.11:538][  0]LogD3D11RHI:     GPU DeviceId: 0x21c4 (for the marketing name, search the web for "GPU Device Id")
-[2023.05.26-15.03.11:538][  0]LogWindows: EnumDisplayDevices:
-[2023.05.26-15.03.11:538][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1660 SUPER' (P:1 D:1)
-[2023.05.26-15.03.11:538][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1660 SUPER' (P:0 D:1)
-[2023.05.26-15.03.11:538][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1660 SUPER' (P:0 D:0)
-[2023.05.26-15.03.11:539][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1660 SUPER' (P:0 D:0)
-[2023.05.26-15.03.11:539][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2023.05.26-15.03.11:539][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1660 SUPER
-[2023.05.26-15.03.11:539][  0]LogD3D11RHI:   Driver Version: 516.94 (internal:31.0.15.1694, unified:516.94)
-[2023.05.26-15.03.11:539][  0]LogD3D11RHI:      Driver Date: 7-21-2022
-[2023.05.26-15.03.11:539][  0]LogRHI: Texture pool is 4193 MB (70% of 5991 MB)
-[2023.05.26-15.03.11:605][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2023.05.26-15.03.11:605][  0]LogD3D11RHI: Async texture creation enabled
-[2023.05.26-15.03.11:606][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061081).
-[2023.05.26-15.03.11:617][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2023.05.26-15.03.11:857][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2023.05.26-15.03.11:889][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2023.05.26-15.03.11:889][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2023.05.26-15.03.11:889][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
-[2023.05.26-15.03.11:889][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2023.05.26-15.03.11:889][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
-[2023.05.26-15.03.11:889][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
-[2023.05.26-15.03.11:889][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2023.05.26-15.03.11:889][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
-[2023.05.26-15.03.11:889][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2023.05.26-15.03.11:889][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2023.05.26-15.03.11:889][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
-[2023.05.26-15.03.11:889][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2023.05.26-15.03.11:889][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
-[2023.05.26-15.03.11:889][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
-[2023.05.26-15.03.11:889][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2023.05.26-15.03.11:889][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
-[2023.05.26-15.03.11:889][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2023.05.26-15.03.11:889][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2023.05.26-15.03.11:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2023.05.26-15.03.11:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2023.05.26-15.03.11:914][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2023.05.26-15.03.11:920][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2023.05.26-15.03.11:927][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2023.05.26-15.03.11:934][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2023.05.26-15.03.11:941][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2023.05.26-15.03.11:948][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2023.05.26-15.03.11:970][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2023.05.26-15.03.11:970][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2023.05.26-15.03.11:983][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2023.05.26-15.03.11:983][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2023.05.26-15.03.11:990][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2023.05.26-15.03.11:997][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2023.05.26-15.03.12:004][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2023.05.26-15.03.12:011][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2023.05.26-15.03.12:011][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2023.05.26-15.03.12:012][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2023.05.26-15.03.12:027][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Intermediate/Shaders/WorkingDirectory/29732/).
-[2023.05.26-15.03.12:028][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Administrator/AppData/Local/Temp/UnrealShaderWorkingDir/04968DD04AC8C605D7892E98DCF54046/'.
-[2023.05.26-15.03.12:028][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2023.05.26-15.03.12:028][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2023.05.26-15.03.12:028][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2023.05.26-15.03.12:606][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2023.05.26-15.03.12:671][  0]LogDerivedDataCache: Loaded boot cache 0.07s 86MB C:/Users/Administrator/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2023.05.26-15.03.12:671][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Administrator/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
-[2023.05.26-15.03.12:671][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2023.05.26-15.03.12:671][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2023.05.26-15.03.12:671][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2023.05.26-15.03.12:671][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2023.05.26-15.03.12:682][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2023.05.26-15.03.12:682][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2023.05.26-15.03.12:682][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2023.05.26-15.03.12:683][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Administrator/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2023.05.26-15.03.12:683][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2023.05.26-15.03.12:683][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2023.05.26-15.03.12:705][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2023.05.26-15.03.12:708][  0]LogSlate: Using FreeType 2.10.0
-[2023.05.26-15.03.12:708][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2023.05.26-15.03.12:754][  0]LogAssetRegistry: FAssetRegistry took 0.0025 seconds to start up
-[2023.05.26-15.03.13:025][  0]LogInit: Selected Device Profile: [Windows]
-[2023.05.26-15.03.13:159][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2023.05.26-15.03.13:159][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2023.05.26-15.03.13:159][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2023.05.26-15.03.13:159][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2023.05.26-15.03.13:159][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2023.05.26-15.03.13:172][  0]LogNetVersion: RossiNante 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 557242147)
-[2023.05.26-15.03.14:072][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.032821 seconds
-[2023.05.26-15.03.14:078][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
-[2023.05.26-15.03.14:078][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
-[2023.05.26-15.03.14:078][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2023.05.26-15.03.14:413][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2023.05.26-15.03.14:416][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2023.05.26-15.03.15:100][  0]SourceControl: Source control is disabled
-[2023.05.26-15.03.15:100][  0]SourceControl: Source control is disabled
-[2023.05.26-15.03.15:101][  0]SourceControl: Source control is disabled
-[2023.05.26-15.03.15:101][  0]SourceControl: Source control is disabled
-[2023.05.26-15.03.15:102][  0]SourceControl: Source control is disabled
-[2023.05.26-15.03.15:170][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2023.05.26-15.03.15:180][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2023.05.26-15.03.15:180][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2023.05.26-15.03.15:253][  0]LogOcInput: OculusInput pre-init called
-[2023.05.26-15.03.15:259][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2023.05.26-15.03.15:259][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2023.05.26-15.03.15:320][  0]LogEngine: Initializing Engine...
-[2023.05.26-15.03.15:321][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2023.05.26-15.03.15:322][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2023.05.26-15.03.15:619][  0]LogInit: Initializing FReadOnlyCVARCache
-[2023.05.26-15.03.15:627][  0]LogAIModule: Creating AISystem for world Untitled
-[2023.05.26-15.03.15:642][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2023.05.26-15.03.15:642][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2023.05.26-15.03.15:642][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2023.05.26-15.03.15:642][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2023.05.26-15.03.15:642][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2023.05.26-15.03.15:642][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2023.05.26-15.03.15:642][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2023.05.26-15.03.15:642][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2023.05.26-15.03.15:642][  0]LogAudio: Display: Using built-in audio occlusion.
-[2023.05.26-15.03.15:642][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2023.05.26-15.03.15:659][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2023.05.26-15.03.15:659][  0]LogAudioMixer: Display: Name: 스피커(Razer Kraken V3 X)
-[2023.05.26-15.03.15:659][  0]LogAudioMixer: Display: Is Default: Yes
-[2023.05.26-15.03.15:659][  0]LogAudioMixer: Display: Sample Rate: 48000
-[2023.05.26-15.03.15:659][  0]LogAudioMixer: Display: Channel Count Used: 2
-[2023.05.26-15.03.15:659][  0]LogAudioMixer: Display: Device Channel Count: 2
-[2023.05.26-15.03.15:659][  0]LogAudioMixer: Display: Channel Order:
-[2023.05.26-15.03.15:659][  0]LogAudioMixer: Display: 0: FrontLeft
-[2023.05.26-15.03.15:659][  0]LogAudioMixer: Display: 1: FrontRight
-[2023.05.26-15.03.15:675][  0]LogAudioMixer: Display: Using Audio Device 스피커(Razer Kraken V3 X)
-[2023.05.26-15.03.15:680][  0]LogInit: FAudioDevice initialized.
-[2023.05.26-15.03.15:680][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2023.05.26-15.03.15:771][  0]LogDerivedDataCache: Saved boot cache 0.09s 86MB C:/Users/Administrator/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2023.05.26-15.03.15:775][  0]LogInit: Texture streaming: Enabled
-[2023.05.26-15.03.15:786][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2023.05.26-15.03.15:786][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2023.05.26-15.03.15:793][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2023.05.26-15.03.15:835][  0]LogInit: Transaction tracking system initialized
-[2023.05.26-15.03.15:843][  0]BlueprintLog: New page: Editor Load
-[2023.05.26-15.03.15:870][  0]LocalizationService: Localization service is disabled
-[2023.05.26-15.03.16:109][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2023.05.26-15.03.16:109][  0]LogCook: Display: Mobile HDR setting 1
-[2023.05.26-15.03.16:174][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Content/' took 0.02s
-[2023.05.26-15.03.16:653][  0]SourceControl: Source control is disabled
-[2023.05.26-15.03.16:654][  0]Cmd: MAP LOAD FILE="C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Content/Maps/Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2023.05.26-15.03.16:654][  0]LightingResults: New page: Lighting Build
-[2023.05.26-15.03.16:654][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2023.05.26-15.03.16:654][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.05.26-15.03.16:655][  0]MapCheck: New page: Map Check
-[2023.05.26-15.03.16:655][  0]LightingResults: New page: Lighting Build
-[2023.05.26-15.03.16:682][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
-[2023.05.26-15.03.18:193][  0]LogAIModule: Creating AISystem for world Default
-[2023.05.26-15.03.18:200][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2023.05.26-15.03.18:230][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
-[2023.05.26-15.03.18:233][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2023.05.26-15.03.18:234][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.274ms to complete.
-[2023.05.26-15.03.18:234][  0]LogFileHelpers: Loading map 'Default' took 1.579
-[2023.05.26-15.03.18:361][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.05.26-15.03.18:368][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.05.26-15.03.18:373][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.05.26-15.03.18:379][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.05.26-15.03.18:382][  0]LogCollectionManager: Loaded 0 collections in 0.000745 seconds
-[2023.05.26-15.03.18:395][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Saved/Collections/' took 0.00s
-[2023.05.26-15.03.18:395][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Content/Developers/Administrator/Collections/' took 0.00s
-[2023.05.26-15.03.18:395][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Content/Collections/' took 0.00s
-[2023.05.26-15.03.18:395][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 3020 classes and 719 folders.
-[2023.05.26-15.03.18:397][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2023.05.26-15.03.18:436][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2023.05.26-15.03.18:440][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 3 folders.
-[2023.05.26-15.03.18:657][  0]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2023.05.26-15.03.18:659][  0]LogSlate: Took 0.000107 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2023.05.26-15.03.18:663][  0]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2023.05.26-15.03.18:665][  0]LogSlate: Took 0.000121 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2023.05.26-15.03.18:701][  0]LogSlate: Took 0.001048 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2023.05.26-15.03.18:760][  0]LogRenderer: Reallocating scene render targets to support 940x536 Format 10 NumSamples 1 (Frame:1).
-[2023.05.26-15.03.18:846][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2023.05.26-15.03.18:846][  0]LogLoad: (Engine Initialization) Total time: 8.52 seconds
-[2023.05.26-15.03.18:846][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2023.05.26-15.03.18:906][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2023.05.26-15.03.18:933][  0]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2023.05.26-15.03.18:952][  1]LogAssetRegistry: Asset discovery search completed in 6.1995 seconds
-[2023.05.26-15.03.18:955][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000008 seconds (updated 0 objects)
-[2023.05.26-15.03.24:536][650]LogTemp: Repeating last play command: Selected Viewport
-[2023.05.26-15.03.24:545][650]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2023.05.26-15.03.24:546][650]PIE: New page: PIE session: Default (2023. 5. 27. 오전 9:03:24)
-[2023.05.26-15.03.24:547][650]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2023.05.26-15.03.24:548][650]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
-[2023.05.26-15.03.24:548][650]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Default
-[2023.05.26-15.03.24:552][650]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003571s)
-[2023.05.26-15.03.24:553][650]LogAIModule: Creating AISystem for world Default
-[2023.05.26-15.03.24:554][650]LogPlayLevel: PIE: World Init took: (0.001627s)
-[2023.05.26-15.03.24:554][650]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Default.Default to /Game/Maps/UEDPIE_0_Default.Default (0.005517s)
-[2023.05.26-15.03.24:579][650]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
-[2023.05.26-15.03.24:579][650]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2023.05.26-15.03.24:579][650]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2023.05.26-15.03.24:579][650]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2023.05.26-15.03.24:579][650]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2023.05.26-15.03.24:579][650]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2023.05.26-15.03.24:579][650]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2023.05.26-15.03.24:579][650]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2023.05.26-15.03.24:579][650]LogAudio: Display: AudioDevice MaxSources: 32
-[2023.05.26-15.03.24:580][650]LogAudio: Display: Using built-in audio occlusion.
-[2023.05.26-15.03.24:580][650]LogAudioMixer: Display: Initializing audio mixer.
-[2023.05.26-15.03.24:591][650]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2023.05.26-15.03.24:591][650]LogAudioMixer: Display: Name: 스피커(Razer Kraken V3 X)
-[2023.05.26-15.03.24:591][650]LogAudioMixer: Display: Is Default: Yes
-[2023.05.26-15.03.24:591][650]LogAudioMixer: Display: Sample Rate: 48000
-[2023.05.26-15.03.24:591][650]LogAudioMixer: Display: Channel Count Used: 2
-[2023.05.26-15.03.24:591][650]LogAudioMixer: Display: Device Channel Count: 2
-[2023.05.26-15.03.24:591][650]LogAudioMixer: Display: Channel Order:
-[2023.05.26-15.03.24:591][650]LogAudioMixer: Display: 0: FrontLeft
-[2023.05.26-15.03.24:591][650]LogAudioMixer: Display: 1: FrontRight
-[2023.05.26-15.03.24:601][650]LogAudioMixer: Display: Using Audio Device 스피커(Razer Kraken V3 X)
-[2023.05.26-15.03.24:603][650]LogInit: FAudioDevice initialized.
-[2023.05.26-15.03.24:609][650]LogLoad: Game class is 'BP_GameModeBase_C'
-[2023.05.26-15.03.24:613][650]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2023.05.27-00.03.24
-[2023.05.26-15.03.24:614][650]LogWorld: Bringing up level for play took: 0.003991
-[2023.05.26-15.03.24:615][650]LogOnline: OSS: Creating online subsystem instance for: :Context_1
-[2023.05.26-15.03.24:618][650]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
-[2023.05.26-15.03.24:621][650]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Default 1.034
-[2023.05.26-15.03.27:477][984]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.03.28:143][ 64]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.03.28:742][136]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.03.29:492][226]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.03.35:737][965]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2023.05.26-15.03.35:737][965]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2023.05.26-15.03.35:738][965]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.05.26-15.03.35:738][965]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Default
-[2023.05.26-15.03.35:738][965]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2023.05.26-15.03.35:738][965]LogWorld: UWorld::CleanupWorld for Default, bSessionEnded=true, bCleanupResources=true
-[2023.05.26-15.03.35:738][965]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.05.26-15.03.35:744][965]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2023.05.26-15.03.35:748][965]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.05.26-15.03.35:774][965]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2023.05.26-15.03.35:776][965]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.05.26-15.03.35:779][965]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
-[2023.05.26-15.03.35:842][970]LogPlayLevel: Display: Destroying online subsystem :Context_1
-[2023.05.26-15.13.21:391][ 40]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2023.05.26-15.14.38:690][410]LogTemp: Repeating last play command: Selected Viewport
-[2023.05.26-15.14.38:700][410]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2023.05.26-15.14.38:700][410]PIE: New page: PIE session: Default (2023. 5. 27. 오전 9:14:38)
-[2023.05.26-15.14.38:700][410]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Default
-[2023.05.26-15.14.38:704][410]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003870s)
-[2023.05.26-15.14.38:705][410]LogAIModule: Creating AISystem for world Default
-[2023.05.26-15.14.38:706][410]LogPlayLevel: PIE: World Init took: (0.001260s)
-[2023.05.26-15.14.38:706][410]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Default.Default to /Game/Maps/UEDPIE_0_Default.Default (0.005230s)
-[2023.05.26-15.14.38:731][410]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
-[2023.05.26-15.14.38:732][410]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2023.05.26-15.14.38:732][410]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2023.05.26-15.14.38:732][410]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2023.05.26-15.14.38:732][410]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2023.05.26-15.14.38:732][410]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2023.05.26-15.14.38:732][410]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2023.05.26-15.14.38:732][410]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2023.05.26-15.14.38:732][410]LogAudio: Display: AudioDevice MaxSources: 32
-[2023.05.26-15.14.38:732][410]LogAudio: Display: Using built-in audio occlusion.
-[2023.05.26-15.14.38:732][410]LogAudioMixer: Display: Initializing audio mixer.
-[2023.05.26-15.14.38:745][410]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2023.05.26-15.14.38:745][410]LogAudioMixer: Display: Name: 스피커(Razer Kraken V3 X)
-[2023.05.26-15.14.38:745][410]LogAudioMixer: Display: Is Default: Yes
-[2023.05.26-15.14.38:745][410]LogAudioMixer: Display: Sample Rate: 48000
-[2023.05.26-15.14.38:745][410]LogAudioMixer: Display: Channel Count Used: 2
-[2023.05.26-15.14.38:745][410]LogAudioMixer: Display: Device Channel Count: 2
-[2023.05.26-15.14.38:745][410]LogAudioMixer: Display: Channel Order:
-[2023.05.26-15.14.38:745][410]LogAudioMixer: Display: 0: FrontLeft
-[2023.05.26-15.14.38:745][410]LogAudioMixer: Display: 1: FrontRight
-[2023.05.26-15.14.38:755][410]LogAudioMixer: Display: Using Audio Device 스피커(Razer Kraken V3 X)
-[2023.05.26-15.14.38:757][410]LogInit: FAudioDevice initialized.
-[2023.05.26-15.14.38:761][410]LogLoad: Game class is 'BP_GameModeBase_C'
-[2023.05.26-15.14.38:764][410]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2023.05.27-00.14.38
-[2023.05.26-15.14.38:765][410]LogWorld: Bringing up level for play took: 0.003919
-[2023.05.26-15.14.38:765][410]LogOnline: OSS: Creating online subsystem instance for: :Context_2
-[2023.05.26-15.14.38:770][410]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Default -0.817
-[2023.05.26-15.14.44:473][ 91]LogTemp: Warning: broadCast Attack
-[2023.05.26-15.14.44:500][ 91]LogTemp: Hit Actor : Enemy_Character_9
-[2023.05.26-15.14.44:503][ 91]LogBlueprintUserMessages: [Enemy_Character_9] Hit
-[2023.05.26-15.14.44:511][ 91]LogBlueprintUserMessages: [Enemy_Character_9] 90.0
-[2023.05.26-15.14.48:618][583]LogTemp: 0
-[2023.05.26-15.14.48:618][583]LogTemp: Warning: OnAttacked 90
-[2023.05.26-15.14.48:618][583]LogTemp: 1
-[2023.05.26-15.14.48:801][605]LogTemp: 1
-[2023.05.26-15.14.48:801][605]LogTemp: Warning: OnAttacked 80
-[2023.05.26-15.14.48:801][605]LogTemp: 1
-[2023.05.26-15.14.49:443][682]LogTemp: Warning: broadCast Hit
-[2023.05.26-15.14.50:194][772]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2023.05.26-15.14.50:213][772]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
-[2023.05.26-15.14.50:233][772]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
-[2023.05.26-15.14.50:234][772]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.05.26-15.14.50:234][772]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Default
-[2023.05.26-15.14.50:234][772]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2023.05.26-15.14.50:234][772]LogWorld: UWorld::CleanupWorld for Default, bSessionEnded=true, bCleanupResources=true
-[2023.05.26-15.14.50:234][772]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.05.26-15.14.50:241][772]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2023.05.26-15.14.50:245][772]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.05.26-15.14.50:270][772]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2023.05.26-15.14.50:272][772]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.05.26-15.14.50:276][772]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
-[2023.05.26-15.14.50:314][774]LogPlayLevel: Display: Destroying online subsystem :Context_2
-[2023.05.26-15.14.58:533][551]LogAssetEditorSubsystem: Opening Asset editor for AnimMontage /Game/Blueprints/Boss/Montage/Boss_GroundSmash_Loop_Montage.Boss_GroundSmash_Loop_Montage
-[2023.05.26-15.14.58:617][551]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2023.05.26-15.14.59:055][551]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2023.05.26-15.14.59:069][551]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0004 seconds. Added 1 classes and 0 folders.
-[2023.05.26-15.14.59:248][551]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2023.05.26-15.14.59:829][551]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0005 seconds. Added 1 classes and 0 folders.
-[2023.05.26-15.14.59:851][551]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2023.05.26-15.15.02:937][842]LogSlate: Window 'Boss_GroundSmash_Loop_Montage' being destroyed
-[2023.05.26-15.15.02:942][842]LogSlate: Window 'Boss_GroundSmash_Loop_Montage' being destroyed
-[2023.05.26-15.15.02:956][842]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
-[2023.05.26-15.15.02:956][842]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.05.26-15.15.03:048][842]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
-[2023.05.26-15.15.03:048][842]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.05.26-15.15.11:930][141]Candidate modules for hot reload:
-[2023.05.26-15.15.11:930][141]  RossiNante
-[2023.05.26-15.15.11:930][141]Launching UnrealBuildTool... [D:/soohwan/Unreal/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RossiNante,8532 Win64 Development -TargetType=Editor -Project="C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/RossiNante.uproject" "C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/RossiNante.uproject"  -IgnoreJunk]
-[2023.05.26-15.15.11:934][141]Warning: Starting HotReload took  0.0s.
-[2023.05.26-15.15.21:596][263]CompilerResultsLog: New page: Compilation - 2023. 5. 27. 오전 9:15:21
-[2023.05.26-15.15.21:596][263]CompilerResultsLog: Building RossiNanteEditor...
-[2023.05.26-15.15.21:596][263]CompilerResultsLog: Using Visual Studio 2019 14.34.31937 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933) and Windows 10.0.22000.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2023.05.26-15.15.21:596][263]CompilerResultsLog: Building 4 actions with 6 processes...
-[2023.05.26-15.15.21:596][263]CompilerResultsLog:   [1/4] MyCharacterEnemy.cpp
-[2023.05.26-15.15.21:596][263]CompilerResultsLog:   [2/4] UE4Editor-RossiNante-8532.lib
-[2023.05.26-15.15.21:596][263]CompilerResultsLog:      C:\Users\Administrator\Downloads\UNogakKimchi-dong-gyu\UNogakKimchi-dong-gyu\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-8532.lib ???̺귯?? ?? C:\Users\Administrator\Downloads\UNogakKimchi-dong-gyu\UNogakKimchi-dong-gyu\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-8532.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
-[2023.05.26-15.15.21:596][263]CompilerResultsLog:   [3/4] UE4Editor-RossiNante-8532.dll
-[2023.05.26-15.15.21:596][263]CompilerResultsLog:      C:\Users\Administrator\Downloads\UNogakKimchi-dong-gyu\UNogakKimchi-dong-gyu\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-8532.suppressed.lib ???̺귯?? ?? C:\Users\Administrator\Downloads\UNogakKimchi-dong-gyu\UNogakKimchi-dong-gyu\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-8532.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
-[2023.05.26-15.15.21:596][263]CompilerResultsLog:   [4/4] RossiNanteEditor.target
-[2023.05.26-15.15.21:596][263]CompilerResultsLog: Total time in Parallel executor: 8.59 seconds
-[2023.05.26-15.15.21:596][263]CompilerResultsLog: Total execution time: 9.58 seconds
-[2023.05.26-15.15.21:596][263]LogMainFrame: MainFrame: Module compiling took 9.669 seconds
-[2023.05.26-15.15.21:625][263]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
-[2023.05.26-15.15.21:667][263]LogClass: MyCharacterData HotReload.
-[2023.05.26-15.15.21:673][263]LogContentBrowser: Native class hierarchy updated for 'RossiNante' in 0.0004 seconds. Added 5 classes and 2 folders.
-[2023.05.26-15.15.21:677][263]Display: HotReload successful (18 functions remapped  1 scriptstructs remapped)
-[2023.05.26-15.15.21:861][263]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
-[2023.05.26-15.15.21:874][263]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 3023 classes and 724 folders.
-[2023.05.26-15.15.21:874][263]Display: HotReload took 10.0s.
-[2023.05.26-15.15.21:896][263]LogSlate: Last resort fallback font was requested. Font: '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf', Character: 'ϰ (U+03f0)'
-[2023.05.26-15.15.21:900][263]LogSlate: Took 0.002148 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
-[2023.05.26-15.15.24:300][538]LogTemp: Repeating last play command: Selected Viewport
-[2023.05.26-15.15.24:312][538]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2023.05.26-15.15.24:312][538]PIE: New page: PIE session: Default (2023. 5. 27. 오전 9:15:24)
-[2023.05.26-15.15.24:312][538]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Default
-[2023.05.26-15.15.24:316][538]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003587s)
-[2023.05.26-15.15.24:317][538]LogAIModule: Creating AISystem for world Default
-[2023.05.26-15.15.24:317][538]LogPlayLevel: PIE: World Init took: (0.001241s)
-[2023.05.26-15.15.24:317][538]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Default.Default to /Game/Maps/UEDPIE_0_Default.Default (0.004963s)
-[2023.05.26-15.15.24:342][538]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
-[2023.05.26-15.15.24:344][538]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2023.05.26-15.15.24:344][538]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2023.05.26-15.15.24:344][538]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2023.05.26-15.15.24:344][538]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2023.05.26-15.15.24:344][538]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2023.05.26-15.15.24:344][538]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2023.05.26-15.15.24:344][538]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2023.05.26-15.15.24:344][538]LogAudio: Display: AudioDevice MaxSources: 32
-[2023.05.26-15.15.24:344][538]LogAudio: Display: Using built-in audio occlusion.
-[2023.05.26-15.15.24:344][538]LogAudioMixer: Display: Initializing audio mixer.
-[2023.05.26-15.15.24:355][538]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2023.05.26-15.15.24:355][538]LogAudioMixer: Display: Name: 스피커(Razer Kraken V3 X)
-[2023.05.26-15.15.24:355][538]LogAudioMixer: Display: Is Default: Yes
-[2023.05.26-15.15.24:355][538]LogAudioMixer: Display: Sample Rate: 48000
-[2023.05.26-15.15.24:355][538]LogAudioMixer: Display: Channel Count Used: 2
-[2023.05.26-15.15.24:355][538]LogAudioMixer: Display: Device Channel Count: 2
-[2023.05.26-15.15.24:355][538]LogAudioMixer: Display: Channel Order:
-[2023.05.26-15.15.24:355][538]LogAudioMixer: Display: 0: FrontLeft
-[2023.05.26-15.15.24:355][538]LogAudioMixer: Display: 1: FrontRight
-[2023.05.26-15.15.24:365][538]LogAudioMixer: Display: Using Audio Device 스피커(Razer Kraken V3 X)
-[2023.05.26-15.15.24:366][538]LogInit: FAudioDevice initialized.
-[2023.05.26-15.15.24:372][538]LogLoad: Game class is 'BP_GameModeBase_C'
-[2023.05.26-15.15.24:374][538]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2023.05.27-00.15.24
-[2023.05.26-15.15.24:376][538]LogWorld: Bringing up level for play took: 0.003823
-[2023.05.26-15.15.24:376][538]LogOnline: OSS: Creating online subsystem instance for: :Context_11
-[2023.05.26-15.15.24:381][538]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Default 0.794
-[2023.05.26-15.15.34:158][696]LogTemp: 0
-[2023.05.26-15.15.34:159][696]LogTemp: Warning: OnAttacked 90
-[2023.05.26-15.15.34:159][696]LogTemp: 1
-[2023.05.26-15.15.34:990][795]LogTemp: Warning: broadCast Hit
-[2023.05.26-15.15.36:924][ 27]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.15.38:932][268]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.15.39:941][388]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.15.41:208][540]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.15.41:317][553]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2023.05.26-15.15.41:319][553]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
-[2023.05.26-15.15.41:348][553]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
-[2023.05.26-15.15.41:348][553]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.05.26-15.15.41:348][553]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Default
-[2023.05.26-15.15.41:349][553]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2023.05.26-15.15.41:349][553]LogWorld: UWorld::CleanupWorld for Default, bSessionEnded=true, bCleanupResources=true
-[2023.05.26-15.15.41:349][553]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.05.26-15.15.41:357][553]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2023.05.26-15.15.41:360][553]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.05.26-15.15.41:384][553]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2023.05.26-15.15.41:387][553]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.05.26-15.15.41:390][553]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
-[2023.05.26-15.15.41:431][555]LogPlayLevel: Display: Destroying online subsystem :Context_11
-[2023.05.26-15.16.45:420][903]LogAssetEditorSubsystem: Opening Asset editor for AnimMontage /Game/Blueprints/Boss/Montage/Boss_GroundSmash_Loop_Montage.Boss_GroundSmash_Loop_Montage
-[2023.05.26-15.16.45:427][903]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2023.05.26-15.16.45:481][903]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2023.05.26-15.16.45:734][903]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2023.05.26-15.16.48:356][ 50]LogSlate: Window 'Create New Animation Object' being destroyed
-[2023.05.26-15.17.50:416][468]LogAssetEditorSubsystem: Opening Asset editor for AnimMontage /Game/Blueprints/Boss/Montage/Boss_GroundSmash_Start_Montage.Boss_GroundSmash_Start_Montage
-[2023.05.26-15.17.56:691][938]LogAnimation: Warning: Remove Invalid Sequence (AnimMontage /Game/Blueprints/Boss/Montage/Boss_GroundSmash_Loop_Montage.Boss_GroundSmash_Loop_Montage)
-[2023.05.26-15.17.59:182][938]LogSlate: Window 'Message' being destroyed
-[2023.05.26-15.18.02:278][182]LogAnimation: Warning: Remove Invalid Sequence (AnimMontage /Game/Blueprints/Boss/Montage/Boss_GroundSmash_Loop_Montage.Boss_GroundSmash_Loop_Montage)
-[2023.05.26-15.18.02:923][182]LogSlate: Window 'Message' being destroyed
-[2023.05.26-15.20.35:374][299]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
-[2023.05.26-15.20.35:374][299]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.05.26-15.20.39:555][660]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
-[2023.05.26-15.20.39:555][660]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.05.26-15.20.45:429][116]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
-[2023.05.26-15.20.45:430][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.05.26-15.20.58:505][105]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
-[2023.05.26-15.20.58:505][105]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.05.26-15.21.01:067][323]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
-[2023.05.26-15.21.01:067][323]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.05.26-15.21.59:715][177]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
-[2023.05.26-15.21.59:715][177]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.05.26-15.22.01:673][323]LogSavePackage: Moving 'C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Saved/Boss_GroundSmash_Start_Montage04BE0F22436F41F349FE65B17AA61DFD.tmp' to 'C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Content/Blueprints/Boss/Montage/Boss_GroundSmash_Start_Montage.uasset'
-[2023.05.26-15.22.01:689][323]AssetCheck: New page: Asset Save: Boss_GroundSmash_Start_Montage
-[2023.05.26-15.22.01:689][323]LogContentValidation: Display: Validating AnimMontage /Game/Blueprints/Boss/Montage/Boss_GroundSmash_Start_Montage.Boss_GroundSmash_Start_Montage
-[2023.05.26-15.22.03:614][503]LogTemp: Repeating last play command: Selected Viewport
-[2023.05.26-15.22.03:624][503]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2023.05.26-15.22.03:624][503]PIE: New page: PIE session: Default (2023. 5. 27. 오전 9:22:03)
-[2023.05.26-15.22.03:624][503]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Default
-[2023.05.26-15.22.03:628][503]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003834s)
-[2023.05.26-15.22.03:629][503]LogAIModule: Creating AISystem for world Default
-[2023.05.26-15.22.03:629][503]LogPlayLevel: PIE: World Init took: (0.001011s)
-[2023.05.26-15.22.03:629][503]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Default.Default to /Game/Maps/UEDPIE_0_Default.Default (0.004971s)
-[2023.05.26-15.22.03:664][503]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
-[2023.05.26-15.22.03:665][503]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2023.05.26-15.22.03:665][503]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2023.05.26-15.22.03:665][503]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2023.05.26-15.22.03:665][503]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2023.05.26-15.22.03:665][503]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2023.05.26-15.22.03:665][503]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2023.05.26-15.22.03:665][503]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2023.05.26-15.22.03:665][503]LogAudio: Display: AudioDevice MaxSources: 32
-[2023.05.26-15.22.03:666][503]LogAudio: Display: Using built-in audio occlusion.
-[2023.05.26-15.22.03:666][503]LogAudioMixer: Display: Initializing audio mixer.
-[2023.05.26-15.22.03:677][503]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2023.05.26-15.22.03:677][503]LogAudioMixer: Display: Name: 스피커(Razer Kraken V3 X)
-[2023.05.26-15.22.03:677][503]LogAudioMixer: Display: Is Default: Yes
-[2023.05.26-15.22.03:677][503]LogAudioMixer: Display: Sample Rate: 48000
-[2023.05.26-15.22.03:677][503]LogAudioMixer: Display: Channel Count Used: 2
-[2023.05.26-15.22.03:677][503]LogAudioMixer: Display: Device Channel Count: 2
-[2023.05.26-15.22.03:677][503]LogAudioMixer: Display: Channel Order:
-[2023.05.26-15.22.03:677][503]LogAudioMixer: Display: 0: FrontLeft
-[2023.05.26-15.22.03:677][503]LogAudioMixer: Display: 1: FrontRight
-[2023.05.26-15.22.03:687][503]LogAudioMixer: Display: Using Audio Device 스피커(Razer Kraken V3 X)
-[2023.05.26-15.22.03:688][503]LogInit: FAudioDevice initialized.
-[2023.05.26-15.22.03:693][503]LogLoad: Game class is 'BP_GameModeBase_C'
-[2023.05.26-15.22.03:695][503]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2023.05.27-00.22.03
-[2023.05.26-15.22.03:697][503]LogWorld: Bringing up level for play took: 0.003378
-[2023.05.26-15.22.03:697][503]LogOnline: OSS: Creating online subsystem instance for: :Context_21
-[2023.05.26-15.22.03:701][503]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Default 0.115
-[2023.05.26-15.22.09:498][ 16]LogTemp: 0
-[2023.05.26-15.22.09:498][ 16]LogTemp: Warning: OnAttacked 90
-[2023.05.26-15.22.09:498][ 16]LogTemp: 1
-[2023.05.26-15.22.10:323][115]LogTemp: Warning: broadCast Hit
-[2023.05.26-15.22.11:306][233]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.22.12:039][321]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.22.13:723][523]LogTemp: 0
-[2023.05.26-15.22.13:723][523]LogTemp: Warning: OnAttacked 80
-[2023.05.26-15.22.13:723][523]LogTemp: 1
-[2023.05.26-15.22.13:773][529]LogTemp: 1
-[2023.05.26-15.22.13:773][529]LogTemp: Warning: OnAttacked 70
-[2023.05.26-15.22.13:773][529]LogTemp: 1
-[2023.05.26-15.22.13:782][530]LogTemp: 1
-[2023.05.26-15.22.13:782][530]LogTemp: Warning: OnAttacked 60
-[2023.05.26-15.22.13:782][530]LogTemp: 1
-[2023.05.26-15.22.14:015][558]LogTemp: 1
-[2023.05.26-15.22.14:015][558]LogTemp: Warning: OnAttacked 50
-[2023.05.26-15.22.14:015][558]LogTemp: 1
-[2023.05.26-15.22.14:023][559]LogTemp: 1
-[2023.05.26-15.22.14:023][559]LogTemp: Warning: OnAttacked 40
-[2023.05.26-15.22.14:023][559]LogTemp: 1
-[2023.05.26-15.22.14:073][565]LogTemp: 1
-[2023.05.26-15.22.14:073][565]LogTemp: Warning: OnAttacked 30
-[2023.05.26-15.22.14:073][565]LogTemp: 1
-[2023.05.26-15.22.14:082][566]LogTemp: 1
-[2023.05.26-15.22.14:082][566]LogTemp: Warning: OnAttacked 20
-[2023.05.26-15.22.14:082][566]LogTemp: 1
-[2023.05.26-15.22.14:548][622]LogTemp: Warning: broadCast Hit
-[2023.05.26-15.22.14:716][642]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2023.05.26-15.22.14:716][642]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2023.05.26-15.22.14:716][642]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.05.26-15.22.14:716][642]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Default
-[2023.05.26-15.22.14:716][642]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2023.05.26-15.22.14:716][642]LogWorld: UWorld::CleanupWorld for Default, bSessionEnded=true, bCleanupResources=true
-[2023.05.26-15.22.14:716][642]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.05.26-15.22.14:722][642]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2023.05.26-15.22.14:726][642]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.05.26-15.22.14:750][642]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2023.05.26-15.22.14:754][642]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.05.26-15.22.14:757][642]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
-[2023.05.26-15.22.14:814][648]LogPlayLevel: Display: Destroying online subsystem :Context_21
-[2023.05.26-15.22.24:968][897]Candidate modules for hot reload:
-[2023.05.26-15.22.24:968][897]  RossiNante
-[2023.05.26-15.22.24:968][897]Launching UnrealBuildTool... [D:/soohwan/Unreal/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RossiNante,5963 Win64 Development -TargetType=Editor -Project="C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/RossiNante.uproject" "C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/RossiNante.uproject"  -IgnoreJunk]
-[2023.05.26-15.22.24:972][897]Warning: Starting HotReload took  0.0s.
-[2023.05.26-15.22.36:241][157]CompilerResultsLog: New page: Compilation - 2023. 5. 27. 오전 9:22:36
-[2023.05.26-15.22.36:241][157]CompilerResultsLog: Building RossiNanteEditor...
-[2023.05.26-15.22.36:241][157]CompilerResultsLog: Using Visual Studio 2019 14.34.31937 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933) and Windows 10.0.22000.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2023.05.26-15.22.36:241][157]CompilerResultsLog: Building 4 actions with 6 processes...
-[2023.05.26-15.22.36:241][157]CompilerResultsLog:   [1/4] MyCharacterEnemy.cpp
-[2023.05.26-15.22.36:241][157]CompilerResultsLog:   [2/4] UE4Editor-RossiNante-5963.lib
-[2023.05.26-15.22.36:241][157]CompilerResultsLog:      C:\Users\Administrator\Downloads\UNogakKimchi-dong-gyu\UNogakKimchi-dong-gyu\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-5963.lib ???̺귯?? ?? C:\Users\Administrator\Downloads\UNogakKimchi-dong-gyu\UNogakKimchi-dong-gyu\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-5963.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
-[2023.05.26-15.22.36:241][157]CompilerResultsLog:   [3/4] UE4Editor-RossiNante-5963.dll
-[2023.05.26-15.22.36:241][157]CompilerResultsLog:      C:\Users\Administrator\Downloads\UNogakKimchi-dong-gyu\UNogakKimchi-dong-gyu\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-5963.suppressed.lib ???̺귯?? ?? C:\Users\Administrator\Downloads\UNogakKimchi-dong-gyu\UNogakKimchi-dong-gyu\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-5963.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
-[2023.05.26-15.22.36:241][157]CompilerResultsLog:   [4/4] RossiNanteEditor.target
-[2023.05.26-15.22.36:241][157]CompilerResultsLog: Total time in Parallel executor: 9.89 seconds
-[2023.05.26-15.22.36:241][157]CompilerResultsLog: Total execution time: 11.19 seconds
-[2023.05.26-15.22.36:241][157]LogMainFrame: MainFrame: Module compiling took 11.277 seconds
-[2023.05.26-15.22.36:266][157]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
-[2023.05.26-15.22.36:308][157]LogClass: MyCharacterData HotReload.
-[2023.05.26-15.22.36:314][157]LogContentBrowser: Native class hierarchy updated for 'RossiNante' in 0.0005 seconds. Added 5 classes and 2 folders.
-[2023.05.26-15.22.36:318][157]Display: HotReload successful (18 functions remapped  1 scriptstructs remapped)
-[2023.05.26-15.22.36:441][157]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
-[2023.05.26-15.22.36:453][157]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 3023 classes and 724 folders.
-[2023.05.26-15.22.36:454][157]Display: HotReload took 11.5s.
-[2023.05.26-15.22.37:489][278]LogTemp: Repeating last play command: Selected Viewport
-[2023.05.26-15.22.37:501][278]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2023.05.26-15.22.37:501][278]PIE: New page: PIE session: Default (2023. 5. 27. 오전 9:22:37)
-[2023.05.26-15.22.37:501][278]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Default
-[2023.05.26-15.22.37:505][278]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003738s)
-[2023.05.26-15.22.37:506][278]LogAIModule: Creating AISystem for world Default
-[2023.05.26-15.22.37:506][278]LogPlayLevel: PIE: World Init took: (0.001334s)
-[2023.05.26-15.22.37:506][278]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Default.Default to /Game/Maps/UEDPIE_0_Default.Default (0.005179s)
-[2023.05.26-15.22.37:530][278]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
-[2023.05.26-15.22.37:531][278]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2023.05.26-15.22.37:531][278]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2023.05.26-15.22.37:531][278]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2023.05.26-15.22.37:531][278]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2023.05.26-15.22.37:531][278]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2023.05.26-15.22.37:531][278]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2023.05.26-15.22.37:531][278]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2023.05.26-15.22.37:531][278]LogAudio: Display: AudioDevice MaxSources: 32
-[2023.05.26-15.22.37:531][278]LogAudio: Display: Using built-in audio occlusion.
-[2023.05.26-15.22.37:531][278]LogAudioMixer: Display: Initializing audio mixer.
-[2023.05.26-15.22.37:543][278]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2023.05.26-15.22.37:543][278]LogAudioMixer: Display: Name: 스피커(Razer Kraken V3 X)
-[2023.05.26-15.22.37:543][278]LogAudioMixer: Display: Is Default: Yes
-[2023.05.26-15.22.37:543][278]LogAudioMixer: Display: Sample Rate: 48000
-[2023.05.26-15.22.37:543][278]LogAudioMixer: Display: Channel Count Used: 2
-[2023.05.26-15.22.37:543][278]LogAudioMixer: Display: Device Channel Count: 2
-[2023.05.26-15.22.37:543][278]LogAudioMixer: Display: Channel Order:
-[2023.05.26-15.22.37:543][278]LogAudioMixer: Display: 0: FrontLeft
-[2023.05.26-15.22.37:543][278]LogAudioMixer: Display: 1: FrontRight
-[2023.05.26-15.22.37:553][278]LogAudioMixer: Display: Using Audio Device 스피커(Razer Kraken V3 X)
-[2023.05.26-15.22.37:554][278]LogInit: FAudioDevice initialized.
-[2023.05.26-15.22.37:561][278]LogLoad: Game class is 'BP_GameModeBase_C'
-[2023.05.26-15.22.37:564][278]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2023.05.27-00.22.37
-[2023.05.26-15.22.37:565][278]LogWorld: Bringing up level for play took: 0.003398
-[2023.05.26-15.22.37:566][278]LogOnline: OSS: Creating online subsystem instance for: :Context_22
-[2023.05.26-15.22.37:570][278]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Default -0.017
-[2023.05.26-15.22.40:216][592]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.22.41:141][703]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.22.42:247][835]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.22.43:139][942]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.22.45:198][189]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.22.45:741][254]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2023.05.26-15.22.45:751][254]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
-[2023.05.26-15.22.45:771][254]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
-[2023.05.26-15.22.45:771][254]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.05.26-15.22.45:771][254]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Default
-[2023.05.26-15.22.45:771][254]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2023.05.26-15.22.45:771][254]LogWorld: UWorld::CleanupWorld for Default, bSessionEnded=true, bCleanupResources=true
-[2023.05.26-15.22.45:771][254]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.05.26-15.22.45:779][254]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2023.05.26-15.22.45:783][254]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.05.26-15.22.45:807][254]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2023.05.26-15.22.45:810][254]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.05.26-15.22.45:813][254]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
-[2023.05.26-15.22.45:850][256]LogPlayLevel: Display: Destroying online subsystem :Context_22
-[2023.05.26-15.22.55:505][700]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Boss/AI/Enemy_Character.Enemy_Character
-[2023.05.26-15.22.55:666][700]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
-[2023.05.26-15.22.56:404][700]LogSlate: Took 0.000262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2023.05.26-15.22.56:494][701]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2023.05.26-15.23.09:154][777]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Boss/AI/Enemy_Controller.Enemy_Controller
-[2023.05.26-15.23.12:218][902]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/Blueprints/Boss/AI/BT_Enemy.BT_Enemy
-[2023.05.26-15.23.16:256][229]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Boss/AI/Task/BTT_Jump.BTT_Jump
-[2023.05.26-15.23.20:095][593]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
-[2023.05.26-15.23.20:095][593]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.05.26-15.23.23:696][931]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2023.05.26-15.23.23:696][931]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Boss/AI/BTT_Attack_New.BTT_Attack_New
-[2023.05.26-15.23.23:963][931]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/Blueprints/Boss/AI/BTT_Attack_New.
-[2023.05.26-15.23.33:519][917]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
-[2023.05.26-15.23.33:538][917]LogMetaData: Removing '/Game/Blueprints/Boss/AI/BTT_Smash.SKEL_BTT_Smash_C' ref from Metadata '/Game/Blueprints/Boss/AI/BTT_Attack_New.PackageMetaData'
-[2023.05.26-15.23.33:539][917]LogMetaData: Removing '/Game/Blueprints/Boss/AI/BTT_Smash.BTT_Smash_C' ref from Metadata '/Game/Blueprints/Boss/AI/BTT_Attack_New.PackageMetaData'
-[2023.05.26-15.23.33:595][917]LogSavePackage: Moving 'C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Saved/BTT_SmashCF8FAC2A436560F4644580B8A582BB2D.tmp' to 'C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Content/Blueprints/Boss/AI/BTT_Smash.uasset'
-[2023.05.26-15.23.33:835][917]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
-[2023.05.26-15.23.33:876][917]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
-[2023.05.26-15.23.33:909][917]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
-[2023.05.26-15.23.34:257][917]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Blueprints/Boss/AI/BTT_Smash.
-[2023.05.26-15.23.34:265][917]AssetCheck: New page: Asset Save: BTT_Smash
-[2023.05.26-15.23.34:266][917]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Boss/AI/BTT_Smash.BTT_Smash
-[2023.05.26-15.23.42:524][758]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Boss/AI/Task/BTT_Attack.BTT_Attack
-[2023.05.26-15.24.05:313][ 21]LogSavePackage: Moving 'C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Saved/BTT_SmashA10632784CD40B513C85499BCD017BC1.tmp' to 'C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Content/Blueprints/Boss/AI/BTT_Smash.uasset'
-[2023.05.26-15.24.05:327][ 21]AssetCheck: New page: Asset Save: BTT_Smash
-[2023.05.26-15.24.05:327][ 21]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Boss/AI/BTT_Smash.BTT_Smash
-[2023.05.26-15.24.05:866][ 77]BlueprintLog: New page: Compile BTT_Smash
-[2023.05.26-15.24.05:906][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
-[2023.05.26-15.24.25:802][855]BlueprintLog: New page: Compile Enemy_Character
-[2023.05.26-15.24.26:204][855]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
-[2023.05.26-15.24.28:285][ 17]LogSavePackage: Moving 'C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Saved/BT_EnemyEB12CDC14F8B26348B093BBA374BC435.tmp' to 'C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Content/Blueprints/Boss/AI/BT_Enemy.uasset'
-[2023.05.26-15.24.28:305][ 17]AssetCheck: New page: Asset Save: BT_Enemy
-[2023.05.26-15.24.28:305][ 17]LogContentValidation: Display: Validating BehaviorTree /Game/Blueprints/Boss/AI/BT_Enemy.BT_Enemy
-[2023.05.26-15.24.30:843][249]LogTemp: Repeating last play command: Selected Viewport
-[2023.05.26-15.24.30:871][249]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2023.05.26-15.24.30:871][249]PIE: New page: PIE session: Default (2023. 5. 27. 오전 9:24:30)
-[2023.05.26-15.24.30:871][249]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Default
-[2023.05.26-15.24.30:875][249]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003434s)
-[2023.05.26-15.24.30:876][249]LogAIModule: Creating AISystem for world Default
-[2023.05.26-15.24.30:876][249]LogPlayLevel: PIE: World Init took: (0.001356s)
-[2023.05.26-15.24.30:876][249]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Default.Default to /Game/Maps/UEDPIE_0_Default.Default (0.004881s)
-[2023.05.26-15.24.30:912][249]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
-[2023.05.26-15.24.30:914][249]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2023.05.26-15.24.30:914][249]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2023.05.26-15.24.30:914][249]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2023.05.26-15.24.30:914][249]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2023.05.26-15.24.30:914][249]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2023.05.26-15.24.30:914][249]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2023.05.26-15.24.30:914][249]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2023.05.26-15.24.30:914][249]LogAudio: Display: AudioDevice MaxSources: 32
-[2023.05.26-15.24.30:914][249]LogAudio: Display: Using built-in audio occlusion.
-[2023.05.26-15.24.30:914][249]LogAudioMixer: Display: Initializing audio mixer.
-[2023.05.26-15.24.30:926][249]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2023.05.26-15.24.30:926][249]LogAudioMixer: Display: Name: 스피커(Razer Kraken V3 X)
-[2023.05.26-15.24.30:926][249]LogAudioMixer: Display: Is Default: Yes
-[2023.05.26-15.24.30:926][249]LogAudioMixer: Display: Sample Rate: 48000
-[2023.05.26-15.24.30:926][249]LogAudioMixer: Display: Channel Count Used: 2
-[2023.05.26-15.24.30:926][249]LogAudioMixer: Display: Device Channel Count: 2
-[2023.05.26-15.24.30:926][249]LogAudioMixer: Display: Channel Order:
-[2023.05.26-15.24.30:926][249]LogAudioMixer: Display: 0: FrontLeft
-[2023.05.26-15.24.30:926][249]LogAudioMixer: Display: 1: FrontRight
-[2023.05.26-15.24.30:936][249]LogAudioMixer: Display: Using Audio Device 스피커(Razer Kraken V3 X)
-[2023.05.26-15.24.30:938][249]LogInit: FAudioDevice initialized.
-[2023.05.26-15.24.30:946][249]LogLoad: Game class is 'BP_GameModeBase_C'
-[2023.05.26-15.24.30:949][249]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2023.05.27-00.24.30
-[2023.05.26-15.24.30:950][249]LogWorld: Bringing up level for play took: 0.004055
-[2023.05.26-15.24.30:950][249]LogOnline: OSS: Creating online subsystem instance for: :Context_28
-[2023.05.26-15.24.30:954][249]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Default -0.632
-[2023.05.26-15.24.37:372][865]LogTemp: 0
-[2023.05.26-15.24.37:372][865]LogTemp: Warning: OnAttacked 90
-[2023.05.26-15.24.37:372][865]LogTemp: 1
-[2023.05.26-15.24.38:202][942]LogTemp: Warning: broadCast Hit
-[2023.05.26-15.24.40:412][154]LogTemp: 0
-[2023.05.26-15.24.40:412][154]LogTemp: Warning: OnAttacked 80
-[2023.05.26-15.24.40:412][154]LogTemp: 1
-[2023.05.26-15.24.40:768][191]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2023.05.26-15.24.40:768][191]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2023.05.26-15.24.40:771][191]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.05.26-15.24.40:771][191]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Default
-[2023.05.26-15.24.40:771][191]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2023.05.26-15.24.40:772][191]LogWorld: UWorld::CleanupWorld for Default, bSessionEnded=true, bCleanupResources=true
-[2023.05.26-15.24.40:772][191]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.05.26-15.24.40:787][191]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2023.05.26-15.24.40:793][191]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.05.26-15.24.40:829][191]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2023.05.26-15.24.40:831][191]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.05.26-15.24.40:835][191]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
-[2023.05.26-15.24.40:893][193]LogPlayLevel: Display: Destroying online subsystem :Context_28
-[2023.05.26-15.24.51:447][326]LogSavePackage: Moving 'C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Saved/BT_EnemyA12304F14BF8783E090B1E82807AC3FC.tmp' to 'C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Content/Blueprints/Boss/AI/BT_Enemy.uasset'
-[2023.05.26-15.24.51:464][326]AssetCheck: New page: Asset Save: BT_Enemy
-[2023.05.26-15.24.51:464][326]LogContentValidation: Display: Validating BehaviorTree /Game/Blueprints/Boss/AI/BT_Enemy.BT_Enemy
-[2023.05.26-15.24.52:289][409]LogTemp: Repeating last play command: Selected Viewport
-[2023.05.26-15.24.52:314][409]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2023.05.26-15.24.52:315][409]PIE: New page: PIE session: Default (2023. 5. 27. 오전 9:24:52)
-[2023.05.26-15.24.52:315][409]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Default
-[2023.05.26-15.24.52:318][409]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003259s)
-[2023.05.26-15.24.52:319][409]LogAIModule: Creating AISystem for world Default
-[2023.05.26-15.24.52:319][409]LogPlayLevel: PIE: World Init took: (0.000908s)
-[2023.05.26-15.24.52:319][409]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Default.Default to /Game/Maps/UEDPIE_0_Default.Default (0.004258s)
-[2023.05.26-15.24.52:353][409]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
-[2023.05.26-15.24.52:354][409]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2023.05.26-15.24.52:354][409]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2023.05.26-15.24.52:354][409]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2023.05.26-15.24.52:355][409]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2023.05.26-15.24.52:355][409]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2023.05.26-15.24.52:355][409]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2023.05.26-15.24.52:355][409]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2023.05.26-15.24.52:355][409]LogAudio: Display: AudioDevice MaxSources: 32
-[2023.05.26-15.24.52:355][409]LogAudio: Display: Using built-in audio occlusion.
-[2023.05.26-15.24.52:355][409]LogAudioMixer: Display: Initializing audio mixer.
-[2023.05.26-15.24.52:366][409]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2023.05.26-15.24.52:366][409]LogAudioMixer: Display: Name: 스피커(Razer Kraken V3 X)
-[2023.05.26-15.24.52:366][409]LogAudioMixer: Display: Is Default: Yes
-[2023.05.26-15.24.52:366][409]LogAudioMixer: Display: Sample Rate: 48000
-[2023.05.26-15.24.52:366][409]LogAudioMixer: Display: Channel Count Used: 2
-[2023.05.26-15.24.52:366][409]LogAudioMixer: Display: Device Channel Count: 2
-[2023.05.26-15.24.52:366][409]LogAudioMixer: Display: Channel Order:
-[2023.05.26-15.24.52:366][409]LogAudioMixer: Display: 0: FrontLeft
-[2023.05.26-15.24.52:366][409]LogAudioMixer: Display: 1: FrontRight
-[2023.05.26-15.24.52:376][409]LogAudioMixer: Display: Using Audio Device 스피커(Razer Kraken V3 X)
-[2023.05.26-15.24.52:377][409]LogInit: FAudioDevice initialized.
-[2023.05.26-15.24.52:387][409]LogLoad: Game class is 'BP_GameModeBase_C'
-[2023.05.26-15.24.52:389][409]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2023.05.27-00.24.52
-[2023.05.26-15.24.52:391][409]LogWorld: Bringing up level for play took: 0.004145
-[2023.05.26-15.24.52:391][409]LogOnline: OSS: Creating online subsystem instance for: :Context_29
-[2023.05.26-15.24.52:395][409]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Default 0.809
-[2023.05.26-15.25.03:277][575]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.25.04:416][703]LogScript: Warning: Script Msg: SetTimer passed a negative time or initial start delay.  The associated timer may fail to fire!  If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
-[2023.05.26-15.25.05:594][835]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.25.05:639][840]LogTemp: 0
-[2023.05.26-15.25.05:639][840]LogTemp: Warning: OnAttacked 90
-[2023.05.26-15.25.05:639][840]LogTemp: 1
-[2023.05.26-15.25.07:000][993]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.25.07:727][ 73]LogScript: Warning: Script Msg: SetTimer passed a negative time or initial start delay.  The associated timer may fail to fire!  If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
-[2023.05.26-15.25.08:093][113]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.25.08:922][205]LogTemp: 1
-[2023.05.26-15.25.08:922][205]LogTemp: Warning: OnAttacked 80
-[2023.05.26-15.25.08:922][205]LogTemp: 1
-[2023.05.26-15.25.09:750][294]LogTemp: Warning: broadCast Hit
-[2023.05.26-15.25.10:065][328]LogTemp: Warning: broadCast Attack
-[2023.05.26-15.25.11:635][494]LogTemp: Warning: broadCast Attack
-[2023.05.26-15.25.11:636][494]LogTemp: Hit Actor : Enemy_Character_9
-[2023.05.26-15.25.11:636][494]LogBlueprintUserMessages: [Enemy_Character_9] Hit
-[2023.05.26-15.25.11:636][494]LogBlueprintUserMessages: [Enemy_Character_9] 90.0
-[2023.05.26-15.25.11:674][498]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.25.12:518][589]LogTemp: 0
-[2023.05.26-15.25.12:518][589]LogTemp: Warning: OnAttacked 70
-[2023.05.26-15.25.12:518][589]LogTemp: 1
-[2023.05.26-15.25.13:285][672]LogTemp: Warning: broadCast Attack
-[2023.05.26-15.25.13:285][672]LogTemp: Hit Actor : Enemy_Character_9
-[2023.05.26-15.25.13:285][672]LogBlueprintUserMessages: [Enemy_Character_9] Hit
-[2023.05.26-15.25.13:285][672]LogBlueprintUserMessages: [Enemy_Character_9] 80.0
-[2023.05.26-15.25.13:342][678]LogTemp: Warning: broadCast Hit
-[2023.05.26-15.25.14:246][776]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.25.15:272][887]LogTemp: Warning: broadCast Attack
-[2023.05.26-15.25.15:272][887]LogTemp: Hit Actor : Enemy_Character_9
-[2023.05.26-15.25.15:272][887]LogBlueprintUserMessages: [Enemy_Character_9] Hit
-[2023.05.26-15.25.15:272][887]LogBlueprintUserMessages: [Enemy_Character_9] 70.0
-[2023.05.26-15.25.15:535][915]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.25.16:130][979]LogTemp: 0
-[2023.05.26-15.25.16:130][979]LogTemp: Warning: OnAttacked 60
-[2023.05.26-15.25.16:130][979]LogTemp: 1
-[2023.05.26-15.25.16:959][ 70]LogTemp: Warning: broadCast Hit
-[2023.05.26-15.25.17:209][ 96]LogTemp: Warning: broadCast Attack
-[2023.05.26-15.25.17:209][ 96]LogTemp: Hit Actor : Enemy_Character_9
-[2023.05.26-15.25.17:209][ 96]LogBlueprintUserMessages: [Enemy_Character_9] Hit
-[2023.05.26-15.25.17:209][ 96]LogBlueprintUserMessages: [Enemy_Character_9] 60.0
-[2023.05.26-15.25.18:829][269]LogTemp: Warning: broadCast Attack
-[2023.05.26-15.25.18:829][269]LogTemp: Hit Actor : Enemy_Character_9
-[2023.05.26-15.25.18:829][269]LogBlueprintUserMessages: [Enemy_Character_9] Hit
-[2023.05.26-15.25.18:829][269]LogBlueprintUserMessages: [Enemy_Character_9] 50.0
-[2023.05.26-15.25.19:178][305]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.25.20:006][392]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2023.05.26-15.25.20:022][392]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
-[2023.05.26-15.25.20:042][392]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
-[2023.05.26-15.25.20:044][392]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.05.26-15.25.20:044][392]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Default
-[2023.05.26-15.25.20:044][392]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2023.05.26-15.25.20:044][392]LogWorld: UWorld::CleanupWorld for Default, bSessionEnded=true, bCleanupResources=true
-[2023.05.26-15.25.20:045][392]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.05.26-15.25.20:057][392]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2023.05.26-15.25.20:062][392]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.05.26-15.25.20:093][392]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2023.05.26-15.25.20:096][392]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.05.26-15.25.20:100][392]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
-[2023.05.26-15.25.20:129][393]LogPlayLevel: Display: Destroying online subsystem :Context_29
-[2023.05.26-15.25.25:731][828]LogRenderer: Reallocating scene render targets to support 940x692 Format 10 NumSamples 1 (Frame:10885).
-[2023.05.26-15.25.30:319][135]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
-[2023.05.26-15.25.30:319][135]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.05.26-15.25.32:427][283]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Blueprints/Boss/Animation/BossAnimBP.BossAnimBP
-[2023.05.26-15.25.32:446][283]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2023.05.26-15.25.32:711][283]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2023.05.26-15.25.33:040][283]LogRenderer: Reallocating scene render targets to support 940x840 Format 10 NumSamples 1 (Frame:1).
-[2023.05.26-15.25.33:040][283]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2023.05.26-15.26.04:573][639]BlueprintLog: New page: Compile BossAnimBP
-[2023.05.26-15.26.04:940][639]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
-[2023.05.26-15.26.05:531][673]LogSavePackage: Moving 'C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Saved/BossAnimBP786B4B7A478183876A605584E1FCDCF0.tmp' to 'C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Content/Blueprints/Boss/Animation/BossAnimBP.uasset'
-[2023.05.26-15.26.05:554][673]AssetCheck: New page: Asset Save: BossAnimBP
-[2023.05.26-15.26.05:554][673]LogContentValidation: Display: Validating AnimBlueprint /Game/Blueprints/Boss/Animation/BossAnimBP.BossAnimBP
-[2023.05.26-15.26.06:841][798]LogTemp: Repeating last play command: Selected Viewport
-[2023.05.26-15.26.06:866][798]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2023.05.26-15.26.06:866][798]PIE: New page: PIE session: Default (2023. 5. 27. 오전 9:26:06)
-[2023.05.26-15.26.06:866][798]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Default
-[2023.05.26-15.26.06:870][798]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003307s)
-[2023.05.26-15.26.06:871][798]LogAIModule: Creating AISystem for world Default
-[2023.05.26-15.26.06:871][798]LogPlayLevel: PIE: World Init took: (0.001487s)
-[2023.05.26-15.26.06:871][798]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Default.Default to /Game/Maps/UEDPIE_0_Default.Default (0.004891s)
-[2023.05.26-15.26.06:908][798]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
-[2023.05.26-15.26.06:909][798]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2023.05.26-15.26.06:909][798]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2023.05.26-15.26.06:909][798]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2023.05.26-15.26.06:909][798]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2023.05.26-15.26.06:909][798]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2023.05.26-15.26.06:909][798]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2023.05.26-15.26.06:909][798]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2023.05.26-15.26.06:909][798]LogAudio: Display: AudioDevice MaxSources: 32
-[2023.05.26-15.26.06:910][798]LogAudio: Display: Using built-in audio occlusion.
-[2023.05.26-15.26.06:910][798]LogAudioMixer: Display: Initializing audio mixer.
-[2023.05.26-15.26.06:921][798]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2023.05.26-15.26.06:921][798]LogAudioMixer: Display: Name: 스피커(Razer Kraken V3 X)
-[2023.05.26-15.26.06:921][798]LogAudioMixer: Display: Is Default: Yes
-[2023.05.26-15.26.06:921][798]LogAudioMixer: Display: Sample Rate: 48000
-[2023.05.26-15.26.06:921][798]LogAudioMixer: Display: Channel Count Used: 2
-[2023.05.26-15.26.06:921][798]LogAudioMixer: Display: Device Channel Count: 2
-[2023.05.26-15.26.06:921][798]LogAudioMixer: Display: Channel Order:
-[2023.05.26-15.26.06:921][798]LogAudioMixer: Display: 0: FrontLeft
-[2023.05.26-15.26.06:921][798]LogAudioMixer: Display: 1: FrontRight
-[2023.05.26-15.26.06:931][798]LogAudioMixer: Display: Using Audio Device 스피커(Razer Kraken V3 X)
-[2023.05.26-15.26.06:932][798]LogInit: FAudioDevice initialized.
-[2023.05.26-15.26.06:941][798]LogLoad: Game class is 'BP_GameModeBase_C'
-[2023.05.26-15.26.06:943][798]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2023.05.27-00.26.06
-[2023.05.26-15.26.06:945][798]LogWorld: Bringing up level for play took: 0.003712
-[2023.05.26-15.26.06:945][798]LogOnline: OSS: Creating online subsystem instance for: :Context_33
-[2023.05.26-15.26.06:949][798]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Default -0.637
-[2023.05.26-15.26.12:813][499]LogTemp: 0
-[2023.05.26-15.26.12:813][499]LogTemp: Warning: OnAttacked 90
-[2023.05.26-15.26.12:813][499]LogTemp: 1
-[2023.05.26-15.26.13:638][598]LogTemp: Warning: broadCast Hit
-[2023.05.26-15.26.19:724][328]LogTemp: 0
-[2023.05.26-15.26.19:724][328]LogTemp: Warning: OnAttacked 80
-[2023.05.26-15.26.19:724][328]LogTemp: 1
-[2023.05.26-15.26.20:549][427]LogTemp: Warning: broadCast Hit
-[2023.05.26-15.26.21:942][594]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2023.05.26-15.26.21:942][594]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2023.05.26-15.26.21:945][594]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.05.26-15.26.21:945][594]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Default
-[2023.05.26-15.26.21:945][594]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2023.05.26-15.26.21:945][594]LogWorld: UWorld::CleanupWorld for Default, bSessionEnded=true, bCleanupResources=true
-[2023.05.26-15.26.21:945][594]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.05.26-15.26.21:956][594]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2023.05.26-15.26.21:961][594]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.05.26-15.26.21:998][594]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2023.05.26-15.26.22:031][594]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.05.26-15.26.22:035][594]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
-[2023.05.26-15.26.22:059][595]LogPlayLevel: Display: Destroying online subsystem :Context_33
-[2023.05.26-15.26.36:938][783]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2023.05.26-15.29.15:768][297]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
-[2023.05.26-15.29.15:768][297]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.05.26-15.31.06:851][217]BlueprintLog: New page: Compile Enemy_Character
-[2023.05.26-15.31.07:256][217]LogUObjectHash: Compacting FUObjectHashTables data took   4.18ms
-[2023.05.26-15.31.28:264][775]BlueprintLog: New page: Compile BossAnimBP
-[2023.05.26-15.31.28:649][775]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
-[2023.05.26-15.31.33:996][ 39]LogTemp: Repeating last play command: Selected Viewport
-[2023.05.26-15.31.34:021][ 39]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2023.05.26-15.31.34:021][ 39]PIE: New page: PIE session: Default (2023. 5. 27. 오전 9:31:34)
-[2023.05.26-15.31.34:021][ 39]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Default
-[2023.05.26-15.31.34:025][ 39]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003652s)
-[2023.05.26-15.31.34:026][ 39]LogAIModule: Creating AISystem for world Default
-[2023.05.26-15.31.34:027][ 39]LogPlayLevel: PIE: World Init took: (0.001409s)
-[2023.05.26-15.31.34:027][ 39]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Default.Default to /Game/Maps/UEDPIE_0_Default.Default (0.005205s)
-[2023.05.26-15.31.34:066][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   4.36ms
-[2023.05.26-15.31.34:068][ 39]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2023.05.26-15.31.34:068][ 39]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2023.05.26-15.31.34:068][ 39]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2023.05.26-15.31.34:068][ 39]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2023.05.26-15.31.34:068][ 39]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2023.05.26-15.31.34:068][ 39]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2023.05.26-15.31.34:068][ 39]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2023.05.26-15.31.34:068][ 39]LogAudio: Display: AudioDevice MaxSources: 32
-[2023.05.26-15.31.34:068][ 39]LogAudio: Display: Using built-in audio occlusion.
-[2023.05.26-15.31.34:068][ 39]LogAudioMixer: Display: Initializing audio mixer.
-[2023.05.26-15.31.34:079][ 39]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2023.05.26-15.31.34:079][ 39]LogAudioMixer: Display: Name: 스피커(Razer Kraken V3 X)
-[2023.05.26-15.31.34:080][ 39]LogAudioMixer: Display: Is Default: Yes
-[2023.05.26-15.31.34:080][ 39]LogAudioMixer: Display: Sample Rate: 48000
-[2023.05.26-15.31.34:080][ 39]LogAudioMixer: Display: Channel Count Used: 2
-[2023.05.26-15.31.34:080][ 39]LogAudioMixer: Display: Device Channel Count: 2
-[2023.05.26-15.31.34:080][ 39]LogAudioMixer: Display: Channel Order:
-[2023.05.26-15.31.34:080][ 39]LogAudioMixer: Display: 0: FrontLeft
-[2023.05.26-15.31.34:080][ 39]LogAudioMixer: Display: 1: FrontRight
-[2023.05.26-15.31.34:090][ 39]LogAudioMixer: Display: Using Audio Device 스피커(Razer Kraken V3 X)
-[2023.05.26-15.31.34:091][ 39]LogInit: FAudioDevice initialized.
-[2023.05.26-15.31.34:099][ 39]LogLoad: Game class is 'BP_GameModeBase_C'
-[2023.05.26-15.31.34:102][ 39]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2023.05.27-00.31.34
-[2023.05.26-15.31.34:104][ 39]LogWorld: Bringing up level for play took: 0.004050
-[2023.05.26-15.31.34:104][ 39]LogOnline: OSS: Creating online subsystem instance for: :Context_34
-[2023.05.26-15.31.34:108][ 39]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Default 0.521
-[2023.05.26-15.31.39:876][724]LogTemp: 0
-[2023.05.26-15.31.39:876][724]LogTemp: Warning: OnAttacked 90
-[2023.05.26-15.31.39:876][724]LogTemp: 1
-[2023.05.26-15.31.40:702][821]LogTemp: Warning: broadCast Hit
-[2023.05.26-15.31.42:902][ 85]LogTemp: 0
-[2023.05.26-15.31.42:902][ 85]LogTemp: Warning: OnAttacked 80
-[2023.05.26-15.31.42:902][ 85]LogTemp: 1
-[2023.05.26-15.31.43:727][184]LogTemp: Warning: broadCast Hit
-[2023.05.26-15.31.52:158][192]LogTemp: 0
-[2023.05.26-15.31.52:158][192]LogTemp: Warning: OnAttacked 70
-[2023.05.26-15.31.52:158][192]LogTemp: 1
-[2023.05.26-15.31.52:984][291]LogTemp: Warning: broadCast Hit
-[2023.05.26-15.31.57:485][826]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.31.59:080][ 15]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.31.59:788][100]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.32.00:788][220]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.32.01:797][341]LogTemp: Warning: broadCast Attack
-[2023.05.26-15.32.02:672][446]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.32.03:572][554]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.32.04:414][655]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.32.06:383][891]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.32.06:859][948]LogTemp: Warning: broadCast Attack
-[2023.05.26-15.32.06:859][948]LogTemp: Hit Actor : Enemy_Character_9
-[2023.05.26-15.32.06:859][948]LogBlueprintUserMessages: [Enemy_Character_9] Hit
-[2023.05.26-15.32.06:859][948]LogBlueprintUserMessages: [Enemy_Character_9] 90.0
-[2023.05.26-15.32.06:934][957]LogTemp: 0
-[2023.05.26-15.32.06:934][957]LogTemp: Warning: OnAttacked 60
-[2023.05.26-15.32.06:934][957]LogTemp: 1
-[2023.05.26-15.32.07:716][ 51]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.32.08:858][188]LogTemp: 1
-[2023.05.26-15.32.08:858][188]LogTemp: Warning: OnAttacked 50
-[2023.05.26-15.32.08:858][188]LogTemp: 1
-[2023.05.26-15.32.09:167][225]LogScript: Warning: Script Msg: SetTimer passed a negative time or initial start delay.  The associated timer may fail to fire!  If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
-[2023.05.26-15.32.09:850][307]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.32.10:675][406]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.32.11:750][535]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.32.13:675][766]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.32.14:066][813]LogTemp: 1
-[2023.05.26-15.32.14:066][813]LogTemp: Warning: OnAttacked 40
-[2023.05.26-15.32.14:066][813]LogTemp: 1
-[2023.05.26-15.32.14:691][888]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.32.15:358][968]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.32.17:684][247]LogTemp: 1
-[2023.05.26-15.32.17:684][247]LogTemp: Warning: OnAttacked 30
-[2023.05.26-15.32.17:684][247]LogTemp: 1
-[2023.05.26-15.32.18:509][346]LogTemp: Warning: broadCast Hit
-[2023.05.26-15.32.20:343][566]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.32.21:218][671]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.32.21:292][680]LogScript: Warning: Script Msg: SetTimer passed a negative time or initial start delay.  The associated timer may fail to fire!  If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
-[2023.05.26-15.32.22:052][771]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.32.22:668][845]LogTemp: Warning: broadCast Tumble
-[2023.05.26-15.32.23:986][  3]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2023.05.26-15.32.23:996][  3]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
-[2023.05.26-15.32.24:015][  3]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
-[2023.05.26-15.32.24:018][  3]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.05.26-15.32.24:018][  3]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Default
-[2023.05.26-15.32.24:018][  3]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2023.05.26-15.32.24:018][  3]LogWorld: UWorld::CleanupWorld for Default, bSessionEnded=true, bCleanupResources=true
-[2023.05.26-15.32.24:018][  3]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.05.26-15.32.24:033][  3]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2023.05.26-15.32.24:038][  3]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.05.26-15.32.24:071][  3]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2023.05.26-15.32.24:074][  3]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.05.26-15.32.24:078][  3]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
-[2023.05.26-15.32.24:099][  4]LogPlayLevel: Display: Destroying online subsystem :Context_34
-[2023.05.26-15.32.36:928][951]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
-[2023.05.26-15.32.36:928][951]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.05.26-15.33.28:603][951]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
-[2023.05.26-15.33.28:603][951]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.05.26-15.33.42:824][985]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
-[2023.05.26-15.33.42:824][985]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.05.26-15.34.09:979][120]LogSavePackage: Moving 'C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Saved/Boss_GroundSmash_Start_Montage0EE38DC74FA80E49FDAAE193C5D2F737.tmp' to 'C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Content/Blueprints/Boss/Montage/Boss_GroundSmash_Start_Montage.uasset'
-[2023.05.26-15.34.09:997][120]AssetCheck: New page: Asset Save: Boss_GroundSmash_Start_Montage
-[2023.05.26-15.34.09:997][120]LogContentValidation: Display: Validating AnimMontage /Game/Blueprints/Boss/Montage/Boss_GroundSmash_Start_Montage.Boss_GroundSmash_Start_Montage
-[2023.05.26-15.34.41:873][818]BlueprintLog: New page: Compile Enemy_Character
-[2023.05.26-15.34.42:279][818]LogUObjectHash: Compacting FUObjectHashTables data took   4.13ms
-[2023.05.26-15.35.06:791][895]LogPhysics: Warning: Scale for /Game/Maps/Default.Default:PersistentLevel.Enemy_Character_9.SmashColl has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=2.000 Z=2.000
-[2023.05.26-15.35.06:792][895]LogPhysics: Warning: Scale for /Game/Maps/Default.Default:PersistentLevel.Enemy_Character_9.SmashColl has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=2.000 Z=2.000
-[2023.05.26-15.35.06:793][895]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.Enemy_Character_C_0.SmashColl has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=2.000 Z=2.000
-[2023.05.26-15.35.06:794][895]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.Enemy_Character_C_0.SmashColl has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=2.000 Z=2.000
-[2023.05.26-15.35.06:795][895]LogPhysics: Warning: Scale for /Game/Maps/Default.Default:PersistentLevel.Enemy_Character_9.SmashColl has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=2.000 Z=2.000
-[2023.05.26-15.35.06:796][895]LogPhysics: Warning: Scale for /Game/Maps/Default.Default:PersistentLevel.Enemy_Character_9.SmashColl has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=2.000 Z=2.000
-[2023.05.26-15.35.06:798][895]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.Enemy_Character_C_0.SmashColl has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=2.000 Z=2.000
-[2023.05.26-15.35.06:799][895]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.Enemy_Character_C_0.SmashColl has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=2.000 Z=2.000
-[2023.05.26-15.35.06:812][895]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.Enemy_Character_C_0.SmashColl has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=2.000 Z=2.000
-[2023.05.26-15.35.06:813][895]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.Enemy_Character_C_0.SmashColl has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=2.000 Z=2.000
-[2023.05.26-15.37.43:283][879]LogUObjectHash: Compacting FUObjectHashTables data took   5.13ms
-[2023.05.26-15.37.43:319][879]LogSavePackage: Moving 'C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Saved/Default_Auto162AFB24C408DED7068F4BFBC79780FE5.tmp' to 'C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Saved/Autosaves/Game/Maps/Default_Auto1.umap'
-[2023.05.26-15.37.43:321][879]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Default' took 0.122
-[2023.05.26-15.37.43:321][879]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.122
-[2023.05.26-15.37.43:321][879]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ParagonRampage/Characters/Heroes/Rampage/Meshes/Rampage_Skeleton] ([1] browsable assets)...
-[2023.05.26-15.37.43:321][879]OBJ SavePackage: Finished generating thumbnails for package [/Game/ParagonRampage/Characters/Heroes/Rampage/Meshes/Rampage_Skeleton]
-[2023.05.26-15.37.43:347][879]LogSavePackage: Moving 'C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Saved/Rampage_Skeleton_Auto163904C8842C824D1B2665B939D01D129.tmp' to 'C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Saved/Autosaves/Game/ParagonRampage/Characters/Heroes/Rampage/Meshes/Rampage_Skeleton_Auto1.uasset'
-[2023.05.26-15.37.43:348][879]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Boss/AI/Enemy_Character] ([1] browsable assets)...
-[2023.05.26-15.37.43:360][879]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Boss/AI/Enemy_Character.Enemy_Character]
-[2023.05.26-15.37.43:360][879]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Boss/AI/Enemy_Character]
-[2023.05.26-15.37.43:416][879]LogSavePackage: Moving 'C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Saved/Enemy_Character_Auto17BF097694ACC3FAA618650AA4685BE00.tmp' to 'C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Saved/Autosaves/Game/Blueprints/Boss/AI/Enemy_Character_Auto1.uasset'
-[2023.05.26-15.37.43:418][879]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Boss/Animation/BossAnimBP] ([1] browsable assets)...
-[2023.05.26-15.37.43:429][879]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Blueprints/Boss/Animation/BossAnimBP.BossAnimBP]
-[2023.05.26-15.37.43:429][879]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Boss/Animation/BossAnimBP]
-[2023.05.26-15.37.43:478][879]LogSavePackage: Moving 'C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Saved/BossAnimBP_Auto1FA7F1BED4E191F8E98999EAF66DA6148.tmp' to 'C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Saved/Autosaves/Game/Blueprints/Boss/Animation/BossAnimBP_Auto1.uasset'
-[2023.05.26-15.37.43:480][879]LogFileHelpers: Auto-saving content packages took 0.159
-[2023.05.26-15.38.08:297][ 90]BlueprintLog: New page: Compile Enemy_Character
-[2023.05.26-15.38.08:683][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
-[2023.05.26-15.39.48:241][577]LogSavePackage: Moving 'C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Saved/BossAnimBPC567CF4B4BE8AB0E3E2466B3F24A7DB8.tmp' to 'C:/Users/Administrator/Downloads/UNogakKimchi-dong-gyu/UNogakKimchi-dong-gyu/RossiNante/Content/Blueprints/Boss/Animation/BossAnimBP.uasset'
-[2023.05.26-15.39.48:261][577]AssetCheck: New page: Asset Save: BossAnimBP
-[2023.05.26-15.39.48:261][577]LogContentValidation: Display: Validating AnimBlueprint /Game/Blueprints/Boss/Animation/BossAnimBP.BossAnimBP
-[2023.05.26-15.39.49:417][665]BlueprintLog: New page: Compile BossAnimBP
-[2023.05.26-15.39.49:790][665]LogUObjectHash: Compacting FUObjectHashTables data took   3.81ms
-[2023.05.26-15.39.58:384][366]BlueprintLog: New page: Compile Enemy_Character
-[2023.05.26-15.39.58:791][366]LogUObjectHash: Compacting FUObjectHashTables data took   3.86ms
-[2023.05.26-15.40.07:094][108]BlueprintLog: New page: Compile Enemy_Character
-[2023.05.26-15.40.07:494][108]LogUObjectHash: Compacting FUObjectHashTables data took   4.43ms
-[2023.05.26-15.40.09:362][309]LogTemp: Repeating last play command: Selected Viewport
-[2023.05.26-15.40.09:386][309]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2023.05.26-15.40.09:386][309]PIE: New page: PIE session: Default (2023. 5. 27. 오전 9:40:09)
-[2023.05.26-15.40.09:386][309]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Default
-[2023.05.26-15.40.09:389][309]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003295s)
-[2023.05.26-15.40.09:390][309]LogAIModule: Creating AISystem for world Default
-[2023.05.26-15.40.09:390][309]LogPlayLevel: PIE: World Init took: (0.000932s)
-[2023.05.26-15.40.09:390][309]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Default.Default to /Game/Maps/UEDPIE_0_Default.Default (0.004321s)
-[2023.05.26-15.40.09:426][309]LogUObjectHash: Compacting FUObjectHashTables data took   4.44ms
-[2023.05.26-15.40.09:427][309]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2023.05.26-15.40.09:427][309]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2023.05.26-15.40.09:427][309]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2023.05.26-15.40.09:427][309]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2023.05.26-15.40.09:427][309]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2023.05.26-15.40.09:427][309]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2023.05.26-15.40.09:427][309]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2023.05.26-15.40.09:427][309]LogAudio: Display: AudioDevice MaxSources: 32
-[2023.05.26-15.40.09:427][309]LogAudio: Display: Using built-in audio occlusion.
-[2023.05.26-15.40.09:427][309]LogAudioMixer: Display: Initializing audio mixer.
-[2023.05.26-15.40.09:439][309]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2023.05.26-15.40.09:439][309]LogAudioMixer: Display: Name: 스피커(Razer Kraken V3 X)
-[2023.05.26-15.40.09:439][309]LogAudioMixer: Display: Is Default: Yes
-[2023.05.26-15.40.09:439][309]LogAudioMixer: Display: Sample Rate: 48000
-[2023.05.26-15.40.09:439][309]LogAudioMixer: Display: Channel Count Used: 2
-[2023.05.26-15.40.09:439][309]LogAudioMixer: Display: Device Channel Count: 2
-[2023.05.26-15.40.09:439][309]LogAudioMixer: Display: Channel Order:
-[2023.05.26-15.40.09:439][309]LogAudioMixer: Display: 0: FrontLeft
-[2023.05.26-15.40.09:439][309]LogAudioMixer: Display: 1: FrontRight
-[2023.05.26-15.40.09:449][309]LogAudioMixer: Display: Using Audio Device 스피커(Razer Kraken V3 X)
-[2023.05.26-15.40.09:450][309]LogInit: FAudioDevice initialized.
-[2023.05.26-15.40.09:454][309]LogLoad: Game class is 'BP_GameModeBase_C'
-[2023.05.26-15.40.09:456][309]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2023.05.27-00.40.09
-[2023.05.26-15.40.09:458][309]LogWorld: Bringing up level for play took: 0.003890
-[2023.05.26-15.40.09:458][309]LogOnline: OSS: Creating online subsystem instance for: :Context_39
-[2023.05.26-15.40.09:463][309]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Default -0.124
-[2023.05.26-15.40.18:264][363]LogTemp: 0
-[2023.05.26-15.40.18:264][363]LogTemp: Warning: OnAttacked 90
-[2023.05.26-15.40.18:265][363]LogTemp: 1
-[2023.05.26-15.40.19:089][462]LogTemp: Warning: broadCast Hit
-[2023.05.26-15.40.24:318][ 89]LogTemp: 0
-[2023.05.26-15.40.24:318][ 89]LogTemp: Warning: OnAttacked 80
-[2023.05.26-15.40.24:318][ 89]LogTemp: 1
-[2023.05.26-15.40.25:143][188]LogTemp: Warning: broadCast Hit
-[2023.05.26-15.40.25:909][280]LogTemp: Warning: broadCast Attack
-[2023.05.26-15.40.25:909][280]LogTemp: Hit Actor : Enemy_Character_9
-[2023.05.26-15.40.25:910][280]LogBlueprintUserMessages: [Enemy_Character_9] Hit
-[2023.05.26-15.40.25:910][280]LogBlueprintUserMessages: [Enemy_Character_9] 90.0
-[2023.05.26-15.40.26:684][373]LogTemp: Warning: broadCast Skill
-[2023.05.26-15.40.30:252][801]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2023.05.26-15.40.30:252][801]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2023.05.26-15.40.30:254][801]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.05.26-15.40.30:255][801]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Default
-[2023.05.26-15.40.30:255][801]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2023.05.26-15.40.30:255][801]LogWorld: UWorld::CleanupWorld for Default, bSessionEnded=true, bCleanupResources=true
-[2023.05.26-15.40.30:255][801]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.05.26-15.40.30:270][801]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2023.05.26-15.40.30:276][801]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.05.26-15.40.30:306][801]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2023.05.26-15.40.30:308][801]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.05.26-15.40.30:313][801]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
-[2023.05.26-15.40.30:351][803]LogPlayLevel: Display: Destroying online subsystem :Context_39
-[2023.05.26-15.40.45:440][ 66]BlueprintLog: New page: Compile BossAnimBP
-[2023.05.26-15.40.45:811][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
-[2023.05.26-15.40.48:237][313]LogTemp: Repeating last play command: Selected Viewport
-[2023.05.26-15.40.48:258][313]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2023.05.26-15.40.48:258][313]PIE: New page: PIE session: Default (2023. 5. 27. 오전 9:40:48)
-[2023.05.26-15.40.48:258][313]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Default
-[2023.05.26-15.40.48:262][313]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003349s)
-[2023.05.26-15.40.48:263][313]LogAIModule: Creating AISystem for world Default
-[2023.05.26-15.40.48:263][313]LogPlayLevel: PIE: World Init took: (0.001442s)
-[2023.05.26-15.40.48:263][313]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Default.Default to /Game/Maps/UEDPIE_0_Default.Default (0.004932s)
-[2023.05.26-15.40.48:298][313]LogUObjectHash: Compacting FUObjectHashTables data took   4.02ms
-[2023.05.26-15.40.48:299][313]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2023.05.26-15.40.48:299][313]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2023.05.26-15.40.48:299][313]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2023.05.26-15.40.48:299][313]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2023.05.26-15.40.48:299][313]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2023.05.26-15.40.48:299][313]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2023.05.26-15.40.48:299][313]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2023.05.26-15.40.48:299][313]LogAudio: Display: AudioDevice MaxSources: 32
-[2023.05.26-15.40.48:299][313]LogAudio: Display: Using built-in audio occlusion.
-[2023.05.26-15.40.48:299][313]LogAudioMixer: Display: Initializing audio mixer.
-[2023.05.26-15.40.48:310][313]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2023.05.26-15.40.48:310][313]LogAudioMixer: Display: Name: 스피커(Razer Kraken V3 X)
-[2023.05.26-15.40.48:310][313]LogAudioMixer: Display: Is Default: Yes
-[2023.05.26-15.40.48:310][313]LogAudioMixer: Display: Sample Rate: 48000
-[2023.05.26-15.40.48:310][313]LogAudioMixer: Display: Channel Count Used: 2
-[2023.05.26-15.40.48:310][313]LogAudioMixer: Display: Device Channel Count: 2
-[2023.05.26-15.40.48:310][313]LogAudioMixer: Display: Channel Order:
-[2023.05.26-15.40.48:310][313]LogAudioMixer: Display: 0: FrontLeft
-[2023.05.26-15.40.48:310][313]LogAudioMixer: Display: 1: FrontRight
-[2023.05.26-15.40.48:319][313]LogAudioMixer: Display: Using Audio Device 스피커(Razer Kraken V3 X)
-[2023.05.26-15.40.48:321][313]LogInit: FAudioDevice initialized.
-[2023.05.26-15.40.48:329][313]LogLoad: Game class is 'BP_GameModeBase_C'
-[2023.05.26-15.40.48:331][313]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2023.05.27-00.40.48
-[2023.05.26-15.40.48:333][313]LogWorld: Bringing up level for play took: 0.003943
-[2023.05.26-15.40.48:333][313]LogOnline: OSS: Creating online subsystem instance for: :Context_40
-[2023.05.26-15.40.48:337][313]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Default 0.751
-[2023.05.26-15.40.57:145][351]LogTemp: 0
-[2023.05.26-15.40.57:145][351]LogTemp: Warning: OnAttacked 90
-[2023.05.26-15.40.57:145][351]LogTemp: 1
-[2023.05.26-15.40.57:337][374]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2023.05.26-15.40.57:337][374]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2023.05.26-15.40.57:340][374]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.05.26-15.40.57:340][374]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Default
-[2023.05.26-15.40.57:340][374]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2023.05.26-15.40.57:340][374]LogWorld: UWorld::CleanupWorld for Default, bSessionEnded=true, bCleanupResources=true
-[2023.05.26-15.40.57:340][374]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.05.26-15.40.57:358][374]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2023.05.26-15.40.57:364][374]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.05.26-15.40.57:394][374]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2023.05.26-15.40.57:396][374]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.05.26-15.40.57:400][374]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
-[2023.05.26-15.40.57:439][378]LogPlayLevel: Display: Destroying online subsystem :Context_40
-[2023.05.26-15.42.06:450][229]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
-[2023.05.26-15.42.10:881][229]LogSlate: Window 'Delete Assets' being destroyed
+[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2023.06.14-01.30.39:270][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2023.06.14-01.30.39:270][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.06.14-01.30.39:270][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2023.06.14-01.30.39:270][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2023.06.14-01.30.39:270][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2023.06.14-01.30.39:270][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.06.14-01.30.39:270][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.06.14-01.30.39:272][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.14-01.30.39:272][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2023.06.14-01.30.39:272][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2023.06.14-01.30.39:272][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.14-01.30.39:272][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2023.06.14-01.30.39:272][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.14-01.30.39:272][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2023.06.14-01.30.39:272][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2023.06.14-01.30.39:272][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2023.06.14-01.30.39:272][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2023.06.14-01.30.39:272][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2023.06.14-01.30.39:273][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2023.06.14-01.30.39:273][  0]LogInit: Selected Device Profile: [Windows]
+[2023.06.14-01.30.39:273][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2023.06.14-01.30.39:276][  0]LogHAL: Display: Platform has ~ 16 GB [17085329408 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2023.06.14-01.30.39:276][  0]LogInit: Going up to parent DeviceProfile []
+[2023.06.14-01.30.39:276][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@1] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:1]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.6]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@1] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:2]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@1] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.ShadowQuality:3]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:1024]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.05]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.7]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.25]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:.5]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@1] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:60]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:1]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:350]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:2]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.7]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:2]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:3                 ; low number of samples when gathering]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:0    ; no foreground scattering]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:0    ; no foreground scattering]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Applying CVar settings from Section [TextureQuality@1] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:1]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:2]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:4]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:600]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@1] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:32]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:2 ; Medium quality]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SSS.Scale:0.75]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SSGI.Quality:1]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.25]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2023.06.14-01.30.39:276][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2023.06.14-01.30.39:277][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@1] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.14-01.30.39:277][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.4]]
+[2023.06.14-01.30.39:277][  0]LogConfig: Setting CVar [[grass.DensityScale:0.4]]
+[2023.06.14-01.30.39:277][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@1] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.14-01.30.39:277][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2023.06.14-01.30.39:277][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2023.06.14-01.30.39:277][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2023.06.14-01.30.39:277][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2023.06.14-01.30.39:277][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2023.06.14-01.30.39:277][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2023.06.14-01.30.39:277][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/201911183/Desktop/unreal/0613/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.06.14-01.30.39:277][  0]LogInit: Computer: DESKTOP-SIQC98D
+[2023.06.14-01.30.39:277][  0]LogInit: User: 201911183
+[2023.06.14-01.30.39:277][  0]LogInit: CPU Page size=4096, Cores=8
+[2023.06.14-01.30.39:277][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.06.14-01.30.39:277][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2023.06.14-01.30.39:277][  0]LogMemory: Platform Memory Stats for Windows
+[2023.06.14-01.30.39:277][  0]LogMemory: Process Physical Memory: 109.77 MB used, 109.77 MB peak
+[2023.06.14-01.30.39:277][  0]LogMemory: Process Virtual Memory: 103.00 MB used, 103.00 MB peak
+[2023.06.14-01.30.39:277][  0]LogMemory: Physical Memory: 14378.37 MB used,  1915.47 MB free, 16293.84 MB total
+[2023.06.14-01.30.39:277][  0]LogMemory: Virtual Memory: 5188.29 MB used,  134212536.00 MB free, 134217728.00 MB total
+[2023.06.14-01.30.39:280][  0]LogWindows: WindowsPlatformFeatures enabled
+[2023.06.14-01.30.39:322][  0]LogInit: Overriding language with editor language configuration option (en).
+[2023.06.14-01.30.39:322][  0]LogInit: Overriding locale with editor culture configuration option ().
+[2023.06.14-01.30.39:322][  0]LogInit: Using OS detected locale (ko-KR).
+[2023.06.14-01.30.39:483][  0]LogInit: Setting process to per monitor DPI aware
+[2023.06.14-01.30.39:605][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2023.06.14-01.30.39:605][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2023.06.14-01.30.39:860][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.06.14-01.30.39:860][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2023.06.14-01.30.39:860][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2023.06.14-01.30.39:860][  0]LogD3D11RHI: D3D11 adapters:
+[2023.06.14-01.30.39:964][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080 SUPER' (Feature Level 11_0)
+[2023.06.14-01.30.39:964][  0]LogD3D11RHI:       8001/0/8146 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2023.06.14-01.30.39:966][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2023.06.14-01.30.39:966][  0]LogD3D11RHI:       0/0/8146 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2023.06.14-01.30.39:966][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2023.06.14-01.30.39:975][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2023.06.14-01.30.39:975][  0]LogD3D11RHI:     GPU DeviceId: 0x1e81 (for the marketing name, search the web for "GPU Device Id")
+[2023.06.14-01.30.39:975][  0]LogWindows: EnumDisplayDevices:
+[2023.06.14-01.30.39:975][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080 SUPER' (P:1 D:1)
+[2023.06.14-01.30.39:975][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080 SUPER' (P:0 D:1)
+[2023.06.14-01.30.39:976][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080 SUPER' (P:0 D:0)
+[2023.06.14-01.30.39:976][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080 SUPER' (P:0 D:0)
+[2023.06.14-01.30.39:976][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2023.06.14-01.30.39:976][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080 SUPER
+[2023.06.14-01.30.39:976][  0]LogD3D11RHI:   Driver Version: 535.98 (internal:31.0.15.3598, unified:535.98)
+[2023.06.14-01.30.39:976][  0]LogD3D11RHI:      Driver Date: 5-24-2023
+[2023.06.14-01.30.39:976][  0]LogRHI: Texture pool is 5600 MB (70% of 8001 MB)
+[2023.06.14-01.30.40:036][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2023.06.14-01.30.40:037][  0]LogD3D11RHI: Async texture creation enabled
+[2023.06.14-01.30.40:038][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061081).
+[2023.06.14-01.30.40:051][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2023.06.14-01.30.40:280][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2023.06.14-01.30.40:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2023.06.14-01.30.40:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2023.06.14-01.30.40:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2023.06.14-01.30.40:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2023.06.14-01.30.40:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2023.06.14-01.30.40:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2023.06.14-01.30.40:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2023.06.14-01.30.40:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2023.06.14-01.30.40:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2023.06.14-01.30.40:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2023.06.14-01.30.40:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2023.06.14-01.30.40:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2023.06.14-01.30.40:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2023.06.14-01.30.40:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2023.06.14-01.30.40:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2023.06.14-01.30.40:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2023.06.14-01.30.40:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2023.06.14-01.30.40:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2023.06.14-01.30.40:322][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2023.06.14-01.30.40:322][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2023.06.14-01.30.40:332][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2023.06.14-01.30.40:339][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2023.06.14-01.30.40:349][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2023.06.14-01.30.40:356][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2023.06.14-01.30.40:363][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2023.06.14-01.30.40:370][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2023.06.14-01.30.40:391][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2023.06.14-01.30.40:391][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2023.06.14-01.30.40:403][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2023.06.14-01.30.40:403][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2023.06.14-01.30.40:409][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2023.06.14-01.30.40:417][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2023.06.14-01.30.40:425][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2023.06.14-01.30.40:435][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2023.06.14-01.30.40:435][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2023.06.14-01.30.40:438][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2023.06.14-01.30.40:463][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Users/201911183/Desktop/unreal/0613/RossiNante/Intermediate/Shaders/WorkingDirectory/35188/).
+[2023.06.14-01.30.40:463][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/201911183/AppData/Local/Temp/UnrealShaderWorkingDir/1783EA62484046CBC0F204980C5CCFD9/'.
+[2023.06.14-01.30.40:463][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2023.06.14-01.30.40:463][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2023.06.14-01.30.40:463][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2023.06.14-01.30.41:079][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2023.06.14-01.30.41:121][  0]LogDerivedDataCache: Loaded boot cache 0.04s 86MB C:/Users/201911183/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2023.06.14-01.30.41:121][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/201911183/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2023.06.14-01.30.41:121][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/201911183/Desktop/unreal/0613/RossiNante/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.06.14-01.30.41:121][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2023.06.14-01.30.41:121][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/201911183/Desktop/unreal/0613/RossiNante/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.06.14-01.30.41:121][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2023.06.14-01.30.41:130][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2023.06.14-01.30.41:130][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.06.14-01.30.41:130][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2023.06.14-01.30.41:131][  0]LogDerivedDataCache: Using Local data cache path C:/Users/201911183/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.06.14-01.30.41:131][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2023.06.14-01.30.41:131][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2023.06.14-01.30.41:153][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2023.06.14-01.30.41:156][  0]LogSlate: Using FreeType 2.10.0
+[2023.06.14-01.30.41:156][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.06.14-01.30.41:214][  0]LogAssetRegistry: FAssetRegistry took 0.0024 seconds to start up
+[2023.06.14-01.30.41:460][  0]LogInit: Selected Device Profile: [Windows]
+[2023.06.14-01.30.41:575][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.06.14-01.30.41:575][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2023.06.14-01.30.41:575][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2023.06.14-01.30.41:575][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2023.06.14-01.30.41:575][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2023.06.14-01.30.41:588][  0]LogNetVersion: RossiNante 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 557242147)
+[2023.06.14-01.30.42:711][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.027749 seconds
+[2023.06.14-01.30.42:715][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2023.06.14-01.30.42:715][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2023.06.14-01.30.42:715][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.06.14-01.30.43:046][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.06.14-01.30.43:049][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.06.14-01.30.44:405][  0]LogWindows: Error: === Critical error: ===
+[2023.06.14-01.30.44:405][  0]LogWindows: Error: 
+[2023.06.14-01.30.44:405][  0]LogWindows: Error: Fatal error!
+[2023.06.14-01.30.44:405][  0]LogWindows: Error: 
+[2023.06.14-01.30.44:405][  0]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x00000160
+[2023.06.14-01.30.44:405][  0]LogWindows: Error: 
+[2023.06.14-01.30.44:405][  0]LogWindows: Error: [Callstack] 0x00007ffd7fba6cac UE4Editor-RossiNante-0094.dll!AMyCharacter::AMyCharacter() [C:\Users\201911183\Desktop\unreal\0613\RossiNante\Source\RossiNante\MyCharacter.cpp:18]
+[2023.06.14-01.30.44:405][  0]LogWindows: Error: [Callstack] 0x00007ffdee68191a UE4Editor-CoreUObject.dll!UnknownFunction []
+[2023.06.14-01.30.44:405][  0]LogWindows: Error: [Callstack] 0x00007ffdee911ddf UE4Editor-CoreUObject.dll!UnknownFunction []
+[2023.06.14-01.30.44:405][  0]LogWindows: Error: [Callstack] 0x00007ffdee8f119f UE4Editor-CoreUObject.dll!UnknownFunction []
+[2023.06.14-01.30.44:405][  0]LogWindows: Error: [Callstack] 0x00007ffdee8257b5 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2023.06.14-01.30.44:405][  0]LogWindows: Error: [Callstack] 0x00007ffdeeedc487 UE4Editor-Core.dll!UnknownFunction []
+[2023.06.14-01.30.44:405][  0]LogWindows: Error: [Callstack] 0x00007ffdeeefaa1b UE4Editor-Core.dll!UnknownFunction []
+[2023.06.14-01.30.44:405][  0]LogWindows: Error: [Callstack] 0x00007ffe2194af37 UE4Editor-Projects.dll!UnknownFunction []
+[2023.06.14-01.30.44:405][  0]LogWindows: Error: [Callstack] 0x00007ffe2194b229 UE4Editor-Projects.dll!UnknownFunction []
+[2023.06.14-01.30.44:405][  0]LogWindows: Error: [Callstack] 0x00007ff77656f671 UE4Editor.exe!UnknownFunction []
+[2023.06.14-01.30.44:405][  0]LogWindows: Error: [Callstack] 0x00007ff77657204b UE4Editor.exe!UnknownFunction []
+[2023.06.14-01.30.44:405][  0]LogWindows: Error: [Callstack] 0x00007ff77656c17c UE4Editor.exe!UnknownFunction []
+[2023.06.14-01.30.44:405][  0]LogWindows: Error: [Callstack] 0x00007ff77656c4ca UE4Editor.exe!UnknownFunction []
+[2023.06.14-01.30.44:405][  0]LogWindows: Error: [Callstack] 0x00007ff77657ceae UE4Editor.exe!UnknownFunction []
+[2023.06.14-01.30.44:405][  0]LogWindows: Error: [Callstack] 0x00007ff77657fcbe UE4Editor.exe!UnknownFunction []
+[2023.06.14-01.30.44:405][  0]LogWindows: Error: [Callstack] 0x00007ffe44fa55a0 KERNEL32.DLL!UnknownFunction []
+[2023.06.14-01.30.44:405][  0]LogWindows: Error: [Callstack] 0x00007ffe4612485b ntdll.dll!UnknownFunction []
+[2023.06.14-01.30.44:405][  0]LogWindows: Error: 
+[2023.06.14-01.30.44:415][  0]LogExit: Executing StaticShutdownAfterError
+[2023.06.14-01.30.44:417][  0]LogWindows: FPlatformMisc::RequestExit(1)
+[2023.06.14-01.30.44:417][  0]LogCore: Engine exit requested (reason: Win RequestExit)
+[2023.06.14-01.30.44:424][  0]Log file closed, 06/14/23 10:30:44

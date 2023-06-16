@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\RossiNante.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{6B55693F-4860-4206-903A-3F60B2CBEED7}</UniqueIdentifier>
+      <UniqueIdentifier>{D5F2E4C7-0347-4D1B-8F0E-7FB8E9CB99D6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\RossiNante.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{65A4EF7C-C84A-4969-B4BF-8B6F00E471A9}</UniqueIdentifier>
+      <UniqueIdentifier>{C0611603-AFE8-4D7B-B6B9-6D71C51CB06F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -20,15 +20,24 @@
     <None Include="..\..\Config\DefaultEngine.ini">
       <Filter>Config</Filter>
     </None>
-    <None Include="..\..\Config\DefaultGame.ini">
-      <Filter>Config</Filter>
-    </None>
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\RossiNante">
-      <UniqueIdentifier>{FCEA82B9-AB19-4D8E-9B4C-3EB609896C99}</UniqueIdentifier>
+      <UniqueIdentifier>{73EB2D27-8719-4446-8F6C-7E70D986A0AE}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\RossiNante\HUDWidget.cpp">
+      <Filter>Source\RossiNante</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RossiNante\HUDWidget.h">
+      <Filter>Source\RossiNante</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RossiNante\LoginWidget.cpp">
+      <Filter>Source\RossiNante</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RossiNante\LoginWidget.h">
+      <Filter>Source\RossiNante</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\RossiNante\MyAnimInstance.cpp">
       <Filter>Source\RossiNante</Filter>
     </ClCompile>
@@ -51,6 +60,18 @@
       <Filter>Source\RossiNante</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\RossiNante\MyGameInstance.h">
+      <Filter>Source\RossiNante</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RossiNante\MyGameModeBase.cpp">
+      <Filter>Source\RossiNante</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RossiNante\MyGameModeBase.h">
+      <Filter>Source\RossiNante</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RossiNante\MyPlayerController.cpp">
+      <Filter>Source\RossiNante</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RossiNante\MyPlayerController.h">
       <Filter>Source\RossiNante</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\RossiNante\MyStatComponent.cpp">

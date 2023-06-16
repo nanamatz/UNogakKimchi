@@ -61,10 +61,14 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool isDuringAttack;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool isDie;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool isSpawn;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool isPhase2;
 
 	UPROPERTY(EditDefaultsOnly, Category = Pawn)
-		UAnimMontage* Boss_SpawnMontage; // 평타 콤보 애니메이션
+		UAnimMontage* Boss_SpawnMontage; // 보스 생성 애니메이션
 	UPROPERTY(EditDefaultsOnly, Category = Pawn)
 		UAnimMontage* Boss_AttackMontage; // 평타 콤보 애니메이션
 	UPROPERTY(EditDefaultsOnly, Category = Pawn)
@@ -96,6 +100,10 @@ public:
 		void Attack_Skill_End();
 	UFUNCTION(BlueprintCallable)
 		void Smash_Skill_Start();
+	UFUNCTION(BlueprintCallable)
+		void SpawnAnimEnd();
+	UFUNCTION(BlueprintCallable)
+		void JumpTowardsPlayer();
 
 	UFUNCTION(BlueprintCallable)
 		void HitReact(float damage);
@@ -103,4 +111,10 @@ public:
 		void SpawnAnim();
 	UFUNCTION(BlueprintCallable)
 		void DieAnim();
+
+
+	UFUNCTION(BlueprintImplementableEvent)
+		void OnJumpDecal_Start();
+	UFUNCTION(BlueprintImplementableEvent)
+		void OnJumpDecal_End();
 };

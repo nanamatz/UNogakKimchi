@@ -41,6 +41,22 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_NATIVE_END; \
 	} \
  \
+	DECLARE_FUNCTION(execJumpTowardsPlayer) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->JumpTowardsPlayer(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSpawnAnimEnd) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SpawnAnimEnd(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execSmash_Skill_Start) \
 	{ \
 		P_FINISH; \
@@ -109,6 +125,22 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_NATIVE_END; \
 	} \
  \
+	DECLARE_FUNCTION(execJumpTowardsPlayer) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->JumpTowardsPlayer(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSpawnAnimEnd) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SpawnAnimEnd(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execSmash_Skill_Start) \
 	{ \
 		P_FINISH; \
@@ -150,6 +182,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
+#define RossiNante_Source_RossiNante_MyCharacterEnemy_h_12_EVENT_PARMS
+#define RossiNante_Source_RossiNante_MyCharacterEnemy_h_12_CALLBACK_WRAPPERS
 #define RossiNante_Source_RossiNante_MyCharacterEnemy_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMyCharacterEnemy(); \
@@ -207,6 +241,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyCharacterEnemy); \
 	FORCEINLINE static uint32 __PPO__SkillCooldown() { return STRUCT_OFFSET(AMyCharacterEnemy, SkillCooldown); } \
 	FORCEINLINE static uint32 __PPO__SkillCooldownTime() { return STRUCT_OFFSET(AMyCharacterEnemy, SkillCooldownTime); } \
 	FORCEINLINE static uint32 __PPO__isDuringAttack() { return STRUCT_OFFSET(AMyCharacterEnemy, isDuringAttack); } \
+	FORCEINLINE static uint32 __PPO__isDie() { return STRUCT_OFFSET(AMyCharacterEnemy, isDie); } \
+	FORCEINLINE static uint32 __PPO__isSpawn() { return STRUCT_OFFSET(AMyCharacterEnemy, isSpawn); } \
 	FORCEINLINE static uint32 __PPO__isPhase2() { return STRUCT_OFFSET(AMyCharacterEnemy, isPhase2); } \
 	FORCEINLINE static uint32 __PPO__Boss_SpawnMontage() { return STRUCT_OFFSET(AMyCharacterEnemy, Boss_SpawnMontage); } \
 	FORCEINLINE static uint32 __PPO__Boss_AttackMontage() { return STRUCT_OFFSET(AMyCharacterEnemy, Boss_AttackMontage); } \
@@ -217,13 +253,17 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyCharacterEnemy); \
 	FORCEINLINE static uint32 __PPO__Boss_Phase2Montage() { return STRUCT_OFFSET(AMyCharacterEnemy, Boss_Phase2Montage); }
 
 
-#define RossiNante_Source_RossiNante_MyCharacterEnemy_h_9_PROLOG
+#define RossiNante_Source_RossiNante_MyCharacterEnemy_h_9_PROLOG \
+	RossiNante_Source_RossiNante_MyCharacterEnemy_h_12_EVENT_PARMS
+
+
 #define RossiNante_Source_RossiNante_MyCharacterEnemy_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	RossiNante_Source_RossiNante_MyCharacterEnemy_h_12_PRIVATE_PROPERTY_OFFSET \
 	RossiNante_Source_RossiNante_MyCharacterEnemy_h_12_SPARSE_DATA \
 	RossiNante_Source_RossiNante_MyCharacterEnemy_h_12_RPC_WRAPPERS \
+	RossiNante_Source_RossiNante_MyCharacterEnemy_h_12_CALLBACK_WRAPPERS \
 	RossiNante_Source_RossiNante_MyCharacterEnemy_h_12_INCLASS \
 	RossiNante_Source_RossiNante_MyCharacterEnemy_h_12_STANDARD_CONSTRUCTORS \
 public: \
@@ -236,6 +276,7 @@ public: \
 	RossiNante_Source_RossiNante_MyCharacterEnemy_h_12_PRIVATE_PROPERTY_OFFSET \
 	RossiNante_Source_RossiNante_MyCharacterEnemy_h_12_SPARSE_DATA \
 	RossiNante_Source_RossiNante_MyCharacterEnemy_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	RossiNante_Source_RossiNante_MyCharacterEnemy_h_12_CALLBACK_WRAPPERS \
 	RossiNante_Source_RossiNante_MyCharacterEnemy_h_12_INCLASS_NO_PURE_DECLS \
 	RossiNante_Source_RossiNante_MyCharacterEnemy_h_12_ENHANCED_CONSTRUCTORS \
 private: \

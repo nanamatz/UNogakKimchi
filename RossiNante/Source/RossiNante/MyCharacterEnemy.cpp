@@ -60,7 +60,7 @@ void AMyCharacterEnemy::Tick(float DeltaTime)
 }
 
 
-// 공격
+// 기본 공격
 void AMyCharacterEnemy::Attack_Melee()
 {
 	if (!isDuringAttack) {
@@ -78,12 +78,12 @@ void AMyCharacterEnemy::Attack_Melee()
 	}
 
 }
-
 void AMyCharacterEnemy::Attack_Melee_End()
 {
 	isDuringAttack = false;
 	CurSpeed = WalkSpeed;
 }
+
 
 void AMyCharacterEnemy::Attack_Skill_Melee()
 {
@@ -97,10 +97,9 @@ void AMyCharacterEnemy::Attack_Skill_Melee()
 		isDuringAttack = true;
 
 		FTimerHandle TH_Attack_End;
-		GetWorldTimerManager().SetTimer(TH_Attack_End, this, &AMyCharacterEnemy::Attack_Melee_End, 2.f, false);
+		GetWorldTimerManager().SetTimer(TH_Attack_End, this, &AMyCharacterEnemy::Attack_Melee_End, 1.f, false, 3.f);
 
 	}
-
 }
 
 void AMyCharacterEnemy::Attack_Skill_End()
@@ -109,48 +108,97 @@ void AMyCharacterEnemy::Attack_Skill_End()
 	CurSpeed = WalkSpeed;
 }
 
+// 내려찍기 스킬
 void AMyCharacterEnemy::Smash_Skill_Start()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Smash!"));
+	if (!isDuringAttack) {
+		isDuringAttack = true;
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Smash!"));
 
-	PlayAnimMontage(Boss_SmashStartMontage);
-
-	//FTimerHandle TH_Attack_End;
-	//GetWorldTimerManager().SetTimer(TH_Attack_End, this, &AMyCharacterEnemy::Smash_Skill_Loop, 1.f, false);
-
-
+		PlayAnimMontage(Boss_SmashStartMontage);
+		
+		FTimerHandle TH_Attack_End;
+		GetWorldTimerManager().SetTimer(TH_Attack_End, this, &AMyCharacterEnemy::Attack_Skill_End, 1.f, false, 3.f);
+	}
 }
+
+
 
 void AMyCharacterEnemy::SpawnAnim() {
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("BossSpawn!"));
+	isSpawn = false;
 	PlayAnimMontage(Boss_SpawnMontage);
 	FTimerHandle TH_Attack_End;
-	GetWorldTimerManager().SetTimer(TH_Attack_End, this, &AMyCharacterEnemy::Attack_Melee_End, 4.f, false);
+	GetWorldTimerManager().SetTimer(TH_Attack_End, this, &AMyCharacterEnemy::SpawnAnimEnd, 1.f, false, 3.f);
+}
+void AMyCharacterEnemy::SpawnAnimEnd() {
+	isSpawn = true;
+	CurSpeed = WalkSpeed;
 }
 
+
+// 보스가 플레이어를 향해 점프하는 함수
+void AMyCharacterEnemy::JumpTowardsPlayer()
+{
+
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("JUMP!!"));
+
+	// 플레이어의 위치 가져오기
+	ACharacter* PlayerCharacter = UGameplayStatics::GetPlayerCharacter(GetWorld(), 0);
+	FVector PlayerLocation = PlayerCharacter->GetActorLocation();
+
+
+	// 보스의 현재 위치 가져오기
+	FVector BossLocation = GetActorLocation();
+
+	// 보스 위 방향으로 LaunchCharacter
+	FVector LaunchVelocity = FVector(0.f, 0.f, 3000.f); // 원하는 높이로 설정
+	LaunchCharacter(LaunchVelocity, false, false);
+
+	OnJumpDecal_End();
+	// 일정 시간 후에 떨어지도록 타이머 설정
+	FTimerHandle TimerHandle;
+	GetWorldTimerManager().SetTimer(TimerHandle, [this, PlayerLocation]() {
+		// 보스의 위치에서 일정 거리 위로 떨어지기
+		FVector BossLocation = PlayerLocation + FVector(0.f, 0.f, 1000.f); // 원하는 높이로 설정
+		SetActorLocation(BossLocation, false, nullptr, ETeleportType::TeleportPhysics);
+		OnJumpDecal_Start();
+		FVector LaunchVelocity = FVector(0.f, 0.f, -8000.f); 
+		LaunchCharacter(LaunchVelocity, false, false);
+
+		PlayAnimMontage(Boss_SkillMontage);
+		}, 2.0f, false);
+}
+
+
 void AMyCharacterEnemy::HitReact(float damage) {
-	CurSpeed = 0;
+	// spawn이 끝난 후 피해를 받는다.
+	if (isSpawn && !isDie) {
+		CurSpeed = 0;
 
-	DefaultHP -= damage;
+		DefaultHP -= damage;
 
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("BossHit!"));
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("BossHit!"));
 
+		//체력이 0이하면 죽는 애니메이션 실행
+		if (DefaultHP <= 0) {
+			isDie = true;
+			FTimerHandle TH_Hit_End;
+			PlayAnimMontage(Boss_DeathMontage);
+			GetWorldTimerManager().SetTimer(TH_Hit_End, this, &AMyCharacterEnemy::DieAnim, 1.f, false, 1.5f);
+			return;
+		}
+		else {
+			if (!isDuringAttack) {
+				PlayAnimMontage(Boss_HitReactMontage);
+			}
+		}
 
-	//체력이 0이하면 죽는 애니메이션 실행
-	if (DefaultHP <= 0) {
-		FTimerHandle TH_Hit_End;
-		PlayAnimMontage(Boss_DeathMontage);
-		GetWorldTimerManager().SetTimer(TH_Hit_End, this, &AMyCharacterEnemy::DieAnim, 1.3f, false);
-		return;
 	}
-	else {
-		PlayAnimMontage(Boss_HitReactMontage);
-	}
-
-	FTimerHandle TH_Hit_End;
-	GetWorldTimerManager().SetTimer(TH_Hit_End, this, &AMyCharacterEnemy::Attack_Melee_End, 2.f, false);
 }
 
 void AMyCharacterEnemy::DieAnim() {
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("BossDie!"));
 	this->Destroy();
 }
 

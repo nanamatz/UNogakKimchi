@@ -1,16 +1,11 @@
-﻿  Parsing headers for RossiNanteEditor
-    Running UnrealHeaderTool "C:\Users\Administrator\Downloads\UNogakKimchi-dong-gyu\UNogakKimchi-dong-gyu\RossiNante\RossiNante.uproject" "C:\Users\Administrator\Downloads\UNogakKimchi-dong-gyu\UNogakKimchi-dong-gyu\RossiNante\Intermediate\Build\Win64\RossiNanteEditor\Development\RossiNanteEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for RossiNanteEditor in 5.5587143 seconds
-  Building RossiNanteEditor...
+﻿  Building RossiNanteEditor...
   Using Visual Studio 2019 14.34.31937 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933) and Windows 10.0.22000.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 6 actions with 6 processes...
-    [1/6] RossiNante.init.gen.cpp
-    [2/6] MyCharacterEnemy.gen.cpp
-    [3/6] MyCharacterEnemy.cpp
-    [4/6] UE4Editor-RossiNante-0006.lib
-       C:\Users\Administrator\Downloads\UNogakKimchi-dong-gyu\UNogakKimchi-dong-gyu\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0006.lib ���̺귯�� �� C:\Users\Administrator\Downloads\UNogakKimchi-dong-gyu\UNogakKimchi-dong-gyu\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0006.exp ��ü�� �����ϰ� �ֽ��ϴ�.
-    [5/6] UE4Editor-RossiNante-0006.dll
-       C:\Users\Administrator\Downloads\UNogakKimchi-dong-gyu\UNogakKimchi-dong-gyu\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0006.suppressed.lib ���̺귯�� �� C:\Users\Administrator\Downloads\UNogakKimchi-dong-gyu\UNogakKimchi-dong-gyu\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0006.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
-    [6/6] RossiNanteEditor.target
-  Total time in Parallel executor: 8.67 seconds
-  Total execution time: 15.01 seconds
+  Building 4 actions with 6 processes...
+    [1/4] MyCharacterEnemy.cpp
+    [2/4] UE4Editor-RossiNante-0006.lib
+       C:\Users\Administrator\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0006.lib ���̺귯�� �� C:\Users\Administrator\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0006.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [3/4] UE4Editor-RossiNante-0006.dll
+       C:\Users\Administrator\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0006.suppressed.lib ���̺귯�� �� C:\Users\Administrator\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0006.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [4/4] RossiNanteEditor.target
+  Total time in Parallel executor: 8.22 seconds
+  Total execution time: 8.92 seconds
