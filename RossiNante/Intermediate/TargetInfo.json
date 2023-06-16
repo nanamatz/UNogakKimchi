@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "RossiNante",
-			"Path": "C:\\Users\\Administrator\\Downloads\\UNogakKimchi-jeonghoon\\UNogakKimchi-jeonghoon\\RossiNante\\Source\\RossiNante.Target.cs",
+			"Path": "C:\\Users\\Administrator\\Desktop\\UNogakKimchi-jeonghoon\\UNogakKimchi-jeonghoon\\RossiNante\\Source\\RossiNante.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "RossiNanteEditor",
-			"Path": "C:\\Users\\Administrator\\Downloads\\UNogakKimchi-jeonghoon\\UNogakKimchi-jeonghoon\\RossiNante\\Source\\RossiNanteEditor.Target.cs",
+			"Path": "C:\\Users\\Administrator\\Desktop\\UNogakKimchi-jeonghoon\\UNogakKimchi-jeonghoon\\RossiNante\\Source\\RossiNanteEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

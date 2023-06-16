@@ -1,2 +1,2 @@
-C:\Users\Administrator\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\Definitions.RossiNante.h
-C:\Users\Administrator\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Source\RossiNante\RossiNante.h
+C:\Users\Administrator\Desktop\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\Definitions.RossiNante.h
+C:\Users\Administrator\Desktop\RossiNante\Source\RossiNante\RossiNante.h
