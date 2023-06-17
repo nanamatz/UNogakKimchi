@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeLoginWidget() {}
 	UMG_API UClass* Z_Construct_UClass_UUserWidget();
 	UPackage* Z_Construct_UPackage__Script_RossiNante();
 	ROSSINANTE_API UFunction* Z_Construct_UFunction_ULoginWidget_OnSignInButtonClicked();
+	ROSSINANTE_API UFunction* Z_Construct_UFunction_ULoginWidget_OnSignUpButtonClicked();
 	UMG_API UClass* Z_Construct_UClass_UButton_NoRegister();
 	UMG_API UClass* Z_Construct_UClass_UEditableText_NoRegister();
 // End Cross Module References
@@ -26,6 +27,7 @@ void EmptyLinkFunctionForGeneratedCodeLoginWidget() {}
 		UClass* Class = ULoginWidget::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "OnSignInButtonClicked", &ULoginWidget::execOnSignInButtonClicked },
+			{ "OnSignUpButtonClicked", &ULoginWidget::execOnSignUpButtonClicked },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -48,6 +50,30 @@ void EmptyLinkFunctionForGeneratedCodeLoginWidget() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ULoginWidget_OnSignInButtonClicked_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ULoginWidget_OnSignUpButtonClicked_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ULoginWidget_OnSignUpButtonClicked_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "// BT_SignIn ??\xc6\xb0 \xc5\xac?? ?\xcc\xba?\xc6\xae ?\xda\xb5\xe9\xb7\xaf ?\xd4\xbc?\n" },
+		{ "ModuleRelativePath", "LoginWidget.h" },
+		{ "ToolTip", "BT_SignIn ??\xc6\xb0 \xc5\xac?? ?\xcc\xba?\xc6\xae ?\xda\xb5\xe9\xb7\xaf ?\xd4\xbc?" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ULoginWidget_OnSignUpButtonClicked_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ULoginWidget, nullptr, "OnSignUpButtonClicked", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00080401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ULoginWidget_OnSignUpButtonClicked_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ULoginWidget_OnSignUpButtonClicked_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ULoginWidget_OnSignUpButtonClicked()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ULoginWidget_OnSignUpButtonClicked_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -88,10 +114,11 @@ void EmptyLinkFunctionForGeneratedCodeLoginWidget() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ULoginWidget_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_ULoginWidget_OnSignInButtonClicked, "OnSignInButtonClicked" }, // 54625080
+		{ &Z_Construct_UFunction_ULoginWidget_OnSignUpButtonClicked, "OnSignUpButtonClicked" }, // 207070071
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ULoginWidget_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "/**\n * \n */" },
+		{ "Comment", "/**\n *\n */" },
 		{ "IncludePath", "LoginWidget.h" },
 		{ "ModuleRelativePath", "LoginWidget.h" },
 	};
@@ -165,7 +192,7 @@ void EmptyLinkFunctionForGeneratedCodeLoginWidget() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ULoginWidget, 2105311231);
+	IMPLEMENT_CLASS(ULoginWidget, 98913841);
 	template<> ROSSINANTE_API UClass* StaticClass<ULoginWidget>()
 	{
 		return ULoginWidget::StaticClass();

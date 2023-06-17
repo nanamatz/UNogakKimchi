@@ -8,12 +8,25 @@
 #include <winsock2.h>
 #include <ws2tcpip.h>
 #include "HUDWidget.h"
+#include "MenuWidget.h"
+#include "StatMenuWidget.h"
+#include "PlayMenuWidget.h"
+#include "LoginWidget.h"
 #include "MyGameInstance.h"
-
 
 void AMyGameModeBase::BeginPlay()
 {
+    Super::BeginPlay();
+
+    PlayerController = GetWorld()->GetFirstPlayerController();
     GameInstance = Cast<UMyGameInstance>(GetGameInstance());
+
+    if (GetWorld()->GetMapName() == GetWorld()->StreamingLevelsPrefix + "Login") {
+        CreateLoginWidget();
+        PlayerController->bShowMouseCursor = true;
+    }
+
+    CreateAllMenuWidget();
 }
 
 void AMyGameModeBase::ChangeLevel(UObject* world, FName LevelName)
@@ -32,8 +45,9 @@ UHUDWidget* AMyGameModeBase::CreateHUDWidget() {
 
 void AMyGameModeBase::EnableHUDWidget()
 {
-    if (GetWorld()->GetMapName() == GetWorld()->StreamingLevelsPrefix + "Default") {
+    if (GetWorld()->GetMapName() == GetWorld()->StreamingLevelsPrefix + "1F_Hall" || GetWorld()->GetMapName() == GetWorld()->StreamingLevelsPrefix + "1F_Boss") {
         HUDWidget->AddToViewport();
+        PlayerController->bShowMouseCursor = false;
     }
 }
 
@@ -43,6 +57,52 @@ void AMyGameModeBase::DisableHUDWidget()
         HUDWidget->RemoveFromViewport();
     }
 }
+
+void AMyGameModeBase::CreateAllMenuWidget()
+{
+    MenuWidget = CreateWidget<UMenuWidget>(GetWorld(), BP_MenuWidget);
+    PlayMenuWidget = CreateWidget<UPlayMenuWidget>(GetWorld(), BP_PlayMenuWidget);
+    StatMenuWidget = CreateWidget<UStatMenuWidget>(GetWorld(), BP_StatMenuWidget);
+}
+
+void AMyGameModeBase::EnableMenuWidget()
+{
+    MenuWidget->AddToViewport();
+    PlayMenuWidget->AddToViewport();
+}
+
+void AMyGameModeBase::DisableMenuWidget()
+{
+    MenuWidget->RemoveFromViewport();
+    PlayMenuWidget->RemoveFromViewport();
+}
+
+void AMyGameModeBase::EnablePlayMenuWidget()
+{
+    PlayMenuWidget->AddToViewport();
+}
+
+void AMyGameModeBase::DisablePlayMenuWidget()
+{
+    PlayMenuWidget->RemoveFromViewport();
+}
+
+void AMyGameModeBase::EnableStatMenuWidget()
+{
+    StatMenuWidget->AddToViewport();
+}
+
+void AMyGameModeBase::DisableStatMenuWidget()
+{
+    StatMenuWidget->RemoveFromViewport();
+}
+
+void AMyGameModeBase::CreateLoginWidget()
+{
+    LoginWidget = CreateWidget<ULoginWidget>(GetWorld(), BP_LoginWidget);
+    LoginWidget->AddToViewport();
+}
+
 
 void AMyGameModeBase::SetUserData(int user_id)
 {

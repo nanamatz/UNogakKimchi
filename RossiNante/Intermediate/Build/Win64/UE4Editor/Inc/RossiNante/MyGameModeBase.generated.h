@@ -61,7 +61,11 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyGameModeBase); \
 
 
 #define RossiNante_Source_RossiNante_MyGameModeBase_h_29_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__BP_HUDWidget() { return STRUCT_OFFSET(AMyGameModeBase, BP_HUDWidget); }
+	FORCEINLINE static uint32 __PPO__BP_HUDWidget() { return STRUCT_OFFSET(AMyGameModeBase, BP_HUDWidget); } \
+	FORCEINLINE static uint32 __PPO__BP_LoginWidget() { return STRUCT_OFFSET(AMyGameModeBase, BP_LoginWidget); } \
+	FORCEINLINE static uint32 __PPO__BP_MenuWidget() { return STRUCT_OFFSET(AMyGameModeBase, BP_MenuWidget); } \
+	FORCEINLINE static uint32 __PPO__BP_PlayMenuWidget() { return STRUCT_OFFSET(AMyGameModeBase, BP_PlayMenuWidget); } \
+	FORCEINLINE static uint32 __PPO__BP_StatMenuWidget() { return STRUCT_OFFSET(AMyGameModeBase, BP_StatMenuWidget); }
 
 
 #define RossiNante_Source_RossiNante_MyGameModeBase_h_26_PROLOG
