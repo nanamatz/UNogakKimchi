@@ -1,5 +1,5 @@
-C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\Definitions.RossiNante.h
+C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\Definitions.RossiNante.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Source\RossiNante/MyAnimInstance.h
-C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\MyAnimInstance.generated.h
+C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Source\RossiNante/MyAnimInstance.h
+C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\MyAnimInstance.generated.h

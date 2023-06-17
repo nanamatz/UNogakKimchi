@@ -1,5 +1,5 @@
-C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\Definitions.RossiNante.h
-C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Source\RossiNante\MyGameModeBase.h
+C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\Definitions.RossiNante.h
+C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Source\RossiNante\MyGameModeBase.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
@@ -7,7 +7,7 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winsock2.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\windows.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\sdkddkver.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE\excpt.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\excpt.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\windef.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\minwindef.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h
@@ -108,13 +108,13 @@ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\ime_cmodes.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\ws2def.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\inaddr.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\qos.h
-C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\MyGameModeBase.generated.h
-C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Source\RossiNante\MyCharacter.h
+C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\MyGameModeBase.generated.h
+C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Source\RossiNante\MyCharacter.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\MyCharacter.generated.h
+C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\MyCharacter.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/CollisionProfile.h
@@ -128,7 +128,7 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\ws2tcpip.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\ws2ipdef.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\in6addr.h
-C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Source\RossiNante\HUDWidget.h
+C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Source\RossiNante\HUDWidget.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Blueprint/UserWidget.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Components/SlateWrapperTypes.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\SlateWrapperTypes.generated.h
@@ -244,10 +244,10 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\DynamicPropertyPath.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetBlueprintGeneratedClass.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
-C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Source\RossiNante\MyStatComponent.h
-C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\MyStatComponent.generated.h
-C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\HUDWidget.generated.h
-C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Source\RossiNante\MenuWidget.h
+C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Source\RossiNante\MyStatComponent.h
+C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\MyStatComponent.generated.h
+C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\HUDWidget.generated.h
+C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Source\RossiNante\MenuWidget.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime/UMG/Public/Components/Button.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Components/ContentWidget.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Components/PanelWidget.h
@@ -256,20 +256,20 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\PanelWidget.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\ContentWidget.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\Button.generated.h
-C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\MenuWidget.generated.h
-C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Source\RossiNante\StatMenuWidget.h
-C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\StatMenuWidget.generated.h
-C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Source\RossiNante\PlayMenuWidget.h
-C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\PlayMenuWidget.generated.h
-C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Source\RossiNante\LoginWidget.h
+C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\MenuWidget.generated.h
+C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Source\RossiNante\StatMenuWidget.h
+C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\StatMenuWidget.generated.h
+C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Source\RossiNante\PlayMenuWidget.h
+C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\PlayMenuWidget.generated.h
+C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Source\RossiNante\LoginWidget.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime/UMG/Public/Components/EditableText.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Components/TextWidgetTypes.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\TextWidgetTypes.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Slate\Public\Widgets/Text/ISlateEditableTextWidget.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\EditableText.generated.h
-C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\LoginWidget.generated.h
-C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Source\RossiNante\MyGameInstance.h
+C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\LoginWidget.generated.h
+C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Source\RossiNante\MyGameInstance.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/DataTable.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\DataTableUtils.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DataTable.generated.h
-C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\MyGameInstance.generated.h
+C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\MyGameInstance.generated.h

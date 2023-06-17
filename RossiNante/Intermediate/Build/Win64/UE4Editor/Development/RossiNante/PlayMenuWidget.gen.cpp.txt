@@ -1,7 +1,7 @@
-C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\Definitions.RossiNante.h
+C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\Definitions.RossiNante.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Source\RossiNante/PlayMenuWidget.h
+C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Source\RossiNante/PlayMenuWidget.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Blueprint/UserWidget.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Components/SlateWrapperTypes.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\SlateWrapperTypes.generated.h
@@ -125,7 +125,7 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\PanelWidget.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\ContentWidget.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\Button.generated.h
-C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Source\RossiNante\MyGameModeBase.h
+C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Source\RossiNante\MyGameModeBase.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
@@ -133,7 +133,7 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winsock2.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\windows.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\sdkddkver.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE\excpt.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\excpt.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\windef.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\minwindef.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h
@@ -234,5 +234,5 @@ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\ime_cmodes.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\ws2def.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\inaddr.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\qos.h
-C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\MyGameModeBase.generated.h
-C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\PlayMenuWidget.generated.h
+C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\MyGameModeBase.generated.h
+C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\PlayMenuWidget.generated.h

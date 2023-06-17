@@ -228,13 +228,8 @@
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I Runtime\AudioMixerCore\Public
-<<<<<<<< HEAD:RossiNante/Intermediate/Build/Win64/UE4Editor/Development/RossiNante/Portal.cpp.obj.response
 /I C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante
 /I C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Source
-========
-/I C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante
-/I C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Source
->>>>>>>> jeonghoon:RossiNante/Intermediate/Build/Win64/UE4Editor/Development/RossiNante/PlayMenuWidget.cpp.obj.response
 /I Runtime\Networking\Public
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
@@ -265,21 +260,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-<<<<<<<< HEAD:RossiNante/Intermediate/Build/Win64/UE4Editor/Development/RossiNante/Portal.cpp.obj.response
 /FI"C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\RossiNanteEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
 /Yu"C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\RossiNanteEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
 /Fp"C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\RossiNanteEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Source\RossiNante\Portal.cpp"
+"C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Source\RossiNante\PlayMenuWidget.cpp"
 /FI"C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\Definitions.RossiNante.h"
-/Fo"C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\Portal.cpp.obj"
-========
-/FI"C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Intermediate\Build\Win64\RossiNanteEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Intermediate\Build\Win64\RossiNanteEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Intermediate\Build\Win64\RossiNanteEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Source\RossiNante\PlayMenuWidget.cpp"
-/FI"C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\Definitions.RossiNante.h"
-/Fo"C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\PlayMenuWidget.cpp.obj"
->>>>>>>> jeonghoon:RossiNante/Intermediate/Build/Win64/UE4Editor/Development/RossiNante/PlayMenuWidget.cpp.obj.response
+/Fo"C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\PlayMenuWidget.cpp.obj"
 /TP
 /GR-
 /W4
