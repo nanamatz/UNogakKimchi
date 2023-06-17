@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\RossiNante.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{B1AEDD28-D507-43C8-907B-1729D00FE0CE}</UniqueIdentifier>
+      <UniqueIdentifier>{DF9AA04E-71F9-49AC-89AB-7FD4599F4765}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\RossiNante.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{7B1C089D-6756-48BC-A090-8BFB837BCBF7}</UniqueIdentifier>
+      <UniqueIdentifier>{8109DC36-0002-411D-93DE-14322FC1899C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\RossiNante">
-      <UniqueIdentifier>{08BAEF2D-C8F4-4925-BC9D-E3664B3A07A2}</UniqueIdentifier>
+      <UniqueIdentifier>{3707840D-796A-405F-875F-EEE3151A3737}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\RossiNante\HUDWidget.cpp">
       <Filter>Source\RossiNante</Filter>

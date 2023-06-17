@@ -16,6 +16,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define RossiNante_Source_RossiNante_MyCharacterEnemy_h_12_SPARSE_DATA
 #define RossiNante_Source_RossiNante_MyCharacterEnemy_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execPlayerCameraShake) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->PlayerCameraShake(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execDieAnim) \
 	{ \
 		P_FINISH; \
@@ -99,6 +107,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define RossiNante_Source_RossiNante_MyCharacterEnemy_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execPlayerCameraShake) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->PlayerCameraShake(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execDieAnim) \
 	{ \
@@ -250,6 +266,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyCharacterEnemy); \
 	FORCEINLINE static uint32 __PPO__Boss_SmashStartMontage() { return STRUCT_OFFSET(AMyCharacterEnemy, Boss_SmashStartMontage); } \
 	FORCEINLINE static uint32 __PPO__Boss_HitReactMontage() { return STRUCT_OFFSET(AMyCharacterEnemy, Boss_HitReactMontage); } \
 	FORCEINLINE static uint32 __PPO__Boss_DeathMontage() { return STRUCT_OFFSET(AMyCharacterEnemy, Boss_DeathMontage); } \
+	FORCEINLINE static uint32 __PPO__Boss_JumpMontage() { return STRUCT_OFFSET(AMyCharacterEnemy, Boss_JumpMontage); } \
 	FORCEINLINE static uint32 __PPO__Boss_Phase2Montage() { return STRUCT_OFFSET(AMyCharacterEnemy, Boss_Phase2Montage); }
 
 

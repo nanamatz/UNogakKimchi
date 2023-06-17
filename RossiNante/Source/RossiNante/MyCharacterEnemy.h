@@ -84,6 +84,9 @@ protected:
 		UAnimMontage* Boss_DeathMontage; // 사망 애니메이션
 
 	UPROPERTY(EditDefaultsOnly, Category = Pawn)
+		UAnimMontage* Boss_JumpMontage; // 피격 애니메이션
+
+	UPROPERTY(EditDefaultsOnly, Category = Pawn)
 		UAnimMontage* Boss_Phase2Montage; // 페이즈2모션 애니메이션
 
 public:	
@@ -112,9 +115,17 @@ public:
 	UFUNCTION(BlueprintCallable)
 		void DieAnim();
 
+	// 카메라 진동
+	UFUNCTION(BlueprintCallable)
+		void PlayerCameraShake();
+
 
 	UFUNCTION(BlueprintImplementableEvent)
 		void OnJumpDecal_Start();
 	UFUNCTION(BlueprintImplementableEvent)
 		void OnJumpDecal_End();
+
+	//카메라 흔들기
+	UPROPERTY(EditDefaultsOnly, Category = Pawn)
+		TSubclassOf<UCameraShake> MyShake;
 };

@@ -3,10 +3,10 @@
   Using Visual Studio 2019 14.34.31937 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933) and Windows 10.0.22000.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 4 actions with 6 processes...
     [1/4] MyCharacterEnemy.cpp
-    [2/4] UE4Editor-RossiNante-0027.lib
-       C:\Users\Administrator\Desktop\UnrealPorject\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0027.lib ���̺귯�� �� C:\Users\Administrator\Desktop\UnrealPorject\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0027.exp ��ü�� �����ϰ� �ֽ��ϴ�.
-    [3/4] UE4Editor-RossiNante-0027.dll
-       C:\Users\Administrator\Desktop\UnrealPorject\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0027.suppressed.lib ���̺귯�� �� C:\Users\Administrator\Desktop\UnrealPorject\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0027.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [2/4] UE4Editor-RossiNante-0002.lib
+       C:\Users\Administrator\Desktop\UnrealPorject\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0002.lib ���̺귯�� �� C:\Users\Administrator\Desktop\UnrealPorject\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0002.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [3/4] UE4Editor-RossiNante-0002.dll
+       C:\Users\Administrator\Desktop\UnrealPorject\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0002.suppressed.lib ���̺귯�� �� C:\Users\Administrator\Desktop\UnrealPorject\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0002.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
     [4/4] RossiNanteEditor.target
-  Total time in Parallel executor: 17.69 seconds
-  Total execution time: 18.78 seconds
+  Total time in Parallel executor: 29.85 seconds
+  Total execution time: 31.04 seconds

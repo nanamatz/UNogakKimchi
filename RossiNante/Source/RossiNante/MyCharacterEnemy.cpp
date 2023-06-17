@@ -11,6 +11,7 @@ AMyCharacterEnemy::AMyCharacterEnemy()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	/*
 	ConstructorHelpers::FObjectFinder<UAnimMontage> Attack_AnimMt(TEXT("AnimMontage'/Game/Blueprints/Boss/Montage/BossAttack_Montage.BossAttack_Montage'"));
 	if (Attack_AnimMt.Succeeded()) {
 		Boss_AttackMontage = Attack_AnimMt.Object;
@@ -35,7 +36,7 @@ AMyCharacterEnemy::AMyCharacterEnemy()
 	if (Spawn_AnimMt.Succeeded()) {
 		Boss_SpawnMontage = Spawn_AnimMt.Object;
 	}
-
+	*/
 
 }
 
@@ -125,11 +126,16 @@ void AMyCharacterEnemy::Smash_Skill_Start()
 
 
 void AMyCharacterEnemy::SpawnAnim() {
+
 	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("BossSpawn!"));
 	isSpawn = false;
 	PlayAnimMontage(Boss_SpawnMontage);
 	FTimerHandle TH_Attack_End;
-	GetWorldTimerManager().SetTimer(TH_Attack_End, this, &AMyCharacterEnemy::SpawnAnimEnd, 1.f, false, 3.f);
+	GetWorldTimerManager().SetTimer(TH_Attack_End, [this](){
+		SpawnAnimEnd();
+		PlayerCameraShake();
+		}, 3.f, false);
+
 }
 void AMyCharacterEnemy::SpawnAnimEnd() {
 	isSpawn = true;
@@ -140,6 +146,7 @@ void AMyCharacterEnemy::SpawnAnimEnd() {
 // 보스가 플레이어를 향해 점프하는 함수
 void AMyCharacterEnemy::JumpTowardsPlayer()
 {
+	PlayAnimMontage(Boss_JumpMontage);
 
 	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("JUMP!!"));
 
@@ -151,14 +158,21 @@ void AMyCharacterEnemy::JumpTowardsPlayer()
 	// 보스의 현재 위치 가져오기
 	FVector BossLocation = GetActorLocation();
 
-	// 보스 위 방향으로 LaunchCharacter
-	FVector LaunchVelocity = FVector(0.f, 0.f, 3000.f); // 원하는 높이로 설정
-	LaunchCharacter(LaunchVelocity, false, false);
+	FTimerHandle JumpTimerHandle;
+
+	GetWorldTimerManager().SetTimer(JumpTimerHandle, [this, PlayerLocation, BossLocation]() {
+		// 보스의 위치에서 일정 거리 위로 떨어지기
+		FVector LaunchVelocity = FVector(0.f, 0.f, 3000.f); // 원하는 높이로 설정
+		LaunchCharacter(LaunchVelocity, false, false);
+		}, 0.5f, false);
+
 
 	OnJumpDecal_End();
 	// 일정 시간 후에 떨어지도록 타이머 설정
-	FTimerHandle TimerHandle;
+	//FTimerHandle TimerHandle;
 	BossLocation = PlayerLocation + FVector(0.f, 0.f, 1000.f); // 원하는 높이로 설정
+	
+	FTimerHandle TimerHandle;
 
 	GetWorldTimerManager().SetTimer(TimerHandle, [this, PlayerLocation, BossLocation]() {
 		// 보스의 위치에서 일정 거리 위로 떨어지기
@@ -168,6 +182,7 @@ void AMyCharacterEnemy::JumpTowardsPlayer()
 		LaunchCharacter(LaunchVelocity, false, false);
 
 		PlayAnimMontage(Boss_SkillMontage);
+		PlayerCameraShake();
 		}, 2.5f, false);
 }
 
@@ -186,6 +201,7 @@ void AMyCharacterEnemy::HitReact(float damage) {
 			isDie = true;
 			FTimerHandle TH_Hit_End;
 			PlayAnimMontage(Boss_DeathMontage);
+			CurSpeed = 0;
 			GetWorldTimerManager().SetTimer(TH_Hit_End, this, &AMyCharacterEnemy::DieAnim, 1.f, false, 1.5f);
 			return;
 		}
@@ -201,6 +217,10 @@ void AMyCharacterEnemy::HitReact(float damage) {
 void AMyCharacterEnemy::DieAnim() {
 	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("BossDie!"));
 	this->Destroy();
+}
+
+void AMyCharacterEnemy::PlayerCameraShake() {
+	GetWorld()->GetFirstPlayerController()->PlayerCameraManager->PlayCameraShake(MyShake, 1.0f);
 }
 
 
