@@ -1,12 +1,12 @@
-C:\Users\201911183\Desktop\unreal\0613\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\Definitions.RossiNante.h
-C:\Users\201911183\Desktop\unreal\0613\RossiNante\Source\RossiNante\MyAnimInstance.h
-C:\Users\201911183\Desktop\unreal\0613\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\MyAnimInstance.generated.h
-C:\Users\201911183\Desktop\unreal\0613\RossiNante\Source\RossiNante\MyCharacter.h
+C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\Definitions.RossiNante.h
+C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Source\RossiNante\MyAnimInstance.h
+C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\MyAnimInstance.generated.h
+C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Source\RossiNante\MyCharacter.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-C:\Users\201911183\Desktop\unreal\0613\RossiNante\Source\RossiNante\MyGameModeBase.h
+C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Source\RossiNante\MyGameModeBase.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
@@ -115,8 +115,8 @@ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\ime_cmodes.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\ws2def.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\inaddr.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\qos.h
-C:\Users\201911183\Desktop\unreal\0613\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\MyGameModeBase.generated.h
-C:\Users\201911183\Desktop\unreal\0613\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\MyCharacter.generated.h
+C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\MyGameModeBase.generated.h
+C:\Users\201911183\Desktop\unreal\0618\soo\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\MyCharacter.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/PawnMovementComponent.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/NavMovementComponent.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\AI/Navigation/PathFollowingAgentInterface.h

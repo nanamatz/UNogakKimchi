@@ -3,6 +3,7 @@
 
 #include "LoginWidget.h"
 #include "Kismet/GameplayStatics.h"
+#include "MyGameModeBase.h"
 #include <string>
 
 void ULoginWidget::OnSignInButtonClicked()
@@ -33,11 +34,9 @@ void ULoginWidget::OnSignInButtonClicked()
 
     if (GameMode->SendLoginData(&login_data) == false) {
         UE_LOG(LogTemp, Warning, TEXT("ERR! send data! (Maybe connection has failed, but current version is a test version. So Go to Default Level)\n"));
-        
-        GameMode->ChangeLevel(GetWorld(), "Default");
-        //GameMode->EnableHUDWidget();
-        UE_LOG(LogTemp, Warning, TEXT("After Change Level!\n"));
-
+        GameMode->LoginWidget->RemoveFromViewport();
+        GameMode->EnableMenuWidget();
+        //GameMode->ChangeLevel(GetWorld(), "Default");
         //GameMode->EnableHUDWidget();
     }
     /*
@@ -66,17 +65,26 @@ void ULoginWidget::OnSignInButtonClicked()
     }*/
 
     if (ud.packet_type == (int)EPacketType::S2C_LOGIN_SUCCESS) {
-        GameMode->ChangeLevel(GetWorld(), "Default");
+        GameMode->LoginWidget->RemoveFromViewport();
+        GameMode->EnableMenuWidget();
+        //GameMode->ChangeLevel(GetWorld(), "Default");
         //UGameplayStatics::OpenLevel(GetWorld(), FName("Default"), TRAVEL_Absolute);
     }
     else if (ud.packet_type == (int)EPacketType::S2C_LOGIN_FAIL) {
         UE_LOG(LogTemp, Warning, TEXT("ID or PW error! However you can join the game in test mode."));
-        GameMode->ChangeLevel(GetWorld(), "Default");
+        GameMode->LoginWidget->RemoveFromViewport();
+        GameMode->EnableMenuWidget();
+        //GameMode->ChangeLevel(GetWorld(), "Default");
         //UGameplayStatics::OpenLevel(GetWorld(), FName("Default"), TRAVEL_Absolute);
     }
     else {
         UE_LOG(LogTemp, Warning, TEXT("recevied packet type error"));
     }
+}
+
+void ULoginWidget::OnSignUpButtonClicked()
+{
+
 }
 
 void ULoginWidget::NativeConstruct()
@@ -98,5 +106,9 @@ void ULoginWidget::NativeConstruct()
     if (BT_SignIn)
     {
         BT_SignIn->OnClicked.AddDynamic(this, &ULoginWidget::OnSignInButtonClicked);
+    }
+    if (BT_SignUp)
+    {
+        BT_SignUp->OnClicked.AddDynamic(this, &ULoginWidget::OnSignUpButtonClicked);
     }
 }

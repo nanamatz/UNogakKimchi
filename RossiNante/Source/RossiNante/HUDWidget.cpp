@@ -21,3 +21,4 @@ void UHUDWidget::InitHealthPercent(UMyStatComponent* _Stat)
 	Stat = _Stat;
 	UpdateHealthPercent();
 }
+

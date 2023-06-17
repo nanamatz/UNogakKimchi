@@ -7,11 +7,10 @@
 #include "Runtime/UMG/Public/Components/Button.h"
 #include "Runtime/UMG/Public/Components/EditableText.h"
 #include <winsock2.h>
-#include "MyGameModeBase.h"
 #include "LoginWidget.generated.h"
 
 /**
- * 
+ *
  */
 UCLASS()
 class ROSSINANTE_API ULoginWidget : public UUserWidget
@@ -29,11 +28,14 @@ protected:
 		UButton* BT_SignUp = nullptr;
 	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
 		UButton* BT_SignIn = nullptr;
+
 	UFUNCTION()
 		void OnSignInButtonClicked(); // BT_SignIn 버튼 클릭 이벤트 핸들러 함수
+	UFUNCTION()
+		void OnSignUpButtonClicked(); // BT_SignIn 버튼 클릭 이벤트 핸들러 함수
 
 private:
 	SOCKET Socket;
-	AMyGameModeBase* GameMode;
-	
+	class AMyGameModeBase* GameMode;
+
 };

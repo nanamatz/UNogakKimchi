@@ -197,6 +197,7 @@ float AMyCharacter::TakeDamage(float DamageAmount, struct FDamageEvent const& Da
 	Stat->OnAttacked(DamageAmount);
 
 	/* 공격받을 시 HP를 업데이트 해준다. */
+	HUDWidget->UpdateHealthPercent();
 
 	if (Stat->GetHp() <= 0) {
 		UE_LOG(LogTemp, Log, TEXT("Die"));

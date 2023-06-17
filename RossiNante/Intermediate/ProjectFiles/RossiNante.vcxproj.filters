@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\RossiNante.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{BDAFF331-5EAA-4B41-8AC8-461CB5E28725}</UniqueIdentifier>
+      <UniqueIdentifier>{CFF13D22-D922-41A2-80B7-BD42490B274F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\RossiNante.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{82F25ADD-7D89-4956-A44D-13D60E9D4E82}</UniqueIdentifier>
+      <UniqueIdentifier>{D711F684-2071-4F61-AA69-A7C6B500D2D6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\RossiNante">
-      <UniqueIdentifier>{581003CC-A9ED-4E80-8801-DE7A45DD5F81}</UniqueIdentifier>
+      <UniqueIdentifier>{68AFACCB-0F7B-4145-A639-CD308F5C678B}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\RossiNante\HUDWidget.cpp">
       <Filter>Source\RossiNante</Filter>
@@ -36,6 +36,12 @@
       <Filter>Source\RossiNante</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\RossiNante\LoginWidget.h">
+      <Filter>Source\RossiNante</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RossiNante\MenuWidget.cpp">
+      <Filter>Source\RossiNante</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RossiNante\MenuWidget.h">
       <Filter>Source\RossiNante</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\RossiNante\MyAnimInstance.cpp">
@@ -80,6 +86,18 @@
     <ClInclude Include="..\..\Source\RossiNante\MyStatComponent.h">
       <Filter>Source\RossiNante</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\RossiNante\PlayMenuWidget.cpp">
+      <Filter>Source\RossiNante</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RossiNante\PlayMenuWidget.h">
+      <Filter>Source\RossiNante</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RossiNante\Portal.cpp">
+      <Filter>Source\RossiNante</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RossiNante\Portal.h">
+      <Filter>Source\RossiNante</Filter>
+    </ClInclude>
     <None Include="..\..\Source\RossiNante\RossiNante.Build.cs">
       <Filter>Source\RossiNante</Filter>
     </None>
@@ -87,6 +105,12 @@
       <Filter>Source\RossiNante</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\RossiNante\RossiNante.h">
+      <Filter>Source\RossiNante</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RossiNante\StatMenuWidget.cpp">
+      <Filter>Source\RossiNante</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RossiNante\StatMenuWidget.h">
       <Filter>Source\RossiNante</Filter>
     </ClInclude>
   </ItemGroup>
