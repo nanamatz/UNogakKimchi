@@ -151,6 +151,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyCharacter); \
 	FORCEINLINE static uint32 __PPO__IsAttacking() { return STRUCT_OFFSET(AMyCharacter, IsAttacking); } \
 	FORCEINLINE static uint32 __PPO__IsSkillCasting() { return STRUCT_OFFSET(AMyCharacter, IsSkillCasting); } \
 	FORCEINLINE static uint32 __PPO__IsTumbling() { return STRUCT_OFFSET(AMyCharacter, IsTumbling); } \
+	FORCEINLINE static uint32 __PPO__IsJumping() { return STRUCT_OFFSET(AMyCharacter, IsJumping); } \
 	FORCEINLINE static uint32 __PPO__AnimInstance() { return STRUCT_OFFSET(AMyCharacter, AnimInstance); } \
 	FORCEINLINE static uint32 __PPO__Speed() { return STRUCT_OFFSET(AMyCharacter, Speed); }
 
