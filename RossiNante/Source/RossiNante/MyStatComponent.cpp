@@ -42,9 +42,9 @@ void UMyStatComponent::SetLevel(int32 NewLevel)
 	if (MyGameInstance) {
 		auto StatData = MyGameInstance->GetStatData(NewLevel);
 		if (StatData) {
-
 			Level = StatData->Level;
 			Hp = StatData->MaxHp;
+			maxHp = Hp;
 			Attack = StatData->Attack;
 		}
 	}

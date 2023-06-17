@@ -12,7 +12,7 @@ void ULoginWidget::OnSignInButtonClicked()
     char* InputPW = TCHAR_TO_UTF8(*PW->GetText().ToString());
 
     // 로그인 실행
-    UserDataPacket login_packet;
+    UserDataPacket login_data;
 
 
     if (strlen((InputID)) > 20) {
@@ -24,23 +24,38 @@ void ULoginWidget::OnSignInButtonClicked()
         return;
     }
 
-    login_packet.user_id = 0;
+    login_data.user_id = 0;
 
-    strcpy(login_packet.data1, InputID);
-    strcpy(login_packet.data2, InputPW);
+    strcpy(login_data.data1, InputID);
+    strcpy(login_data.data2, InputPW);
 
-    login_packet.packet_type = (int)EPacketType::C2S_LOGIN;
-    UE_LOG(LogTemp, Warning, TEXT("%d"), login_packet.packet_type);
-    if (send(Socket, (char*)&login_packet, sizeof(UserDataPacket), 0) == -1) {
-        UE_LOG(LogTemp, Warning, TEXT("ERR! send Socket\n"));
-        for (int i = 0; i < 3; i++) {
-            if (send(Socket, (char*)&login_packet, sizeof(UserDataPacket), 0) != -1) {
-                break;
-            }
-        }
+    login_data.packet_type = (int)EPacketType::C2S_LOGIN;
+
+    if (GameMode->SendLoginData(&login_data) == false) {
+        UE_LOG(LogTemp, Warning, TEXT("ERR! send data! (Maybe connection has failed, but current version is a test version. So Go to Default Level)\n"));
+        
+        GameMode->ChangeLevel(GetWorld(), "Default");
+        //GameMode->EnableHUDWidget();
+        UE_LOG(LogTemp, Warning, TEXT("After Change Level!\n"));
+
+        //GameMode->EnableHUDWidget();
     }
+    /*
+    if (send(Socket, (char*)&login_packet, sizeof(UserDataPacket), 0) == -1) {
+        UE_LOG(LogTemp, Warning, TEXT("ERR! send Socket(Maybe connection has failed, but current version is a test version. So Go to Default Level)\n"));
+        UGameplayStatics::OpenLevel(GetWorld(), FName("Default"), TRAVEL_Absolute);
+    }
+    */
 
     UserDataPacket ud;
+
+    if (GameMode->RecvLoginData(&ud) == false) {
+        UE_LOG(LogTemp, Warning, TEXT("ERR! recv data!\n"));
+    }
+
+    //GameMode->SetUserData(ud.user_id);
+
+    /*
     if (recv(Socket, (char*)&ud, sizeof(UserDataPacket), 0) == -1) {
         for (int i = 0; i < 3; i++) {
             if (recv(Socket, (char*)&ud, sizeof(UserDataPacket), 0) != -1) {
@@ -48,21 +63,20 @@ void ULoginWidget::OnSignInButtonClicked()
             }
 
         }
-    }
+    }*/
+
     if (ud.packet_type == (int)EPacketType::S2C_LOGIN_SUCCESS) {
-        UGameplayStatics::OpenLevel(GetWorld(), FName("Default"), TRAVEL_Absolute);
+        GameMode->ChangeLevel(GetWorld(), "Default");
+        //UGameplayStatics::OpenLevel(GetWorld(), FName("Default"), TRAVEL_Absolute);
     }
     else if (ud.packet_type == (int)EPacketType::S2C_LOGIN_FAIL) {
         UE_LOG(LogTemp, Warning, TEXT("ID or PW error! However you can join the game in test mode."));
-        UGameplayStatics::OpenLevel(GetWorld(), FName("Default"), TRAVEL_Absolute);
+        GameMode->ChangeLevel(GetWorld(), "Default");
+        //UGameplayStatics::OpenLevel(GetWorld(), FName("Default"), TRAVEL_Absolute);
     }
     else {
         UE_LOG(LogTemp, Warning, TEXT("recevied packet type error"));
     }
-
-    GameMode->SetUserData(ud.user_id);
-
-    // 여기까지 했고 server 코드 수정해야함 task queue에서 task보고 처리해주는 작업해주어야 함
 }
 
 void ULoginWidget::NativeConstruct()

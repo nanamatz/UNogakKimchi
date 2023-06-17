@@ -2,68 +2,66 @@
 
 
 #include "MyGameModeBase.h"
-
 #include "MyCharacter.h"
 #include "UObject/ConstructorHelpers.h"
+#include "Kismet/GameplayStatics.h"
 #include <winsock2.h>
 #include <ws2tcpip.h>
+#include "HUDWidget.h"
+#include "MyGameInstance.h"
 
 
-AMyGameModeBase::AMyGameModeBase() {
-    static ConstructorHelpers::FClassFinder<AMyCharacter> PlayerCharacterBPClass(TEXT("/Game/Blueprints/BP_Character"));
-
-    AMyGameModeBase::ConnectToServer();
-
+void AMyGameModeBase::BeginPlay()
+{
+    GameInstance = Cast<UMyGameInstance>(GetGameInstance());
 }
 
-SOCKET AMyGameModeBase::getSocket()
+void AMyGameModeBase::ChangeLevel(UObject* world, FName LevelName)
 {
-    if (Socket == NULL) {
-        UE_LOG(LogTemp, Warning, TEXT("ERR! Socket NULL in getSocket\n"));
-        return NULL;
-    }
-    return Socket;
+    UGameplayStatics::OpenLevel(world, LevelName, TRAVEL_Absolute);
 }
 
-void AMyGameModeBase::ConnectToServer()
+UHUDWidget* AMyGameModeBase::CreateHUDWidget() {
+    if (BP_HUDWidget != nullptr) {
+        HUDWidget = CreateWidget<UHUDWidget>(GetWorld(), BP_HUDWidget);
+        return HUDWidget;
+    }
+
+    return nullptr;
+}
+
+void AMyGameModeBase::EnableHUDWidget()
 {
-    // 소켓 초기화에 필요한 정보를 담고 있는 구조체
-    WSADATA wsaData;
-
-    // TCP 연결을 수행할 서버 IP와 포트 번호 설정
-    char* ServerIP = "52.79.202.2";
-    int32 Port = 8050;
-
-    // wsaData 초기화
-    if (WSAStartup(MAKEWORD(2, 2), &wsaData) != 0) {
-        UE_LOG(LogTemp, Warning, TEXT("WSAStartup failed\n"));
+    if (GetWorld()->GetMapName() == GetWorld()->StreamingLevelsPrefix + "Default") {
+        HUDWidget->AddToViewport();
     }
+}
 
-    // 서버 설정
-    sockaddr_in serverAddr;
-    serverAddr.sin_family = AF_INET;
-    serverAddr.sin_port = htons(Port);
-    inet_pton(AF_INET, ServerIP, &serverAddr.sin_addr);
-
-    // 소켓 초기화
-    Socket = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
-    if (Socket == INVALID_SOCKET) {
-        WSACleanup();
-        UE_LOG(LogTemp, Warning, TEXT("SOCKET INIT FAILED\n"));
-    }
-
-    // 연결 시도
-    if (connect(Socket, (SOCKADDR*)&serverAddr, sizeof(serverAddr)) == SOCKET_ERROR) {
-        closesocket(Socket);
-        WSACleanup();
-        UE_LOG(LogTemp, Warning, TEXT("CONNECT FAILED\n"));
-    }
-    else {
-        UE_LOG(LogTemp, Warning, TEXT("CONNECT SUCCESS\n"));
+void AMyGameModeBase::DisableHUDWidget()
+{
+    if (BP_HUDWidget != nullptr) {
+        HUDWidget->RemoveFromViewport();
     }
 }
 
 void AMyGameModeBase::SetUserData(int user_id)
 {
     user_data.user_id = user_id;
+}
+
+bool AMyGameModeBase::SendLoginData(UserDataPacket* login_data)
+{
+    if (send(GameInstance->Socket, (char*)login_data, sizeof(UserDataPacket), 0) == -1) {
+        UE_LOG(LogTemp, Warning, TEXT("ERR! send Socket(Maybe connection has failed, but current version is a test version. So Go to Default Level)\n"));
+        return false;
+    }
+    return true;
+}
+
+bool AMyGameModeBase::RecvLoginData(UserDataPacket* recv_data)
+{
+    if (recv(GameInstance->Socket, (char*)recv_data, sizeof(UserDataPacket), 0) == -1) {
+        return false;
+    }
+    return true;
 }

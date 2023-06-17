@@ -61,17 +61,30 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool isDuringAttack;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool isDie;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool isSpawn;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool isPhase2;
 
+	UPROPERTY(EditDefaultsOnly, Category = Pawn)
+		UAnimMontage* Boss_SpawnMontage; // 보스 생성 애니메이션
 	UPROPERTY(EditDefaultsOnly, Category = Pawn)
 		UAnimMontage* Boss_AttackMontage; // 평타 콤보 애니메이션
 	UPROPERTY(EditDefaultsOnly, Category = Pawn)
 		UAnimMontage* Boss_SkillMontage; // 스킬 애니메이션
 
+	// Smash
+	UPROPERTY(EditDefaultsOnly, Category = Pawn)
+		UAnimMontage* Boss_SmashStartMontage; // Start
+
 	UPROPERTY(EditDefaultsOnly, Category = Pawn)
 		UAnimMontage* Boss_HitReactMontage; // 피격 애니메이션
 	UPROPERTY(EditDefaultsOnly, Category = Pawn)
 		UAnimMontage* Boss_DeathMontage; // 사망 애니메이션
+
+	UPROPERTY(EditDefaultsOnly, Category = Pawn)
+		UAnimMontage* Boss_JumpMontage; // 피격 애니메이션
 
 	UPROPERTY(EditDefaultsOnly, Category = Pawn)
 		UAnimMontage* Boss_Phase2Montage; // 페이즈2모션 애니메이션
@@ -89,7 +102,30 @@ public:
 	UFUNCTION(BlueprintCallable)
 		void Attack_Skill_End();
 	UFUNCTION(BlueprintCallable)
-		void HitReact(float damage);
+		void Smash_Skill_Start();
+	UFUNCTION(BlueprintCallable)
+		void SpawnAnimEnd();
+	UFUNCTION(BlueprintCallable)
+		void JumpTowardsPlayer();
 
-	void DieAnim();
+	UFUNCTION(BlueprintCallable)
+		void HitReact(float damage);
+	UFUNCTION(BlueprintCallable)
+		void SpawnAnim();
+	UFUNCTION(BlueprintCallable)
+		void DieAnim();
+
+	// 카메라 진동
+	UFUNCTION(BlueprintCallable)
+		void PlayerCameraShake();
+
+
+	UFUNCTION(BlueprintImplementableEvent)
+		void OnJumpDecal_Start();
+	UFUNCTION(BlueprintImplementableEvent)
+		void OnJumpDecal_End();
+
+	//카메라 흔들기
+	UPROPERTY(EditDefaultsOnly, Category = Pawn)
+		TSubclassOf<UCameraShake> MyShake;
 };

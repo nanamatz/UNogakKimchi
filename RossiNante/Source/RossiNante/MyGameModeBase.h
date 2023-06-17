@@ -28,12 +28,31 @@ class ROSSINANTE_API AMyGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 public:
-	AMyGameModeBase();
 	void SetUserData(int user_id);
-	SOCKET getSocket();
+	void ChangeLevel(UObject* world, FName LevelName);
+	void EnableHUDWidget();		// HUDWidget 켜기
+	void DisableHUDWidget();	// HUDWidget 끄기
+	
+	class UHUDWidget* CreateHUDWidget();		// HUDWidget 생성
+
+	bool SendLoginData(UserDataPacket* login_data);
+	bool RecvLoginData(UserDataPacket* recv_data);
+
+	
+
 	SOCKET Socket;
 	UserDataPacket user_data;
 
+	UPROPERTY()
+		class UHUDWidget* HUDWidget;
+
 private:
-	void ConnectToServer();
+	class UMyGameInstance* GameInstance;
+
+	UPROPERTY(EditDefaultsOnly)
+		TSubclassOf<class UHUDWidget> BP_HUDWidget;
+
+protected:
+	virtual void BeginPlay() override;
+
 };

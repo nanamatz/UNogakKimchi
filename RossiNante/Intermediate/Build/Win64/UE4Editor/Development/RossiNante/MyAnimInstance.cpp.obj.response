@@ -230,6 +230,7 @@
 /I Runtime\AudioMixerCore\Public
 /I C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante
 /I C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Source
+/I Runtime\Networking\Public
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf

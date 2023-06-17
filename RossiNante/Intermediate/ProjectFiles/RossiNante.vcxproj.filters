@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\RossiNante.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{0CA36B0E-6991-48AF-BC29-721BD25A8EA4}</UniqueIdentifier>
+      <UniqueIdentifier>{C6F6C1E2-FE64-4EEF-A218-2EF387E4B0BB}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\RossiNante.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{3E902DB1-4A29-4590-B935-6D963069E36A}</UniqueIdentifier>
+      <UniqueIdentifier>{DA2AF553-0DAB-4905-931D-3982E1BFA8D1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,8 +24,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\RossiNante">
-      <UniqueIdentifier>{F4FED60B-33EC-4F39-B9B4-AA8E814F99B5}</UniqueIdentifier>
+      <UniqueIdentifier>{D97275CF-49B5-4285-B8AD-6362B8FB4488}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\RossiNante\HUDWidget.cpp">
+      <Filter>Source\RossiNante</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RossiNante\HUDWidget.h">
+      <Filter>Source\RossiNante</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\RossiNante\LoginWidget.cpp">
       <Filter>Source\RossiNante</Filter>
     </ClCompile>
@@ -60,6 +66,12 @@
       <Filter>Source\RossiNante</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\RossiNante\MyGameModeBase.h">
+      <Filter>Source\RossiNante</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RossiNante\MyPlayerController.cpp">
+      <Filter>Source\RossiNante</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RossiNante\MyPlayerController.h">
       <Filter>Source\RossiNante</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\RossiNante\MyStatComponent.cpp">
