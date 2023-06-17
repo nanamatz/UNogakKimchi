@@ -158,16 +158,17 @@ void AMyCharacterEnemy::JumpTowardsPlayer()
 	OnJumpDecal_End();
 	// 일정 시간 후에 떨어지도록 타이머 설정
 	FTimerHandle TimerHandle;
-	GetWorldTimerManager().SetTimer(TimerHandle, [this, PlayerLocation]() {
+	BossLocation = PlayerLocation + FVector(0.f, 0.f, 1000.f); // 원하는 높이로 설정
+
+	GetWorldTimerManager().SetTimer(TimerHandle, [this, PlayerLocation, BossLocation]() {
 		// 보스의 위치에서 일정 거리 위로 떨어지기
-		FVector BossLocation = PlayerLocation + FVector(0.f, 0.f, 1000.f); // 원하는 높이로 설정
 		SetActorLocation(BossLocation, false, nullptr, ETeleportType::TeleportPhysics);
 		OnJumpDecal_Start();
 		FVector LaunchVelocity = FVector(0.f, 0.f, -8000.f); 
 		LaunchCharacter(LaunchVelocity, false, false);
 
 		PlayAnimMontage(Boss_SkillMontage);
-		}, 2.0f, false);
+		}, 2.5f, false);
 }
 
 

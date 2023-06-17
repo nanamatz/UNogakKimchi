@@ -1,58 +1,12 @@
-﻿  Creating makefile for RossiNanteEditor (game project files are newer)
-  Parsing headers for RossiNanteEditor
-    Running UnrealHeaderTool "C:\Users\Administrator\Desktop\RossiNante\RossiNante.uproject" "C:\Users\Administrator\Desktop\RossiNante\Intermediate\Build\Win64\RossiNanteEditor\Development\RossiNanteEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for RossiNanteEditor in 5.9757295 seconds
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Administrator\Desktop\UnrealPorject\UNogakKimchi).
   Building RossiNanteEditor...
   Using Visual Studio 2019 14.34.31937 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933) and Windows 10.0.22000.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 24 actions with 6 processes...
-    [1/24] SharedPCH.Engine.ShadowErrors.cpp
-    Detected compiler newer than Visual Studio 2019, please update min version checking in WindowsPlatformCompilerSetup.h
-    [2/24] MyAnimInstance.cpp
-C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um\winnt.h(620): warning C4005: 'TEXT': ��ũ�� ������
-    D:\soohwan\Unreal\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'�� ���� ���Ǹ� �����Ͻʽÿ�.
-    [3/24] MyGameInstance.cpp
-C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um\winnt.h(620): warning C4005: 'TEXT': ��ũ�� ������
-    D:\soohwan\Unreal\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'�� ���� ���Ǹ� �����Ͻʽÿ�.
-    [4/24] MyPlayerController.cpp
-    [5/24] HUDWidget.cpp
-    [6/24] MyStatComponent.cpp
-C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um\winnt.h(620): warning C4005: 'TEXT': ��ũ�� ������
-    D:\soohwan\Unreal\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'�� ���� ���Ǹ� �����Ͻʽÿ�.
-    [7/24] MyAnimInstance.gen.cpp
-    [8/24] MyCharacter.cpp
-C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um\winnt.h(620): warning C4005: 'TEXT': ��ũ�� ������
-    D:\soohwan\Unreal\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'�� ���� ���Ǹ� �����Ͻʽÿ�.
-    [9/24] LoginWidget.cpp
-C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um\winnt.h(620): warning C4005: 'TEXT': ��ũ�� ������
-    D:\soohwan\Unreal\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'�� ���� ���Ǹ� �����Ͻʽÿ�.
-C:\Users\Administrator\Desktop\RossiNante\Source\RossiNante\LoginWidget.cpp(29): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Administrator\Desktop\RossiNante\Source\RossiNante\LoginWidget.cpp(30): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-    [10/24] MyCharacterEnemy.gen.cpp
-    [11/24] MyGameModeBase.cpp
-C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um\winnt.h(620): warning C4005: 'TEXT': ��ũ�� ������
-    D:\soohwan\Unreal\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'�� ���� ���Ǹ� �����Ͻʽÿ�.
-    [12/24] MyCharacter.gen.cpp
-C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um\winnt.h(620): warning C4005: 'TEXT': ��ũ�� ������
-    D:\soohwan\Unreal\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'�� ���� ���Ǹ� �����Ͻʽÿ�.
-    [13/24] MyGameInstance.gen.cpp
-C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um\winnt.h(620): warning C4005: 'TEXT': ��ũ�� ������
-    D:\soohwan\Unreal\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'�� ���� ���Ǹ� �����Ͻʽÿ�.
-    [14/24] MyPlayerController.gen.cpp
-    [15/24] MyStatComponent.gen.cpp
-    [16/24] RossiNante.init.gen.cpp
-    [17/24] RossiNante.cpp
-    [18/24] MyGameModeBase.gen.cpp
-C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um\winnt.h(620): warning C4005: 'TEXT': ��ũ�� ������
-    D:\soohwan\Unreal\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'�� ���� ���Ǹ� �����Ͻʽÿ�.
-    [19/24] HUDWidget.gen.cpp
-    [20/24] MyCharacterEnemy.cpp
-    [21/24] LoginWidget.gen.cpp
-C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um\winnt.h(620): warning C4005: 'TEXT': ��ũ�� ������
-    D:\soohwan\Unreal\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'�� ���� ���Ǹ� �����Ͻʽÿ�.
-    [22/24] UE4Editor-RossiNante-0021.lib
-       C:\Users\Administrator\Desktop\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0021.lib ���̺귯�� �� C:\Users\Administrator\Desktop\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0021.exp ��ü�� �����ϰ� �ֽ��ϴ�.
-    [23/24] UE4Editor-RossiNante-0021.dll
-       C:\Users\Administrator\Desktop\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0021.suppressed.lib ���̺귯�� �� C:\Users\Administrator\Desktop\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0021.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
-    [24/24] RossiNanteEditor.target
-  Total time in Parallel executor: 40.92 seconds
-  Total execution time: 49.37 seconds
+  Building 4 actions with 6 processes...
+    [1/4] MyCharacterEnemy.cpp
+    [2/4] UE4Editor-RossiNante-0027.lib
+       C:\Users\Administrator\Desktop\UnrealPorject\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0027.lib ���̺귯�� �� C:\Users\Administrator\Desktop\UnrealPorject\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0027.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [3/4] UE4Editor-RossiNante-0027.dll
+       C:\Users\Administrator\Desktop\UnrealPorject\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0027.suppressed.lib ���̺귯�� �� C:\Users\Administrator\Desktop\UnrealPorject\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0027.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [4/4] RossiNanteEditor.target
+  Total time in Parallel executor: 17.69 seconds
+  Total execution time: 18.78 seconds
