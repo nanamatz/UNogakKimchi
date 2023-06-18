@@ -15,7 +15,7 @@ APortal::APortal()
 
 	PortalBox = CreateDefaultSubobject<UBoxComponent>(TEXT("PortalBox"));
 	PortalBox->SetupAttachment(RootComponent);
-	PortalBox->SetCollisionProfileName(TEXT("OverlapOnlyPawn"));
+	PortalBox->SetCollisionProfileName(TEXT("Portal"));
 }
 
 // Called when the game starts or when spawned

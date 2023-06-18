@@ -61,11 +61,13 @@ void EmptyLinkFunctionForGeneratedCodePortal() {}
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APortal_Statics::NewProp_PortalBox_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Portal" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Portal.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APortal_Statics::NewProp_PortalBox = { "PortalBox", nullptr, (EPropertyFlags)0x0040000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APortal, PortalBox), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APortal_Statics::NewProp_PortalBox_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APortal_Statics::NewProp_PortalBox_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APortal_Statics::NewProp_PortalBox = { "PortalBox", nullptr, (EPropertyFlags)0x004000000008001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APortal, PortalBox), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APortal_Statics::NewProp_PortalBox_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APortal_Statics::NewProp_PortalBox_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APortal_Statics::NewProp_RootScene_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -115,7 +117,7 @@ void EmptyLinkFunctionForGeneratedCodePortal() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APortal, 3300751429);
+	IMPLEMENT_CLASS(APortal, 554078159);
 	template<> ROSSINANTE_API UClass* StaticClass<APortal>()
 	{
 		return APortal::StaticClass();

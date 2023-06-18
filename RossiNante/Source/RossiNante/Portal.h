@@ -12,6 +12,7 @@ class ROSSINANTE_API APortal : public AActor
 	GENERATED_BODY()
 protected:
 	virtual void NotifyActorBeginOverlap(AActor* OtherActor) override;
+
 private:
 	UPROPERTY(EditAnywhere, meta = (AllowPrivateAccess = "true"))
 	FName NextLevelName;
@@ -19,7 +20,7 @@ private:
 	UPROPERTY(EditAnywhere, meta = (AllowPrivateAccess = "true"))
 		class USceneComponent* RootScene;
 
-	UPROPERTY()
+	UPROPERTY(BlueprintReadOnly, EditAnywhere,meta = (AllowPrivateAccess = "true"))
 		class UBoxComponent* PortalBox;
 public:	
 	// Sets default values for this actor's properties

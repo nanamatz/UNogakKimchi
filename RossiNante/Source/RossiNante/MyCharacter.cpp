@@ -52,7 +52,7 @@ void AMyCharacter::PostInitializeComponents()
 void AMyCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
+	IsJumping = AnimInstance->IsJumping;
 	if (q_waitingTime > 0) {
 		q_waitingTime -= DeltaTime;
 		HUDWidget->UpdateQSkillCoolTime(q_waitingTime, q_coolTime);
