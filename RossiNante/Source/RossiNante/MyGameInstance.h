@@ -19,6 +19,8 @@ struct FMyCharacterData : public FTableRowBase
 			int32 Attack;
 		UPROPERTY(EditAnywhere, BlueprintReadWrite)
 			int32 MaxHp;
+		UPROPERTY(EditAnywhere, BlueprintReadWrite)
+			int32 RequireExp;
 };
 /**
  * 

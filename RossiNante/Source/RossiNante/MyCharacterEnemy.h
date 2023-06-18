@@ -58,6 +58,10 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Boss Monster")
 		float SkillCooldownTime; // 스킬 쿨다운
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Boss Monster")
+		float Exp; // 몬스터가 주는 경험치
+
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool isDuringAttack;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)

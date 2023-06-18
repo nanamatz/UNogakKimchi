@@ -14,8 +14,110 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define ROSSINANTE_MyStatComponent_generated_h
 
 #define RossiNante_Source_RossiNante_MyStatComponent_h_13_SPARSE_DATA
-#define RossiNante_Source_RossiNante_MyStatComponent_h_13_RPC_WRAPPERS
-#define RossiNante_Source_RossiNante_MyStatComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define RossiNante_Source_RossiNante_MyStatComponent_h_13_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSetExp) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_exp); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetExp(Z_Param_exp); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetExp) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=P_THIS->GetExp(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetMaxHp) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=P_THIS->GetMaxHp(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetAttack) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=P_THIS->GetAttack(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetHp) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=P_THIS->GetHp(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetLevel) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=P_THIS->GetLevel(); \
+		P_NATIVE_END; \
+	}
+
+
+#define RossiNante_Source_RossiNante_MyStatComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSetExp) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_exp); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetExp(Z_Param_exp); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetExp) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=P_THIS->GetExp(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetMaxHp) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=P_THIS->GetMaxHp(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetAttack) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=P_THIS->GetAttack(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetHp) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=P_THIS->GetHp(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetLevel) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=P_THIS->GetLevel(); \
+		P_NATIVE_END; \
+	}
+
+
 #define RossiNante_Source_RossiNante_MyStatComponent_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUMyStatComponent(); \
@@ -61,7 +163,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMyStatComponent); \
 #define RossiNante_Source_RossiNante_MyStatComponent_h_13_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__Level() { return STRUCT_OFFSET(UMyStatComponent, Level); } \
 	FORCEINLINE static uint32 __PPO__Attack() { return STRUCT_OFFSET(UMyStatComponent, Attack); } \
-	FORCEINLINE static uint32 __PPO__Hp() { return STRUCT_OFFSET(UMyStatComponent, Hp); }
+	FORCEINLINE static uint32 __PPO__Hp() { return STRUCT_OFFSET(UMyStatComponent, Hp); } \
+	FORCEINLINE static uint32 __PPO__CurExp() { return STRUCT_OFFSET(UMyStatComponent, CurExp); } \
+	FORCEINLINE static uint32 __PPO__RequireExp() { return STRUCT_OFFSET(UMyStatComponent, RequireExp); }
 
 
 #define RossiNante_Source_RossiNante_MyStatComponent_h_10_PROLOG

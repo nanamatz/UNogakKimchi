@@ -24,10 +24,28 @@ public:
 	void SetLevel(int32 NewLevel);
 	void OnAttacked(float DamageAmount);
 
+	UFUNCTION(BlueprintCallable)
 	int32 GetLevel() { return Level; }
+	UFUNCTION(BlueprintCallable)
 	int32 GetHp() { return Hp; }
+	UFUNCTION(BlueprintCallable)
 	int32 GetAttack() { return Attack; }
+	UFUNCTION(BlueprintCallable)
 	int32 GetMaxHp() { return maxHp; }
+	UFUNCTION(BlueprintCallable)
+	int32 GetExp() { return CurExp; }
+
+	UFUNCTION(BlueprintCallable)
+		void SetExp(int32 exp) { 
+			if (CurExp + exp >= RequireExp) {
+				CurExp = RequireExp - CurExp - exp;
+				SetLevel(Level + 1);
+			}
+			else {
+				CurExp += exp;
+			}
+		}
+
 private:
 	int32 maxHp;
 
@@ -37,4 +55,9 @@ private:
 		int32 Attack;
 	UPROPERTY(EditAnywhere, Category = Stat, Meta = (AllowPrivateAccess = true))
 		int32 Hp;
+	UPROPERTY(EditAnywhere, Category = Stat, Meta = (AllowPrivateAccess = true))
+		int32 CurExp;
+	UPROPERTY(EditAnywhere, Category = Stat, Meta = (AllowPrivateAccess = true))
+		int32 RequireExp;
+
 };

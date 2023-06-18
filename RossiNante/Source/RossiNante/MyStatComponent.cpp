@@ -46,6 +46,8 @@ void UMyStatComponent::SetLevel(int32 NewLevel)
 			Hp = StatData->MaxHp;
 			maxHp = Hp;
 			Attack = StatData->Attack;
+			RequireExp = StatData->RequireExp;
+			CurExp = 0;
 		}
 	}
 }
