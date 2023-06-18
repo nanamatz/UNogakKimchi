@@ -51,7 +51,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{2318B86A-CE32-46B9-AFA9-9011ACF0D6B4}</ProjectGuid>
+    <ProjectGuid>{ECB7B07B-CA65-4F78-9FDE-D3F7CC2A29D5}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>RossiNante</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>
@@ -279,6 +279,8 @@
     <ClInclude Include="..\..\Source\RossiNante\MenuWidget.h"/>
     <ClCompile Include="..\..\Source\RossiNante\MyAnimInstance.cpp"/>
     <ClInclude Include="..\..\Source\RossiNante\MyAnimInstance.h"/>
+    <ClCompile Include="..\..\Source\RossiNante\MyBossClass.cpp"/>
+    <ClInclude Include="..\..\Source\RossiNante\MyBossClass.h"/>
     <ClCompile Include="..\..\Source\RossiNante\MyCharacter.cpp"/>
     <ClInclude Include="..\..\Source\RossiNante\MyCharacter.h"/>
     <ClCompile Include="..\..\Source\RossiNante\MyCharacterEnemy.cpp"/>

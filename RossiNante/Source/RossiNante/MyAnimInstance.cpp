@@ -26,10 +26,7 @@ UMyAnimInstance::UMyAnimInstance()
 	if (TumbleMont.Succeeded()) {
 		TumbleMontage = TumbleMont.Object;
 	}
-	//ConstructorHelpers::FObjectFinder<UAnimMontage> DeathMont(TEXT("AnimMontage'/Game/Animations/BP_DeathMontage.BP_DeathMontage'"));
-	//if (DeathMont.Succeeded()) {
-	//	DeathMontage = DeathMont.Object;
-	//}
+
 	ConstructorHelpers::FObjectFinder<UAnimMontage> HitReactMont(TEXT("AnimMontage'/Game/Animations/BP_HitReactMontage.BP_HitReactMontage'"));
 	if (HitReactMont.Succeeded()) {
 		HitReactMontage = HitReactMont.Object;
@@ -60,17 +57,9 @@ void UMyAnimInstance::PlaySkill_EMontage()
 void UMyAnimInstance::PlayTumbleMontage()
 {
 	if (!Montage_IsPlaying(TumbleMontage)) {
-		UE_LOG(LogTemp, Warning, TEXT("TumbleMontage"));
 		Montage_Play(TumbleMontage, 1.f);
 	}
 }
-
-//void UMyAnimInstance::PlayDeathMontage()
-//{
-//	if (!Montage_IsPlaying(DeathMontage)) {
-//		Montage_Play(DeathMontage, 1.f);
-//	}
-//}
 
 void UMyAnimInstance::PlayHitReactMontage()
 {
@@ -78,33 +67,6 @@ void UMyAnimInstance::PlayHitReactMontage()
 		Montage_Play(HitReactMontage, 1.f);
 	}
 }
-//void UMyAnimInstance::PlayBossAttackMontage()
-//{
-//	if (!Montage_IsPlaying(Boss_AttackMontage)) {
-//		Montage_Play(Boss_AttackMontage, 1.f);
-//	}
-//}
-//
-//void UMyAnimInstance::PlayBossSkillMontage()
-//{
-//	if (!Montage_IsPlaying(Boss_SkillMontage)) {
-//		Montage_Play(Boss_SkillMontage, 1.f);
-//	}
-//}
-//
-//void UMyAnimInstance::PlayBossHitReactMontage()
-//{
-//	if (!Montage_IsPlaying(Boss_HitReactMontage)) {
-//		Montage_Play(Boss_HitReactMontage, 1.f);
-//	}
-//}
-//
-//void UMyAnimInstance::PlayBossDeathMontage()
-//{
-//	if (!Montage_IsPlaying(Boss_DeathMontage)) {
-//		Montage_Play(Boss_DeathMontage, 1.f);
-//	}
-//}
 
 
 
@@ -121,25 +83,21 @@ FName UMyAnimInstance::GetAttackMontageName(int32 SectionIndex)	//Get Attack Mon
 
 void UMyAnimInstance::AnimNotify_AttackHit() //When Attack Effect for example Sounds, Effects etc
 {
-	UE_LOG(LogTemp, Warning, TEXT("broadCast Attack"));
 	OnAttackHit.Broadcast();
 }
 
 void UMyAnimInstance::AnimNotify_OnTumbleEnd()
 {
-	UE_LOG(LogTemp, Warning, TEXT("broadCast Tumble"));
 	OnTumbleEnd.Broadcast();
 }
 
 void UMyAnimInstance::AnimNotify_SkillCastEnd()
 {
-	UE_LOG(LogTemp, Warning, TEXT("broadCast Skill"));
 	OnSkillEnd.Broadcast();
 }
 
 void UMyAnimInstance::AnimNotify_OnHitEnd()
 {
-	UE_LOG(LogTemp, Warning, TEXT("broadCast Hit"));
 	OnHitEnd.Broadcast();
 }
 

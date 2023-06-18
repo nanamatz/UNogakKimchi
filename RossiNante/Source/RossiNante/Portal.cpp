@@ -3,6 +3,7 @@
 
 #include "Portal.h"
 #include "Engine/Classes/Components/BoxComponent.h"
+#include "MyCharacter.h"
 #include "Kismet/GameplayStatics.h"
 
 // Sets default values
@@ -33,11 +34,13 @@ void APortal::Tick(float DeltaTime)
 }
 void APortal::NotifyActorBeginOverlap(AActor* OtherActor) 
 {
-	APawn* Pawn = Cast<APawn>(OtherActor);
-	if (Pawn != nullptr) 
+
+	ACharacter* Character = Cast<AMyCharacter>(OtherActor);
+
+	if (Character != nullptr) 
 	{
-	
-		UGameplayStatics::OpenLevel(this, NextLevelName);
+		
+		UGameplayStatics::OpenLevel(this, NextLevelName,true);
 
 	}
 }

@@ -76,8 +76,8 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 void AMyCharacter::Attack()
 {
-	if (IsAttacking || IsSkillCasting || AnimInstance->IsTumbling) return;
-	UE_LOG(LogTemp, Warning, TEXT("Attack: %d"),AnimInstance->IsTumbling);
+	UE_LOG(LogTemp, Warning, TEXT("Attack: %d"), IsTumbling);
+	if (IsAttacking || IsSkillCasting || IsTumbling) return;
 	IsAttacking = true;
 	AnimInstance->PlayAttackMontage();
 	
@@ -88,16 +88,15 @@ void AMyCharacter::Attack()
 
 void AMyCharacter::Tumble()
 {
-	if (IsAttacking || IsSkillCasting || AnimInstance->IsJumping || AnimInstance->IsTumbling) return;
+	UE_LOG(LogTemp, Warning, TEXT("Attack: %d"), AnimInstance->IsTumbling);
+	if (IsAttacking || IsSkillCasting || IsJumping || IsTumbling) return;
 	IsTumbling = true;
 	AnimInstance->IsTumbling = IsTumbling;
-	UE_LOG(LogTemp, Warning, TEXT("Tumble: %d"), AnimInstance->IsTumbling);
-	//AnimInstance->PlayTumbleMontage();
 }
 
 void AMyCharacter::Skill_Q()
 {
-	if (q_waitingTime > 0 || IsAttacking || IsSkillCasting || AnimInstance->IsJumping || AnimInstance->IsTumbling) return;
+	if (q_waitingTime > 0 || IsAttacking || IsSkillCasting || IsJumping || IsTumbling) return;
 	IsSkillCasting = true;
 	q_waitingTime = q_coolTime;
 	HUDWidget->UpdateQSkillCoolTime(q_waitingTime, q_coolTime);
@@ -105,7 +104,7 @@ void AMyCharacter::Skill_Q()
 }
 void AMyCharacter::Skill_E()
 {
-	if (IsAttacking || IsSkillCasting || AnimInstance->IsJumping || AnimInstance->IsTumbling)return;
+	if (IsAttacking || IsSkillCasting || IsJumping || IsTumbling)return;
 	IsSkillCasting = true;
 	AnimInstance->PlaySkill_EMontage();
 }
@@ -116,7 +115,7 @@ void AMyCharacter::IsAttackHit()
 
 	FCollisionQueryParams Params(NAME_None, false, this);
 
-	float AttackRange = 1000.f;
+	float AttackRange = 1500.f;
 	float AttackRadius = 20.f;
 
 	bool bResult = GetWorld()->SweepSingleByChannel(OUT HitResult,
@@ -207,7 +206,15 @@ float AMyCharacter::TakeDamage(float DamageAmount, struct FDamageEvent const& Da
 		//AnimInstance->PlayDeathMontage();
 	}
 	else {
-		AnimInstance->PlayHitReactMontage();
+		if (IsAttacking || IsSkillCasting || IsJumping || IsTumbling) {
+			AnimInstance->IsAttacked = false;
+			IsTumbling = false;
+		}
+
+		else{
+
+			AnimInstance->PlayHitReactMontage();
+		}
 	}
 	UE_LOG(LogTemp, Log, TEXT("%d"),AnimInstance->IsAttacked);
 

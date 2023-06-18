@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\RossiNante.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{EB74B8EB-671A-4231-BF81-2C79503DD706}</UniqueIdentifier>
+      <UniqueIdentifier>{CB0FF56B-564C-45CE-AD18-01ECB0FBCE00}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\RossiNante.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{3E708A12-993F-4B31-94DE-4BE52F3A1023}</UniqueIdentifier>
+      <UniqueIdentifier>{B3A8514C-35D3-48C4-8329-16CBFFF25247}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\RossiNante">
-      <UniqueIdentifier>{5CFB63BE-7099-41DA-A1F4-5518C3172703}</UniqueIdentifier>
+      <UniqueIdentifier>{59DF0900-9F43-4927-8719-CC7BD4112C3F}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\RossiNante\HUDWidget.cpp">
       <Filter>Source\RossiNante</Filter>
@@ -48,6 +48,12 @@
       <Filter>Source\RossiNante</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\RossiNante\MyAnimInstance.h">
+      <Filter>Source\RossiNante</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RossiNante\MyBossClass.cpp">
+      <Filter>Source\RossiNante</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RossiNante\MyBossClass.h">
       <Filter>Source\RossiNante</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\RossiNante\MyCharacter.cpp">
