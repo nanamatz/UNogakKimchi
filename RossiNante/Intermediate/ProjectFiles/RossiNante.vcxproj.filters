@@ -3,7 +3,11 @@
   <ItemGroup>
     <None Include="..\..\RossiNante.uproject" />
     <Filter Include="Source">
+<<<<<<< Updated upstream
       <UniqueIdentifier>{5B383DA5-E6DD-4143-9783-D8FE77BA3E27}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{D5F2E4C7-0347-4D1B-8F0E-7FB8E9CB99D6}</UniqueIdentifier>
+>>>>>>> Stashed changes
     </Filter>
     <None Include="..\..\Source\RossiNante.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +16,11 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
+<<<<<<< Updated upstream
       <UniqueIdentifier>{8E67F9FF-677D-446D-97E9-758EFE32265C}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{C0611603-AFE8-4D7B-B6B9-6D71C51CB06F}</UniqueIdentifier>
+>>>>>>> Stashed changes
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +32,11 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\RossiNante">
+<<<<<<< Updated upstream
       <UniqueIdentifier>{62F4412B-0201-47EE-A6CD-DB6B7582971F}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{73EB2D27-8719-4446-8F6C-7E70D986A0AE}</UniqueIdentifier>
+>>>>>>> Stashed changes
     </Filter>
     <ClCompile Include="..\..\Source\RossiNante\MyGameModeBase.cpp">
       <Filter>Source\RossiNante</Filter>

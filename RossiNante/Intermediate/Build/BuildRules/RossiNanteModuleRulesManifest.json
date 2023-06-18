@@ -1,8 +1,14 @@
 {
 	"SourceFiles": [
+<<<<<<< Updated upstream
 		"C:\\Users\\owner\\Documents\\GitHub\\UNogakKimchi\\RossiNante\\Source\\RossiNante\\RossiNante.Build.cs",
 		"C:\\Users\\owner\\Documents\\GitHub\\UNogakKimchi\\RossiNante\\Source\\RossiNante.Target.cs",
 		"C:\\Users\\owner\\Documents\\GitHub\\UNogakKimchi\\RossiNante\\Source\\RossiNanteEditor.Target.cs"
+=======
+		"C:\\Users\\Administrator\\Downloads\\UNogakKimchi-jeonghoon\\UNogakKimchi-jeonghoon\\RossiNante\\Source\\RossiNante\\RossiNante.Build.cs",
+		"C:\\Users\\Administrator\\Downloads\\UNogakKimchi-jeonghoon\\UNogakKimchi-jeonghoon\\RossiNante\\Source\\RossiNante.Target.cs",
+		"C:\\Users\\Administrator\\Downloads\\UNogakKimchi-jeonghoon\\UNogakKimchi-jeonghoon\\RossiNante\\Source\\RossiNanteEditor.Target.cs"
+>>>>>>> Stashed changes
 	],
 	"EngineVersion": "4.24.3"
 }

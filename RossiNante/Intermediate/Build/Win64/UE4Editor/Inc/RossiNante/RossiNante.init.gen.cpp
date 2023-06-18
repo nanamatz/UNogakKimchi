@@ -21,8 +21,13 @@ void EmptyLinkFunctionForGeneratedCodeRossiNante_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
+<<<<<<< Updated upstream
 				0x91B32FE9,
 				0x56849041,
+=======
+				0x6C0E3342,
+				0x577FD499,
+>>>>>>> Stashed changes
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

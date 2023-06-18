@@ -2,12 +2,20 @@
 	"Targets": [
 		{
 			"Name": "RossiNante",
+<<<<<<< Updated upstream
 			"Path": "C:\\Users\\owner\\Documents\\GitHub\\UNogakKimchi\\RossiNante\\Source\\RossiNante.Target.cs",
+=======
+			"Path": "C:\\Users\\Administrator\\Downloads\\UNogakKimchi-jeonghoon\\UNogakKimchi-jeonghoon\\RossiNante\\Source\\RossiNante.Target.cs",
+>>>>>>> Stashed changes
 			"Type": "Game"
 		},
 		{
 			"Name": "RossiNanteEditor",
+<<<<<<< Updated upstream
 			"Path": "C:\\Users\\owner\\Documents\\GitHub\\UNogakKimchi\\RossiNante\\Source\\RossiNanteEditor.Target.cs",
+=======
+			"Path": "C:\\Users\\Administrator\\Downloads\\UNogakKimchi-jeonghoon\\UNogakKimchi-jeonghoon\\RossiNante\\Source\\RossiNanteEditor.Target.cs",
+>>>>>>> Stashed changes
 			"Type": "Editor"
 		}
 	]
