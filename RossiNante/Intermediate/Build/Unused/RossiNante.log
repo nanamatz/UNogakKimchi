@@ -1,26 +1,76 @@
-<<<<<<< Updated upstream
-﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\owner\Documents\GitHub\UNogakKimchi).
+﻿  Cleaning RossiNanteEditor and UnrealHeaderTool binaries...
+  Creating makefile for RossiNanteEditor (no existing makefile)
+  Parsing headers for RossiNanteEditor
+    Running UnrealHeaderTool "C:\Users\penci\Documents\UNogakKimchi-jeonghoon\RossiNante\RossiNante.uproject" "C:\Users\penci\Documents\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\RossiNanteEditor\Development\RossiNanteEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for RossiNanteEditor in 4.9410912 seconds
   Building RossiNanteEditor...
-  Using Visual Studio 2019 14.29.30147 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 12 processes...
-    [1/4] MyCharacter.cpp
-    [2/4] UE4Editor-RossiNante-0030.lib
-       C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0030.lib ���̺귯�� �� C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0030.exp ��ü�� �����ϰ� �ֽ��ϴ�.
-    [3/4] UE4Editor-RossiNante-0030.dll
-       C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0030.suppressed.lib ���̺귯�� �� C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0030.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
-    [4/4] RossiNanteEditor.target
-  Total time in Parallel executor: 1.29 seconds
-  Total execution time: 1.82 seconds
-=======
-﻿  Building RossiNanteEditor...
-  Using Visual Studio 2019 14.34.31937 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933) and Windows 10.0.22000.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 6 processes...
-    [1/4] MyCharacterEnemy.cpp
-    [2/4] UE4Editor-RossiNante-0006.lib
-       C:\Users\Administrator\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0006.lib ���̺귯�� �� C:\Users\Administrator\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0006.exp ��ü�� �����ϰ� �ֽ��ϴ�.
-    [3/4] UE4Editor-RossiNante-0006.dll
-       C:\Users\Administrator\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0006.suppressed.lib ���̺귯�� �� C:\Users\Administrator\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0006.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
-    [4/4] RossiNanteEditor.target
-  Total time in Parallel executor: 8.22 seconds
-  Total execution time: 8.92 seconds
->>>>>>> Stashed changes
+  Using Visual Studio 2019 14.33.31629 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 35 actions with 16 processes...
+    [1/35] Default.rc2
+    [2/35] SharedPCH.Engine.ShadowErrors.cpp
+    Detected compiler newer than Visual Studio 2019, please update min version checking in WindowsPlatformCompilerSetup.h
+    [3/35] RossiNante.cpp
+    [4/35] MyPlayerController.cpp
+    [5/35] Portal.cpp
+    [6/35] RossiNante.init.gen.cpp
+    [7/35] Portal.gen.cpp
+    [8/35] MyAnimInstance.cpp
+C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: 'TEXT': ��ũ�� ������
+    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'�� ���� ���Ǹ� �����Ͻʽÿ�.
+    [9/35] MyStatComponent.cpp
+C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: 'TEXT': ��ũ�� ������
+    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'�� ���� ���Ǹ� �����Ͻʽÿ�.
+    [10/35] MyStatComponent.gen.cpp
+    [11/35] MyPlayerController.gen.cpp
+    [12/35] MyCharacterEnemy.gen.cpp
+    [13/35] MyGameModeBase.gen.cpp
+C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: 'TEXT': ��ũ�� ������
+    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'�� ���� ���Ǹ� �����Ͻʽÿ�.
+    [14/35] MyBossClass.gen.cpp
+    [15/35] HUDWidget.cpp
+    [16/35] HUDWidget.gen.cpp
+    [17/35] StatMenuWidget.cpp
+    [18/35] StatMenuWidget.gen.cpp
+    [19/35] MyAnimInstance.gen.cpp
+    [20/35] MyCharacter.gen.cpp
+C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: 'TEXT': ��ũ�� ������
+    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'�� ���� ���Ǹ� �����Ͻʽÿ�.
+    [21/35] PlayMenuWidget.cpp
+C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: 'TEXT': ��ũ�� ������
+    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'�� ���� ���Ǹ� �����Ͻʽÿ�.
+    [22/35] MenuWidget.cpp
+C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: 'TEXT': ��ũ�� ������
+    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'�� ���� ���Ǹ� �����Ͻʽÿ�.
+    [23/35] LoginWidget.cpp
+C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: 'TEXT': ��ũ�� ������
+    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'�� ���� ���Ǹ� �����Ͻʽÿ�.
+C:\Users\penci\Documents\UNogakKimchi-jeonghoon\RossiNante\Source\RossiNante\LoginWidget.cpp(30): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\penci\Documents\UNogakKimchi-jeonghoon\RossiNante\Source\RossiNante\LoginWidget.cpp(31): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+    [24/35] MyCharacter.cpp
+C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: 'TEXT': ��ũ�� ������
+    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'�� ���� ���Ǹ� �����Ͻʽÿ�.
+    [25/35] MyGameInstance.cpp
+C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: 'TEXT': ��ũ�� ������
+    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'�� ���� ���Ǹ� �����Ͻʽÿ�.
+    [26/35] MyGameInstance.gen.cpp
+C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: 'TEXT': ��ũ�� ������
+    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'�� ���� ���Ǹ� �����Ͻʽÿ�.
+    [27/35] MyGameModeBase.cpp
+C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: 'TEXT': ��ũ�� ������
+    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'�� ���� ���Ǹ� �����Ͻʽÿ�.
+    [28/35] PlayMenuWidget.gen.cpp
+C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: 'TEXT': ��ũ�� ������
+    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'�� ���� ���Ǹ� �����Ͻʽÿ�.
+    [29/35] LoginWidget.gen.cpp
+C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: 'TEXT': ��ũ�� ������
+    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'�� ���� ���Ǹ� �����Ͻʽÿ�.
+    [30/35] MenuWidget.gen.cpp
+    [31/35] MyCharacterEnemy.cpp
+    [32/35] MyBossClass.cpp
+    [33/35] UE4Editor-RossiNante.lib
+       C:\Users\penci\Documents\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante.lib ���̺귯�� �� C:\Users\penci\Documents\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [34/35] UE4Editor-RossiNante.dll
+       C:\Users\penci\Documents\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante.suppressed.lib ���̺귯�� �� C:\Users\penci\Documents\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [35/35] RossiNanteEditor.target
+  Total time in Parallel executor: 20.88 seconds
+  Total execution time: 31.81 seconds

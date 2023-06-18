@@ -2,10 +2,6 @@
 	"BuildId": "10570792",
 	"Modules": 
 	{
-<<<<<<< Updated upstream
-		"RossiNante": "UE4Editor-RossiNante-0030.dll"
-=======
-		"RossiNante": "UE4Editor-RossiNante-0986.dll"
->>>>>>> Stashed changes
+		"RossiNante": "UE4Editor-RossiNante.dll"
 	}
 }

@@ -26,9 +26,12 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacterEnemy() {}
 	ROSSINANTE_API UFunction* Z_Construct_UFunction_AMyCharacterEnemy_JumpTowardsPlayer();
 	ROSSINANTE_API UFunction* Z_Construct_UFunction_AMyCharacterEnemy_OnJumpDecal_End();
 	ROSSINANTE_API UFunction* Z_Construct_UFunction_AMyCharacterEnemy_OnJumpDecal_Start();
+	ROSSINANTE_API UFunction* Z_Construct_UFunction_AMyCharacterEnemy_PlayerCameraShake();
 	ROSSINANTE_API UFunction* Z_Construct_UFunction_AMyCharacterEnemy_Smash_Skill_Start();
 	ROSSINANTE_API UFunction* Z_Construct_UFunction_AMyCharacterEnemy_SpawnAnim();
 	ROSSINANTE_API UFunction* Z_Construct_UFunction_AMyCharacterEnemy_SpawnAnimEnd();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	ENGINE_API UClass* Z_Construct_UClass_UCameraShake_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ROSSINANTE_API UClass* Z_Construct_UClass_UMyAnimInstance_NoRegister();
@@ -54,6 +57,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacterEnemy() {}
 			{ "DieAnim", &AMyCharacterEnemy::execDieAnim },
 			{ "HitReact", &AMyCharacterEnemy::execHitReact },
 			{ "JumpTowardsPlayer", &AMyCharacterEnemy::execJumpTowardsPlayer },
+			{ "PlayerCameraShake", &AMyCharacterEnemy::execPlayerCameraShake },
 			{ "Smash_Skill_Start", &AMyCharacterEnemy::execSmash_Skill_Start },
 			{ "SpawnAnim", &AMyCharacterEnemy::execSpawnAnim },
 			{ "SpawnAnimEnd", &AMyCharacterEnemy::execSpawnAnimEnd },
@@ -268,6 +272,30 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacterEnemy() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AMyCharacterEnemy_PlayerCameraShake_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMyCharacterEnemy_PlayerCameraShake_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "// \xc4\xab?\xde\xb6? ????\n" },
+		{ "ModuleRelativePath", "MyCharacterEnemy.h" },
+		{ "ToolTip", "\xc4\xab?\xde\xb6? ????" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMyCharacterEnemy_PlayerCameraShake_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMyCharacterEnemy, nullptr, "PlayerCameraShake", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMyCharacterEnemy_PlayerCameraShake_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyCharacterEnemy_PlayerCameraShake_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AMyCharacterEnemy_PlayerCameraShake()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMyCharacterEnemy_PlayerCameraShake_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_AMyCharacterEnemy_Smash_Skill_Start_Statics
 	{
 #if WITH_METADATA
@@ -346,9 +374,17 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacterEnemy() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MyShake_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_MyShake;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Boss_Phase2Montage_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Boss_Phase2Montage;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Boss_JumpMontage_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Boss_JumpMontage;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Boss_DeathMontage_MetaData[];
 #endif
@@ -464,6 +500,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacterEnemy() {}
 		{ &Z_Construct_UFunction_AMyCharacterEnemy_JumpTowardsPlayer, "JumpTowardsPlayer" }, // 4010715417
 		{ &Z_Construct_UFunction_AMyCharacterEnemy_OnJumpDecal_End, "OnJumpDecal_End" }, // 2309600848
 		{ &Z_Construct_UFunction_AMyCharacterEnemy_OnJumpDecal_Start, "OnJumpDecal_Start" }, // 1065123412
+		{ &Z_Construct_UFunction_AMyCharacterEnemy_PlayerCameraShake, "PlayerCameraShake" }, // 96460581
 		{ &Z_Construct_UFunction_AMyCharacterEnemy_Smash_Skill_Start, "Smash_Skill_Start" }, // 2396178100
 		{ &Z_Construct_UFunction_AMyCharacterEnemy_SpawnAnim, "SpawnAnim" }, // 3773619038
 		{ &Z_Construct_UFunction_AMyCharacterEnemy_SpawnAnimEnd, "SpawnAnimEnd" }, // 1131592174
@@ -476,14 +513,32 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacterEnemy() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_MyShake_MetaData[] = {
+		{ "Category", "Pawn" },
+		{ "Comment", "//\xc4\xab?\xde\xb6? ??????\n" },
+		{ "ModuleRelativePath", "MyCharacterEnemy.h" },
+		{ "ToolTip", "\xc4\xab?\xde\xb6? ??????" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_MyShake = { "MyShake", nullptr, (EPropertyFlags)0x0014000000010001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyCharacterEnemy, MyShake), Z_Construct_UClass_UCameraShake_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_MyShake_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_MyShake_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_Boss_Phase2Montage_MetaData[] = {
+		{ "Category", "Pawn" },
+		{ "Comment", "// ?\xc7\xb0? ?\xd6\xb4\xcf\xb8??\xcc\xbc?\n" },
+		{ "ModuleRelativePath", "MyCharacterEnemy.h" },
+		{ "ToolTip", "?\xc7\xb0? ?\xd6\xb4\xcf\xb8??\xcc\xbc?" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_Boss_Phase2Montage = { "Boss_Phase2Montage", nullptr, (EPropertyFlags)0x0020080000010001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyCharacterEnemy, Boss_Phase2Montage), Z_Construct_UClass_UAnimMontage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_Boss_Phase2Montage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_Boss_Phase2Montage_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_Boss_JumpMontage_MetaData[] = {
 		{ "Category", "Pawn" },
 		{ "Comment", "// ???? ?\xd6\xb4\xcf\xb8??\xcc\xbc?\n" },
 		{ "ModuleRelativePath", "MyCharacterEnemy.h" },
 		{ "ToolTip", "???? ?\xd6\xb4\xcf\xb8??\xcc\xbc?" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_Boss_Phase2Montage = { "Boss_Phase2Montage", nullptr, (EPropertyFlags)0x0020080000010001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyCharacterEnemy, Boss_Phase2Montage), Z_Construct_UClass_UAnimMontage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_Boss_Phase2Montage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_Boss_Phase2Montage_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_Boss_JumpMontage = { "Boss_JumpMontage", nullptr, (EPropertyFlags)0x0020080000010001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyCharacterEnemy, Boss_JumpMontage), Z_Construct_UClass_UAnimMontage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_Boss_JumpMontage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_Boss_JumpMontage_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_Boss_DeathMontage_MetaData[] = {
 		{ "Category", "Pawn" },
@@ -696,7 +751,9 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacterEnemy() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_AnimInstance = { "AnimInstance", nullptr, (EPropertyFlags)0x0040000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyCharacterEnemy, AnimInstance), Z_Construct_UClass_UMyAnimInstance_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_AnimInstance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_AnimInstance_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMyCharacterEnemy_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_MyShake,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_Boss_Phase2Montage,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_Boss_JumpMontage,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_Boss_DeathMontage,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_Boss_HitReactMontage,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_Boss_SmashStartMontage,
@@ -748,7 +805,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacterEnemy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyCharacterEnemy, 2719261113);
+	IMPLEMENT_CLASS(AMyCharacterEnemy, 1433469812);
 	template<> ROSSINANTE_API UClass* StaticClass<AMyCharacterEnemy>()
 	{
 		return AMyCharacterEnemy::StaticClass();
