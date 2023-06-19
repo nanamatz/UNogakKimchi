@@ -32,6 +32,9 @@ void AMyCharacter::BeginPlay()
 	GameMode->EnableHUDWidget();
 
 	q_waitingTime = 0;
+
+	Stat->SetLevel(GameMode->GetPlayerLevel());
+	Stat->SetCurExp(GameMode->GetPlayerExp());
 }
 
 void AMyCharacter::PostInitializeComponents()

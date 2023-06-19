@@ -56,6 +56,7 @@ public:
 	void UpdatePlayerInfo(UserDataPacket* ud);
 	int GetPlayerExp();
 	int GetPlayerLevel();
+	int GetPlayerStatpoint();
 	UserDataPacket* GetPlayerInfo();
 
 	SOCKET Socket;

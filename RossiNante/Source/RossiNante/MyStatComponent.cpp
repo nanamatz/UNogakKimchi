@@ -16,9 +16,7 @@ UMyStatComponent::UMyStatComponent()
 
 	bWantsInitializeComponent = true;
 	
-	//Level = Cast<AMyGameModeBase>(GetWorld()->GetAuthGameMode())->GetPlayerLevel();
 	Level = 1;
-	
 }
 
 
@@ -33,17 +31,12 @@ void UMyStatComponent::BeginPlay()
 	{
 		GameMode = Cast<AMyGameModeBase>(World->GetAuthGameMode());
 	}
-
-	//Level = GameMode->GetPlayerLevel();
-	// ...
-	
 }
 
 void UMyStatComponent::InitializeComponent()
 {
 	Super::InitializeComponent();
 	SetLevel(Level);
-
 }
 
 void UMyStatComponent::SetLevel(int32 NewLevel)
@@ -58,9 +51,13 @@ void UMyStatComponent::SetLevel(int32 NewLevel)
 			Attack = StatData->Attack;
 			RequireExp = StatData->RequireExp;
 			CurExp = 0;
-			//CurExp = GameMode->GetPlayerExp();
 		}
 	}
+}
+
+void UMyStatComponent::SetCurExp(int exp)
+{
+	CurExp = exp;
 }
 
 void UMyStatComponent::OnAttacked(float DamageAmount)

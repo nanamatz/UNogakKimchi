@@ -23,6 +23,7 @@ protected:
 	virtual void InitializeComponent() override;
 public:
 	void SetLevel(int32 NewLevel);
+	void SetCurExp(int exp);
 	void OnAttacked(float DamageAmount);
 
 	UFUNCTION(BlueprintCallable)

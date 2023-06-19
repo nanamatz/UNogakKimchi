@@ -26,6 +26,15 @@ void UMyGameInstance::Init()
 FMyCharacterData* UMyGameInstance::GetStatData(int32 Level)
 {
 	return 	MyStats->FindRow<FMyCharacterData>(*FString::FromInt(Level), TEXT(""));
+    Init_PlayerInfo();
+}
+
+void UMyGameInstance::Init_PlayerInfo()
+{
+
+    PlayerInfo.level = 0;
+    PlayerInfo.exp = 0;
+    PlayerInfo.statpoint = 0;
 
 }
 

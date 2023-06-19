@@ -158,6 +158,11 @@ int AMyGameModeBase::GetPlayerLevel()
     return GameInstance->PlayerInfo.level;
 }
 
+int AMyGameModeBase::GetPlayerStatpoint()
+{
+    return GameInstance->PlayerInfo.statpoint;
+}
+
 UserDataPacket* AMyGameModeBase::GetPlayerInfo()
 {
     return &GameInstance->PlayerInfo;

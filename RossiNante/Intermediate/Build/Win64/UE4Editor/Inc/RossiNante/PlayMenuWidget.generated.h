@@ -13,8 +13,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define ROSSINANTE_PlayMenuWidget_generated_h
 
-#define RossiNante_Source_RossiNante_PlayMenuWidget_h_17_SPARSE_DATA
-#define RossiNante_Source_RossiNante_PlayMenuWidget_h_17_RPC_WRAPPERS \
+#define RossiNante_Source_RossiNante_PlayMenuWidget_h_18_SPARSE_DATA
+#define RossiNante_Source_RossiNante_PlayMenuWidget_h_18_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execOnPlayButtonClicked) \
 	{ \
@@ -25,7 +25,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define RossiNante_Source_RossiNante_PlayMenuWidget_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+#define RossiNante_Source_RossiNante_PlayMenuWidget_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execOnPlayButtonClicked) \
 	{ \
@@ -36,7 +36,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define RossiNante_Source_RossiNante_PlayMenuWidget_h_17_INCLASS_NO_PURE_DECLS \
+#define RossiNante_Source_RossiNante_PlayMenuWidget_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUPlayMenuWidget(); \
 	friend struct Z_Construct_UClass_UPlayMenuWidget_Statics; \
@@ -45,7 +45,7 @@ public: \
 	DECLARE_SERIALIZER(UPlayMenuWidget)
 
 
-#define RossiNante_Source_RossiNante_PlayMenuWidget_h_17_INCLASS \
+#define RossiNante_Source_RossiNante_PlayMenuWidget_h_18_INCLASS \
 private: \
 	static void StaticRegisterNativesUPlayMenuWidget(); \
 	friend struct Z_Construct_UClass_UPlayMenuWidget_Statics; \
@@ -54,7 +54,7 @@ public: \
 	DECLARE_SERIALIZER(UPlayMenuWidget)
 
 
-#define RossiNante_Source_RossiNante_PlayMenuWidget_h_17_STANDARD_CONSTRUCTORS \
+#define RossiNante_Source_RossiNante_PlayMenuWidget_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UPlayMenuWidget(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPlayMenuWidget) \
@@ -67,7 +67,7 @@ private: \
 public:
 
 
-#define RossiNante_Source_RossiNante_PlayMenuWidget_h_17_ENHANCED_CONSTRUCTORS \
+#define RossiNante_Source_RossiNante_PlayMenuWidget_h_18_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UPlayMenuWidget(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -80,31 +80,33 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPlayMenuWidget); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPlayMenuWidget)
 
 
-#define RossiNante_Source_RossiNante_PlayMenuWidget_h_17_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__BT_Play() { return STRUCT_OFFSET(UPlayMenuWidget, BT_Play); }
+#define RossiNante_Source_RossiNante_PlayMenuWidget_h_18_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__BT_Play() { return STRUCT_OFFSET(UPlayMenuWidget, BT_Play); } \
+	FORCEINLINE static uint32 __PPO__TB_LevelValue() { return STRUCT_OFFSET(UPlayMenuWidget, TB_LevelValue); } \
+	FORCEINLINE static uint32 __PPO__TB_ExpValue() { return STRUCT_OFFSET(UPlayMenuWidget, TB_ExpValue); }
 
 
-#define RossiNante_Source_RossiNante_PlayMenuWidget_h_14_PROLOG
-#define RossiNante_Source_RossiNante_PlayMenuWidget_h_17_GENERATED_BODY_LEGACY \
+#define RossiNante_Source_RossiNante_PlayMenuWidget_h_15_PROLOG
+#define RossiNante_Source_RossiNante_PlayMenuWidget_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	RossiNante_Source_RossiNante_PlayMenuWidget_h_17_PRIVATE_PROPERTY_OFFSET \
-	RossiNante_Source_RossiNante_PlayMenuWidget_h_17_SPARSE_DATA \
-	RossiNante_Source_RossiNante_PlayMenuWidget_h_17_RPC_WRAPPERS \
-	RossiNante_Source_RossiNante_PlayMenuWidget_h_17_INCLASS \
-	RossiNante_Source_RossiNante_PlayMenuWidget_h_17_STANDARD_CONSTRUCTORS \
+	RossiNante_Source_RossiNante_PlayMenuWidget_h_18_PRIVATE_PROPERTY_OFFSET \
+	RossiNante_Source_RossiNante_PlayMenuWidget_h_18_SPARSE_DATA \
+	RossiNante_Source_RossiNante_PlayMenuWidget_h_18_RPC_WRAPPERS \
+	RossiNante_Source_RossiNante_PlayMenuWidget_h_18_INCLASS \
+	RossiNante_Source_RossiNante_PlayMenuWidget_h_18_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define RossiNante_Source_RossiNante_PlayMenuWidget_h_17_GENERATED_BODY \
+#define RossiNante_Source_RossiNante_PlayMenuWidget_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	RossiNante_Source_RossiNante_PlayMenuWidget_h_17_PRIVATE_PROPERTY_OFFSET \
-	RossiNante_Source_RossiNante_PlayMenuWidget_h_17_SPARSE_DATA \
-	RossiNante_Source_RossiNante_PlayMenuWidget_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
-	RossiNante_Source_RossiNante_PlayMenuWidget_h_17_INCLASS_NO_PURE_DECLS \
-	RossiNante_Source_RossiNante_PlayMenuWidget_h_17_ENHANCED_CONSTRUCTORS \
+	RossiNante_Source_RossiNante_PlayMenuWidget_h_18_PRIVATE_PROPERTY_OFFSET \
+	RossiNante_Source_RossiNante_PlayMenuWidget_h_18_SPARSE_DATA \
+	RossiNante_Source_RossiNante_PlayMenuWidget_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	RossiNante_Source_RossiNante_PlayMenuWidget_h_18_INCLASS_NO_PURE_DECLS \
+	RossiNante_Source_RossiNante_PlayMenuWidget_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

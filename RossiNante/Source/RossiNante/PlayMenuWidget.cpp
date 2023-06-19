@@ -20,6 +20,10 @@ void UPlayMenuWidget::NativeConstruct()
         BT_Play->OnClicked.AddDynamic(this, &UPlayMenuWidget::OnPlayButtonClicked);
     }
 
+    UserDataPacket* ud = GameMode->GetPlayerInfo();
+
+    TB_LevelValue->SetText(FText::FromString(FString::FromInt(ud->level)));
+    TB_ExpValue->SetText(FText::FromString(FString::FromInt(ud->exp)));
 }
 
 void UPlayMenuWidget::OnPlayButtonClicked()
