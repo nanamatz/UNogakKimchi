@@ -22,6 +22,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacterEnemy() {}
 	ROSSINANTE_API UFunction* Z_Construct_UFunction_AMyCharacterEnemy_Attack_Skill_End();
 	ROSSINANTE_API UFunction* Z_Construct_UFunction_AMyCharacterEnemy_Attack_Skill_Melee();
 	ROSSINANTE_API UFunction* Z_Construct_UFunction_AMyCharacterEnemy_DieAnim();
+	ROSSINANTE_API UFunction* Z_Construct_UFunction_AMyCharacterEnemy_EndGame();
 	ROSSINANTE_API UFunction* Z_Construct_UFunction_AMyCharacterEnemy_HitReact();
 	ROSSINANTE_API UFunction* Z_Construct_UFunction_AMyCharacterEnemy_JumpTowardsPlayer();
 	ROSSINANTE_API UFunction* Z_Construct_UFunction_AMyCharacterEnemy_OnJumpDecal_End();
@@ -56,6 +57,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacterEnemy() {}
 			{ "Attack_Skill_End", &AMyCharacterEnemy::execAttack_Skill_End },
 			{ "Attack_Skill_Melee", &AMyCharacterEnemy::execAttack_Skill_Melee },
 			{ "DieAnim", &AMyCharacterEnemy::execDieAnim },
+			{ "EndGame", &AMyCharacterEnemy::execEndGame },
 			{ "HitReact", &AMyCharacterEnemy::execHitReact },
 			{ "JumpTowardsPlayer", &AMyCharacterEnemy::execJumpTowardsPlayer },
 			{ "PlayerCameraShake", &AMyCharacterEnemy::execPlayerCameraShake },
@@ -172,6 +174,28 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacterEnemy() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMyCharacterEnemy_DieAnim_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AMyCharacterEnemy_EndGame_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMyCharacterEnemy_EndGame_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MyCharacterEnemy.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMyCharacterEnemy_EndGame_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMyCharacterEnemy, nullptr, "EndGame", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMyCharacterEnemy_EndGame_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyCharacterEnemy_EndGame_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AMyCharacterEnemy_EndGame()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMyCharacterEnemy_EndGame_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -509,6 +533,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacterEnemy() {}
 		{ &Z_Construct_UFunction_AMyCharacterEnemy_Attack_Skill_End, "Attack_Skill_End" }, // 3233563442
 		{ &Z_Construct_UFunction_AMyCharacterEnemy_Attack_Skill_Melee, "Attack_Skill_Melee" }, // 1337519750
 		{ &Z_Construct_UFunction_AMyCharacterEnemy_DieAnim, "DieAnim" }, // 1411721034
+		{ &Z_Construct_UFunction_AMyCharacterEnemy_EndGame, "EndGame" }, // 2614880474
 		{ &Z_Construct_UFunction_AMyCharacterEnemy_HitReact, "HitReact" }, // 2012324601
 		{ &Z_Construct_UFunction_AMyCharacterEnemy_JumpTowardsPlayer, "JumpTowardsPlayer" }, // 4010715417
 		{ &Z_Construct_UFunction_AMyCharacterEnemy_OnJumpDecal_End, "OnJumpDecal_End" }, // 2309600848
@@ -844,7 +869,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacterEnemy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyCharacterEnemy, 2869025166);
+	IMPLEMENT_CLASS(AMyCharacterEnemy, 2793006833);
 	template<> ROSSINANTE_API UClass* StaticClass<AMyCharacterEnemy>()
 	{
 		return AMyCharacterEnemy::StaticClass();

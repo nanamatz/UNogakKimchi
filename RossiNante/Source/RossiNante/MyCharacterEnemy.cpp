@@ -259,4 +259,18 @@ void AMyCharacterEnemy::PlayerCameraShake() {
 	GetWorld()->GetFirstPlayerController()->PlayerCameraManager->PlayCameraShake(MyShake, 1.0f);
 }
 
+void AMyCharacterEnemy::EndGame()
+{
+	if (DefaultHP <= 0) 
+	{
+		FTimerHandle EndTimerHandle;
+
+		GetWorldTimerManager().SetTimer(EndTimerHandle, FTimerDelegate::CreateLambda([&]() {
+			// 보스의 위치에서 일정 거리 위로 떨어지기
+			GameMode->ChangeLevel(GetWorld(), "Login");
+			}), 2.f, false);
+		
+	}
+}
+
 

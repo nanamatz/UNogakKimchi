@@ -16,6 +16,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define RossiNante_Source_RossiNante_MyCharacterEnemy_h_12_SPARSE_DATA
 #define RossiNante_Source_RossiNante_MyCharacterEnemy_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execEndGame) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->EndGame(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execPlayerCameraShake) \
 	{ \
 		P_FINISH; \
@@ -107,6 +115,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define RossiNante_Source_RossiNante_MyCharacterEnemy_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execEndGame) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->EndGame(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execPlayerCameraShake) \
 	{ \

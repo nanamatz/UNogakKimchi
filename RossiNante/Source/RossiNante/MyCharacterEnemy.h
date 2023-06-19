@@ -28,6 +28,7 @@ private:
 	void UpdateHPWidget();
 
 	class AMyGameModeBase* GameMode;
+
 	float hpBarDuration;
 	float currentHPBarDuration;
 
@@ -135,6 +136,8 @@ public:
 	UFUNCTION(BlueprintCallable)
 		void PlayerCameraShake();
 
+	UFUNCTION(BlueprintCallable)
+		void EndGame();
 
 	UFUNCTION(BlueprintImplementableEvent)
 		void OnJumpDecal_Start();

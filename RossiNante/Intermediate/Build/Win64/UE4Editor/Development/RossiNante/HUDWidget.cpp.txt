@@ -1,5 +1,5 @@
-C:\Users\201911183\Desktop\unreal\0620\0130\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\Definitions.RossiNante.h
-C:\Users\201911183\Desktop\unreal\0620\0130\RossiNante\Source\RossiNante\HUDWidget.h
+C:\Users\201911183\Desktop\unreal\0620\0511\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\Definitions.RossiNante.h
+C:\Users\201911183\Desktop\unreal\0620\0511\RossiNante\Source\RossiNante\HUDWidget.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Blueprint/UserWidget.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Components/SlateWrapperTypes.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\SlateWrapperTypes.generated.h
@@ -115,8 +115,8 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\DynamicPropertyPath.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetBlueprintGeneratedClass.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
-C:\Users\201911183\Desktop\unreal\0620\0130\RossiNante\Source\RossiNante\MyStatComponent.h
-C:\Users\201911183\Desktop\unreal\0620\0130\RossiNante\Source\RossiNante\MyGameModeBase.h
+C:\Users\201911183\Desktop\unreal\0620\0511\RossiNante\Source\RossiNante\MyStatComponent.h
+C:\Users\201911183\Desktop\unreal\0620\0511\RossiNante\Source\RossiNante\MyGameModeBase.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
@@ -225,9 +225,9 @@ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\ime_cmodes.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\ws2def.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\inaddr.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\qos.h
-C:\Users\201911183\Desktop\unreal\0620\0130\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\MyGameModeBase.generated.h
-C:\Users\201911183\Desktop\unreal\0620\0130\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\MyStatComponent.generated.h
-C:\Users\201911183\Desktop\unreal\0620\0130\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\HUDWidget.generated.h
+C:\Users\201911183\Desktop\unreal\0620\0511\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\MyGameModeBase.generated.h
+C:\Users\201911183\Desktop\unreal\0620\0511\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\MyStatComponent.generated.h
+C:\Users\201911183\Desktop\unreal\0620\0511\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\HUDWidget.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Components/ProgressBar.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Slate\Public\Widgets/Notifications/SProgressBar.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Slate\SProgressBar.generated.h

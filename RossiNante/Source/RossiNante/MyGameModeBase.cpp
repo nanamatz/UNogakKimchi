@@ -52,7 +52,15 @@ UHUDWidget* AMyGameModeBase::CreateHUDWidget() {
 
 void AMyGameModeBase::EnableHUDWidget()
 {
-    if (GetWorld()->GetMapName() == GetWorld()->StreamingLevelsPrefix + "1F_Hall" || GetWorld()->GetMapName() == GetWorld()->StreamingLevelsPrefix + "1F_Boss") {
+    if (GetWorld()->GetMapName() == GetWorld()->StreamingLevelsPrefix + "1F_Hall" 
+        || GetWorld()->GetMapName() == GetWorld()->StreamingLevelsPrefix + "1F_Boss"
+        || GetWorld()->GetMapName() == GetWorld()->StreamingLevelsPrefix + "1F_Normal"
+        || GetWorld()->GetMapName() == GetWorld()->StreamingLevelsPrefix + "1F_Normal_2"
+        || GetWorld()->GetMapName() == GetWorld()->StreamingLevelsPrefix + "2F_Normal"
+        || GetWorld()->GetMapName() == GetWorld()->StreamingLevelsPrefix + "2F_Normal_2"
+        || GetWorld()->GetMapName() == GetWorld()->StreamingLevelsPrefix + "2F_Hall"
+        || GetWorld()->GetMapName() == GetWorld()->StreamingLevelsPrefix + "2F_Boss"
+        ) {
         HUDWidget->AddToViewport();
         PlayerController->bShowMouseCursor = false;
     }
