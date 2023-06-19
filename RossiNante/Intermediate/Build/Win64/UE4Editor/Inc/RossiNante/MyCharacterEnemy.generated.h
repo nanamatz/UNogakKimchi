@@ -244,6 +244,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyCharacterEnemy); \
 
 #define RossiNante_Source_RossiNante_MyCharacterEnemy_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__AnimInstance() { return STRUCT_OFFSET(AMyCharacterEnemy, AnimInstance); } \
+	FORCEINLINE static uint32 __PPO__BossHPWidget() { return STRUCT_OFFSET(AMyCharacterEnemy, BossHPWidget); } \
+	FORCEINLINE static uint32 __PPO__MaxHP() { return STRUCT_OFFSET(AMyCharacterEnemy, MaxHP); } \
 	FORCEINLINE static uint32 __PPO__DefaultHP() { return STRUCT_OFFSET(AMyCharacterEnemy, DefaultHP); } \
 	FORCEINLINE static uint32 __PPO__BaseAttackDamage() { return STRUCT_OFFSET(AMyCharacterEnemy, BaseAttackDamage); } \
 	FORCEINLINE static uint32 __PPO__AttackRange() { return STRUCT_OFFSET(AMyCharacterEnemy, AttackRange); } \

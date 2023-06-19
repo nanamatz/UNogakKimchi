@@ -44,10 +44,15 @@ public:
 		void SetExp(int32 exp) { 
 			if (CurExp + exp >= RequireExp) {
 				CurExp = RequireExp - CurExp - exp;
+				GameMode->SetPlayerExp(CurExp);
+				GameMode->SetPlayerLevelUP();
+				GameMode->C2S_SendData(GameMode->GetPlayerInfo(), EPacketType::C2S_LEVEL);
 				SetLevel(Level + 1);
 			}
 			else {
 				CurExp += exp;
+				GameMode->SetPlayerExp(CurExp);
+				GameMode->C2S_SendData(GameMode->GetPlayerInfo(), EPacketType::C2S_EXP);
 			}
 		}
 

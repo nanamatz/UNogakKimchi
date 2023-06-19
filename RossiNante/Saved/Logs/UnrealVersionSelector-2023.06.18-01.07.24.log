@@ -1,0 +1,57 @@
+AndroidPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.AndroidPlatformSDK has no valid SDK
+IOSPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.IOSPlatformSDK has no valid SDK
+LinuxPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.LinuxPlatformSDK has no valid SDK
+WindowsPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.WindowsPlatformSDK using manually installed SDK
+ProjectFileGenerator.GenerateProjectFiles: Discovering modules, targets and source code for project...
+WindowsPlatform.FindVSInstallDirs: Found Visual Studio installation: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community (Product=Microsoft.VisualStudio.Product.Community, Version=16.11.33214.272, Sort=0)
+WindowsPlatform.FindToolChainDirs: Found Visual Studio toolchain: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133 (Version=14.29.30147)
+WindowsPlatform.EnumerateSdkRootDirs: Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (1)
+WindowsPlatform.EnumerateSdkRootDirs: Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (2)
+WindowsPlatform.UpdateCachedWindowsSdks: Found Windows 10 SDK version 10.0.19041.0 at C:\Program Files (x86)\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Universal CRT version 10.0.19041.0 at C:\Program Files (x86)\Windows Kits\10
+UnrealBuildTool.Main: ERROR: Unhandled exception: Tools.DotNETCommon.JsonParseException: Unable to parse C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\BuildRules\RossiNanteModuleRulesManifest.json: Could not find token at index 22
+UnrealBuildTool.Main:           위치: Tools.DotNETCommon.JsonObject.Read(FileReference File) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\DotNETCommon\DotNETUtilities\JsonObject.cs:줄 57
+UnrealBuildTool.Main:           위치: UnrealBuildTool.DynamicCompilation.RequiresCompilation(HashSet`1 SourceFiles, FileReference AssemblyManifestFilePath, FileReference OutputAssemblyPath) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\System\DynamicCompilation.cs:줄 67
+UnrealBuildTool.Main:           위치: UnrealBuildTool.DynamicCompilation.CompileAndLoadAssembly(FileReference OutputAssemblyPath, HashSet`1 SourceFileNames, List`1 ReferencedAssembies, List`1 PreprocessorDefines, Boolean DoNotCompile, Boolean TreatWarningsAsErrors) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\System\DynamicCompilation.cs:줄 405
+UnrealBuildTool.Main:           위치: UnrealBuildTool.RulesAssembly..ctor(RulesScope Scope, DirectoryReference BaseDir, IReadOnlyList`1 Plugins, Dictionary`2 ModuleFileToContext, List`1 TargetFiles, FileReference AssemblyFileName, Boolean bContainsEngineModules, Nullable`1 DefaultBuildSettings, Boolean bReadOnly, Boolean bSkipCompile, RulesAssembly Parent) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\System\RulesAssembly.cs:줄 115
+UnrealBuildTool.Main:           위치: UnrealBuildTool.RulesCompiler.CreateProjectRulesAssembly(FileReference ProjectFileName, Boolean bUsePrecompiled, Boolean bSkipCompile) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\System\RulesCompiler.cs:줄 592
+UnrealBuildTool.Main:           위치: UnrealBuildTool.ProjectFileGenerator.AddProjectsForAllTargets(PlatformProjectGeneratorCollection PlatformProjectGenerators, List`1 AllGames, List`1 AllTargetFiles, ProjectFile& EngineProject, ProjectFile& EnterpriseProject, List`1& GameProjects, Dictionary`2& ProgramProjects) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\ProjectFiles\ProjectFileGenerator.cs:줄 2219
+UnrealBuildTool.Main:           위치: UnrealBuildTool.ProjectFileGenerator.GenerateProjectFiles(PlatformProjectGeneratorCollection PlatformProjectGenerators, String[] Arguments) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\ProjectFiles\ProjectFileGenerator.cs:줄 720
+UnrealBuildTool.Main:           위치: UnrealBuildTool.GenerateProjectFilesMode.Execute(CommandLineArguments Arguments) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\Modes\GenerateProjectFilesMode.cs:줄 176
+UnrealBuildTool.Main:           위치: UnrealBuildTool.UnrealBuildTool.Main(String[] ArgumentsArray) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\UnrealBuildTool.cs:줄 517
+UnrealBuildTool.Main: JsonParseException: Unable to parse C:\Users\owner\Documents\GitHub\UNogakKimchi\RossiNante\Intermediate\Build\BuildRules\RossiNanteModuleRulesManifest.json: Could not find token at index 22
+UnrealBuildTool.Main:    위치: Tools.DotNETCommon.JsonObject.Read(FileReference File) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\DotNETCommon\DotNETUtilities\JsonObject.cs:줄 57
+UnrealBuildTool.Main:    위치: UnrealBuildTool.DynamicCompilation.RequiresCompilation(HashSet`1 SourceFiles, FileReference AssemblyManifestFilePath, FileReference OutputAssemblyPath) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\System\DynamicCompilation.cs:줄 67
+UnrealBuildTool.Main:    위치: UnrealBuildTool.DynamicCompilation.CompileAndLoadAssembly(FileReference OutputAssemblyPath, HashSet`1 SourceFileNames, List`1 ReferencedAssembies, List`1 PreprocessorDefines, Boolean DoNotCompile, Boolean TreatWarningsAsErrors) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\System\DynamicCompilation.cs:줄 405
+UnrealBuildTool.Main:    위치: UnrealBuildTool.RulesAssembly..ctor(RulesScope Scope, DirectoryReference BaseDir, IReadOnlyList`1 Plugins, Dictionary`2 ModuleFileToContext, List`1 TargetFiles, FileReference AssemblyFileName, Boolean bContainsEngineModules, Nullable`1 DefaultBuildSettings, Boolean bReadOnly, Boolean bSkipCompile, RulesAssembly Parent) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\System\RulesAssembly.cs:줄 115
+UnrealBuildTool.Main:    위치: UnrealBuildTool.RulesCompiler.CreateProjectRulesAssembly(FileReference ProjectFileName, Boolean bUsePrecompiled, Boolean bSkipCompile) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\System\RulesCompiler.cs:줄 592
+UnrealBuildTool.Main:    위치: UnrealBuildTool.ProjectFileGenerator.AddProjectsForAllTargets(PlatformProjectGeneratorCollection PlatformProjectGenerators, List`1 AllGames, List`1 AllTargetFiles, ProjectFile& EngineProject, ProjectFile& EnterpriseProject, List`1& GameProjects, Dictionary`2& ProgramProjects) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\ProjectFiles\ProjectFileGenerator.cs:줄 2219
+UnrealBuildTool.Main:    위치: UnrealBuildTool.ProjectFileGenerator.GenerateProjectFiles(PlatformProjectGeneratorCollection PlatformProjectGenerators, String[] Arguments) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\ProjectFiles\ProjectFileGenerator.cs:줄 720
+UnrealBuildTool.Main:    위치: UnrealBuildTool.GenerateProjectFilesMode.Execute(CommandLineArguments Arguments) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\Modes\GenerateProjectFilesMode.cs:줄 176
+UnrealBuildTool.Main:    위치: UnrealBuildTool.UnrealBuildTool.Main(String[] ArgumentsArray) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\UnrealBuildTool.cs:줄 517
+Timeline.Print: Timeline:
+Timeline.Print: 
+Timeline.Print: [ 0.000]
+Timeline.Print: [ 0.000](+0.026) <unknown>
+Timeline.Print: [ 0.026](+0.097) XmlConfig.ReadConfigFiles()
+Timeline.Print: [ 0.123](+0.000) SingleInstanceMutex.Acquire()
+Timeline.Print: [ 0.123](+0.076) UEBuildPlatform.RegisterPlatforms()
+Timeline.Print:   0.123          [ 0.000](+0.050) Initializing InstalledPlatformInfo
+Timeline.Print:   0.174          [ 0.050](+0.000) Querying types
+Timeline.Print:   0.175          [ 0.051](+0.000) MacPlatformFactory
+Timeline.Print:   0.176          [ 0.052](+0.000) TVOSPlatformFactory
+Timeline.Print:   0.176          [ 0.053](+0.006) AndroidPlatformFactory
+Timeline.Print:   0.182          [ 0.059](+0.000) HoloLensPlatformFactory
+Timeline.Print:   0.182          [ 0.059](+0.013) IOSPlatformFactory
+Timeline.Print:   0.196          [ 0.072](+0.002) LinuxPlatformFactory
+Timeline.Print:   0.198          [ 0.075](+0.000) LuminPlatformFactory
+Timeline.Print:   0.198          [ 0.075](+0.001) WindowsPlatformFactory
+Timeline.Print: [ 0.199](+1.144) <unknown>
+Timeline.Print: [ 1.344](+0.001) Finding engine modules
+Timeline.Print: [ 1.345](+0.002) Finding plugin modules
+Timeline.Print: [ 1.347](+0.525) <unknown>
+Timeline.Print: [ 1.873](+0.000) Finding program modules
+Timeline.Print: [ 1.873](+0.000) Finding program targets
+Timeline.Print: [ 1.873](+0.142) <unknown>
+Timeline.Print: [ 2.015](+0.000) FileMetadataPrefetch.Stop()
+Timeline.Print: [ 2.016]

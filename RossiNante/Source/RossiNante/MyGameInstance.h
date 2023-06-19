@@ -41,7 +41,6 @@ public:
 		SOCKET GetSocket();
 
 		FMyCharacterData* GetStatData(int32 Level);
-
 		void SetIsLogin();
 		bool GetIsLogin();
 

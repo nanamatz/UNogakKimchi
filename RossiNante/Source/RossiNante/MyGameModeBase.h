@@ -12,7 +12,7 @@
  */
 enum class EPacketType : int8
 {
-	X, C2S_LOGIN, C2S_MOVE, C2S_LOGOUT, C2S_LATENCY, S2C_LOGIN_SUCCESS, S2C_LOGIN_FAIL, S2C_LATENCY, S2C_LOGOUT_OK, S2C_NEAR_PLAYER, S2C_UPGRADE_SUCCESS, S2C_UPGRADE_FAIL, C2S_UPGRADE1
+	X, C2S_LOGIN, C2S_MOVE, C2S_LOGOUT, C2S_LATENCY, S2C_LOGIN_SUCCESS, S2C_LOGIN_FAIL, S2C_LATENCY, S2C_LOGOUT_OK, S2C_NEAR_PLAYER, S2C_UPGRADE_SUCCESS, S2C_UPGRADE_FAIL, C2S_UPGRADE1, C2S_EXP, S2C_EXP, C2S_LEVEL, S2C_LEVEL
 };
 
 struct UserDataPacket
@@ -49,12 +49,16 @@ public:
 	void EnableStatMenuWidget();
 	void DisableStatMenuWidget();
 
+	class UBossHPWidget* CreateBossHPWidget();
+
 	bool C2S_SendData(UserDataPacket* send_data);
 	bool C2S_SendData(UserDataPacket* send_data, EPacketType packet_type);
 	bool S2C_RecvData(UserDataPacket* recv_data);
 
 	void UpdatePlayerInfo(UserDataPacket* ud);
 	void SetIsLogin();
+	void SetPlayerExp(int exp);
+	void SetPlayerLevelUP();
 
 	bool GetIsLogin();
 	int GetPlayerExp();
@@ -76,6 +80,8 @@ public:
 		class UPlayMenuWidget* PlayMenuWidget;
 	UPROPERTY()
 		class UStatMenuWidget* StatMenuWidget;
+	UPROPERTY()
+		class UBossHPWidget* BossHPWidget;
 
 private:
 	class UMyGameInstance* GameInstance;
@@ -94,6 +100,8 @@ private:
 		TSubclassOf<class UPlayMenuWidget> BP_PlayMenuWidget;
 	UPROPERTY(EditDefaultsOnly)
 		TSubclassOf<class UStatMenuWidget> BP_StatMenuWidget;
+	UPROPERTY(EditDefaultsOnly)
+		TSubclassOf<class UBossHPWidget> BP_BossHPWidget;
 
 protected:
 	virtual void BeginPlay() override;

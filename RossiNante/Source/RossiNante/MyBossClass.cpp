@@ -141,6 +141,7 @@ void AMyBossClass::HitReact(float damage) {
 
 	//체력이 0이하면 죽는 애니메이션 실행
 	if (DefaultHP <= 0) {
+		
 		FTimerHandle TH_Hit_End;
 		PlayAnimMontage(Boss_DeathMontage);
 		GetWorldTimerManager().SetTimer(TH_Hit_End, this, &AMyBossClass::DieAnim, 1.3f, false);

@@ -12,6 +12,7 @@
 #include "StatMenuWidget.h"
 #include "PlayMenuWidget.h"
 #include "LoginWidget.h"
+#include "BossHPWidget.h"
 #include "MyGameInstance.h"
 
 void AMyGameModeBase::BeginPlay()
@@ -103,6 +104,12 @@ void AMyGameModeBase::DisableStatMenuWidget()
     StatMenuWidget->RemoveFromViewport();
 }
 
+UBossHPWidget* AMyGameModeBase::CreateBossHPWidget()
+{
+    BossHPWidget = CreateWidget<UBossHPWidget>(GetWorld(), BP_BossHPWidget);
+    return BossHPWidget;
+}
+
 void AMyGameModeBase::CreateLoginWidget()
 {
     LoginWidget = CreateWidget<ULoginWidget>(GetWorld(), BP_LoginWidget);
@@ -158,6 +165,16 @@ void AMyGameModeBase::UpdatePlayerInfo(UserDataPacket* ud)
 void AMyGameModeBase::SetIsLogin()
 {
     GameInstance->SetIsLogin();
+}
+
+void AMyGameModeBase::SetPlayerExp(int exp)
+{
+    GameInstance->PlayerInfo.exp += exp;
+}
+
+void AMyGameModeBase::SetPlayerLevelUP()
+{
+    GameInstance->PlayerInfo.level++;
 }
 
 bool AMyGameModeBase::GetIsLogin()
