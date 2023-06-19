@@ -83,9 +83,7 @@ void AMyCharacterEnemy::InitHPWidget()
 
 void AMyCharacterEnemy::UpdateHPWidget()
 {
-	UE_LOG(LogTemp, Warning, TEXT("curDur:%d\n"), currentHPBarDuration);
 	if (currentHPBarDuration == 0) {
-		UE_LOG(LogTemp, Warning, TEXT("in if curDur:%d\n"), currentHPBarDuration);
 		currentHPBarDuration = hpBarDuration;
 		BossHPWidget->AddToViewport();
 		BossHPWidget->UpdateHealthPercent(DefaultHP, MaxHP);

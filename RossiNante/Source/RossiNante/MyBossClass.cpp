@@ -45,11 +45,16 @@ void AMyBossClass::PostInitializeComponents()
 	AnimInstance = Cast<UMyAnimInstance>(GetMesh()->GetAnimInstance());
 }
 
+
+
 // Called when the game starts or when spawned
 void AMyBossClass::BeginPlay()
 {
 	Super::BeginPlay();
 
+	GameMode = Cast<AMyGameModeBase>(GetWorld()->GetAuthGameMode());
+
+	InitHPWidget();
 }
 
 // Called every frame
@@ -57,8 +62,33 @@ void AMyBossClass::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	if (currentHPBarDuration > 0) {
+		currentHPBarDuration -= DeltaTime;
+		if (currentHPBarDuration < 0) {
+			currentHPBarDuration = 0;
+			BossHPWidget->RemoveFromViewport();
+		}
+	}
 }
 
+void AMyBossClass::InitHPWidget()
+{
+	BossHPWidget = GameMode->CreateBossHPWidget();
+	hpBarDuration = 10;
+	currentHPBarDuration = 0;
+}
+
+void AMyBossClass::UpdateHPWidget()
+{
+	if (currentHPBarDuration == 0) {
+		currentHPBarDuration = hpBarDuration;
+		BossHPWidget->AddToViewport();
+		BossHPWidget->UpdateHealthPercent(DefaultHP, MaxHP);
+	}
+	else {
+		BossHPWidget->UpdateHealthPercent(DefaultHP, MaxHP);
+	}
+}
 
 // АјАн
 void AMyBossClass::MyBossAttack_Melee()
