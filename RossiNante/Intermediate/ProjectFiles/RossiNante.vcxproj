@@ -279,6 +279,8 @@
     <ClInclude Include="..\..\Source\RossiNante\MenuWidget.h"/>
     <ClCompile Include="..\..\Source\RossiNante\MyAnimInstance.cpp"/>
     <ClInclude Include="..\..\Source\RossiNante\MyAnimInstance.h"/>
+    <ClCompile Include="..\..\Source\RossiNante\MyBossClass.cpp"/>
+    <ClInclude Include="..\..\Source\RossiNante\MyBossClass.h"/>
     <ClCompile Include="..\..\Source\RossiNante\MyCharacter.cpp"/>
     <ClInclude Include="..\..\Source\RossiNante\MyCharacter.h"/>
     <ClCompile Include="..\..\Source\RossiNante\MyCharacterEnemy.cpp"/>

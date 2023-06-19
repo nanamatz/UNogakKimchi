@@ -12,7 +12,7 @@
  */
 enum class EPacketType : int8
 {
-	X, C2S_LOGIN, C2S_MOVE, C2S_LOGOUT, C2S_LATENCY, S2C_LOGIN_SUCCESS, S2C_LOGIN_FAIL
+	X, C2S_LOGIN, C2S_MOVE, C2S_LOGOUT, C2S_LATENCY, S2C_LOGIN_SUCCESS, S2C_LOGIN_FAIL, S2C_LATENCY, S2C_LOGOUT_OK, S2C_NEAR_PLAYER, S2C_UPGRADE_SUCCESS, S2C_UPGRADE_FAIL, C2S_UPGRADE1
 };
 
 struct UserDataPacket
@@ -21,7 +21,11 @@ struct UserDataPacket
 	int user_id = 0;
 	char data1[20];
 	char data2[20];
+	int level = 1;
+	int exp = 0;
+	int statpoint = 0;
 };
+
 
 UCLASS()
 class ROSSINANTE_API AMyGameModeBase : public AGameModeBase
@@ -45,8 +49,14 @@ public:
 	void EnableStatMenuWidget();
 	void DisableStatMenuWidget();
 
-	bool SendLoginData(UserDataPacket* login_data);
-	bool RecvLoginData(UserDataPacket* recv_data);
+	bool C2S_SendData(UserDataPacket* send_data);
+	bool C2S_SendData(UserDataPacket* send_data, EPacketType packet_type);
+	bool S2C_RecvData(UserDataPacket* recv_data);
+
+	void UpdatePlayerInfo(UserDataPacket* ud);
+	int GetPlayerExp();
+	int GetPlayerLevel();
+	UserDataPacket* GetPlayerInfo();
 
 	SOCKET Socket;
 	UserDataPacket user_data;

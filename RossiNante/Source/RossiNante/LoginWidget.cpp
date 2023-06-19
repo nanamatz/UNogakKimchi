@@ -27,55 +27,37 @@ void ULoginWidget::OnSignInButtonClicked()
 
     login_data.user_id = 0;
 
-    strcpy(login_data.data1, InputID);
-    strcpy(login_data.data2, InputPW);
+    strcpy_s(login_data.data1, InputID);
+    strcpy_s(login_data.data2, InputPW);
 
     login_data.packet_type = (int)EPacketType::C2S_LOGIN;
 
-    if (GameMode->SendLoginData(&login_data) == false) {
+    if (GameMode->C2S_SendData(&login_data) == false) {
         UE_LOG(LogTemp, Warning, TEXT("ERR! send data! (Maybe connection has failed, but current version is a test version. So Go to Default Level)\n"));
         GameMode->LoginWidget->RemoveFromViewport();
         GameMode->EnableMenuWidget();
         //GameMode->ChangeLevel(GetWorld(), "Default");
         //GameMode->EnableHUDWidget();
     }
-    /*
-    if (send(Socket, (char*)&login_packet, sizeof(UserDataPacket), 0) == -1) {
-        UE_LOG(LogTemp, Warning, TEXT("ERR! send Socket(Maybe connection has failed, but current version is a test version. So Go to Default Level)\n"));
-        UGameplayStatics::OpenLevel(GetWorld(), FName("Default"), TRAVEL_Absolute);
-    }
-    */
 
     UserDataPacket ud;
 
-    if (GameMode->RecvLoginData(&ud) == false) {
+    if (GameMode->S2C_RecvData(&ud) == false) {
         UE_LOG(LogTemp, Warning, TEXT("ERR! recv data!\n"));
     }
 
-    //GameMode->SetUserData(ud.user_id);
-
-    /*
-    if (recv(Socket, (char*)&ud, sizeof(UserDataPacket), 0) == -1) {
-        for (int i = 0; i < 3; i++) {
-            if (recv(Socket, (char*)&ud, sizeof(UserDataPacket), 0) != -1) {
-                break;
-            }
-
-        }
-    }*/
+    UE_LOG(LogTemp, Warning, TEXT("level:%d, exp:%d, statpoint:%d\n"), ud.level, ud.exp, ud.statpoint);
+    GameMode->UpdatePlayerInfo(&ud);
 
     if (ud.packet_type == (int)EPacketType::S2C_LOGIN_SUCCESS) {
+
         GameMode->LoginWidget->RemoveFromViewport();
         GameMode->EnableMenuWidget();
-        //GameMode->ChangeLevel(GetWorld(), "Default");
-        //UGameplayStatics::OpenLevel(GetWorld(), FName("Default"), TRAVEL_Absolute);
     }
     else if (ud.packet_type == (int)EPacketType::S2C_LOGIN_FAIL) {
         UE_LOG(LogTemp, Warning, TEXT("ID or PW error! However you can join the game in test mode."));
         GameMode->LoginWidget->RemoveFromViewport();
         GameMode->EnableMenuWidget();
-        //GameMode->ChangeLevel(GetWorld(), "Default");
-        //UGameplayStatics::OpenLevel(GetWorld(), FName("Default"), TRAVEL_Absolute);
     }
     else {
         UE_LOG(LogTemp, Warning, TEXT("recevied packet type error"));

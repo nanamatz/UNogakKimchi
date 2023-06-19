@@ -198,6 +198,7 @@ void AMyCharacterEnemy::HitReact(float damage) {
 
 		//체력이 0이하면 죽는 애니메이션 실행
 		if (DefaultHP <= 0) {
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Die!"));
 			isDie = true;
 			FTimerHandle TH_Hit_End;
 			PlayAnimMontage(Boss_DeathMontage);
