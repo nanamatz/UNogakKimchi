@@ -10,7 +10,7 @@ UMyGameInstance::UMyGameInstance()
 {
 	static ConstructorHelpers::FObjectFinder<UDataTable> DATA(TEXT("DataTable'/Game/Data/StatTable.StatTable'"));
 	MyStats = DATA.Object;
-
+    isLogin = false;
 }
 SOCKET UMyGameInstance::GetSocket()
 {
@@ -26,6 +26,26 @@ void UMyGameInstance::Init()
 FMyCharacterData* UMyGameInstance::GetStatData(int32 Level)
 {
 	return 	MyStats->FindRow<FMyCharacterData>(*FString::FromInt(Level), TEXT(""));
+    Init_PlayerInfo();
+}
+
+void UMyGameInstance::SetIsLogin()
+{
+    isLogin = true;
+}
+
+bool UMyGameInstance::GetIsLogin()
+{
+    return isLogin;
+}
+
+void UMyGameInstance::Init_PlayerInfo()
+{
+
+    PlayerInfo.level = 0;
+    PlayerInfo.exp = 0;
+    PlayerInfo.statpoint = 0;
+    PlayerInfo.attack_upgrade = 0;
 
 }
 

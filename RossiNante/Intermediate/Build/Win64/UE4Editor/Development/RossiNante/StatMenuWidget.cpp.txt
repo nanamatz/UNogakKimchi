@@ -1,5 +1,5 @@
-C:\Users\Administrator\Desktop\UnrealPorject\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\Definitions.RossiNante.h
-C:\Users\Administrator\Desktop\UnrealPorject\UNogakKimchi\RossiNante\Source\RossiNante\StatMenuWidget.h
+C:\Users\Administrator\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\Definitions.RossiNante.h
+C:\Users\Administrator\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Source\RossiNante\StatMenuWidget.h
 D:\soohwan\Unreal\UE_4.24\Engine\Source\Runtime\UMG\Public\Blueprint/UserWidget.h
 D:\soohwan\Unreal\UE_4.24\Engine\Source\Runtime\UMG\Public\Components/SlateWrapperTypes.h
 D:\soohwan\Unreal\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\SlateWrapperTypes.generated.h
@@ -123,7 +123,11 @@ D:\soohwan\Unreal\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\Pane
 D:\soohwan\Unreal\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\PanelWidget.generated.h
 D:\soohwan\Unreal\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\ContentWidget.generated.h
 D:\soohwan\Unreal\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\Button.generated.h
-C:\Users\Administrator\Desktop\UnrealPorject\UNogakKimchi\RossiNante\Source\RossiNante\MyGameModeBase.h
+D:\soohwan\Unreal\UE_4.24\Engine\Source\Runtime\UMG\Public\Components/TextBlock.h
+D:\soohwan\Unreal\UE_4.24\Engine\Source\Runtime\UMG\Public\Components/TextWidgetTypes.h
+D:\soohwan\Unreal\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\TextWidgetTypes.generated.h
+D:\soohwan\Unreal\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\TextBlock.generated.h
+C:\Users\Administrator\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Source\RossiNante\MyGameModeBase.h
 D:\soohwan\Unreal\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
 D:\soohwan\Unreal\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 D:\soohwan\Unreal\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
@@ -232,5 +236,5 @@ C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um\ime_cmodes.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared\ws2def.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared\inaddr.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared\qos.h
-C:\Users\Administrator\Desktop\UnrealPorject\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\MyGameModeBase.generated.h
-C:\Users\Administrator\Desktop\UnrealPorject\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\StatMenuWidget.generated.h
+C:\Users\Administrator\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\MyGameModeBase.generated.h
+C:\Users\Administrator\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\StatMenuWidget.generated.h

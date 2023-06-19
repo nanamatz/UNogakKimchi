@@ -1,0 +1,799 @@
+﻿Log file open, 06/19/23 19:27:39
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: RossiNante
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.061870
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-11590370
+LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 2009) (), CPU: AMD Ryzen 7 5800X 8-Core Processor             , GPU: NVIDIA GeForce RTX 2080 SUPER
+LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2023.06.19-10.27.39:994][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2023.06.19-10.27.39:994][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2023.06.19-10.27.39:994][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/201911183/Desktop/unreal/0619/temp/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.06.19-10.27.39:994][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2023.06.19-10.27.39:994][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/201911183/Desktop/unreal/0619/temp/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.06.19-10.27.39:994][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/201911183/Desktop/unreal/0619/temp/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.06.19-10.27.39:994][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2023.06.19-10.27.39:994][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2023.06.19-10.27.39:994][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2023.06.19-10.27.39:994][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2023.06.19-10.27.39:994][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2023.06.19-10.27.39:994][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2023.06.19-10.27.39:994][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2023.06.19-10.27.39:994][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2023.06.19-10.27.39:994][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2023.06.19-10.27.39:994][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2023.06.19-10.27.39:994][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2023.06.19-10.27.39:994][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2023.06.19-10.27.39:994][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2023.06.19-10.27.39:994][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2023.06.19-10.27.39:994][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/201911183/Desktop/unreal/0619/temp/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.06.19-10.27.39:994][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2023.06.19-10.27.39:994][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2023.06.19-10.27.39:994][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2023.06.19-10.27.39:994][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2023.06.19-10.27.39:994][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2023.06.19-10.27.39:994][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2023.06.19-10.27.39:994][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2023.06.19-10.27.39:994][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2023.06.19-10.27.39:994][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2023.06.19-10.27.39:994][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2023.06.19-10.27.39:994][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2023.06.19-10.27.39:994][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2023.06.19-10.27.39:994][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2023.06.19-10.27.39:994][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/201911183/Desktop/unreal/0619/temp/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.06.19-10.27.39:994][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/201911183/Desktop/unreal/0619/temp/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.06.19-10.27.39:997][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/201911183/Desktop/unreal/0619/temp/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/201911183/Desktop/unreal/0619/temp/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/201911183/Desktop/unreal/0619/temp/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/201911183/Desktop/unreal/0619/temp/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/201911183/Desktop/unreal/0619/temp/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/201911183/Desktop/unreal/0619/temp/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2023.06.19-10.27.39:997][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2023.06.19-10.27.39:998][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2023.06.19-10.27.39:998][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2023.06.19-10.27.39:998][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2023.06.19-10.27.39:998][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2023.06.19-10.27.39:998][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/201911183/Desktop/unreal/0619/temp/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-10.27.39:998][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2023.06.19-10.27.39:998][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2023.06.19-10.27.39:998][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/201911183/Desktop/unreal/0619/temp/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-10.27.39:998][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2023.06.19-10.27.39:998][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2023.06.19-10.27.39:998][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2023.06.19-10.27.39:998][  0]LogInit: Selected Device Profile: [Windows]
+[2023.06.19-10.27.39:998][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2023.06.19-10.27.40:000][  0]LogHAL: Display: Platform has ~ 16 GB [17085329408 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2023.06.19-10.27.40:000][  0]LogInit: Going up to parent DeviceProfile []
+[2023.06.19-10.27.40:000][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@1] File [C:/Users/201911183/Desktop/unreal/0619/temp/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-10.27.40:000][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:1]]
+[2023.06.19-10.27.40:000][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.6]]
+[2023.06.19-10.27.40:000][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@1] File [C:/Users/201911183/Desktop/unreal/0619/temp/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-10.27.40:000][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:2]]
+[2023.06.19-10.27.40:000][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@1] File [C:/Users/201911183/Desktop/unreal/0619/temp/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.ShadowQuality:3]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:1024]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.05]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.7]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.25]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:.5]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@1] File [C:/Users/201911183/Desktop/unreal/0619/temp/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:60]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:1]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:350]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:2]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.7]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:2]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:3                 ; low number of samples when gathering]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:0    ; no foreground scattering]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:0    ; no foreground scattering]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Applying CVar settings from Section [TextureQuality@1] File [C:/Users/201911183/Desktop/unreal/0619/temp/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:1]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:2]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:4]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:600]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@1] File [C:/Users/201911183/Desktop/unreal/0619/temp/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:32]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:2 ; Medium quality]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.SSS.Scale:0.75]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.SSGI.Quality:1]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.25]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@1] File [C:/Users/201911183/Desktop/unreal/0619/temp/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.4]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[grass.DensityScale:0.4]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@1] File [C:/Users/201911183/Desktop/unreal/0619/temp/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2023.06.19-10.27.40:001][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2023.06.19-10.27.40:002][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2023.06.19-10.27.40:002][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2023.06.19-10.27.40:002][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/201911183/Desktop/unreal/0619/temp/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.06.19-10.27.40:002][  0]LogInit: Computer: DESKTOP-SIQC98D
+[2023.06.19-10.27.40:002][  0]LogInit: User: 201911183
+[2023.06.19-10.27.40:002][  0]LogInit: CPU Page size=4096, Cores=8
+[2023.06.19-10.27.40:002][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.06.19-10.27.40:002][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2023.06.19-10.27.40:002][  0]LogMemory: Platform Memory Stats for Windows
+[2023.06.19-10.27.40:002][  0]LogMemory: Process Physical Memory: 109.91 MB used, 109.91 MB peak
+[2023.06.19-10.27.40:002][  0]LogMemory: Process Virtual Memory: 103.21 MB used, 103.21 MB peak
+[2023.06.19-10.27.40:002][  0]LogMemory: Physical Memory: 10990.17 MB used,  5303.67 MB free, 16293.84 MB total
+[2023.06.19-10.27.40:002][  0]LogMemory: Virtual Memory: 5188.29 MB used,  134212536.00 MB free, 134217728.00 MB total
+[2023.06.19-10.27.40:005][  0]LogWindows: WindowsPlatformFeatures enabled
+[2023.06.19-10.27.40:052][  0]LogInit: Overriding language with editor language configuration option (en).
+[2023.06.19-10.27.40:052][  0]LogInit: Overriding locale with editor culture configuration option ().
+[2023.06.19-10.27.40:052][  0]LogInit: Using OS detected locale (ko-KR).
+[2023.06.19-10.27.40:207][  0]LogInit: Setting process to per monitor DPI aware
+[2023.06.19-10.27.40:360][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2023.06.19-10.27.40:360][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2023.06.19-10.27.40:611][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.06.19-10.27.40:611][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2023.06.19-10.27.40:611][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2023.06.19-10.27.40:611][  0]LogD3D11RHI: D3D11 adapters:
+[2023.06.19-10.27.40:749][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080 SUPER' (Feature Level 11_0)
+[2023.06.19-10.27.40:749][  0]LogD3D11RHI:       8001/0/8146 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2023.06.19-10.27.40:753][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2023.06.19-10.27.40:753][  0]LogD3D11RHI:       0/0/8146 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2023.06.19-10.27.40:753][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2023.06.19-10.27.40:766][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2023.06.19-10.27.40:766][  0]LogD3D11RHI:     GPU DeviceId: 0x1e81 (for the marketing name, search the web for "GPU Device Id")
+[2023.06.19-10.27.40:766][  0]LogWindows: EnumDisplayDevices:
+[2023.06.19-10.27.40:766][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080 SUPER' (P:1 D:1)
+[2023.06.19-10.27.40:766][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080 SUPER' (P:0 D:1)
+[2023.06.19-10.27.40:767][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080 SUPER' (P:0 D:0)
+[2023.06.19-10.27.40:767][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080 SUPER' (P:0 D:0)
+[2023.06.19-10.27.40:767][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2023.06.19-10.27.40:767][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080 SUPER
+[2023.06.19-10.27.40:767][  0]LogD3D11RHI:   Driver Version: 535.98 (internal:31.0.15.3598, unified:535.98)
+[2023.06.19-10.27.40:767][  0]LogD3D11RHI:      Driver Date: 5-24-2023
+[2023.06.19-10.27.40:767][  0]LogRHI: Texture pool is 5600 MB (70% of 8001 MB)
+[2023.06.19-10.27.40:841][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2023.06.19-10.27.40:843][  0]LogD3D11RHI: Async texture creation enabled
+[2023.06.19-10.27.40:847][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061081).
+[2023.06.19-10.27.40:879][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2023.06.19-10.27.41:186][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2023.06.19-10.27.41:212][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2023.06.19-10.27.41:212][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2023.06.19-10.27.41:212][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2023.06.19-10.27.41:212][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2023.06.19-10.27.41:212][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2023.06.19-10.27.41:212][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2023.06.19-10.27.41:212][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2023.06.19-10.27.41:212][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2023.06.19-10.27.41:212][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2023.06.19-10.27.41:212][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2023.06.19-10.27.41:212][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2023.06.19-10.27.41:212][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2023.06.19-10.27.41:212][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2023.06.19-10.27.41:212][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2023.06.19-10.27.41:212][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2023.06.19-10.27.41:212][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2023.06.19-10.27.41:212][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2023.06.19-10.27.41:212][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2023.06.19-10.27.41:229][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2023.06.19-10.27.41:229][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2023.06.19-10.27.41:235][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2023.06.19-10.27.41:241][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2023.06.19-10.27.41:247][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2023.06.19-10.27.41:253][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2023.06.19-10.27.41:260][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2023.06.19-10.27.41:266][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2023.06.19-10.27.41:285][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2023.06.19-10.27.41:285][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2023.06.19-10.27.41:296][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2023.06.19-10.27.41:296][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2023.06.19-10.27.41:303][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2023.06.19-10.27.41:309][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2023.06.19-10.27.41:315][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2023.06.19-10.27.41:321][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2023.06.19-10.27.41:321][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2023.06.19-10.27.41:325][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2023.06.19-10.27.41:355][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/201911183/Desktop/unreal/0619/temp/RossiNante/Intermediate/Shaders/WorkingDirectory/41592/).
+[2023.06.19-10.27.41:355][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/201911183/AppData/Local/Temp/UnrealShaderWorkingDir/51B3134748EBB0C059F585BC43D708FB/'.
+[2023.06.19-10.27.41:356][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2023.06.19-10.27.41:356][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2023.06.19-10.27.41:356][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2023.06.19-10.27.41:939][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2023.06.19-10.27.42:199][  0]LogDerivedDataCache: Loaded boot cache 0.26s 81MB C:/Users/201911183/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2023.06.19-10.27.42:199][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/201911183/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2023.06.19-10.27.42:199][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/201911183/Desktop/unreal/0619/temp/RossiNante/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.06.19-10.27.42:199][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2023.06.19-10.27.42:199][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/201911183/Desktop/unreal/0619/temp/RossiNante/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.06.19-10.27.42:199][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2023.06.19-10.27.42:208][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2023.06.19-10.27.42:208][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.06.19-10.27.42:208][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2023.06.19-10.27.42:209][  0]LogDerivedDataCache: Using Local data cache path C:/Users/201911183/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.06.19-10.27.42:209][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2023.06.19-10.27.42:209][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2023.06.19-10.27.42:225][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2023.06.19-10.27.42:228][  0]LogSlate: Using FreeType 2.10.0
+[2023.06.19-10.27.42:229][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.06.19-10.27.42:331][  0]LogAssetRegistry: FAssetRegistry took 0.0023 seconds to start up
+[2023.06.19-10.27.42:574][  0]LogInit: Selected Device Profile: [Windows]
+[2023.06.19-10.27.42:681][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.06.19-10.27.42:681][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2023.06.19-10.27.42:681][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2023.06.19-10.27.42:681][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2023.06.19-10.27.42:681][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2023.06.19-10.27.42:690][  0]LogNetVersion: RossiNante 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 557242147)
+[2023.06.19-10.27.43:858][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.021032 seconds
+[2023.06.19-10.27.43:865][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2023.06.19-10.27.43:865][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2023.06.19-10.27.43:865][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.06.19-10.27.44:198][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.06.19-10.27.44:201][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.06.19-10.27.44:522][  0]SourceControl: Source control is disabled
+[2023.06.19-10.27.44:523][  0]SourceControl: Source control is disabled
+[2023.06.19-10.27.44:524][  0]SourceControl: Source control is disabled
+[2023.06.19-10.27.44:525][  0]SourceControl: Source control is disabled
+[2023.06.19-10.27.44:527][  0]SourceControl: Source control is disabled
+[2023.06.19-10.27.44:619][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.06.19-10.27.44:630][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.06.19-10.27.44:630][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.06.19-10.27.44:692][  0]LogOcInput: OculusInput pre-init called
+[2023.06.19-10.27.44:700][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2023.06.19-10.27.44:700][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2023.06.19-10.27.44:749][  0]LogEngine: Initializing Engine...
+[2023.06.19-10.27.44:750][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.06.19-10.27.44:750][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2023.06.19-10.27.44:957][  0]LogInit: Initializing FReadOnlyCVARCache
+[2023.06.19-10.27.44:971][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.06.19-10.27.44:972][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.19-10.27.44:973][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.19-10.27.44:973][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.19-10.27.44:973][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.19-10.27.44:973][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.06.19-10.27.44:973][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.06.19-10.27.44:973][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.06.19-10.27.44:973][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.19-10.27.44:973][  0]LogAudio: Display: Using built-in audio occlusion.
+[2023.06.19-10.27.44:973][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2023.06.19-10.27.44:995][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2023.06.19-10.27.44:995][  0]LogAudioMixer: Display: Name: BenQ EX2710S(NVIDIA High Definition Audio)
+[2023.06.19-10.27.44:995][  0]LogAudioMixer: Display: Is Default: Yes
+[2023.06.19-10.27.44:995][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2023.06.19-10.27.44:995][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2023.06.19-10.27.44:995][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2023.06.19-10.27.44:995][  0]LogAudioMixer: Display: Channel Order:
+[2023.06.19-10.27.44:995][  0]LogAudioMixer: Display: 0: FrontLeft
+[2023.06.19-10.27.44:995][  0]LogAudioMixer: Display: 1: FrontRight
+[2023.06.19-10.27.45:010][  0]LogAudioMixer: Display: Using Audio Device BenQ EX2710S(NVIDIA High Definition Audio)
+[2023.06.19-10.27.45:012][  0]LogInit: FAudioDevice initialized.
+[2023.06.19-10.27.45:013][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2023.06.19-10.27.45:107][  0]LogDerivedDataCache: Saved boot cache 0.09s 81MB C:/Users/201911183/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2023.06.19-10.27.45:110][  0]LogInit: Texture streaming: Enabled
+[2023.06.19-10.27.45:123][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2023.06.19-10.27.45:123][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2023.06.19-10.27.45:132][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2023.06.19-10.27.45:173][  0]LogInit: Transaction tracking system initialized
+[2023.06.19-10.27.45:197][  0]BlueprintLog: New page: Editor Load
+[2023.06.19-10.27.45:233][  0]LocalizationService: Localization service is disabled
+[2023.06.19-10.27.46:130][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2023.06.19-10.27.46:130][  0]LogCook: Display: Mobile HDR setting 1
+[2023.06.19-10.27.46:227][  0]LogFileCache: Scanning file cache for directory 'C:/Users/201911183/Desktop/unreal/0619/temp/RossiNante/Content/' took 0.05s
+[2023.06.19-10.27.46:747][  0]SourceControl: Source control is disabled
+[2023.06.19-10.27.46:747][  0]Cmd: MAP LOAD FILE="../../../../../../Users/201911183/Desktop/unreal/0619/temp/RossiNante/Content/Maps/Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.06.19-10.27.46:748][  0]LightingResults: New page: Lighting Build
+[2023.06.19-10.27.46:749][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.06.19-10.27.46:749][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-10.27.46:749][  0]MapCheck: New page: Map Check
+[2023.06.19-10.27.46:749][  0]LightingResults: New page: Lighting Build
+[2023.06.19-10.27.46:775][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.06.19-10.27.47:437][  0]LogLinker: Error: HOTRELOADED_MyCharacterEnemy_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Users/201911183/Desktop/unreal/0619/temp/RossiNante/Content/Blueprints/Boss/AI/Task/BTT_Jump.uasset)
+[2023.06.19-10.27.47:438][  0]LogLinker: Error: HOTRELOADED_MyCharacterEnemy_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Users/201911183/Desktop/unreal/0619/temp/RossiNante/Content/Blueprints/Boss/AI/Task/BTT_Jump.uasset)
+[2023.06.19-10.27.47:438][  0]LogLinker: Error: HOTRELOADED_MyCharacterEnemy_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Users/201911183/Desktop/unreal/0619/temp/RossiNante/Content/Blueprints/Boss/AI/Task/BTT_Jump.uasset)
+[2023.06.19-10.27.47:438][  0]LogLinker: Error: HOTRELOADED_MyCharacterEnemy_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Users/201911183/Desktop/unreal/0619/temp/RossiNante/Content/Blueprints/Boss/AI/Task/BTT_Jump.uasset)
+[2023.06.19-10.27.47:867][  0]LogBlueprint: Warning: [Compiler BP_Character] MyCharacter.Stat is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get Stat
+[2023.06.19-10.27.49:314][  0]LogAIModule: Creating AISystem for world Default
+[2023.06.19-10.27.49:319][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.06.19-10.27.49:347][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2023.06.19-10.27.49:349][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.06.19-10.27.49:350][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.452ms to complete.
+[2023.06.19-10.27.49:350][  0]LogFileHelpers: Loading map 'Default' took 2.602
+[2023.06.19-10.27.49:497][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-10.27.49:502][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-10.27.49:506][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-10.27.49:511][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-10.27.49:520][  0]LogCollectionManager: Loaded 0 collections in 0.001511 seconds
+[2023.06.19-10.27.49:532][  0]LogFileCache: Scanning file cache for directory 'C:/Users/201911183/Desktop/unreal/0619/temp/RossiNante/Saved/Collections/' took 0.00s
+[2023.06.19-10.27.49:532][  0]LogFileCache: Scanning file cache for directory 'C:/Users/201911183/Desktop/unreal/0619/temp/RossiNante/Content/Developers/201911183/Collections/' took 0.00s
+[2023.06.19-10.27.49:532][  0]LogFileCache: Scanning file cache for directory 'C:/Users/201911183/Desktop/unreal/0619/temp/RossiNante/Content/Collections/' took 0.00s
+[2023.06.19-10.27.49:532][  0]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 3029 classes and 719 folders.
+[2023.06.19-10.27.49:535][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2023.06.19-10.27.49:666][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2023.06.19-10.27.49:672][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2023.06.19-10.27.49:714][  0]LogSlate: Took 0.000536 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.06.19-10.27.49:715][  0]LogSlate: Took 0.000433 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.06.19-10.27.49:719][  0]LogSlate: Took 0.000467 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.06.19-10.27.49:768][  0]LogRenderer: Reallocating scene render targets to support 1200x568 Format 9 NumSamples 1 (Frame:1).
+[2023.06.19-10.27.49:852][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2023.06.19-10.27.49:852][  0]LogLoad: (Engine Initialization) Total time: 12.27 seconds
+[2023.06.19-10.27.49:852][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.06.19-10.27.49:940][  0]LogContentStreaming: Texture pool size now 600 MB
+[2023.06.19-10.27.49:997][  0]LogSlate: Took 0.027199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.06.19-10.27.50:010][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/201911183/Desktop/unreal/0619/temp/RossiNante/Content/' took 0.11s
+[2023.06.19-10.27.50:572][  9]LogAssetRegistry: Asset discovery search completed in 8.2414 seconds
+[2023.06.19-10.27.50:574][  9]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000006 seconds (updated 0 objects)
+[2023.06.19-10.28.07:350][345]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.06.19-10.28.07:386][345]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/RossiNante.MyAnimInstance
+[2023.06.19-10.29.08:730][886]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/RossiNante.StatMenuWidget
+[2023.06.19-10.29.23:997][569]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/RossiNante.StatMenuWidget
+[2023.06.19-10.32.43:214][150]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/RossiNante.LoginWidget
+[2023.06.19-10.38.07:505][399]LogSlate: Took 0.000628 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.06.19-10.38.11:971][895]LogLinker: Warning: While loading '../../../../../../Users/201911183/Desktop/unreal/0619/temp/RossiNante/Content/Maps/Login.umap' failed to load '/Game/Maps/Login_BuiltData': Can't find file.
+[2023.06.19-10.38.11:971][895]LogLinker: Warning: While loading '../../../../../../Users/201911183/Desktop/unreal/0619/temp/RossiNante/Content/Maps/Login.umap' failed to load '/Game/Maps/Login_BuiltData': Can't find file.
+[2023.06.19-10.38.11:972][895]LogLinker: Warning: While loading '../../../../../../Users/201911183/Desktop/unreal/0619/temp/RossiNante/Content/Maps/Login.umap' failed to load '/Game/Maps/Login_BuiltData': Can't find file.
+[2023.06.19-10.38.11:973][895]LogLinker: Warning: While loading '../../../../../../Users/201911183/Desktop/unreal/0619/temp/RossiNante/Content/Maps/Login.umap' failed to load '/Game/Maps/Login_BuiltData': Can't find file.
+[2023.06.19-10.38.11:973][895]LogLinker: Warning: Failed to load '/Game/Maps/Login_BuiltData': Can't find file.
+[2023.06.19-10.38.11:974][895]LogLinker: Warning: Failed to load '/Game/Maps/Login_BuiltData': Can't find file.
+[2023.06.19-10.38.11:974][895]LogLinker: Warning: Failed to load '/Game/Maps/Login_BuiltData': Can't find file.
+[2023.06.19-10.38.11:974][895]LogLinker: Warning: Failed to load '/Game/Maps/Login_BuiltData': Can't find file.
+[2023.06.19-10.38.11:977][895]LogLinker: Warning: While loading '../../../../../../Users/201911183/Desktop/unreal/0619/temp/RossiNante/Content/Maps/Login.umap' failed to load '/Game/Maps/Login_BuiltData': Can't find file.
+[2023.06.19-10.38.11:977][895]LoadErrors: Failed to load /Game/Maps/Login_BuiltData.Login_BuiltData Referenced by PersistentLevel
+[2023.06.19-10.38.11:977][895]LogLinker: Warning: While loading '../../../../../../Users/201911183/Desktop/unreal/0619/temp/RossiNante/Content/Maps/Login.umap' failed to load '/Game/Maps/Login_BuiltData': Can't find file.
+[2023.06.19-10.38.11:986][895]LogAIModule: Creating AISystem for world Login
+[2023.06.19-10.38.11:987][895]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Login.Login
+[2023.06.19-10.38.12:012][895]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2023.06.19-10.38.12:015][895]Cmd: MAP LOAD FILE="../../../../../../Users/201911183/Desktop/unreal/0619/temp/RossiNante/Content/Maps/Login.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.06.19-10.38.12:015][895]LightingResults: New page: Lighting Build
+[2023.06.19-10.38.12:015][895]LoadErrors: New page: Loading map: Login.umap
+[2023.06.19-10.38.12:016][895]LogWorld: UWorld::CleanupWorld for Default, bSessionEnded=true, bCleanupResources=true
+[2023.06.19-10.38.12:016][895]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-10.38.12:016][895]MapCheck: New page: Map Check
+[2023.06.19-10.38.12:016][895]LightingResults: New page: Lighting Build
+[2023.06.19-10.38.12:043][895]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2023.06.19-10.38.12:045][895]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.06.19-10.38.12:072][895]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.06.19-10.38.12:087][895]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.06.19-10.38.12:087][895]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.123ms to complete.
+[2023.06.19-10.38.12:087][895]LogFileHelpers: Loading map 'Login' took 0.074
+[2023.06.19-10.38.13:494][927]Candidate modules for hot reload:
+[2023.06.19-10.38.13:494][927]  RossiNante
+[2023.06.19-10.38.13:494][927]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RossiNante,8053 Win64 Development -TargetType=Editor -Project="C:/Users/201911183/Desktop/unreal/0619/temp/RossiNante/RossiNante.uproject" "C:/Users/201911183/Desktop/unreal/0619/temp/RossiNante/RossiNante.uproject"  -IgnoreJunk]
+[2023.06.19-10.38.13:501][927]Warning: Starting HotReload took  0.6s.
+[2023.06.19-10.38.35:724][220]CompilerResultsLog: New page: Compilation - 2023. 6. 20. 오전 4:38:35
+[2023.06.19-10.38.35:725][220]CompilerResultsLog: Parsing headers for RossiNanteEditor
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\201911183\Desktop\unreal\0619\temp\RossiNante\RossiNante.uproject" "C:\Users\201911183\Desktop\unreal\0619\temp\RossiNante\Intermediate\Build\Win64\RossiNanteEditor\Development\RossiNanteEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2023.06.19-10.38.35:725][220]CompilerResultsLog: Reflection code generated for RossiNanteEditor in 6.0933845 seconds
+[2023.06.19-10.38.35:725][220]CompilerResultsLog: Building RossiNanteEditor...
+[2023.06.19-10.38.35:725][220]CompilerResultsLog: Using Visual Studio 2019 14.33.31630 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.06.19-10.38.35:725][220]CompilerResultsLog: Building 21 actions with 16 processes...
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   [1/21] MyGameInstance.gen.cpp
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h(611): warning C4005: 'TEXT': ??ũ?? ??????
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'?? ???? ???Ǹ? ?????Ͻʽÿ?.
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   [2/21] MyStatComponent.cpp
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h(611): warning C4005: 'TEXT': ??ũ?? ??????
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'?? ???? ???Ǹ? ?????Ͻʽÿ?.
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   [3/21] MyStatComponent.gen.cpp
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h(611): warning C4005: 'TEXT': ??ũ?? ??????
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'?? ???? ???Ǹ? ?????Ͻʽÿ?.
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   [4/21] MyCharacter.gen.cpp
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h(611): warning C4005: 'TEXT': ??ũ?? ??????
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'?? ???? ???Ǹ? ?????Ͻʽÿ?.
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   [5/21] MyGameInstance.cpp
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h(611): warning C4005: 'TEXT': ??ũ?? ??????
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'?? ???? ???Ǹ? ?????Ͻʽÿ?.
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   [6/21] MyAnimInstance.cpp
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h(611): warning C4005: 'TEXT': ??ũ?? ??????
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'?? ???? ???Ǹ? ?????Ͻʽÿ?.
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   [7/21] MyGameModeBase.gen.cpp
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h(611): warning C4005: 'TEXT': ??ũ?? ??????
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'?? ???? ???Ǹ? ?????Ͻʽÿ?.
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   [8/21] HUDWidget.gen.cpp
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h(611): warning C4005: 'TEXT': ??ũ?? ??????
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'?? ???? ???Ǹ? ?????Ͻʽÿ?.
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   [9/21] RossiNante.init.gen.cpp
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   [10/21] StatMenuWidget.cpp
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h(611): warning C4005: 'TEXT': ??ũ?? ??????
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'?? ???? ???Ǹ? ?????Ͻʽÿ?.
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   [11/21] PlayMenuWidget.cpp
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h(611): warning C4005: 'TEXT': ??ũ?? ??????
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'?? ???? ???Ǹ? ?????Ͻʽÿ?.
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   [12/21] StatMenuWidget.gen.cpp
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h(611): warning C4005: 'TEXT': ??ũ?? ??????
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'?? ???? ???Ǹ? ?????Ͻʽÿ?.
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   [13/21] MenuWidget.cpp
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h(611): warning C4005: 'TEXT': ??ũ?? ??????
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'?? ???? ???Ǹ? ?????Ͻʽÿ?.
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   [14/21] PlayMenuWidget.gen.cpp
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h(611): warning C4005: 'TEXT': ??ũ?? ??????
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'?? ???? ???Ǹ? ?????Ͻʽÿ?.
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   [15/21] LoginWidget.cpp
+[2023.06.19-10.38.35:725][220]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h(611): warning C4005: 'TEXT': ??ũ?? ??????
+[2023.06.19-10.38.35:726][220]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'?? ???? ???Ǹ? ?????Ͻʽÿ?.
+[2023.06.19-10.38.35:726][220]CompilerResultsLog:   [16/21] MyCharacter.cpp
+[2023.06.19-10.38.35:726][220]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h(611): warning C4005: 'TEXT': ??ũ?? ??????
+[2023.06.19-10.38.35:726][220]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'?? ???? ???Ǹ? ?????Ͻʽÿ?.
+[2023.06.19-10.38.35:726][220]CompilerResultsLog:   [17/21] MyGameModeBase.cpp
+[2023.06.19-10.38.35:726][220]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h(611): warning C4005: 'TEXT': ??ũ?? ??????
+[2023.06.19-10.38.35:726][220]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'?? ???? ???Ǹ? ?????Ͻʽÿ?.
+[2023.06.19-10.38.35:726][220]CompilerResultsLog:   C:\Users\201911183\Desktop\unreal\0619\temp\RossiNante\Source\RossiNante\MyGameModeBase.cpp(144): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[2023.06.19-10.38.35:726][220]CompilerResultsLog:   [18/21] HUDWidget.cpp
+[2023.06.19-10.38.35:726][220]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h(611): warning C4005: 'TEXT': ??ũ?? ??????
+[2023.06.19-10.38.35:726][220]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'?? ???? ???Ǹ? ?????Ͻʽÿ?.
+[2023.06.19-10.38.35:726][220]CompilerResultsLog:   [19/21] UE4Editor-RossiNante-8053.lib
+[2023.06.19-10.38.35:726][220]CompilerResultsLog:      C:\Users\201911183\Desktop\unreal\0619\temp\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-8053.lib ???̺귯?? ?? C:\Users\201911183\Desktop\unreal\0619\temp\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-8053.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2023.06.19-10.38.35:726][220]CompilerResultsLog:   [20/21] UE4Editor-RossiNante-8053.dll
+[2023.06.19-10.38.35:726][220]CompilerResultsLog:      C:\Users\201911183\Desktop\unreal\0619\temp\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-8053.suppressed.lib ???̺귯?? ?? C:\Users\201911183\Desktop\unreal\0619\temp\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-8053.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2023.06.19-10.38.35:726][220]CompilerResultsLog:   [21/21] RossiNanteEditor.target
+[2023.06.19-10.38.35:726][220]CompilerResultsLog: Total time in Parallel executor: 14.63 seconds
+[2023.06.19-10.38.35:726][220]CompilerResultsLog: Total execution time: 21.97 seconds
+[2023.06.19-10.38.35:726][220]LogMainFrame: MainFrame: Module compiling took 22.241 seconds
+[2023.06.19-10.38.35:750][220]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.06.19-10.38.35:802][220]LogClass: Could not find existing class MyStatComponent in package /Script/RossiNante for HotReload, assuming new class
+[2023.06.19-10.38.35:802][220]LogClass: Function GetAttack is new.
+[2023.06.19-10.38.35:802][220]LogClass: Function GetAttackUpgrade is new.
+[2023.06.19-10.38.35:802][220]LogClass: Function GetExp is new.
+[2023.06.19-10.38.35:802][220]LogClass: Function GetHp is new.
+[2023.06.19-10.38.35:802][220]LogClass: Function GetLevel is new.
+[2023.06.19-10.38.35:802][220]LogClass: Function GetMaxHp is new.
+[2023.06.19-10.38.35:802][220]LogClass: Function SetExp is new.
+[2023.06.19-10.38.35:811][220]LogHotReload: Re-instancing MyCharacter after hot-reload.
+[2023.06.19-10.38.35:820][220]LogBlueprint: Warning: [Compiler BP_Character] MyCharacter.Stat is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get Stat
+[2023.06.19-10.38.35:828][220]LogProperty: Warning: Serialized Class /Script/RossiNante.MyStatComponent for a property of Class /Engine/Transient.HOTRELOADED_MyStatComponent_0. Reference will be nullptred.
+    Property = ObjectProperty /Script/RossiNante.MyCharacter:Stat
+    Item = MyStatComponent /Game/Blueprints/PlayerCharacter/BP_Character.Default__BP_Character_C:STAT
+[2023.06.19-10.38.35:830][220]LogProperty: Warning: Serialized Class /Script/RossiNante.MyStatComponent for a property of Class /Engine/Transient.HOTRELOADED_MyStatComponent_0. Reference will be nullptred.
+    Property = ObjectProperty /Script/RossiNante.MyCharacter:Stat
+    Item = MyStatComponent /Game/Blueprints/PlayerCharacter/BP_Character.Default__SKEL_BP_Character_C:STAT
+[2023.06.19-10.38.36:063][220]LogHotReload: Re-instancing MyStatComponent after hot-reload.
+[2023.06.19-10.38.36:274][220]LogContentBrowser: Native class hierarchy updated for 'RossiNante' in 0.0006 seconds. Added 14 classes and 2 folders.
+[2023.06.19-10.38.36:278][220]Display: HotReload successful (35 functions remapped  1 scriptstructs remapped)
+[2023.06.19-10.38.36:389][220]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2023.06.19-10.38.36:403][220]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 3031 classes and 722 folders.
+[2023.06.19-10.38.36:403][220]Display: HotReload took 23.5s.
+[2023.06.19-10.38.50:801][326]Candidate modules for hot reload:
+[2023.06.19-10.38.50:801][326]  RossiNante
+[2023.06.19-10.38.50:801][326]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RossiNante,836 Win64 Development -TargetType=Editor -Project="C:/Users/201911183/Desktop/unreal/0619/temp/RossiNante/RossiNante.uproject" "C:/Users/201911183/Desktop/unreal/0619/temp/RossiNante/RossiNante.uproject"  -IgnoreJunk]
+[2023.06.19-10.38.50:806][326]Warning: Starting HotReload took  0.0s.
+[2023.06.19-10.38.56:425][941]CompilerResultsLog: New page: Compilation - 2023. 6. 20. 오전 4:38:56
+[2023.06.19-10.38.56:425][941]CompilerResultsLog: Building RossiNanteEditor...
+[2023.06.19-10.38.56:425][941]CompilerResultsLog: Using Visual Studio 2019 14.33.31630 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.06.19-10.38.56:425][941]CompilerResultsLog: Building 4 actions with 16 processes...
+[2023.06.19-10.38.56:425][941]CompilerResultsLog:   [1/4] MyCharacter.cpp
+[2023.06.19-10.38.56:425][941]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h(611): warning C4005: 'TEXT': ??ũ?? ??????
+[2023.06.19-10.38.56:425][941]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'?? ???? ???Ǹ? ?????Ͻʽÿ?.
+[2023.06.19-10.38.56:425][941]CompilerResultsLog:   [2/4] UE4Editor-RossiNante-0836.lib
+[2023.06.19-10.38.56:425][941]CompilerResultsLog:      C:\Users\201911183\Desktop\unreal\0619\temp\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0836.lib ???̺귯?? ?? C:\Users\201911183\Desktop\unreal\0619\temp\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0836.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2023.06.19-10.38.56:425][941]CompilerResultsLog:   [3/4] UE4Editor-RossiNante-0836.dll
+[2023.06.19-10.38.56:425][941]CompilerResultsLog:      C:\Users\201911183\Desktop\unreal\0619\temp\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0836.suppressed.lib ???̺귯?? ?? C:\Users\201911183\Desktop\unreal\0619\temp\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0836.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2023.06.19-10.38.56:425][941]CompilerResultsLog:   [4/4] RossiNanteEditor.target
+[2023.06.19-10.38.56:425][941]CompilerResultsLog: Total time in Parallel executor: 4.41 seconds
+[2023.06.19-10.38.56:425][941]CompilerResultsLog: Total execution time: 5.53 seconds
+[2023.06.19-10.38.56:425][941]LogMainFrame: MainFrame: Module compiling took 5.633 seconds
+[2023.06.19-10.38.56:452][941]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.06.19-10.38.56:464][941]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 3031 classes and 722 folders.
+[2023.06.19-10.38.56:465][941]Display: HotReload took  5.7s.
+[2023.06.19-10.39.07:702][525]LogTemp: Repeating last play command: Selected Viewport
+[2023.06.19-10.39.07:713][525]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Login.Login:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Login.Login:PersistentLevel.Login' with GeneratedClass '/Game/Maps/Login.Login_C' with ClassGeneratedBy '/Game/Maps/Login.Login:PersistentLevel.Login'
+[2023.06.19-10.39.07:713][525]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.19-10.39.07:714][525]PIE: New page: PIE session: Login (2023. 6. 20. 오전 4:39:07)
+[2023.06.19-10.39.07:717][525]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2023.06.19-10.39.07:718][525]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.06.19-10.39.07:719][525]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Login
+[2023.06.19-10.39.07:721][525]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002321s)
+[2023.06.19-10.39.07:722][525]LogAIModule: Creating AISystem for world Login
+[2023.06.19-10.39.07:723][525]LogPlayLevel: PIE: World Init took: (0.001338s)
+[2023.06.19-10.39.07:723][525]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Login.Login to /Game/Maps/UEDPIE_0_Login.Login (0.004091s)
+[2023.06.19-10.39.07:746][525]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.06.19-10.39.07:748][525]LogTemp: Warning: C2S
+
+[2023.06.19-10.39.07:756][525]LogTemp: Warning: CONNECT SUCCESS
+
+[2023.06.19-10.39.07:756][525]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.19-10.39.07:756][525]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.19-10.39.07:756][525]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.19-10.39.07:756][525]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.19-10.39.07:756][525]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.06.19-10.39.07:756][525]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.06.19-10.39.07:756][525]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.06.19-10.39.07:756][525]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.19-10.39.07:756][525]LogAudio: Display: Using built-in audio occlusion.
+[2023.06.19-10.39.07:756][525]LogAudioMixer: Display: Initializing audio mixer.
+[2023.06.19-10.39.07:773][525]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2023.06.19-10.39.07:773][525]LogAudioMixer: Display: Name: BenQ EX2710S(NVIDIA High Definition Audio)
+[2023.06.19-10.39.07:773][525]LogAudioMixer: Display: Is Default: Yes
+[2023.06.19-10.39.07:773][525]LogAudioMixer: Display: Sample Rate: 48000
+[2023.06.19-10.39.07:773][525]LogAudioMixer: Display: Channel Count Used: 2
+[2023.06.19-10.39.07:773][525]LogAudioMixer: Display: Device Channel Count: 2
+[2023.06.19-10.39.07:773][525]LogAudioMixer: Display: Channel Order:
+[2023.06.19-10.39.07:773][525]LogAudioMixer: Display: 0: FrontLeft
+[2023.06.19-10.39.07:773][525]LogAudioMixer: Display: 1: FrontRight
+[2023.06.19-10.39.07:783][525]LogAudioMixer: Display: Using Audio Device BenQ EX2710S(NVIDIA High Definition Audio)
+[2023.06.19-10.39.07:785][525]LogInit: FAudioDevice initialized.
+[2023.06.19-10.39.07:797][525]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.06.19-10.39.07:798][525]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Login.Login up for play (max tick rate 0) at 2023.06.19-19.39.07
+[2023.06.19-10.39.07:799][525]LogWorld: Bringing up level for play took: 0.001343
+[2023.06.19-10.39.07:799][525]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2023.06.19-10.39.07:844][525]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2023.06.19-10.39.07:853][525]LogDataTable: Error: UDataTable::FindRow : '' specified incorrect type for DataTable '/Game/Data/StatTable.StatTable'.

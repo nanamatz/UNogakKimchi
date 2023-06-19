@@ -14,6 +14,9 @@ void UStatMenuWidget::NativeConstruct()
         GameMode = Cast<AMyGameModeBase>(World->GetAuthGameMode());
     }
 
+    TB_LevelValue->SetText(FText::FromString(FString::FromInt(GameMode->GetPlayerLevel())));
+    TB_ExpValue->SetText(FText::FromString(FString::FromInt(GameMode->GetPlayerExp())));
+    TB_StatpointValue->SetText(FText::FromString(FString::FromInt(GameMode->GetPlayerStatpoint())));
 
     // BT_SignIn 버튼의 클릭 이벤트에 OnSignInButtonClicked 함수를 연결합니다.
     if (BT_Upgrade1)
@@ -40,4 +43,8 @@ void UStatMenuWidget::OnUpgrade1ButtonClicked()
     else if (ud->packet_type == (int)EPacketType::S2C_UPGRADE_FAIL) {
         UE_LOG(LogTemp, Warning, TEXT("Upgrade Fail!\n"));
     }
+
+    TB_LevelValue->SetText(FText::FromString(FString::FromInt(ud->level)));
+    TB_ExpValue->SetText(FText::FromString(FString::FromInt(ud->exp)));
+    TB_StatpointValue->SetText(FText::FromString(FString::FromInt(ud->statpoint)));
 }

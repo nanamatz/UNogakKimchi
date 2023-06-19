@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodePlayMenuWidget() {}
 	UMG_API UClass* Z_Construct_UClass_UUserWidget();
 	UPackage* Z_Construct_UPackage__Script_RossiNante();
 	ROSSINANTE_API UFunction* Z_Construct_UFunction_UPlayMenuWidget_OnPlayButtonClicked();
+	UMG_API UClass* Z_Construct_UClass_UTextBlock_NoRegister();
 	UMG_API UClass* Z_Construct_UClass_UButton_NoRegister();
 // End Cross Module References
 	void UPlayMenuWidget::StaticRegisterNativesUPlayMenuWidget()
@@ -62,6 +63,14 @@ void EmptyLinkFunctionForGeneratedCodePlayMenuWidget() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TB_ExpValue_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TB_ExpValue;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TB_LevelValue_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TB_LevelValue;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BT_Play_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_BT_Play;
@@ -84,6 +93,24 @@ void EmptyLinkFunctionForGeneratedCodePlayMenuWidget() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPlayMenuWidget_Statics::NewProp_TB_ExpValue_MetaData[] = {
+		{ "BindWidget", "" },
+		{ "Category", "PlayMenuWidget" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "PlayMenuWidget.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UPlayMenuWidget_Statics::NewProp_TB_ExpValue = { "TB_ExpValue", nullptr, (EPropertyFlags)0x002008000008001c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UPlayMenuWidget, TB_ExpValue), Z_Construct_UClass_UTextBlock_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UPlayMenuWidget_Statics::NewProp_TB_ExpValue_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UPlayMenuWidget_Statics::NewProp_TB_ExpValue_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPlayMenuWidget_Statics::NewProp_TB_LevelValue_MetaData[] = {
+		{ "BindWidget", "" },
+		{ "Category", "PlayMenuWidget" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "PlayMenuWidget.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UPlayMenuWidget_Statics::NewProp_TB_LevelValue = { "TB_LevelValue", nullptr, (EPropertyFlags)0x002008000008001c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UPlayMenuWidget, TB_LevelValue), Z_Construct_UClass_UTextBlock_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UPlayMenuWidget_Statics::NewProp_TB_LevelValue_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UPlayMenuWidget_Statics::NewProp_TB_LevelValue_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPlayMenuWidget_Statics::NewProp_BT_Play_MetaData[] = {
 		{ "BindWidget", "" },
 		{ "Category", "PlayMenuWidget" },
@@ -93,6 +120,8 @@ void EmptyLinkFunctionForGeneratedCodePlayMenuWidget() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UPlayMenuWidget_Statics::NewProp_BT_Play = { "BT_Play", nullptr, (EPropertyFlags)0x002008000008001c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UPlayMenuWidget, BT_Play), Z_Construct_UClass_UButton_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UPlayMenuWidget_Statics::NewProp_BT_Play_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UPlayMenuWidget_Statics::NewProp_BT_Play_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UPlayMenuWidget_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayMenuWidget_Statics::NewProp_TB_ExpValue,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayMenuWidget_Statics::NewProp_TB_LevelValue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayMenuWidget_Statics::NewProp_BT_Play,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UPlayMenuWidget_Statics::StaticCppClassTypeInfo = {
@@ -122,7 +151,7 @@ void EmptyLinkFunctionForGeneratedCodePlayMenuWidget() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UPlayMenuWidget, 1321944806);
+	IMPLEMENT_CLASS(UPlayMenuWidget, 3553039629);
 	template<> ROSSINANTE_API UClass* StaticClass<UPlayMenuWidget>()
 	{
 		return UPlayMenuWidget::StaticClass();

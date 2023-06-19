@@ -4,6 +4,10 @@
 #include "MyCharacterEnemy.h"
 #include "MyAnimInstance.h"
 #include "Engine.h"
+#include "MyGameModeBase.h"
+#include "BossHPWidget.h"
+#include "MyCharacter.h"
+#include "MyStatComponent.h"
 
 // Sets default values
 AMyCharacterEnemy::AMyCharacterEnemy()
@@ -51,6 +55,9 @@ void AMyCharacterEnemy::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	GameMode = Cast<AMyGameModeBase>(GetWorld()->GetAuthGameMode());
+
+	InitHPWidget();
 }
 
 // Called every frame
@@ -58,8 +65,33 @@ void AMyCharacterEnemy::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	if (currentHPBarDuration > 0) {
+		currentHPBarDuration -= DeltaTime;
+		if (currentHPBarDuration < 0) {
+			currentHPBarDuration = 0;
+			BossHPWidget->RemoveFromViewport();
+		}
+	}
 }
 
+void AMyCharacterEnemy::InitHPWidget()
+{
+	BossHPWidget = GameMode->CreateBossHPWidget();
+	hpBarDuration = 10;
+	currentHPBarDuration = 0;
+}
+
+void AMyCharacterEnemy::UpdateHPWidget()
+{
+	if (currentHPBarDuration == 0) {
+		currentHPBarDuration = hpBarDuration;
+		BossHPWidget->AddToViewport();
+		BossHPWidget->UpdateHealthPercent(DefaultHP, MaxHP);
+	}
+	else {
+		BossHPWidget->UpdateHealthPercent(DefaultHP, MaxHP);
+	}
+}
 
 // 기본 공격
 void AMyCharacterEnemy::Attack_Melee()
@@ -198,6 +230,9 @@ void AMyCharacterEnemy::HitReact(float damage) {
 
 		//체력이 0이하면 죽는 애니메이션 실행
 		if (DefaultHP <= 0) {
+			AMyCharacter* PlayerCharacter = Cast<AMyCharacter>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0));
+			PlayerCharacter->Stat->SetExp(Exp);
+
 			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Die!"));
 			isDie = true;
 			FTimerHandle TH_Hit_End;
@@ -218,7 +253,6 @@ void AMyCharacterEnemy::HitReact(float damage) {
 void AMyCharacterEnemy::DieAnim() {
 	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("BossDie!"));
 	this->Destroy();
-	UGameplayStatics::OpenLevel(this, "Login");
 }
 
 void AMyCharacterEnemy::PlayerCameraShake() {

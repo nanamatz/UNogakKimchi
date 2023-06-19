@@ -25,6 +25,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_NATIVE_END; \
 	} \
  \
+	DECLARE_FUNCTION(execGetAttackUpgrade) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=P_THIS->GetAttackUpgrade(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execGetExp) \
 	{ \
 		P_FINISH; \
@@ -74,6 +82,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->SetExp(Z_Param_exp); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetAttackUpgrade) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=P_THIS->GetAttackUpgrade(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -165,7 +181,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMyStatComponent); \
 	FORCEINLINE static uint32 __PPO__Attack() { return STRUCT_OFFSET(UMyStatComponent, Attack); } \
 	FORCEINLINE static uint32 __PPO__Hp() { return STRUCT_OFFSET(UMyStatComponent, Hp); } \
 	FORCEINLINE static uint32 __PPO__CurExp() { return STRUCT_OFFSET(UMyStatComponent, CurExp); } \
-	FORCEINLINE static uint32 __PPO__RequireExp() { return STRUCT_OFFSET(UMyStatComponent, RequireExp); }
+	FORCEINLINE static uint32 __PPO__RequireExp() { return STRUCT_OFFSET(UMyStatComponent, RequireExp); } \
+	FORCEINLINE static uint32 __PPO__AttackUpgrade() { return STRUCT_OFFSET(UMyStatComponent, AttackUpgrade); }
 
 
 #define RossiNante_Source_RossiNante_MyStatComponent_h_11_PROLOG

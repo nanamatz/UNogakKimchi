@@ -21,10 +21,22 @@ protected:
 private:
 	UPROPERTY()
 		class UMyAnimInstance* AnimInstance;
+	UPROPERTY()
+		class UBossHPWidget* BossHPWidget;
+
+	void InitHPWidget();
+	void UpdateHPWidget();
+
+	class AMyGameModeBase* GameMode;
+	float hpBarDuration;
+	float currentHPBarDuration;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Boss Monster")
+		float MaxHP;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Boss Monster")
 		float DefaultHP;
 

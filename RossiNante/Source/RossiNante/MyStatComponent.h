@@ -23,6 +23,8 @@ protected:
 	virtual void InitializeComponent() override;
 public:
 	void SetLevel(int32 NewLevel);
+	void SetCurExp(int exp);
+	void SetAttackUpgrade(int attack_upgrade);
 	void OnAttacked(float DamageAmount);
 
 	UFUNCTION(BlueprintCallable)
@@ -35,15 +37,22 @@ public:
 	int32 GetMaxHp() { return maxHp; }
 	UFUNCTION(BlueprintCallable)
 	int32 GetExp() { return CurExp; }
+	UFUNCTION(BlueprintCallable)
+		int32 GetAttackUpgrade() { return AttackUpgrade; }
 
 	UFUNCTION(BlueprintCallable)
 		void SetExp(int32 exp) { 
 			if (CurExp + exp >= RequireExp) {
 				CurExp = RequireExp - CurExp - exp;
+				GameMode->SetPlayerExp(CurExp);
+				GameMode->SetPlayerLevelUP();
+				GameMode->C2S_SendData(GameMode->GetPlayerInfo(), EPacketType::C2S_LEVEL);
 				SetLevel(Level + 1);
 			}
 			else {
 				CurExp += exp;
+				GameMode->SetPlayerExp(CurExp);
+				GameMode->C2S_SendData(GameMode->GetPlayerInfo(), EPacketType::C2S_EXP);
 			}
 		}
 
@@ -60,6 +69,8 @@ private:
 		int32 CurExp;
 	UPROPERTY(EditAnywhere, Category = Stat, Meta = (AllowPrivateAccess = true))
 		int32 RequireExp;
+	UPROPERTY(EditAnywhere, Category = Stat, Meta = (AllowPrivateAccess = true))
+		int32 AttackUpgrade;
 
 	AMyGameModeBase* GameMode;
 
