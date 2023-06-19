@@ -9,7 +9,7 @@
 // Sets default values
 APortal::APortal()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	RootScene = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
 	RootComponent = RootScene;
@@ -23,7 +23,7 @@ APortal::APortal()
 void APortal::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
 }
 
 // Called every frame
@@ -32,15 +32,15 @@ void APortal::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 }
-void APortal::NotifyActorBeginOverlap(AActor* OtherActor) 
+void APortal::NotifyActorBeginOverlap(AActor* OtherActor)
 {
 
 	ACharacter* Character = Cast<AMyCharacter>(OtherActor);
 
-	if (Character != nullptr) 
+	if (Character != nullptr)
 	{
-		
-		UGameplayStatics::OpenLevel(this, NextLevelName,true);
+
+		UGameplayStatics::OpenLevel(this, NextLevelName, true);
 
 	}
 }

@@ -15,14 +15,14 @@ protected:
 
 private:
 	UPROPERTY(EditAnywhere, meta = (AllowPrivateAccess = "true"))
-	FName NextLevelName;
+		FName NextLevelName;
 
 	UPROPERTY(EditAnywhere, meta = (AllowPrivateAccess = "true"))
 		class USceneComponent* RootScene;
 
-	UPROPERTY(BlueprintReadOnly, EditAnywhere,meta = (AllowPrivateAccess = "true"))
+	UPROPERTY(BlueprintReadOnly, EditAnywhere, meta = (AllowPrivateAccess = "true"))
 		class UBoxComponent* PortalBox;
-public:	
+public:
 	// Sets default values for this actor's properties
 	APortal();
 
@@ -30,7 +30,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
+public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 

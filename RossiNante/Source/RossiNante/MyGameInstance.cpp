@@ -10,7 +10,7 @@ UMyGameInstance::UMyGameInstance()
 {
 	static ConstructorHelpers::FObjectFinder<UDataTable> DATA(TEXT("DataTable'/Game/Data/StatTable.StatTable'"));
 	MyStats = DATA.Object;
-
+    isLogin = false;
 }
 SOCKET UMyGameInstance::GetSocket()
 {
@@ -26,6 +26,26 @@ void UMyGameInstance::Init()
 FMyCharacterData* UMyGameInstance::GetStatData(int32 Level)
 {
 	return 	MyStats->FindRow<FMyCharacterData>(*FString::FromInt(Level), TEXT(""));
+    Init_PlayerInfo();
+}
+
+void UMyGameInstance::SetIsLogin()
+{
+    isLogin = true;
+}
+
+bool UMyGameInstance::GetIsLogin()
+{
+    return isLogin;
+}
+
+void UMyGameInstance::Init_PlayerInfo()
+{
+
+    PlayerInfo.level = 0;
+    PlayerInfo.exp = 0;
+    PlayerInfo.statpoint = 0;
+    PlayerInfo.attack_upgrade = 0;
 
 }
 
@@ -35,7 +55,7 @@ void UMyGameInstance::ConnectToServer()
     WSADATA wsaData;
 
     // TCP 연결을 수행할 서버 IP와 포트 번호 설정
-    char* ServerIP = "43.201.26.214";
+    char* ServerIP = "52.79.226.242";
     int32 Port = 8050;
 
     // wsaData 초기화
@@ -57,9 +77,9 @@ void UMyGameInstance::ConnectToServer()
     }
 
     UE_LOG(LogTemp, Warning, TEXT("C2S\n"));
-    
+
     // 연결 시도
-    /*
+
     if (connect(Socket, (SOCKADDR*)&serverAddr, sizeof(serverAddr)) == SOCKET_ERROR) {
         closesocket(Socket);
         WSACleanup();
@@ -67,5 +87,5 @@ void UMyGameInstance::ConnectToServer()
     }
     else {
         UE_LOG(LogTemp, Warning, TEXT("CONNECT SUCCESS\n"));
-    }*/
+    }
 }

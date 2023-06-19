@@ -29,7 +29,6 @@ protected:
 		bool IsTumbling = false;
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn)
 		bool IsJumping = false;
-
 private:
 	AMyGameModeBase* GameMode;
 	float q_waitingTime;

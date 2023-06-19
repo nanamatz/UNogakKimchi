@@ -51,7 +51,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{ECB7B07B-CA65-4F78-9FDE-D3F7CC2A29D5}</ProjectGuid>
+    <ProjectGuid>{2318B86A-CE32-46B9-AFA9-9011ACF0D6B4}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>RossiNante</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>

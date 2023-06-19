@@ -21,12 +21,18 @@ void AMyGameModeBase::BeginPlay()
     PlayerController = GetWorld()->GetFirstPlayerController();
     GameInstance = Cast<UMyGameInstance>(GetGameInstance());
 
+    CreateAllMenuWidget();
+
     if (GetWorld()->GetMapName() == GetWorld()->StreamingLevelsPrefix + "Login") {
         CreateLoginWidget();
         PlayerController->bShowMouseCursor = true;
-    }
 
-    CreateAllMenuWidget();
+        if (GetIsLogin())
+        {
+            LoginWidget->RemoveFromViewport();
+            EnableMenuWidget();
+        }
+    }
 }
 
 void AMyGameModeBase::ChangeLevel(UObject* world, FName LevelName)
@@ -109,19 +115,77 @@ void AMyGameModeBase::SetUserData(int user_id)
     user_data.user_id = user_id;
 }
 
-bool AMyGameModeBase::SendLoginData(UserDataPacket* login_data)
+bool AMyGameModeBase::C2S_SendData(UserDataPacket* send_data)
 {
-    if (send(GameInstance->Socket, (char*)login_data, sizeof(UserDataPacket), 0) == -1) {
-        UE_LOG(LogTemp, Warning, TEXT("ERR! send Socket(Maybe connection has failed, but current version is a test version. So Go to Default Level)\n"));
+    if (send(GameInstance->Socket, (char*)send_data, sizeof(UserDataPacket), 0) == -1) {
+        UE_LOG(LogTemp, Warning, TEXT("ERR! send Socket(Maybe connection has failed)\n"));
         return false;
     }
     return true;
 }
 
-bool AMyGameModeBase::RecvLoginData(UserDataPacket* recv_data)
+bool AMyGameModeBase::C2S_SendData(UserDataPacket* send_data, EPacketType packet_type)
+{
+    send_data->packet_type = (int)packet_type;
+
+    if (send(GameInstance->Socket, (char*)send_data, sizeof(UserDataPacket), 0) == -1) {
+        UE_LOG(LogTemp, Warning, TEXT("ERR! send Socket(Maybe connection has failed)\n"));
+        return false;
+    }
+    return true;
+}
+
+bool AMyGameModeBase::S2C_RecvData(UserDataPacket* recv_data)
 {
     if (recv(GameInstance->Socket, (char*)recv_data, sizeof(UserDataPacket), 0) == -1) {
         return false;
     }
     return true;
+}
+
+void AMyGameModeBase::UpdatePlayerInfo(UserDataPacket* ud)
+{
+    GameInstance->PlayerInfo.user_id = ud->user_id;
+
+    strcpy(GameInstance->PlayerInfo.data1, ud->data1);
+    GameInstance->PlayerInfo.level = ud->level;
+    GameInstance->PlayerInfo.exp = ud->exp;
+    GameInstance->PlayerInfo.statpoint = ud->statpoint;
+    GameInstance->PlayerInfo.attack_upgrade = ud->attack_upgrade;
+
+}
+
+void AMyGameModeBase::SetIsLogin()
+{
+    GameInstance->SetIsLogin();
+}
+
+bool AMyGameModeBase::GetIsLogin()
+{
+    return GameInstance->GetIsLogin();
+}
+
+int AMyGameModeBase::GetPlayerExp()
+{
+    return GameInstance->PlayerInfo.exp;
+}
+
+int AMyGameModeBase::GetPlayerLevel()
+{
+    return GameInstance->PlayerInfo.level;
+}
+
+int AMyGameModeBase::GetPlayerStatpoint()
+{
+    return GameInstance->PlayerInfo.statpoint;
+}
+
+int AMyGameModeBase::GetPlayerAttackUpgrade()
+{
+    return GameInstance->PlayerInfo.attack_upgrade;
+}
+
+UserDataPacket* AMyGameModeBase::GetPlayerInfo()
+{
+    return &GameInstance->PlayerInfo;
 }

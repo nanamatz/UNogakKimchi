@@ -256,6 +256,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyCharacterEnemy); \
 	FORCEINLINE static uint32 __PPO__TargetPlayer() { return STRUCT_OFFSET(AMyCharacterEnemy, TargetPlayer); } \
 	FORCEINLINE static uint32 __PPO__SkillCooldown() { return STRUCT_OFFSET(AMyCharacterEnemy, SkillCooldown); } \
 	FORCEINLINE static uint32 __PPO__SkillCooldownTime() { return STRUCT_OFFSET(AMyCharacterEnemy, SkillCooldownTime); } \
+	FORCEINLINE static uint32 __PPO__Exp() { return STRUCT_OFFSET(AMyCharacterEnemy, Exp); } \
 	FORCEINLINE static uint32 __PPO__isDuringAttack() { return STRUCT_OFFSET(AMyCharacterEnemy, isDuringAttack); } \
 	FORCEINLINE static uint32 __PPO__isDie() { return STRUCT_OFFSET(AMyCharacterEnemy, isDie); } \
 	FORCEINLINE static uint32 __PPO__isSpawn() { return STRUCT_OFFSET(AMyCharacterEnemy, isSpawn); } \

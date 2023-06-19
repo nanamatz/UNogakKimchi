@@ -10,7 +10,7 @@ AMyBossClass::AMyBossClass()
 {
 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
+	/*
 	ConstructorHelpers::FObjectFinder<UAnimMontage> Attack_AnimMt(TEXT("AnimMontage'/Game/MyBoss/Montage/MyBossAttack_Montage.BossAttack_Montage'"));
 	if (Attack_AnimMt.Succeeded()) {
 		MyBossAttack_Montage = Attack_AnimMt.Object;
@@ -36,7 +36,7 @@ AMyBossClass::AMyBossClass()
 		MyBossGameStart_Montage = Spawn_AnimMt.Object;
 	}
 
-
+	*/
 }
 
 void AMyBossClass::PostInitializeComponents()

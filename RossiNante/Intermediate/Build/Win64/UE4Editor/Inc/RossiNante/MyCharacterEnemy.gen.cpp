@@ -430,6 +430,10 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacterEnemy() {}
 		static void NewProp_isDuringAttack_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_isDuringAttack;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Exp_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Exp;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SkillCooldownTime_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_SkillCooldownTime;
@@ -627,9 +631,9 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacterEnemy() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_isDuringAttack_MetaData[] = {
 		{ "Category", "MyCharacterEnemy" },
-		{ "Comment", "// ??\xc5\xb3 ???\xd9\xbf?\n" },
+		{ "Comment", "// ?????\xcd\xb0? ?\xd6\xb4? ????\xc4\xa1\n" },
 		{ "ModuleRelativePath", "MyCharacterEnemy.h" },
-		{ "ToolTip", "??\xc5\xb3 ???\xd9\xbf?" },
+		{ "ToolTip", "?????\xcd\xb0? ?\xd6\xb4? ????\xc4\xa1" },
 	};
 #endif
 	void Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_isDuringAttack_SetBit(void* Obj)
@@ -637,6 +641,15 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacterEnemy() {}
 		((AMyCharacterEnemy*)Obj)->isDuringAttack = 1;
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_isDuringAttack = { "isDuringAttack", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AMyCharacterEnemy), &Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_isDuringAttack_SetBit, METADATA_PARAMS(Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_isDuringAttack_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_isDuringAttack_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_Exp_MetaData[] = {
+		{ "Category", "Boss Monster" },
+		{ "Comment", "// ??\xc5\xb3 ???\xd9\xbf?\n" },
+		{ "ModuleRelativePath", "MyCharacterEnemy.h" },
+		{ "ToolTip", "??\xc5\xb3 ???\xd9\xbf?" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_Exp = { "Exp", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyCharacterEnemy, Exp), METADATA_PARAMS(Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_Exp_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_Exp_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_SkillCooldownTime_MetaData[] = {
 		{ "Category", "Boss Monster" },
@@ -764,6 +777,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacterEnemy() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_isSpawn,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_isDie,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_isDuringAttack,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_Exp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_SkillCooldownTime,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_SkillCooldown,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_TargetPlayer,
@@ -805,7 +819,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacterEnemy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyCharacterEnemy, 1433469812);
+	IMPLEMENT_CLASS(AMyCharacterEnemy, 2311273475);
 	template<> ROSSINANTE_API UClass* StaticClass<AMyCharacterEnemy>()
 	{
 		return AMyCharacterEnemy::StaticClass();
