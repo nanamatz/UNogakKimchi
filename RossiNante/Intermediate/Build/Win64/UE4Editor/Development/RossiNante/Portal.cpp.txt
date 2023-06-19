@@ -1,6 +1,6 @@
-C:\Users\Administrator\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\Definitions.RossiNante.h
-C:\Users\Administrator\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Source\RossiNante\Portal.h
-C:\Users\Administrator\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\Portal.generated.h
+C:\Users\Administrator\Desktop\UnrealPorject\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\Definitions.RossiNante.h
+C:\Users\Administrator\Desktop\UnrealPorject\UNogakKimchi\RossiNante\Source\RossiNante\Portal.h
+C:\Users\Administrator\Desktop\UnrealPorject\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\Portal.generated.h
 D:\soohwan\Unreal\UE_4.24\Engine\Source\Runtime\Engine/Classes/Components/BoxComponent.h
 D:\soohwan\Unreal\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
 D:\soohwan\Unreal\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h

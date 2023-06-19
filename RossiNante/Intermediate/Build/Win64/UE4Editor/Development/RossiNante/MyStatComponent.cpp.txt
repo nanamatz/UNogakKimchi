@@ -1,6 +1,6 @@
-C:\Users\Administrator\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\Definitions.RossiNante.h
-C:\Users\Administrator\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Source\RossiNante\MyStatComponent.h
-C:\Users\Administrator\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Source\RossiNante\MyGameModeBase.h
+C:\Users\Administrator\Desktop\UnrealPorject\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\Definitions.RossiNante.h
+C:\Users\Administrator\Desktop\UnrealPorject\UNogakKimchi\RossiNante\Source\RossiNante\MyStatComponent.h
+C:\Users\Administrator\Desktop\UnrealPorject\UNogakKimchi\RossiNante\Source\RossiNante\MyGameModeBase.h
 D:\soohwan\Unreal\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
 D:\soohwan\Unreal\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 D:\soohwan\Unreal\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
@@ -109,13 +109,13 @@ C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um\ime_cmodes.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared\ws2def.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared\inaddr.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared\qos.h
-C:\Users\Administrator\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\MyGameModeBase.generated.h
-C:\Users\Administrator\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\MyStatComponent.generated.h
-C:\Users\Administrator\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Source\RossiNante\MyGameInstance.h
+C:\Users\Administrator\Desktop\UnrealPorject\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\MyGameModeBase.generated.h
+C:\Users\Administrator\Desktop\UnrealPorject\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\MyStatComponent.generated.h
+C:\Users\Administrator\Desktop\UnrealPorject\UNogakKimchi\RossiNante\Source\RossiNante\MyGameInstance.h
 D:\soohwan\Unreal\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/DataTable.h
 D:\soohwan\Unreal\UE_4.24\Engine\Source\Runtime\Engine\Public\DataTableUtils.h
 D:\soohwan\Unreal\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DataTable.generated.h
-C:\Users\Administrator\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\MyGameInstance.generated.h
+C:\Users\Administrator\Desktop\UnrealPorject\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\MyGameInstance.generated.h
 D:\soohwan\Unreal\UE_4.24\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
 D:\soohwan\Unreal\UE_4.24\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
 D:\soohwan\Unreal\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/CollisionProfile.h
@@ -126,5 +126,5 @@ D:\soohwan\Unreal\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\D
 D:\soohwan\Unreal\UE_4.24\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
 D:\soohwan\Unreal\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
 D:\soohwan\Unreal\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
-C:\Users\Administrator\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Source\RossiNante\MyAnimInstance.h
-C:\Users\Administrator\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\MyAnimInstance.generated.h
+C:\Users\Administrator\Desktop\UnrealPorject\UNogakKimchi\RossiNante\Source\RossiNante\MyAnimInstance.h
+C:\Users\Administrator\Desktop\UnrealPorject\UNogakKimchi\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\MyAnimInstance.generated.h

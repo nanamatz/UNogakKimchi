@@ -218,6 +218,7 @@ void AMyCharacterEnemy::HitReact(float damage) {
 void AMyCharacterEnemy::DieAnim() {
 	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("BossDie!"));
 	this->Destroy();
+	UGameplayStatics::OpenLevel(this, "Login");
 }
 
 void AMyCharacterEnemy::PlayerCameraShake() {
