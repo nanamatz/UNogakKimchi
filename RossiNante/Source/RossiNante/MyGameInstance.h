@@ -21,6 +21,8 @@ struct FMyCharacterData : public FTableRowBase
 			int32 MaxHp;
 		UPROPERTY(EditAnywhere, BlueprintReadWrite)
 			int32 RequireExp;
+		UPROPERTY(EditAnywhere, BlueprintReadWrite)
+			int32 AttackUpgrade;
 };
 /**
  * 
@@ -30,19 +32,27 @@ class ROSSINANTE_API UMyGameInstance : public UGameInstance
 {
 	GENERATED_BODY()
 public:
-		UserDataPacket PlayerInfo;
-
 		UMyGameInstance();
+		virtual void Init() override;
+		
+		UserDataPacket PlayerInfo;
+	
 		SOCKET Socket;
 		SOCKET GetSocket();
-		virtual void Init() override;
+
 		FMyCharacterData* GetStatData(int32 Level);
+
+		void SetIsLogin();
+		bool GetIsLogin();
+
 private:
 	UPROPERTY()
 		class UDataTable* MyStats;
 
 	AMyGameModeBase* GameMode;
 	
+	bool isLogin;
+
 	void Init_PlayerInfo();
 	void ConnectToServer();
 };

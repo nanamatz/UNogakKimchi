@@ -24,8 +24,8 @@ struct UserDataPacket
 	int level = 1;
 	int exp = 0;
 	int statpoint = 0;
+	int attack_upgrade = 0;
 };
-
 
 UCLASS()
 class ROSSINANTE_API AMyGameModeBase : public AGameModeBase
@@ -54,9 +54,13 @@ public:
 	bool S2C_RecvData(UserDataPacket* recv_data);
 
 	void UpdatePlayerInfo(UserDataPacket* ud);
+	void SetIsLogin();
+
+	bool GetIsLogin();
 	int GetPlayerExp();
 	int GetPlayerLevel();
 	int GetPlayerStatpoint();
+	int GetPlayerAttackUpgrade();
 	UserDataPacket* GetPlayerInfo();
 
 	SOCKET Socket;

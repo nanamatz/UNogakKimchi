@@ -17,6 +17,7 @@ UMyStatComponent::UMyStatComponent()
 	bWantsInitializeComponent = true;
 	
 	Level = 1;
+	AttackUpgrade = 0;
 }
 
 
@@ -48,7 +49,7 @@ void UMyStatComponent::SetLevel(int32 NewLevel)
 			Level = StatData->Level;
 			Hp = StatData->MaxHp;
 			maxHp = Hp;
-			Attack = StatData->Attack;
+			Attack = StatData->Attack + AttackUpgrade;
 			RequireExp = StatData->RequireExp;
 			CurExp = 0;
 		}
@@ -58,6 +59,11 @@ void UMyStatComponent::SetLevel(int32 NewLevel)
 void UMyStatComponent::SetCurExp(int exp)
 {
 	CurExp = exp;
+}
+
+void UMyStatComponent::SetAttackUpgrade(int attack_upgrade)
+{
+	AttackUpgrade = attack_upgrade;
 }
 
 void UMyStatComponent::OnAttacked(float DamageAmount)

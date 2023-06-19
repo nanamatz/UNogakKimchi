@@ -33,8 +33,10 @@ void AMyCharacter::BeginPlay()
 
 	q_waitingTime = 0;
 
-	Stat->SetLevel(GameMode->GetPlayerLevel());
+	
 	Stat->SetCurExp(GameMode->GetPlayerExp());
+	Stat->SetAttackUpgrade(GameMode->GetPlayerAttackUpgrade());
+	Stat->SetLevel(GameMode->GetPlayerLevel());
 }
 
 void AMyCharacter::PostInitializeComponents()
@@ -80,13 +82,18 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 void AMyCharacter::Attack()
 {
 	if (IsAttacking || IsSkillCasting || AnimInstance->IsTumbling) return;
+
 	UE_LOG(LogTemp, Warning, TEXT("Attack: %d"),AnimInstance->IsTumbling);
+	UE_LOG(LogTemp, Warning, TEXT("Attack Damage: %d"), Stat->GetAttackUpgrade());
+
 	IsAttacking = true;
 	AnimInstance->PlayAttackMontage();
 	
 	AnimInstance->JumpToSection(AttackIndex);
 
 	AttackIndex = (AttackIndex + 1)%2;
+
+	GameMode->ChangeLevel(GetWorld(), "Login");
 }
 
 void AMyCharacter::Tumble()

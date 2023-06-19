@@ -21,12 +21,18 @@ void AMyGameModeBase::BeginPlay()
     PlayerController = GetWorld()->GetFirstPlayerController();
     GameInstance = Cast<UMyGameInstance>(GetGameInstance());
 
+    CreateAllMenuWidget();
+
     if (GetWorld()->GetMapName() == GetWorld()->StreamingLevelsPrefix + "Login") {
         CreateLoginWidget();
         PlayerController->bShowMouseCursor = true;
-    }
 
-    CreateAllMenuWidget();
+        if (GetIsLogin())
+        {
+            LoginWidget->RemoveFromViewport();
+            EnableMenuWidget();
+        }
+    }
 }
 
 void AMyGameModeBase::ChangeLevel(UObject* world, FName LevelName)
@@ -145,7 +151,18 @@ void AMyGameModeBase::UpdatePlayerInfo(UserDataPacket* ud)
     GameInstance->PlayerInfo.level = ud->level;
     GameInstance->PlayerInfo.exp = ud->exp;
     GameInstance->PlayerInfo.statpoint = ud->statpoint;
+    GameInstance->PlayerInfo.attack_upgrade = ud->attack_upgrade;
 
+}
+
+void AMyGameModeBase::SetIsLogin()
+{
+    GameInstance->SetIsLogin();
+}
+
+bool AMyGameModeBase::GetIsLogin()
+{
+    return GameInstance->GetIsLogin();
 }
 
 int AMyGameModeBase::GetPlayerExp()
@@ -161,6 +178,11 @@ int AMyGameModeBase::GetPlayerLevel()
 int AMyGameModeBase::GetPlayerStatpoint()
 {
     return GameInstance->PlayerInfo.statpoint;
+}
+
+int AMyGameModeBase::GetPlayerAttackUpgrade()
+{
+    return GameInstance->PlayerInfo.attack_upgrade;
 }
 
 UserDataPacket* AMyGameModeBase::GetPlayerInfo()

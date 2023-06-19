@@ -34,10 +34,10 @@ void ULoginWidget::OnSignInButtonClicked()
 
     if (GameMode->C2S_SendData(&login_data) == false) {
         UE_LOG(LogTemp, Warning, TEXT("ERR! send data! (Maybe connection has failed, but current version is a test version. So Go to Default Level)\n"));
+        GameMode->SetIsLogin();
         GameMode->LoginWidget->RemoveFromViewport();
         GameMode->EnableMenuWidget();
-        //GameMode->ChangeLevel(GetWorld(), "Default");
-        //GameMode->EnableHUDWidget();
+        
     }
 
     UserDataPacket ud;
@@ -50,12 +50,13 @@ void ULoginWidget::OnSignInButtonClicked()
     GameMode->UpdatePlayerInfo(&ud);
 
     if (ud.packet_type == (int)EPacketType::S2C_LOGIN_SUCCESS) {
-
+        GameMode->SetIsLogin();
         GameMode->LoginWidget->RemoveFromViewport();
         GameMode->EnableMenuWidget();
     }
     else if (ud.packet_type == (int)EPacketType::S2C_LOGIN_FAIL) {
         UE_LOG(LogTemp, Warning, TEXT("ID or PW error! However you can join the game in test mode."));
+        GameMode->SetIsLogin();
         GameMode->LoginWidget->RemoveFromViewport();
         GameMode->EnableMenuWidget();
     }
@@ -82,7 +83,7 @@ void ULoginWidget::NativeConstruct()
         {
             Socket = GameMode->Socket;
         }
-    }
+    }    
 
     // BT_SignIn 버튼의 클릭 이벤트에 OnSignInButtonClicked 함수를 연결합니다.
     if (BT_SignIn)

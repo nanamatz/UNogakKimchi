@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeMyStatComponent() {}
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 	UPackage* Z_Construct_UPackage__Script_RossiNante();
 	ROSSINANTE_API UFunction* Z_Construct_UFunction_UMyStatComponent_GetAttack();
+	ROSSINANTE_API UFunction* Z_Construct_UFunction_UMyStatComponent_GetAttackUpgrade();
 	ROSSINANTE_API UFunction* Z_Construct_UFunction_UMyStatComponent_GetExp();
 	ROSSINANTE_API UFunction* Z_Construct_UFunction_UMyStatComponent_GetHp();
 	ROSSINANTE_API UFunction* Z_Construct_UFunction_UMyStatComponent_GetLevel();
@@ -29,6 +30,7 @@ void EmptyLinkFunctionForGeneratedCodeMyStatComponent() {}
 		UClass* Class = UMyStatComponent::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "GetAttack", &UMyStatComponent::execGetAttack },
+			{ "GetAttackUpgrade", &UMyStatComponent::execGetAttackUpgrade },
 			{ "GetExp", &UMyStatComponent::execGetExp },
 			{ "GetHp", &UMyStatComponent::execGetHp },
 			{ "GetLevel", &UMyStatComponent::execGetLevel },
@@ -66,6 +68,38 @@ void EmptyLinkFunctionForGeneratedCodeMyStatComponent() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UMyStatComponent_GetAttack_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UMyStatComponent_GetAttackUpgrade_Statics
+	{
+		struct MyStatComponent_eventGetAttackUpgrade_Parms
+		{
+			int32 ReturnValue;
+		};
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UMyStatComponent_GetAttackUpgrade_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyStatComponent_eventGetAttackUpgrade_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UMyStatComponent_GetAttackUpgrade_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMyStatComponent_GetAttackUpgrade_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UMyStatComponent_GetAttackUpgrade_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MyStatComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UMyStatComponent_GetAttackUpgrade_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UMyStatComponent, nullptr, "GetAttackUpgrade", nullptr, nullptr, sizeof(MyStatComponent_eventGetAttackUpgrade_Parms), Z_Construct_UFunction_UMyStatComponent_GetAttackUpgrade_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UMyStatComponent_GetAttackUpgrade_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UMyStatComponent_GetAttackUpgrade_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UMyStatComponent_GetAttackUpgrade_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UMyStatComponent_GetAttackUpgrade()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UMyStatComponent_GetAttackUpgrade_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -241,6 +275,10 @@ void EmptyLinkFunctionForGeneratedCodeMyStatComponent() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AttackUpgrade_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_AttackUpgrade;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_RequireExp_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FIntPropertyParams NewProp_RequireExp;
@@ -270,6 +308,7 @@ void EmptyLinkFunctionForGeneratedCodeMyStatComponent() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UMyStatComponent_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UMyStatComponent_GetAttack, "GetAttack" }, // 3291546336
+		{ &Z_Construct_UFunction_UMyStatComponent_GetAttackUpgrade, "GetAttackUpgrade" }, // 3894345059
 		{ &Z_Construct_UFunction_UMyStatComponent_GetExp, "GetExp" }, // 2636580722
 		{ &Z_Construct_UFunction_UMyStatComponent_GetHp, "GetHp" }, // 3999964826
 		{ &Z_Construct_UFunction_UMyStatComponent_GetLevel, "GetLevel" }, // 2521277353
@@ -284,6 +323,14 @@ void EmptyLinkFunctionForGeneratedCodeMyStatComponent() {}
 		{ "ModuleRelativePath", "MyStatComponent.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyStatComponent_Statics::NewProp_AttackUpgrade_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "Stat" },
+		{ "ModuleRelativePath", "MyStatComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_UMyStatComponent_Statics::NewProp_AttackUpgrade = { "AttackUpgrade", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyStatComponent, AttackUpgrade), METADATA_PARAMS(Z_Construct_UClass_UMyStatComponent_Statics::NewProp_AttackUpgrade_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMyStatComponent_Statics::NewProp_AttackUpgrade_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyStatComponent_Statics::NewProp_RequireExp_MetaData[] = {
 		{ "AllowPrivateAccess", "TRUE" },
@@ -325,6 +372,7 @@ void EmptyLinkFunctionForGeneratedCodeMyStatComponent() {}
 #endif
 	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_UMyStatComponent_Statics::NewProp_Level = { "Level", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyStatComponent, Level), METADATA_PARAMS(Z_Construct_UClass_UMyStatComponent_Statics::NewProp_Level_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMyStatComponent_Statics::NewProp_Level_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UMyStatComponent_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyStatComponent_Statics::NewProp_AttackUpgrade,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyStatComponent_Statics::NewProp_RequireExp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyStatComponent_Statics::NewProp_CurExp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyStatComponent_Statics::NewProp_Hp,
@@ -358,7 +406,7 @@ void EmptyLinkFunctionForGeneratedCodeMyStatComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMyStatComponent, 4160237801);
+	IMPLEMENT_CLASS(UMyStatComponent, 3193167890);
 	template<> ROSSINANTE_API UClass* StaticClass<UMyStatComponent>()
 	{
 		return UMyStatComponent::StaticClass();
