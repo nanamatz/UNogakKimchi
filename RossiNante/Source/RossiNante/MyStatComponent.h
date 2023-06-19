@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
+#include "MyGameModeBase.h"
 #include "MyStatComponent.generated.h"
 
 
@@ -59,5 +60,7 @@ private:
 		int32 CurExp;
 	UPROPERTY(EditAnywhere, Category = Stat, Meta = (AllowPrivateAccess = true))
 		int32 RequireExp;
+
+	AMyGameModeBase* GameMode;
 
 };

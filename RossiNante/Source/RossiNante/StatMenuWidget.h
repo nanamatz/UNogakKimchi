@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "Blueprint/UserWidget.h"
 #include "Runtime/UMG/Public/Components/Button.h"
+#include "MyGameModeBase.h"
 #include "StatMenuWidget.generated.h"
 
 /**

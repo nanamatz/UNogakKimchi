@@ -30,6 +30,8 @@ class ROSSINANTE_API UMyGameInstance : public UGameInstance
 {
 	GENERATED_BODY()
 public:
+		UserDataPacket PlayerInfo;
+
 		UMyGameInstance();
 		SOCKET Socket;
 		SOCKET GetSocket();
@@ -41,6 +43,6 @@ private:
 
 	AMyGameModeBase* GameMode;
 	
-
+	void Init_PlayerInfo();
 	void ConnectToServer();
 };

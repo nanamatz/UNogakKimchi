@@ -16,7 +16,9 @@ UMyStatComponent::UMyStatComponent()
 
 	bWantsInitializeComponent = true;
 	
+	//Level = Cast<AMyGameModeBase>(GetWorld()->GetAuthGameMode())->GetPlayerLevel();
 	Level = 1;
+	
 }
 
 
@@ -25,6 +27,14 @@ void UMyStatComponent::BeginPlay()
 {
 	Super::BeginPlay();
 
+	UWorld* World = GetWorld();
+
+	if (World)
+	{
+		GameMode = Cast<AMyGameModeBase>(World->GetAuthGameMode());
+	}
+
+	//Level = GameMode->GetPlayerLevel();
 	// ...
 	
 }
@@ -48,6 +58,7 @@ void UMyStatComponent::SetLevel(int32 NewLevel)
 			Attack = StatData->Attack;
 			RequireExp = StatData->RequireExp;
 			CurExp = 0;
+			//CurExp = GameMode->GetPlayerExp();
 		}
 	}
 }
