@@ -28,6 +28,8 @@ protected:
 		UTextBlock* TB_ExpValue = nullptr;
 	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
 		UTextBlock* TB_StatpointValue = nullptr;
+	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
+		UTextBlock* TB_AttackUpgradeValue = nullptr;
 
 	UFUNCTION()
 		void OnUpgrade1ButtonClicked(); // BT_SignIn 버튼 클릭 이벤트 핸들러 함수

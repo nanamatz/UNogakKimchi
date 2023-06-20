@@ -1,0 +1,1498 @@
+﻿Log file open, 06/20/23 05:17:29
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: RossiNante
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.060248
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-11590370
+LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 2009) (), CPU: AMD Ryzen 7 5800X 8-Core Processor             , GPU: NVIDIA GeForce RTX 2080 SUPER
+LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2023.06.19-20.17.30:042][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2023.06.19-20.17.30:042][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2023.06.19-20.17.30:042][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/201911183/Desktop/unreal/0620/0511/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.06.19-20.17.30:042][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2023.06.19-20.17.30:042][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/201911183/Desktop/unreal/0620/0511/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.06.19-20.17.30:042][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/201911183/Desktop/unreal/0620/0511/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.06.19-20.17.30:042][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2023.06.19-20.17.30:042][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2023.06.19-20.17.30:042][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2023.06.19-20.17.30:042][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2023.06.19-20.17.30:042][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2023.06.19-20.17.30:042][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2023.06.19-20.17.30:042][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2023.06.19-20.17.30:042][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2023.06.19-20.17.30:042][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2023.06.19-20.17.30:042][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2023.06.19-20.17.30:042][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2023.06.19-20.17.30:042][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2023.06.19-20.17.30:042][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2023.06.19-20.17.30:042][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2023.06.19-20.17.30:042][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/201911183/Desktop/unreal/0620/0511/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.06.19-20.17.30:042][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2023.06.19-20.17.30:042][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2023.06.19-20.17.30:042][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2023.06.19-20.17.30:042][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2023.06.19-20.17.30:042][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2023.06.19-20.17.30:042][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2023.06.19-20.17.30:042][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2023.06.19-20.17.30:042][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2023.06.19-20.17.30:042][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2023.06.19-20.17.30:042][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2023.06.19-20.17.30:042][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2023.06.19-20.17.30:042][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2023.06.19-20.17.30:042][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2023.06.19-20.17.30:042][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/201911183/Desktop/unreal/0620/0511/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.06.19-20.17.30:042][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/201911183/Desktop/unreal/0620/0511/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.06.19-20.17.30:044][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/201911183/Desktop/unreal/0620/0511/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-20.17.30:044][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2023.06.19-20.17.30:044][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2023.06.19-20.17.30:044][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/201911183/Desktop/unreal/0620/0511/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-20.17.30:044][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2023.06.19-20.17.30:044][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/201911183/Desktop/unreal/0620/0511/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-20.17.30:044][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2023.06.19-20.17.30:044][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2023.06.19-20.17.30:044][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2023.06.19-20.17.30:044][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2023.06.19-20.17.30:044][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2023.06.19-20.17.30:044][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2023.06.19-20.17.30:044][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2023.06.19-20.17.30:044][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2023.06.19-20.17.30:044][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2023.06.19-20.17.30:044][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2023.06.19-20.17.30:044][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2023.06.19-20.17.30:044][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2023.06.19-20.17.30:044][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2023.06.19-20.17.30:044][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2023.06.19-20.17.30:044][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2023.06.19-20.17.30:044][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2023.06.19-20.17.30:044][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2023.06.19-20.17.30:044][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2023.06.19-20.17.30:044][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/201911183/Desktop/unreal/0620/0511/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-20.17.30:044][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2023.06.19-20.17.30:044][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2023.06.19-20.17.30:044][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2023.06.19-20.17.30:044][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2023.06.19-20.17.30:044][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2023.06.19-20.17.30:044][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2023.06.19-20.17.30:044][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2023.06.19-20.17.30:044][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2023.06.19-20.17.30:044][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2023.06.19-20.17.30:044][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2023.06.19-20.17.30:044][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2023.06.19-20.17.30:044][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2023.06.19-20.17.30:044][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2023.06.19-20.17.30:044][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2023.06.19-20.17.30:044][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2023.06.19-20.17.30:044][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2023.06.19-20.17.30:044][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/201911183/Desktop/unreal/0620/0511/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/201911183/Desktop/unreal/0620/0511/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/201911183/Desktop/unreal/0620/0511/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/201911183/Desktop/unreal/0620/0511/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2023.06.19-20.17.30:045][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2023.06.19-20.17.30:045][  0]LogInit: Selected Device Profile: [Windows]
+[2023.06.19-20.17.30:045][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2023.06.19-20.17.30:047][  0]LogHAL: Display: Platform has ~ 16 GB [17085329408 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2023.06.19-20.17.30:047][  0]LogInit: Going up to parent DeviceProfile []
+[2023.06.19-20.17.30:047][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@1] File [C:/Users/201911183/Desktop/unreal/0620/0511/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-20.17.30:047][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:1]]
+[2023.06.19-20.17.30:047][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.6]]
+[2023.06.19-20.17.30:047][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@1] File [C:/Users/201911183/Desktop/unreal/0620/0511/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:2]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@1] File [C:/Users/201911183/Desktop/unreal/0620/0511/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.ShadowQuality:3]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:1024]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.05]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.7]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.25]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:.5]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@1] File [C:/Users/201911183/Desktop/unreal/0620/0511/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:60]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:1]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:350]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:2]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.7]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:2]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:3                 ; low number of samples when gathering]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:0    ; no foreground scattering]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:0    ; no foreground scattering]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Applying CVar settings from Section [TextureQuality@1] File [C:/Users/201911183/Desktop/unreal/0620/0511/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:1]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:2]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:4]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:600]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@1] File [C:/Users/201911183/Desktop/unreal/0620/0511/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:32]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:2 ; Medium quality]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.SSS.Scale:0.75]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.SSGI.Quality:1]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.25]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@1] File [C:/Users/201911183/Desktop/unreal/0620/0511/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.4]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[grass.DensityScale:0.4]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@1] File [C:/Users/201911183/Desktop/unreal/0620/0511/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2023.06.19-20.17.30:048][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2023.06.19-20.17.30:049][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2023.06.19-20.17.30:049][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2023.06.19-20.17.30:049][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/201911183/Desktop/unreal/0620/0511/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.06.19-20.17.30:049][  0]LogInit: Computer: DESKTOP-SIQC98D
+[2023.06.19-20.17.30:049][  0]LogInit: User: 201911183
+[2023.06.19-20.17.30:049][  0]LogInit: CPU Page size=4096, Cores=8
+[2023.06.19-20.17.30:049][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.06.19-20.17.30:049][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2023.06.19-20.17.30:049][  0]LogMemory: Platform Memory Stats for Windows
+[2023.06.19-20.17.30:049][  0]LogMemory: Process Physical Memory: 109.99 MB used, 109.99 MB peak
+[2023.06.19-20.17.30:049][  0]LogMemory: Process Virtual Memory: 103.13 MB used, 103.13 MB peak
+[2023.06.19-20.17.30:049][  0]LogMemory: Physical Memory: 10150.80 MB used,  6143.04 MB free, 16293.84 MB total
+[2023.06.19-20.17.30:049][  0]LogMemory: Virtual Memory: 5188.29 MB used,  134212536.00 MB free, 134217728.00 MB total
+[2023.06.19-20.17.30:052][  0]LogWindows: WindowsPlatformFeatures enabled
+[2023.06.19-20.17.30:089][  0]LogInit: Overriding language with editor language configuration option (en).
+[2023.06.19-20.17.30:089][  0]LogInit: Overriding locale with editor culture configuration option ().
+[2023.06.19-20.17.30:089][  0]LogInit: Using OS detected locale (ko-KR).
+[2023.06.19-20.17.30:193][  0]LogInit: Setting process to per monitor DPI aware
+[2023.06.19-20.17.30:319][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2023.06.19-20.17.30:319][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2023.06.19-20.17.30:457][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.06.19-20.17.30:457][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2023.06.19-20.17.30:457][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2023.06.19-20.17.30:457][  0]LogD3D11RHI: D3D11 adapters:
+[2023.06.19-20.17.30:605][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080 SUPER' (Feature Level 11_0)
+[2023.06.19-20.17.30:605][  0]LogD3D11RHI:       8001/0/8146 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2023.06.19-20.17.30:607][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2023.06.19-20.17.30:607][  0]LogD3D11RHI:       0/0/8146 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2023.06.19-20.17.30:607][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2023.06.19-20.17.30:616][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2023.06.19-20.17.30:616][  0]LogD3D11RHI:     GPU DeviceId: 0x1e81 (for the marketing name, search the web for "GPU Device Id")
+[2023.06.19-20.17.30:616][  0]LogWindows: EnumDisplayDevices:
+[2023.06.19-20.17.30:616][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080 SUPER' (P:1 D:1)
+[2023.06.19-20.17.30:616][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080 SUPER' (P:0 D:1)
+[2023.06.19-20.17.30:616][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080 SUPER' (P:0 D:0)
+[2023.06.19-20.17.30:617][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080 SUPER' (P:0 D:0)
+[2023.06.19-20.17.30:617][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2023.06.19-20.17.30:617][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080 SUPER
+[2023.06.19-20.17.30:617][  0]LogD3D11RHI:   Driver Version: 535.98 (internal:31.0.15.3598, unified:535.98)
+[2023.06.19-20.17.30:617][  0]LogD3D11RHI:      Driver Date: 5-24-2023
+[2023.06.19-20.17.30:617][  0]LogRHI: Texture pool is 5600 MB (70% of 8001 MB)
+[2023.06.19-20.17.30:679][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2023.06.19-20.17.30:680][  0]LogD3D11RHI: Async texture creation enabled
+[2023.06.19-20.17.30:681][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061081).
+[2023.06.19-20.17.30:707][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2023.06.19-20.17.30:970][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2023.06.19-20.17.30:993][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2023.06.19-20.17.30:993][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2023.06.19-20.17.30:993][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2023.06.19-20.17.30:993][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2023.06.19-20.17.30:993][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2023.06.19-20.17.30:993][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2023.06.19-20.17.30:993][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2023.06.19-20.17.30:993][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2023.06.19-20.17.30:993][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2023.06.19-20.17.30:993][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2023.06.19-20.17.30:993][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2023.06.19-20.17.30:993][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2023.06.19-20.17.30:993][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2023.06.19-20.17.30:993][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2023.06.19-20.17.30:993][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2023.06.19-20.17.30:993][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2023.06.19-20.17.30:993][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2023.06.19-20.17.30:993][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2023.06.19-20.17.31:007][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2023.06.19-20.17.31:007][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2023.06.19-20.17.31:012][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2023.06.19-20.17.31:018][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2023.06.19-20.17.31:023][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2023.06.19-20.17.31:028][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2023.06.19-20.17.31:033][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2023.06.19-20.17.31:039][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2023.06.19-20.17.31:060][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2023.06.19-20.17.31:060][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2023.06.19-20.17.31:072][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2023.06.19-20.17.31:072][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2023.06.19-20.17.31:079][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2023.06.19-20.17.31:087][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2023.06.19-20.17.31:094][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2023.06.19-20.17.31:100][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2023.06.19-20.17.31:100][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2023.06.19-20.17.31:102][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2023.06.19-20.17.31:122][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/201911183/Desktop/unreal/0620/0511/RossiNante/Intermediate/Shaders/WorkingDirectory/32424/).
+[2023.06.19-20.17.31:123][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/201911183/AppData/Local/Temp/UnrealShaderWorkingDir/7E1A24D34866024B8665D389BA40E81B/'.
+[2023.06.19-20.17.31:123][  0]LogXGEController: Cleaning working directory: C:/Users/201911183/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2023.06.19-20.17.31:123][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2023.06.19-20.17.31:123][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2023.06.19-20.17.31:123][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2023.06.19-20.17.31:611][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2023.06.19-20.17.31:644][  0]LogDerivedDataCache: Loaded boot cache 0.03s 81MB C:/Users/201911183/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2023.06.19-20.17.31:644][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/201911183/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2023.06.19-20.17.31:644][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/201911183/Desktop/unreal/0620/0511/RossiNante/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.06.19-20.17.31:644][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2023.06.19-20.17.31:644][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/201911183/Desktop/unreal/0620/0511/RossiNante/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.06.19-20.17.31:644][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2023.06.19-20.17.31:652][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2023.06.19-20.17.31:652][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.06.19-20.17.31:652][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2023.06.19-20.17.31:653][  0]LogDerivedDataCache: Using Local data cache path C:/Users/201911183/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.06.19-20.17.31:653][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2023.06.19-20.17.31:653][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2023.06.19-20.17.31:669][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2023.06.19-20.17.31:671][  0]LogSlate: Using FreeType 2.10.0
+[2023.06.19-20.17.31:672][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.06.19-20.17.31:714][  0]LogAssetRegistry: FAssetRegistry took 0.0021 seconds to start up
+[2023.06.19-20.17.31:916][  0]LogInit: Selected Device Profile: [Windows]
+[2023.06.19-20.17.32:017][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.06.19-20.17.32:017][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2023.06.19-20.17.32:017][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2023.06.19-20.17.32:017][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2023.06.19-20.17.32:017][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2023.06.19-20.17.32:026][  0]LogNetVersion: RossiNante 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 557242147)
+[2023.06.19-20.17.32:762][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.024191 seconds
+[2023.06.19-20.17.32:766][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2023.06.19-20.17.32:766][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2023.06.19-20.17.32:766][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.06.19-20.17.33:026][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.06.19-20.17.33:027][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.06.19-20.17.33:297][  0]SourceControl: Source control is disabled
+[2023.06.19-20.17.33:297][  0]SourceControl: Source control is disabled
+[2023.06.19-20.17.33:298][  0]SourceControl: Source control is disabled
+[2023.06.19-20.17.33:299][  0]SourceControl: Source control is disabled
+[2023.06.19-20.17.33:300][  0]SourceControl: Source control is disabled
+[2023.06.19-20.17.33:361][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.06.19-20.17.33:368][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.06.19-20.17.33:368][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.06.19-20.17.33:425][  0]LogOcInput: OculusInput pre-init called
+[2023.06.19-20.17.33:431][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2023.06.19-20.17.33:431][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2023.06.19-20.17.33:478][  0]LogEngine: Initializing Engine...
+[2023.06.19-20.17.33:479][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.06.19-20.17.33:480][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2023.06.19-20.17.33:681][  0]LogInit: Initializing FReadOnlyCVARCache
+[2023.06.19-20.17.33:686][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.06.19-20.17.33:693][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.19-20.17.33:693][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.19-20.17.33:693][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.19-20.17.33:693][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.19-20.17.33:693][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.06.19-20.17.33:693][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.06.19-20.17.33:693][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.06.19-20.17.33:693][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.19-20.17.33:694][  0]LogAudio: Display: Using built-in audio occlusion.
+[2023.06.19-20.17.33:694][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2023.06.19-20.17.33:715][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2023.06.19-20.17.33:715][  0]LogAudioMixer: Display: Name: BenQ EX2710S(NVIDIA High Definition Audio)
+[2023.06.19-20.17.33:715][  0]LogAudioMixer: Display: Is Default: Yes
+[2023.06.19-20.17.33:715][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2023.06.19-20.17.33:715][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2023.06.19-20.17.33:715][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2023.06.19-20.17.33:715][  0]LogAudioMixer: Display: Channel Order:
+[2023.06.19-20.17.33:715][  0]LogAudioMixer: Display: 0: FrontLeft
+[2023.06.19-20.17.33:715][  0]LogAudioMixer: Display: 1: FrontRight
+[2023.06.19-20.17.33:728][  0]LogAudioMixer: Display: Using Audio Device BenQ EX2710S(NVIDIA High Definition Audio)
+[2023.06.19-20.17.33:731][  0]LogInit: FAudioDevice initialized.
+[2023.06.19-20.17.33:731][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2023.06.19-20.17.33:826][  0]LogDerivedDataCache: Saved boot cache 0.10s 81MB C:/Users/201911183/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2023.06.19-20.17.33:828][  0]LogInit: Texture streaming: Enabled
+[2023.06.19-20.17.33:838][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2023.06.19-20.17.33:838][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2023.06.19-20.17.33:847][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2023.06.19-20.17.33:881][  0]LogInit: Transaction tracking system initialized
+[2023.06.19-20.17.33:889][  0]BlueprintLog: New page: Editor Load
+[2023.06.19-20.17.33:910][  0]LocalizationService: Localization service is disabled
+[2023.06.19-20.17.34:710][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2023.06.19-20.17.34:711][  0]LogCook: Display: Mobile HDR setting 1
+[2023.06.19-20.17.34:772][  0]LogFileCache: Scanning file cache for directory 'C:/Users/201911183/Desktop/unreal/0620/0511/RossiNante/Content/' took 0.05s
+[2023.06.19-20.17.35:269][  0]SourceControl: Source control is disabled
+[2023.06.19-20.17.35:269][  0]Cmd: MAP LOAD FILE="../../../../../../Users/201911183/Desktop/unreal/0620/0511/RossiNante/Content/Maps/Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.06.19-20.17.35:269][  0]LightingResults: New page: Lighting Build
+[2023.06.19-20.17.35:270][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.06.19-20.17.35:270][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-20.17.35:270][  0]MapCheck: New page: Map Check
+[2023.06.19-20.17.35:270][  0]LightingResults: New page: Lighting Build
+[2023.06.19-20.17.35:295][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.06.19-20.17.35:775][  0]LogLinker: Error: HOTRELOADED_MyCharacterEnemy_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Users/201911183/Desktop/unreal/0620/0511/RossiNante/Content/Blueprints/Boss/AI/Task/BTT_Jump.uasset)
+[2023.06.19-20.17.35:775][  0]LogLinker: Error: HOTRELOADED_MyCharacterEnemy_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Users/201911183/Desktop/unreal/0620/0511/RossiNante/Content/Blueprints/Boss/AI/Task/BTT_Jump.uasset)
+[2023.06.19-20.17.35:776][  0]LogLinker: Error: HOTRELOADED_MyCharacterEnemy_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Users/201911183/Desktop/unreal/0620/0511/RossiNante/Content/Blueprints/Boss/AI/Task/BTT_Jump.uasset)
+[2023.06.19-20.17.35:776][  0]LogLinker: Error: HOTRELOADED_MyCharacterEnemy_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Users/201911183/Desktop/unreal/0620/0511/RossiNante/Content/Blueprints/Boss/AI/Task/BTT_Jump.uasset)
+[2023.06.19-20.17.36:117][  0]LogBlueprint: Warning: [Compiler BP_Character] MyCharacter.Stat is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get Stat
+[2023.06.19-20.17.37:249][  0]LogAIModule: Creating AISystem for world Default
+[2023.06.19-20.17.37:254][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.06.19-20.17.37:283][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2023.06.19-20.17.37:285][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.06.19-20.17.37:286][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.487ms to complete.
+[2023.06.19-20.17.37:286][  0]LogFileHelpers: Loading map 'Default' took 2.017
+[2023.06.19-20.17.37:462][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-20.17.37:466][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-20.17.37:470][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-20.17.37:475][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-20.17.37:483][  0]LogCollectionManager: Loaded 0 collections in 0.001383 seconds
+[2023.06.19-20.17.37:495][  0]LogFileCache: Scanning file cache for directory 'C:/Users/201911183/Desktop/unreal/0620/0511/RossiNante/Saved/Collections/' took 0.00s
+[2023.06.19-20.17.37:495][  0]LogFileCache: Scanning file cache for directory 'C:/Users/201911183/Desktop/unreal/0620/0511/RossiNante/Content/Developers/201911183/Collections/' took 0.00s
+[2023.06.19-20.17.37:495][  0]LogFileCache: Scanning file cache for directory 'C:/Users/201911183/Desktop/unreal/0620/0511/RossiNante/Content/Collections/' took 0.00s
+[2023.06.19-20.17.37:495][  0]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 3030 classes and 719 folders.
+[2023.06.19-20.17.37:497][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2023.06.19-20.17.37:548][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2023.06.19-20.17.37:553][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 3 folders.
+[2023.06.19-20.17.37:606][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2023.06.19-20.17.37:606][  0]LogLoad: (Engine Initialization) Total time: 8.81 seconds
+[2023.06.19-20.17.37:606][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.06.19-20.17.37:767][  0]LogContentStreaming: Texture pool size now 600 MB
+[2023.06.19-20.17.37:769][  0]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.06.19-20.17.37:770][  0]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.06.19-20.17.37:773][  0]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.06.19-20.17.37:838][  0]LogRenderer: Reallocating scene render targets to support 696x420 Format 9 NumSamples 1 (Frame:1).
+[2023.06.19-20.17.37:838][  0]LogSlate: Took 0.000754 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.06.19-20.17.37:858][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/201911183/Desktop/unreal/0620/0511/RossiNante/Content/' took 0.14s
+[2023.06.19-20.17.37:880][  1]LogAssetRegistry: Asset discovery search completed in 6.1670 seconds
+[2023.06.19-20.17.37:884][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000007 seconds (updated 0 objects)
+[2023.06.19-20.17.45:209][ 89]LogRenderer: Reallocating scene render targets to support 1200x592 Format 9 NumSamples 1 (Frame:78).
+[2023.06.19-20.18.12:792][672]LogSlate: Took 0.000376 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.06.19-20.18.12:831][672]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/RossiNante.PlayMenuWidget
+[2023.06.19-20.20.51:072][486]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10025600-1-1-1-1-1 wave loginBGM...
+[2023.06.19-20.20.51:082][486]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sounds/BGM/loginBGM.loginBGM will be modified from 40 to 40.
+[2023.06.19-20.20.51:672][486]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 9683712 while cooking SoundWave /Game/Sounds/BGM/loginBGM.loginBGM.
+[2023.06.19-20.20.51:683][486]LogAIModule: Creating AISystem for world Login
+[2023.06.19-20.20.51:686][486]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Login.Login
+[2023.06.19-20.20.51:714][486]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2023.06.19-20.20.51:720][486]Cmd: MAP LOAD FILE="../../../../../../Users/201911183/Desktop/unreal/0620/0511/RossiNante/Content/Maps/Login.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.06.19-20.20.51:720][486]LightingResults: New page: Lighting Build
+[2023.06.19-20.20.51:720][486]LoadErrors: New page: Loading map: Login.umap
+[2023.06.19-20.20.51:723][486]LogWorld: UWorld::CleanupWorld for Default, bSessionEnded=true, bCleanupResources=true
+[2023.06.19-20.20.51:724][486]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-20.20.51:724][486]MapCheck: New page: Map Check
+[2023.06.19-20.20.51:724][486]LightingResults: New page: Lighting Build
+[2023.06.19-20.20.51:754][486]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.06.19-20.20.51:759][486]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.06.19-20.20.51:784][486]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.06.19-20.20.51:801][486]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.06.19-20.20.51:801][486]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.141ms to complete.
+[2023.06.19-20.20.51:801][486]LogFileHelpers: Loading map 'Login' took 0.086
+[2023.06.19-20.20.56:118][679]LogTemp: Repeating last play command: Selected Viewport
+[2023.06.19-20.20.56:130][679]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Login.Login:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Login.Login:PersistentLevel.Login' with GeneratedClass '/Game/Maps/Login.Login_C' with ClassGeneratedBy '/Game/Maps/Login.Login:PersistentLevel.Login'
+[2023.06.19-20.20.56:132][679]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.19-20.20.56:133][679]PIE: New page: PIE session: Login (2023. 6. 20. 오후 2:20:56)
+[2023.06.19-20.20.56:137][679]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2023.06.19-20.20.56:138][679]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.06.19-20.20.56:139][679]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Login
+[2023.06.19-20.20.56:142][679]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002407s)
+[2023.06.19-20.20.56:143][679]LogAIModule: Creating AISystem for world Login
+[2023.06.19-20.20.56:143][679]LogPlayLevel: PIE: World Init took: (0.001642s)
+[2023.06.19-20.20.56:143][679]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Login.Login to /Game/Maps/UEDPIE_0_Login.Login (0.004501s)
+[2023.06.19-20.20.56:168][679]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2023.06.19-20.20.56:170][679]LogTemp: Warning: C2S
+
+[2023.06.19-20.20.56:176][679]LogTemp: Warning: CONNECT SUCCESS
+
+[2023.06.19-20.20.56:176][679]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.19-20.20.56:176][679]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.19-20.20.56:176][679]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.19-20.20.56:176][679]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.19-20.20.56:176][679]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.06.19-20.20.56:176][679]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.06.19-20.20.56:176][679]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.06.19-20.20.56:176][679]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.19-20.20.56:176][679]LogAudio: Display: Using built-in audio occlusion.
+[2023.06.19-20.20.56:176][679]LogAudioMixer: Display: Initializing audio mixer.
+[2023.06.19-20.20.56:196][679]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2023.06.19-20.20.56:196][679]LogAudioMixer: Display: Name: BenQ EX2710S(NVIDIA High Definition Audio)
+[2023.06.19-20.20.56:196][679]LogAudioMixer: Display: Is Default: Yes
+[2023.06.19-20.20.56:196][679]LogAudioMixer: Display: Sample Rate: 48000
+[2023.06.19-20.20.56:196][679]LogAudioMixer: Display: Channel Count Used: 2
+[2023.06.19-20.20.56:196][679]LogAudioMixer: Display: Device Channel Count: 2
+[2023.06.19-20.20.56:196][679]LogAudioMixer: Display: Channel Order:
+[2023.06.19-20.20.56:196][679]LogAudioMixer: Display: 0: FrontLeft
+[2023.06.19-20.20.56:196][679]LogAudioMixer: Display: 1: FrontRight
+[2023.06.19-20.20.56:212][679]LogAudioMixer: Display: Using Audio Device BenQ EX2710S(NVIDIA High Definition Audio)
+[2023.06.19-20.20.56:213][679]LogInit: FAudioDevice initialized.
+[2023.06.19-20.20.56:225][679]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.06.19-20.20.56:231][679]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Login.Login up for play (max tick rate 0) at 2023.06.20-05.20.56
+[2023.06.19-20.20.56:232][679]LogWorld: Bringing up level for play took: 0.001854
+[2023.06.19-20.20.56:233][679]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2023.06.19-20.20.56:246][679]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2023.06.19-20.20.56:271][679]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Login 0.951
+[2023.06.19-20.20.56:272][679]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Login.Login:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Login.Login:PersistentLevel.Login' with GeneratedClass '/Game/Maps/Login.Login_C' with ClassGeneratedBy '/Game/Maps/Login.Login:PersistentLevel.Login'
+[2023.06.19-20.20.59:472][ 42]LogTemp: Warning: level:2, exp:30, statpoint:34
+
+[2023.06.19-20.21.01:514][283]LogTemp: Warning: Upgrade Success!
+
+[2023.06.19-20.21.03:311][497]LogTemp: Warning: Upgrade Success!
+
+[2023.06.19-20.21.05:484][758]LogOutputDevice: Warning: 
+
+Script Stack (1 frames):
+MenuWidget.OnPlayMenuButtonClicked
+
+[2023.06.19-20.21.06:084][758]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.600 s
+[2023.06.19-20.21.06:084][758]LogOutputDevice: Error: === Handled ensure: ===
+[2023.06.19-20.21.06:084][758]LogOutputDevice: Error: 
+[2023.06.19-20.21.06:084][758]LogOutputDevice: Error: Ensure condition failed: InvocationList[ CurFunctionIndex ] != InDelegate [File:C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\UObject/ScriptDelegates.h] [Line: 556]
+[2023.06.19-20.21.06:084][758]LogOutputDevice: Error: 
+[2023.06.19-20.21.06:084][758]LogOutputDevice: Error: Stack: 
+[2023.06.19-20.21.06:084][758]LogOutputDevice: Error: [Callstack] 0x00007ffb9b881249 UE4Editor-RossiNante.dll!<lambda_90bcbc214ed092f6c6e654978b0f8551>::operator()() [C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\UObject\ScriptDelegates.h:556]
+[2023.06.19-20.21.06:084][758]LogOutputDevice: Error: [Callstack] 0x00007ffb9b864c65 UE4Editor-RossiNante.dll!TMulticastScriptDelegate<FWeakObjectPtr>::Add() [C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\UObject\ScriptDelegates.h:327]
+[2023.06.19-20.21.06:084][758]LogOutputDevice: Error: [Callstack] 0x00007ffb9b874d23 UE4Editor-RossiNante.dll!UPlayMenuWidget::NativeConstruct() [C:\Users\201911183\Desktop\unreal\0620\0511\RossiNante\Source\RossiNante\PlayMenuWidget.cpp:23]
+[2023.06.19-20.21.06:084][758]LogOutputDevice: Error: [Callstack] 0x00007ffc0589dffb UE4Editor-UMG.dll!UnknownFunction []
+[2023.06.19-20.21.06:084][758]LogOutputDevice: Error: [Callstack] 0x00007ffc0589d57d UE4Editor-UMG.dll!UnknownFunction []
+[2023.06.19-20.21.06:084][758]LogOutputDevice: Error: [Callstack] 0x00007ffc057dde1c UE4Editor-UMG.dll!UnknownFunction []
+[2023.06.19-20.21.06:084][758]LogOutputDevice: Error: [Callstack] 0x00007ffc0c6642e8 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2023.06.19-20.21.06:084][758]LogOutputDevice: Error: [Callstack] 0x00007ffc0c8b0148 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2023.06.19-20.21.06:084][758]LogOutputDevice: Error: [Callstack] 0x00007ffc0577e7d0 UE4Editor-UMG.dll!UnknownFunction []
+[2023.06.19-20.21.06:084][758]LogOutputDevice: Error: [Callstack] 0x00007ffc05890fa7 UE4Editor-UMG.dll!UnknownFunction []
+[2023.06.19-20.21.06:084][758]LogOutputDevice: Error: [Callstack] 0x00007ffc0580d5d0 UE4Editor-UMG.dll!UnknownFunction []
+[2023.06.19-20.21.06:084][758]LogOutputDevice: Error: [Callstack] 0x00007ffc08581498 UE4Editor-Slate.dll!UnknownFunction []
+[2023.06.19-20.21.06:084][758]LogOutputDevice: Error: [Callstack] 0x00007ffc08599281 UE4Editor-Slate.dll!UnknownFunction []
+[2023.06.19-20.21.06:084][758]LogOutputDevice: Error: [Callstack] 0x00007ffc083f323f UE4Editor-Slate.dll!UnknownFunction []
+[2023.06.19-20.21.06:084][758]LogOutputDevice: Error: [Callstack] 0x00007ffc08479175 UE4Editor-Slate.dll!UnknownFunction []
+[2023.06.19-20.21.06:084][758]LogOutputDevice: Error: [Callstack] 0x00007ffc0846413e UE4Editor-Slate.dll!UnknownFunction []
+[2023.06.19-20.21.06:084][758]LogOutputDevice: Error: [Callstack] 0x00007ffc08458f67 UE4Editor-Slate.dll!UnknownFunction []
+[2023.06.19-20.21.06:084][758]LogOutputDevice: Error: [Callstack] 0x00007ffc339c4ca1 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2023.06.19-20.21.06:084][758]LogOutputDevice: Error: [Callstack] 0x00007ffc339b242f UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2023.06.19-20.21.06:084][758]LogOutputDevice: Error: [Callstack] 0x00007ffc339c7195 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2023.06.19-20.21.06:084][758]LogOutputDevice: Error: [Callstack] 0x00007ffc339aec40 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2023.06.19-20.21.06:085][758]LogOutputDevice: Error: [Callstack] 0x00007ffc57121cac USER32.dll!UnknownFunction []
+[2023.06.19-20.21.06:085][758]LogOutputDevice: Error: [Callstack] 0x00007ffc57120f06 USER32.dll!UnknownFunction []
+[2023.06.19-20.21.06:085][758]LogOutputDevice: Error: [Callstack] 0x00007ffc339c8699 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2023.06.19-20.21.06:085][758]LogOutputDevice: Error: [Callstack] 0x00007ff7a6de6db0 UE4Editor.exe!UnknownFunction []
+[2023.06.19-20.21.06:085][758]LogOutputDevice: Error: [Callstack] 0x00007ff7a6dfc3ec UE4Editor.exe!UnknownFunction []
+[2023.06.19-20.21.06:085][758]LogOutputDevice: Error: [Callstack] 0x00007ff7a6dfc4ca UE4Editor.exe!UnknownFunction []
+[2023.06.19-20.21.06:085][758]LogOutputDevice: Error: [Callstack] 0x00007ff7a6e0ceae UE4Editor.exe!UnknownFunction []
+[2023.06.19-20.21.06:085][758]LogOutputDevice: Error: [Callstack] 0x00007ff7a6e0fcbe UE4Editor.exe!UnknownFunction []
+[2023.06.19-20.21.06:085][758]LogOutputDevice: Error: [Callstack] 0x00007ffc57be55a0 KERNEL32.DLL!UnknownFunction []
+[2023.06.19-20.21.06:085][758]LogOutputDevice: Error: [Callstack] 0x00007ffc58b2485b ntdll.dll!UnknownFunction []
+[2023.06.19-20.21.06:085][758]LogOutputDevice: Error: 
+[2023.06.19-20.21.06:095][758]LogStats:                SubmitErrorReport -  0.000 s
+[2023.06.19-20.21.07:588][758]LogStats:                    SendNewReport -  1.493 s
+[2023.06.19-20.21.07:588][758]LogStats:             FDebug::EnsureFailed -  2.104 s
+[2023.06.19-20.21.07:590][758]LogTemp: Resetting audio stream to device id 
+[2023.06.19-20.21.07:610][758]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2023.06.19-20.21.07:610][758]LogAudioMixer: Display: Name: BenQ EX2710S(NVIDIA High Definition Audio)
+[2023.06.19-20.21.07:610][758]LogAudioMixer: Display: Is Default: Yes
+[2023.06.19-20.21.07:610][758]LogAudioMixer: Display: Sample Rate: 48000
+[2023.06.19-20.21.07:610][758]LogAudioMixer: Display: Channel Count Used: 2
+[2023.06.19-20.21.07:610][758]LogAudioMixer: Display: Device Channel Count: 2
+[2023.06.19-20.21.07:610][758]LogAudioMixer: Display: Channel Order:
+[2023.06.19-20.21.07:610][758]LogAudioMixer: Display: 0: FrontLeft
+[2023.06.19-20.21.07:610][758]LogAudioMixer: Display: 1: FrontRight
+[2023.06.19-20.21.07:620][758]LogTemp: Resetting audio stream to device id 
+[2023.06.19-20.21.07:636][758]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2023.06.19-20.21.07:636][758]LogAudioMixer: Display: Name: BenQ EX2710S(NVIDIA High Definition Audio)
+[2023.06.19-20.21.07:636][758]LogAudioMixer: Display: Is Default: Yes
+[2023.06.19-20.21.07:636][758]LogAudioMixer: Display: Sample Rate: 48000
+[2023.06.19-20.21.07:636][758]LogAudioMixer: Display: Channel Count Used: 2
+[2023.06.19-20.21.07:636][758]LogAudioMixer: Display: Device Channel Count: 2
+[2023.06.19-20.21.07:636][758]LogAudioMixer: Display: Channel Order:
+[2023.06.19-20.21.07:636][758]LogAudioMixer: Display: 0: FrontLeft
+[2023.06.19-20.21.07:636][758]LogAudioMixer: Display: 1: FrontRight
+[2023.06.19-20.21.16:143][778]LogNet: Browse: /Game/Maps/1F_Hall
+[2023.06.19-20.21.16:144][778]LogLoad: LoadMap: /Game/Maps/1F_Hall
+[2023.06.19-20.21.16:144][778]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Login
+[2023.06.19-20.21.16:150][778]LogWorld: UWorld::CleanupWorld for Login, bSessionEnded=true, bCleanupResources=true
+[2023.06.19-20.21.16:150][778]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-20.21.16:158][778]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2023.06.19-20.21.16:178][778]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2023.06.19-20.21.16:206][778]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.06.19-20.21.16:656][778]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10025600-1-1-1-1-1 wave hallBGM...
+[2023.06.19-20.21.16:667][778]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sounds/BGM/hallBGM.hallBGM will be modified from 40 to 40.
+[2023.06.19-20.21.17:755][778]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 14680064 while cooking SoundWave /Game/Sounds/BGM/hallBGM.hallBGM.
+[2023.06.19-20.21.17:890][778]LogAIModule: Creating AISystem for world 1F_Hall
+[2023.06.19-20.21.17:890][778]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.06.19-20.21.17:901][778]LogWorld: Bringing World /Game/Maps/UEDPIE_0_1F_Hall.1F_Hall up for play (max tick rate 0) at 2023.06.20-05.21.17
+[2023.06.19-20.21.17:901][778]LogWorld: Bringing up level for play took: 0.010136
+[2023.06.19-20.21.17:911][778]LogLoad: Took 1.766507 seconds to LoadMap(/Game/Maps/1F_Hall)
+[2023.06.19-20.21.26:231][772]LogNet: Browse: /Game/Maps/1F_Normal_2
+[2023.06.19-20.21.26:232][772]LogLoad: LoadMap: /Game/Maps/1F_Normal_2
+[2023.06.19-20.21.26:232][772]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_1F_Hall
+[2023.06.19-20.21.26:232][772]LogWorld: UWorld::CleanupWorld for 1F_Hall, bSessionEnded=true, bCleanupResources=true
+[2023.06.19-20.21.26:232][772]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-20.21.26:248][772]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2023.06.19-20.21.26:268][772]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2023.06.19-20.21.26:295][772]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2023.06.19-20.21.26:349][772]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10025600-1-1-1-1-1 wave monsterRoomBGM...
+[2023.06.19-20.21.26:367][772]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sounds/BGM/monsterRoomBGM.monsterRoomBGM will be modified from 40 to 40.
+[2023.06.19-20.21.27:901][772]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 26247168 while cooking SoundWave /Game/Sounds/BGM/monsterRoomBGM.monsterRoomBGM.
+[2023.06.19-20.21.27:905][772]LogAIModule: Creating AISystem for world 1F_Normal_2
+[2023.06.19-20.21.27:905][772]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.06.19-20.21.27:915][772]LogWorld: Bringing World /Game/Maps/UEDPIE_0_1F_Normal_2.1F_Normal_2 up for play (max tick rate 0) at 2023.06.20-05.21.27
+[2023.06.19-20.21.27:917][772]LogWorld: Bringing up level for play took: 0.011640
+[2023.06.19-20.21.27:923][772]LogLoad: Took 1.691744 seconds to LoadMap(/Game/Maps/1F_Normal_2)
+[2023.06.19-20.21.29:377][945]LogTemp: Warning: Attack Damage: 4
+[2023.06.19-20.21.29:578][969]LogTemp: Warning: broadCast Attack
+[2023.06.19-20.21.29:580][969]LogTemp: Hit Actor : DefaultMonsterBP2_5
+[2023.06.19-20.21.29:580][969]LogBlueprintUserMessages: [DefaultMonsterBP2_5] Hit
+[2023.06.19-20.21.29:581][969]LogBlueprintUserMessages: [DefaultMonsterBP2_5] 1.0
+[2023.06.19-20.21.29:582][969]LogBlueprintUserMessages: [BP_Character_C_0] 0
+[2023.06.19-20.21.30:871][123]LogTemp: Warning: Attack Damage: 4
+[2023.06.19-20.21.31:120][153]LogTemp: Warning: broadCast Attack
+[2023.06.19-20.21.31:120][153]LogTemp: Hit Actor : DefaultMonsterBP_14
+[2023.06.19-20.21.31:120][153]LogBlueprintUserMessages: [DefaultMonsterBP_14] Hit
+[2023.06.19-20.21.31:120][153]LogBlueprintUserMessages: [DefaultMonsterBP_14] 1.0
+[2023.06.19-20.21.31:121][153]LogBlueprintUserMessages: [BP_Character_C_0] 50
+[2023.06.19-20.21.32:475][315]LogTemp: Warning: broadCast Tumble
+[2023.06.19-20.21.32:475][315]LogTemp: Warning: Tumble End: 0
+[2023.06.19-20.21.32:650][336]LogTemp: Warning: Attack Damage: 4
+[2023.06.19-20.21.32:850][360]LogTemp: Warning: broadCast Attack
+[2023.06.19-20.21.32:850][360]LogTemp: Hit Actor : DefaultMonsterBP_14
+[2023.06.19-20.21.32:850][360]LogBlueprintUserMessages: [DefaultMonsterBP_14] Hit
+[2023.06.19-20.21.32:850][360]LogBlueprintUserMessages: [DefaultMonsterBP_14] -18.0
+[2023.06.19-20.21.32:850][360]LogDataTable: Warning: UDataTable::FindRow : '' requested row '3' not in DataTable '/Game/Data/StatTable.StatTable'.
+[2023.06.19-20.21.32:850][360]LogBlueprintUserMessages: [BP_Character_C_0] 200
+[2023.06.19-20.21.34:065][505]LogTemp: Warning: Attack Damage: 4
+[2023.06.19-20.21.34:314][535]LogTemp: Warning: broadCast Attack
+[2023.06.19-20.21.34:314][535]LogTemp: Hit Actor : DefaultMonsterBP4_11
+[2023.06.19-20.21.34:314][535]LogBlueprintUserMessages: [DefaultMonsterBP4_11] Hit
+[2023.06.19-20.21.34:314][535]LogBlueprintUserMessages: [DefaultMonsterBP4_11] 1.0
+[2023.06.19-20.21.34:314][535]LogBlueprintUserMessages: [BP_Character_C_0] -200
+[2023.06.19-20.21.36:115][751]LogTemp: Warning: Attack Damage: 4
+[2023.06.19-20.21.36:315][775]LogTemp: Warning: broadCast Attack
+[2023.06.19-20.21.36:315][775]LogTemp: Hit Actor : DefaultMonsterBP3_8
+[2023.06.19-20.21.36:315][775]LogBlueprintUserMessages: [DefaultMonsterBP3_8] Hit
+[2023.06.19-20.21.36:315][775]LogBlueprintUserMessages: [DefaultMonsterBP3_8] 1.0
+[2023.06.19-20.21.36:315][775]LogBlueprintUserMessages: [BP_Character_C_0] -350
+[2023.06.19-20.21.37:681][939]LogTemp: Warning: Attack Damage: 4
+[2023.06.19-20.21.37:933][969]LogTemp: Warning: broadCast Attack
+[2023.06.19-20.21.37:933][969]LogTemp: Hit Actor : DefaultMonsterBP2_5
+[2023.06.19-20.21.37:933][969]LogTemp: Warning: ERR! send Socket(Maybe connection has failed)
+
+[2023.06.19-20.21.37:933][969]LogBlueprintUserMessages: [DefaultMonsterBP2_5] Hit
+[2023.06.19-20.21.37:933][969]LogBlueprintUserMessages: [DefaultMonsterBP2_5] -18.0
+[2023.06.19-20.21.37:933][969]LogTemp: Warning: ERR! send Socket(Maybe connection has failed)
+
+[2023.06.19-20.21.37:933][969]LogBlueprintUserMessages: [BP_Character_C_0] -600
+[2023.06.19-20.21.39:349][139]LogTemp: Warning: Attack Damage: 4
+[2023.06.19-20.21.39:549][163]LogTemp: Warning: broadCast Attack
+[2023.06.19-20.21.39:549][163]LogTemp: Hit Actor : DefaultMonsterBP4_11
+[2023.06.19-20.21.39:549][163]LogTemp: Warning: ERR! send Socket(Maybe connection has failed)
+
+[2023.06.19-20.21.39:549][163]LogBlueprintUserMessages: [DefaultMonsterBP4_11] Hit
+[2023.06.19-20.21.39:549][163]LogBlueprintUserMessages: [DefaultMonsterBP4_11] -18.0
+[2023.06.19-20.21.39:549][163]LogTemp: Warning: ERR! send Socket(Maybe connection has failed)
+
+[2023.06.19-20.21.39:550][163]LogBlueprintUserMessages: [BP_Character_C_0] -1100
+[2023.06.19-20.21.40:958][332]LogTemp: Warning: Attack Damage: 4
+[2023.06.19-20.21.41:207][362]LogTemp: Warning: broadCast Attack
+[2023.06.19-20.21.41:208][362]LogTemp: Hit Actor : DefaultMonsterBP3_8
+[2023.06.19-20.21.41:208][362]LogTemp: Warning: ERR! send Socket(Maybe connection has failed)
+
+[2023.06.19-20.21.41:208][362]LogBlueprintUserMessages: [DefaultMonsterBP3_8] Hit
+[2023.06.19-20.21.41:208][362]LogBlueprintUserMessages: [DefaultMonsterBP3_8] -18.0
+[2023.06.19-20.21.41:208][362]LogTemp: Warning: ERR! send Socket(Maybe connection has failed)
+
+[2023.06.19-20.21.41:208][362]LogBlueprintUserMessages: [BP_Character_C_0] -2100
+[2023.06.19-20.21.43:157][596]LogNet: Browse: /Game/Maps/1F_Hall
+[2023.06.19-20.21.43:157][596]LogLoad: LoadMap: /Game/Maps/1F_Hall
+[2023.06.19-20.21.43:157][596]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_1F_Normal_2
+[2023.06.19-20.21.43:158][596]LogWorld: UWorld::CleanupWorld for 1F_Normal_2, bSessionEnded=true, bCleanupResources=true
+[2023.06.19-20.21.43:158][596]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-20.21.43:159][596]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2023.06.19-20.21.43:189][596]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2023.06.19-20.21.43:222][596]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2023.06.19-20.21.43:233][596]LogAIModule: Creating AISystem for world 1F_Hall
+[2023.06.19-20.21.43:233][596]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.06.19-20.21.43:240][596]LogWorld: Bringing World /Game/Maps/UEDPIE_0_1F_Hall.1F_Hall up for play (max tick rate 0) at 2023.06.20-05.21.43
+[2023.06.19-20.21.43:240][596]LogWorld: Bringing up level for play took: 0.005988
+[2023.06.19-20.21.43:244][596]LogDataTable: Warning: UDataTable::FindRow : '' requested row '3' not in DataTable '/Game/Data/StatTable.StatTable'.
+[2023.06.19-20.21.43:244][596]LogLoad: Took 0.086523 seconds to LoadMap(/Game/Maps/1F_Hall)
+[2023.06.19-20.21.53:904][875]LogNet: Browse: /Game/Maps/1F_Normal
+[2023.06.19-20.21.53:904][875]LogLoad: LoadMap: /Game/Maps/1F_Normal
+[2023.06.19-20.21.53:904][875]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_1F_Hall
+[2023.06.19-20.21.53:905][875]LogWorld: UWorld::CleanupWorld for 1F_Hall, bSessionEnded=true, bCleanupResources=true
+[2023.06.19-20.21.53:905][875]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-20.21.53:919][875]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2023.06.19-20.21.53:939][875]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2023.06.19-20.21.53:964][875]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2023.06.19-20.21.53:980][875]LogAIModule: Creating AISystem for world 1F_Normal
+[2023.06.19-20.21.53:980][875]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.06.19-20.21.53:987][875]LogWorld: Bringing World /Game/Maps/UEDPIE_0_1F_Normal.1F_Normal up for play (max tick rate 0) at 2023.06.20-05.21.53
+[2023.06.19-20.21.53:988][875]LogWorld: Bringing up level for play took: 0.007903
+[2023.06.19-20.21.53:992][875]LogDataTable: Warning: UDataTable::FindRow : '' requested row '3' not in DataTable '/Game/Data/StatTable.StatTable'.
+[2023.06.19-20.21.53:992][875]LogLoad: Took 0.087917 seconds to LoadMap(/Game/Maps/1F_Normal)
+[2023.06.19-20.21.55:594][ 67]LogTemp: Warning: Attack Damage: 4
+[2023.06.19-20.21.55:794][ 91]LogTemp: Warning: broadCast Attack
+[2023.06.19-20.21.55:794][ 91]LogTemp: Hit Actor : DefaultMonsterBP2_5
+[2023.06.19-20.21.55:794][ 91]LogBlueprintUserMessages: [DefaultMonsterBP2_5] Hit
+[2023.06.19-20.21.55:794][ 91]LogBlueprintUserMessages: [DefaultMonsterBP2_5] 10.0
+[2023.06.19-20.21.55:794][ 91]LogTemp: Warning: ERR! send Socket(Maybe connection has failed)
+
+[2023.06.19-20.21.55:794][ 91]LogBlueprintUserMessages: [BP_Character_C_0] -12020
+[2023.06.19-20.21.56:785][210]LogTemp: Warning: Attack Damage: 4
+[2023.06.19-20.21.57:035][240]LogTemp: Warning: broadCast Attack
+[2023.06.19-20.21.57:035][240]LogTemp: Hit Actor : DefaultMonsterBP2_5
+[2023.06.19-20.21.57:035][240]LogTemp: Warning: ERR! send Socket(Maybe connection has failed)
+
+[2023.06.19-20.21.57:035][240]LogBlueprintUserMessages: [DefaultMonsterBP2_5] Hit
+[2023.06.19-20.21.57:035][240]LogBlueprintUserMessages: [DefaultMonsterBP2_5] 0.0
+[2023.06.19-20.21.57:035][240]LogTemp: Warning: ERR! send Socket(Maybe connection has failed)
+
+[2023.06.19-20.21.57:035][240]LogBlueprintUserMessages: [BP_Character_C_0] -23940
+[2023.06.19-20.21.58:242][382]LogTemp: Warning: Attack Damage: 4
+[2023.06.19-20.21.58:442][406]LogTemp: Warning: broadCast Attack
+[2023.06.19-20.21.58:442][406]LogTemp: Hit Actor : DefaultMonsterBP_2
+[2023.06.19-20.21.58:442][406]LogBlueprintUserMessages: [DefaultMonsterBP_2] Hit
+[2023.06.19-20.21.58:442][406]LogBlueprintUserMessages: [DefaultMonsterBP_2] 10.0
+[2023.06.19-20.21.58:442][406]LogTemp: Warning: ERR! send Socket(Maybe connection has failed)
+
+[2023.06.19-20.21.58:442][406]LogBlueprintUserMessages: [BP_Character_C_0] -47830
+[2023.06.19-20.21.59:734][561]LogTemp: Warning: Attack Damage: 4
+[2023.06.19-20.21.59:983][591]LogTemp: Warning: broadCast Attack
+[2023.06.19-20.21.59:983][591]LogTemp: Hit Actor : DefaultMonsterBP3_8
+[2023.06.19-20.21.59:983][591]LogBlueprintUserMessages: [DefaultMonsterBP3_8] Hit
+[2023.06.19-20.21.59:983][591]LogBlueprintUserMessages: [DefaultMonsterBP3_8] 10.0
+[2023.06.19-20.21.59:984][591]LogTemp: Warning: ERR! send Socket(Maybe connection has failed)
+
+[2023.06.19-20.21.59:984][591]LogBlueprintUserMessages: [BP_Character_C_0] -95610
+[2023.06.19-20.22.01:367][757]LogTemp: Warning: Attack Damage: 4
+[2023.06.19-20.22.01:567][781]LogTemp: Warning: broadCast Attack
+[2023.06.19-20.22.01:567][781]LogTemp: Hit Actor : DefaultMonsterBP3_8
+[2023.06.19-20.22.01:567][781]LogTemp: Warning: ERR! send Socket(Maybe connection has failed)
+
+[2023.06.19-20.22.01:567][781]LogBlueprintUserMessages: [DefaultMonsterBP3_8] Hit
+[2023.06.19-20.22.01:567][781]LogBlueprintUserMessages: [DefaultMonsterBP3_8] 0.0
+[2023.06.19-20.22.01:567][781]LogTemp: Warning: ERR! send Socket(Maybe connection has failed)
+
+[2023.06.19-20.22.01:567][781]LogBlueprintUserMessages: [BP_Character_C_0] -191120
+[2023.06.19-20.22.02:692][916]LogTemp: Warning: Attack Damage: 4
+[2023.06.19-20.22.02:942][946]LogTemp: Warning: broadCast Attack
+[2023.06.19-20.22.02:942][946]LogTemp: Hit Actor : DefaultMonsterBP_2
+[2023.06.19-20.22.02:942][946]LogTemp: Warning: ERR! send Socket(Maybe connection has failed)
+
+[2023.06.19-20.22.02:942][946]LogBlueprintUserMessages: [DefaultMonsterBP_2] Hit
+[2023.06.19-20.22.02:942][946]LogBlueprintUserMessages: [DefaultMonsterBP_2] 0.0
+[2023.06.19-20.22.02:942][946]LogTemp: Warning: ERR! send Socket(Maybe connection has failed)
+
+[2023.06.19-20.22.02:942][946]LogBlueprintUserMessages: [BP_Character_C_0] -382140
+[2023.06.19-20.22.05:900][301]LogNet: Browse: /Game/Maps/1F_Hall
+[2023.06.19-20.22.05:900][301]LogLoad: LoadMap: /Game/Maps/1F_Hall
+[2023.06.19-20.22.05:900][301]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_1F_Normal
+[2023.06.19-20.22.05:900][301]LogWorld: UWorld::CleanupWorld for 1F_Normal, bSessionEnded=true, bCleanupResources=true
+[2023.06.19-20.22.05:900][301]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-20.22.05:910][301]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2023.06.19-20.22.05:930][301]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2023.06.19-20.22.05:957][301]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2023.06.19-20.22.05:966][301]LogAIModule: Creating AISystem for world 1F_Hall
+[2023.06.19-20.22.05:967][301]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.06.19-20.22.05:972][301]LogWorld: Bringing World /Game/Maps/UEDPIE_0_1F_Hall.1F_Hall up for play (max tick rate 0) at 2023.06.20-05.22.05
+[2023.06.19-20.22.05:973][301]LogWorld: Bringing up level for play took: 0.005440
+[2023.06.19-20.22.05:976][301]LogDataTable: Warning: UDataTable::FindRow : '' requested row '3' not in DataTable '/Game/Data/StatTable.StatTable'.
+[2023.06.19-20.22.05:976][301]LogLoad: Took 0.076296 seconds to LoadMap(/Game/Maps/1F_Hall)
+[2023.06.19-20.22.18:115][355]LogTemp: Warning: Attack Damage: 4
+[2023.06.19-20.22.18:310][379]LogTemp: Warning: broadCast Attack
+[2023.06.19-20.22.35:510][157]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Boss/Monster/DefaultMonsterBP.DefaultMonsterBP
+[2023.06.19-20.22.35:679][157]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
+[2023.06.19-20.22.36:313][157]LogSlate: Took 0.000973 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.06.19-20.22.36:449][158]LogSlate: Took 0.003667 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2023.06.19-20.22.36:452][158]LogSlate: Took 0.000511 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.06.19-20.22.43:063][843]LogSlate: Took 0.000734 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NotoNaskhArabicUI-Regular.ttf' (144K)
+[2023.06.19-20.23.00:671][788]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.06.19-20.23.00:673][788]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2023.06.19-20.23.00:693][788]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2023.06.19-20.23.00:693][788]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Login.Login:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Login.Login:PersistentLevel.Login' with GeneratedClass '/Game/Maps/Login.Login_C' with ClassGeneratedBy '/Game/Maps/Login.Login:PersistentLevel.Login'
+[2023.06.19-20.23.00:695][788]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-20.23.00:695][788]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_1F_Hall
+[2023.06.19-20.23.00:695][788]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.06.19-20.23.00:695][788]LogWorld: UWorld::CleanupWorld for 1F_Hall, bSessionEnded=true, bCleanupResources=true
+[2023.06.19-20.23.00:695][788]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-20.23.00:701][788]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.19-20.23.00:701][788]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Login.Login:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Login.Login:PersistentLevel.Login' with GeneratedClass '/Game/Maps/Login.Login_C' with ClassGeneratedBy '/Game/Maps/Login.Login:PersistentLevel.Login'
+[2023.06.19-20.23.00:706][788]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-20.23.00:731][788]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.06.19-20.23.00:733][788]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-20.23.00:740][788]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2023.06.19-20.23.00:775][792]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2023.06.19-20.23.04:088][ 86]LogSavePackage: Moving '../../../../../../Users/201911183/Desktop/unreal/0620/0511/RossiNante/Saved/DefaultMonsterBP96B44CE14914C3FB2D5BEA82547F9207.tmp' to '../../../../../../Users/201911183/Desktop/unreal/0620/0511/RossiNante/Content/Blueprints/Boss/Monster/DefaultMonsterBP.uasset'
+[2023.06.19-20.23.04:119][ 86]AssetCheck: New page: Asset Save: DefaultMonsterBP
+[2023.06.19-20.23.04:119][ 86]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Boss/Monster/DefaultMonsterBP.DefaultMonsterBP
+[2023.06.19-20.23.09:582][579]LogAssetEditorSubsystem: Opening Asset editor for DataTable /Game/Data/StatTable.StatTable
+[2023.06.19-20.24.06:241][144]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Data/StatTable" FILE="../../../../../../Users/201911183/Desktop/unreal/0620/0511/RossiNante/Content/Data/StatTable.uasset" SILENT=true
+[2023.06.19-20.24.06:279][144]LogSavePackage: Moving '../../../../../../Users/201911183/Desktop/unreal/0620/0511/RossiNante/Saved/StatTable8F4F50EB4ABC35AA93C11285DA1D6C37.tmp' to '../../../../../../Users/201911183/Desktop/unreal/0620/0511/RossiNante/Content/Data/StatTable.uasset'
+[2023.06.19-20.24.06:312][144]AssetCheck: New page: Asset Save: StatTable
+[2023.06.19-20.24.06:312][144]LogContentValidation: Display: Validating DataTable /Game/Data/StatTable.StatTable
+[2023.06.19-20.24.07:029][189]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Data/StatTable" FILE="../../../../../../Users/201911183/Desktop/unreal/0620/0511/RossiNante/Content/Data/StatTable.uasset" SILENT=true
+[2023.06.19-20.24.07:065][189]LogSavePackage: Moving '../../../../../../Users/201911183/Desktop/unreal/0620/0511/RossiNante/Saved/StatTableF446F50047AD5DF6FF256CA86C6F58EE.tmp' to '../../../../../../Users/201911183/Desktop/unreal/0620/0511/RossiNante/Content/Data/StatTable.uasset'
+[2023.06.19-20.24.07:187][189]AssetCheck: New page: Asset Save: StatTable
+[2023.06.19-20.24.07:187][189]LogContentValidation: Display: Validating DataTable /Game/Data/StatTable.StatTable
+[2023.06.19-20.24.18:099][360]BlueprintLog: New page: Compile DefaultMonsterBP
+[2023.06.19-20.24.18:412][360]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2023.06.19-20.24.22:304][795]BlueprintLog: New page: Compile DefaultMonsterBP
+[2023.06.19-20.24.22:585][795]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2023.06.19-20.24.22:797][796]LogSavePackage: Moving '../../../../../../Users/201911183/Desktop/unreal/0620/0511/RossiNante/Saved/DefaultMonsterBP6F7ECAF046D2A59D7D7BFAA0EB028EFC.tmp' to '../../../../../../Users/201911183/Desktop/unreal/0620/0511/RossiNante/Content/Blueprints/Boss/Monster/DefaultMonsterBP.uasset'
+[2023.06.19-20.24.22:858][796]AssetCheck: New page: Asset Save: DefaultMonsterBP
+[2023.06.19-20.24.22:858][796]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Boss/Monster/DefaultMonsterBP.DefaultMonsterBP
+[2023.06.19-20.24.23:968][892]LogSlate: Window 'DefaultMonsterBP' being destroyed
+[2023.06.19-20.24.23:985][892]LogSlate: Window 'DefaultMonsterBP' being destroyed
+[2023.06.19-20.24.23:993][892]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2023.06.19-20.24.23:994][892]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-20.24.38:883][506]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Boss/Monster2/TossMonsterBP.TossMonsterBP
+[2023.06.19-20.24.46:589][303]LogSavePackage: Moving '../../../../../../Users/201911183/Desktop/unreal/0620/0511/RossiNante/Saved/TossMonsterBP228EDC98475683A56368B7A2F85B2DFC.tmp' to '../../../../../../Users/201911183/Desktop/unreal/0620/0511/RossiNante/Content/Blueprints/Boss/Monster2/TossMonsterBP.uasset'
+[2023.06.19-20.24.46:657][303]AssetCheck: New page: Asset Save: TossMonsterBP
+[2023.06.19-20.24.46:657][303]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Boss/Monster2/TossMonsterBP.TossMonsterBP
+[2023.06.19-20.24.46:840][318]BlueprintLog: New page: Compile TossMonsterBP
+[2023.06.19-20.24.47:149][318]LogUObjectHash: Compacting FUObjectHashTables data took   3.70ms
+[2023.06.19-20.24.47:353][319]LogSavePackage: Moving '../../../../../../Users/201911183/Desktop/unreal/0620/0511/RossiNante/Saved/TossMonsterBP5168329B4A8306691A46EBA59DC68566.tmp' to '../../../../../../Users/201911183/Desktop/unreal/0620/0511/RossiNante/Content/Blueprints/Boss/Monster2/TossMonsterBP.uasset'
+[2023.06.19-20.24.47:395][319]AssetCheck: New page: Asset Save: TossMonsterBP
+[2023.06.19-20.24.47:395][319]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Boss/Monster2/TossMonsterBP.TossMonsterBP
+[2023.06.19-20.24.48:665][418]LogSlate: Window 'TossMonsterBP' being destroyed
+[2023.06.19-20.24.48:694][418]LogSlate: Window 'TossMonsterBP' being destroyed
+[2023.06.19-20.24.48:703][418]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2023.06.19-20.24.48:703][418]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-20.24.50:145][526]LogTemp: Repeating last play command: Selected Viewport
+[2023.06.19-20.24.50:154][526]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Login.Login:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Login.Login:PersistentLevel.Login' with GeneratedClass '/Game/Maps/Login.Login_C' with ClassGeneratedBy '/Game/Maps/Login.Login:PersistentLevel.Login'
+[2023.06.19-20.24.50:154][526]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.19-20.24.50:154][526]PIE: New page: PIE session: Login (2023. 6. 20. 오후 2:24:50)
+[2023.06.19-20.24.50:154][526]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Login
+[2023.06.19-20.24.50:155][526]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000891s)
+[2023.06.19-20.24.50:155][526]LogAIModule: Creating AISystem for world Login
+[2023.06.19-20.24.50:155][526]LogPlayLevel: PIE: World Init took: (0.000626s)
+[2023.06.19-20.24.50:155][526]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Login.Login to /Game/Maps/UEDPIE_0_Login.Login (0.001605s)
+[2023.06.19-20.24.50:199][526]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2023.06.19-20.24.50:199][526]LogTemp: Warning: C2S
+
+[2023.06.19-20.24.52:258][526]LogTemp: Warning: CONNECT FAILED
+
+[2023.06.19-20.24.52:258][526]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.19-20.24.52:258][526]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.19-20.24.52:258][526]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.19-20.24.52:258][526]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.19-20.24.52:258][526]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.06.19-20.24.52:258][526]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.06.19-20.24.52:258][526]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.06.19-20.24.52:258][526]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.19-20.24.52:259][526]LogAudio: Display: Using built-in audio occlusion.
+[2023.06.19-20.24.52:259][526]LogAudioMixer: Display: Initializing audio mixer.
+[2023.06.19-20.24.52:274][526]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2023.06.19-20.24.52:274][526]LogAudioMixer: Display: Name: BenQ EX2710S(NVIDIA High Definition Audio)
+[2023.06.19-20.24.52:274][526]LogAudioMixer: Display: Is Default: Yes
+[2023.06.19-20.24.52:274][526]LogAudioMixer: Display: Sample Rate: 48000
+[2023.06.19-20.24.52:274][526]LogAudioMixer: Display: Channel Count Used: 2
+[2023.06.19-20.24.52:274][526]LogAudioMixer: Display: Device Channel Count: 2
+[2023.06.19-20.24.52:275][526]LogAudioMixer: Display: Channel Order:
+[2023.06.19-20.24.52:275][526]LogAudioMixer: Display: 0: FrontLeft
+[2023.06.19-20.24.52:275][526]LogAudioMixer: Display: 1: FrontRight
+[2023.06.19-20.24.52:285][526]LogAudioMixer: Display: Using Audio Device BenQ EX2710S(NVIDIA High Definition Audio)
+[2023.06.19-20.24.52:286][526]LogInit: FAudioDevice initialized.
+[2023.06.19-20.24.52:291][526]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.06.19-20.24.52:292][526]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Login.Login up for play (max tick rate 0) at 2023.06.20-05.24.52
+[2023.06.19-20.24.52:292][526]LogWorld: Bringing up level for play took: 0.000312
+[2023.06.19-20.24.52:292][526]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2023.06.19-20.24.52:297][526]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Login 2.977
+[2023.06.19-20.24.52:298][526]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Login.Login:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Login.Login:PersistentLevel.Login' with GeneratedClass '/Game/Maps/Login.Login_C' with ClassGeneratedBy '/Game/Maps/Login.Login:PersistentLevel.Login'
+[2023.06.19-20.24.53:886][711]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.06.19-20.24.53:908][711]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2023.06.19-20.24.53:928][711]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2023.06.19-20.24.53:928][711]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Login.Login:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Login.Login:PersistentLevel.Login' with GeneratedClass '/Game/Maps/Login.Login_C' with ClassGeneratedBy '/Game/Maps/Login.Login:PersistentLevel.Login'
+[2023.06.19-20.24.53:928][711]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-20.24.53:928][711]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Login
+[2023.06.19-20.24.53:928][711]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.06.19-20.24.53:929][711]LogWorld: UWorld::CleanupWorld for Login, bSessionEnded=true, bCleanupResources=true
+[2023.06.19-20.24.53:929][711]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-20.24.53:938][711]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.19-20.24.53:938][711]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Login.Login:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Login.Login:PersistentLevel.Login' with GeneratedClass '/Game/Maps/Login.Login_C' with ClassGeneratedBy '/Game/Maps/Login.Login:PersistentLevel.Login'
+[2023.06.19-20.24.53:943][711]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-20.24.53:966][711]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.06.19-20.24.53:968][711]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-20.24.53:971][711]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2023.06.19-20.24.54:014][713]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2023.06.19-20.24.59:307][761]LogTemp: Repeating last play command: Selected Viewport
+[2023.06.19-20.24.59:316][761]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Login.Login:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Login.Login:PersistentLevel.Login' with GeneratedClass '/Game/Maps/Login.Login_C' with ClassGeneratedBy '/Game/Maps/Login.Login:PersistentLevel.Login'
+[2023.06.19-20.24.59:316][761]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.19-20.24.59:316][761]PIE: New page: PIE session: Login (2023. 6. 20. 오후 2:24:59)
+[2023.06.19-20.24.59:316][761]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Login
+[2023.06.19-20.24.59:317][761]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000881s)
+[2023.06.19-20.24.59:318][761]LogAIModule: Creating AISystem for world Login
+[2023.06.19-20.24.59:318][761]LogPlayLevel: PIE: World Init took: (0.000612s)
+[2023.06.19-20.24.59:318][761]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Login.Login to /Game/Maps/UEDPIE_0_Login.Login (0.001580s)
+[2023.06.19-20.24.59:342][761]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2023.06.19-20.24.59:342][761]LogTemp: Warning: C2S
+
+[2023.06.19-20.24.59:348][761]LogTemp: Warning: CONNECT SUCCESS
+
+[2023.06.19-20.24.59:348][761]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.19-20.24.59:348][761]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.19-20.24.59:349][761]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.19-20.24.59:349][761]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.19-20.24.59:349][761]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.06.19-20.24.59:349][761]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.06.19-20.24.59:349][761]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.06.19-20.24.59:349][761]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.19-20.24.59:349][761]LogAudio: Display: Using built-in audio occlusion.
+[2023.06.19-20.24.59:349][761]LogAudioMixer: Display: Initializing audio mixer.
+[2023.06.19-20.24.59:365][761]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2023.06.19-20.24.59:365][761]LogAudioMixer: Display: Name: BenQ EX2710S(NVIDIA High Definition Audio)
+[2023.06.19-20.24.59:365][761]LogAudioMixer: Display: Is Default: Yes
+[2023.06.19-20.24.59:365][761]LogAudioMixer: Display: Sample Rate: 48000
+[2023.06.19-20.24.59:365][761]LogAudioMixer: Display: Channel Count Used: 2
+[2023.06.19-20.24.59:365][761]LogAudioMixer: Display: Device Channel Count: 2
+[2023.06.19-20.24.59:365][761]LogAudioMixer: Display: Channel Order:
+[2023.06.19-20.24.59:365][761]LogAudioMixer: Display: 0: FrontLeft
+[2023.06.19-20.24.59:365][761]LogAudioMixer: Display: 1: FrontRight
+[2023.06.19-20.24.59:375][761]LogAudioMixer: Display: Using Audio Device BenQ EX2710S(NVIDIA High Definition Audio)
+[2023.06.19-20.24.59:376][761]LogInit: FAudioDevice initialized.
+[2023.06.19-20.24.59:382][761]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.06.19-20.24.59:382][761]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Login.Login up for play (max tick rate 0) at 2023.06.20-05.24.59
+[2023.06.19-20.24.59:383][761]LogWorld: Bringing up level for play took: 0.000549
+[2023.06.19-20.24.59:383][761]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2023.06.19-20.24.59:388][761]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Login 0.067
+[2023.06.19-20.24.59:388][761]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Login.Login:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Login.Login:PersistentLevel.Login' with GeneratedClass '/Game/Maps/Login.Login_C' with ClassGeneratedBy '/Game/Maps/Login.Login:PersistentLevel.Login'
+[2023.06.19-20.25.02:342][ 87]LogTemp: Warning: level:3, exp:230, statpoint:32
+
+[2023.06.19-20.25.07:569][712]LogNet: Browse: /Game/Maps/1F_Hall
+[2023.06.19-20.25.07:569][712]LogLoad: LoadMap: /Game/Maps/1F_Hall
+[2023.06.19-20.25.07:569][712]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Login
+[2023.06.19-20.25.07:569][712]LogWorld: UWorld::CleanupWorld for Login, bSessionEnded=true, bCleanupResources=true
+[2023.06.19-20.25.07:569][712]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-20.25.07:588][712]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2023.06.19-20.25.07:608][712]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2023.06.19-20.25.07:635][712]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2023.06.19-20.25.07:644][712]LogAIModule: Creating AISystem for world 1F_Hall
+[2023.06.19-20.25.07:644][712]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.06.19-20.25.07:650][712]LogWorld: Bringing World /Game/Maps/UEDPIE_0_1F_Hall.1F_Hall up for play (max tick rate 0) at 2023.06.20-05.25.07
+[2023.06.19-20.25.07:650][712]LogWorld: Bringing up level for play took: 0.005539
+[2023.06.19-20.25.07:654][712]LogLoad: Took 0.084994 seconds to LoadMap(/Game/Maps/1F_Hall)
+[2023.06.19-20.25.09:649][951]LogTemp: Warning: Attack Damage: 4
+[2023.06.19-20.25.09:848][975]LogTemp: Warning: broadCast Attack
+[2023.06.19-20.25.13:715][439]LogNet: Browse: /Game/Maps/1F_Boss
+[2023.06.19-20.25.13:715][439]LogLoad: LoadMap: /Game/Maps/1F_Boss
+[2023.06.19-20.25.13:715][439]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_1F_Hall
+[2023.06.19-20.25.13:715][439]LogWorld: UWorld::CleanupWorld for 1F_Hall, bSessionEnded=true, bCleanupResources=true
+[2023.06.19-20.25.13:715][439]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-20.25.13:729][439]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2023.06.19-20.25.13:749][439]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2023.06.19-20.25.13:774][439]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2023.06.19-20.25.13:778][439]LogLinker: Warning: While loading '../../../../../../Users/201911183/Desktop/unreal/0620/0511/RossiNante/Content/Maps/1F_Boss.umap' failed to load '/Game/Maps/1F_Boss_BuiltData': Can't find file.
+[2023.06.19-20.25.13:778][439]LogLinker: Warning: While loading '../../../../../../Users/201911183/Desktop/unreal/0620/0511/RossiNante/Content/Maps/1F_Boss.umap' failed to load '/Game/Maps/1F_Boss_BuiltData': Can't find file.
+[2023.06.19-20.25.13:779][439]LogLinker: Warning: While loading '../../../../../../Users/201911183/Desktop/unreal/0620/0511/RossiNante/Content/Maps/1F_Boss.umap' failed to load '/Game/Maps/1F_Boss_BuiltData': Can't find file.
+[2023.06.19-20.25.13:779][439]LogLinker: Warning: While loading '../../../../../../Users/201911183/Desktop/unreal/0620/0511/RossiNante/Content/Maps/1F_Boss.umap' failed to load '/Game/Maps/1F_Boss_BuiltData': Can't find file.
+[2023.06.19-20.25.13:780][439]LogLinker: Warning: Failed to load '/Game/Maps/1F_Boss_BuiltData': Can't find file.
+[2023.06.19-20.25.13:780][439]LogLinker: Warning: Failed to load '/Game/Maps/1F_Boss_BuiltData': Can't find file.
+[2023.06.19-20.25.13:781][439]LogLinker: Warning: Failed to load '/Game/Maps/1F_Boss_BuiltData': Can't find file.
+[2023.06.19-20.25.13:781][439]LogLinker: Warning: Failed to load '/Game/Maps/1F_Boss_BuiltData': Can't find file.
+[2023.06.19-20.25.13:784][439]LogLinker: Warning: While loading '../../../../../../Users/201911183/Desktop/unreal/0620/0511/RossiNante/Content/Maps/1F_Boss.umap' failed to load '/Game/Maps/1F_Boss_BuiltData': Can't find file.
+[2023.06.19-20.25.13:785][439]LoadErrors: Failed to load /Game/Maps/1F_Boss_BuiltData.1F_Boss_BuiltData Referenced by PersistentLevel
+[2023.06.19-20.25.13:785][439]LogLinker: Warning: While loading '../../../../../../Users/201911183/Desktop/unreal/0620/0511/RossiNante/Content/Maps/1F_Boss.umap' failed to load '/Game/Maps/1F_Boss_BuiltData': Can't find file.
+[2023.06.19-20.25.13:790][439]LogAIModule: Creating AISystem for world 1F_Boss
+[2023.06.19-20.25.13:790][439]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.06.19-20.25.13:796][439]LogWorld: Bringing World /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss up for play (max tick rate 0) at 2023.06.20-05.25.13
+[2023.06.19-20.25.13:807][439]LogWorld: Bringing up level for play took: 0.016157
+[2023.06.19-20.25.13:817][439]LogLoad: Took 0.101897 seconds to LoadMap(/Game/Maps/1F_Boss)
+[2023.06.19-20.25.22:393][466]LogScript: Warning: Script Msg: SetTimer passed a negative time or initial start delay.  The associated timer may fail to fire!  If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2023.06.19-20.25.22:700][503]LogTemp: Warning: broadCast Tumble
+[2023.06.19-20.25.22:700][503]LogTemp: Warning: Tumble End: 0
+[2023.06.19-20.25.23:428][590]LogTemp: 0
+[2023.06.19-20.25.23:428][590]LogTemp: Warning: OnAttacked 200
+[2023.06.19-20.25.23:428][590]LogTemp: 1
+[2023.06.19-20.25.23:815][636]LogTemp: Warning: Attack Damage: 4
+[2023.06.19-20.25.24:014][660]LogTemp: Warning: broadCast Attack
+[2023.06.19-20.25.24:906][767]LogTemp: Warning: Attack Damage: 4
+[2023.06.19-20.25.25:156][797]LogTemp: Warning: broadCast Attack
+[2023.06.19-20.25.25:898][886]LogBlueprintUserMessages: [Rock_C_0] X=-694.481 Y=-2030.681 Z=119.052
+[2023.06.19-20.25.26:165][918]LogTemp: Warning: Attack Damage: 4
+[2023.06.19-20.25.26:364][942]LogTemp: Warning: broadCast Attack
+[2023.06.19-20.25.26:365][942]LogTemp: Hit Actor : Enemy_Character_2
+[2023.06.19-20.25.26:365][942]LogBlueprintUserMessages: [Enemy_Character_2] -10.0
+[2023.06.19-20.25.27:875][123]LogScript: Warning: Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill
+	1F_Boss_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.1F_Boss_C_1
+	Function /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss_C:ExecuteUbergraph_1F_Boss:006C
+[2023.06.19-20.25.27:875][123]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.27:883][124]LogScript: Warning: Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill
+	1F_Boss_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.1F_Boss_C_1
+	Function /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss_C:ExecuteUbergraph_1F_Boss:006C
+[2023.06.19-20.25.27:883][124]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.27:892][125]LogScript: Warning: Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill
+	1F_Boss_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.1F_Boss_C_1
+	Function /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss_C:ExecuteUbergraph_1F_Boss:006C
+[2023.06.19-20.25.27:892][125]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.27:900][126]LogScript: Warning: Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill
+	1F_Boss_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.1F_Boss_C_1
+	Function /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss_C:ExecuteUbergraph_1F_Boss:006C
+[2023.06.19-20.25.27:900][126]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.27:908][127]LogScript: Warning: Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill
+	1F_Boss_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.1F_Boss_C_1
+	Function /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss_C:ExecuteUbergraph_1F_Boss:006C
+[2023.06.19-20.25.27:908][127]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.27:917][128]LogScript: Warning: Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill
+	1F_Boss_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.1F_Boss_C_1
+	Function /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss_C:ExecuteUbergraph_1F_Boss:006C
+[2023.06.19-20.25.27:917][128]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.27:925][129]LogScript: Warning: Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill
+	1F_Boss_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.1F_Boss_C_1
+	Function /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss_C:ExecuteUbergraph_1F_Boss:006C
+[2023.06.19-20.25.27:925][129]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.27:933][130]LogScript: Warning: Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill
+	1F_Boss_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.1F_Boss_C_1
+	Function /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss_C:ExecuteUbergraph_1F_Boss:006C
+[2023.06.19-20.25.27:933][130]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.27:942][131]LogScript: Warning: Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill
+	1F_Boss_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.1F_Boss_C_1
+	Function /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss_C:ExecuteUbergraph_1F_Boss:006C
+[2023.06.19-20.25.27:942][131]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.27:950][132]LogScript: Warning: Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill
+	1F_Boss_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.1F_Boss_C_1
+	Function /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss_C:ExecuteUbergraph_1F_Boss:006C
+[2023.06.19-20.25.27:950][132]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.27:958][133]LogScript: Warning: Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill
+	1F_Boss_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.1F_Boss_C_1
+	Function /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss_C:ExecuteUbergraph_1F_Boss:006C
+[2023.06.19-20.25.27:959][133]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.27:967][134]LogScript: Warning: Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill
+	1F_Boss_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.1F_Boss_C_1
+	Function /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss_C:ExecuteUbergraph_1F_Boss:006C
+[2023.06.19-20.25.27:967][134]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.27:975][135]LogScript: Warning: Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill
+	1F_Boss_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.1F_Boss_C_1
+	Function /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss_C:ExecuteUbergraph_1F_Boss:006C
+[2023.06.19-20.25.27:975][135]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.27:983][136]LogScript: Warning: Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill
+	1F_Boss_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.1F_Boss_C_1
+	Function /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss_C:ExecuteUbergraph_1F_Boss:006C
+[2023.06.19-20.25.27:983][136]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.27:992][137]LogScript: Warning: Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill
+	1F_Boss_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.1F_Boss_C_1
+	Function /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss_C:ExecuteUbergraph_1F_Boss:006C
+[2023.06.19-20.25.27:992][137]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:000][138]LogScript: Warning: Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill
+	1F_Boss_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.1F_Boss_C_1
+	Function /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss_C:ExecuteUbergraph_1F_Boss:006C
+[2023.06.19-20.25.28:000][138]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:008][139]LogScript: Warning: Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill
+	1F_Boss_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.1F_Boss_C_1
+	Function /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss_C:ExecuteUbergraph_1F_Boss:006C
+[2023.06.19-20.25.28:009][139]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:017][140]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:025][141]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:033][142]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:042][143]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:050][144]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:058][145]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:067][146]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:075][147]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:083][148]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:092][149]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:100][150]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:108][151]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:117][152]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:125][153]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:133][154]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:142][155]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:150][156]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:158][157]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:167][158]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:175][159]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:183][160]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:192][161]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:200][162]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:209][163]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:217][164]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:225][165]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:233][166]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:242][167]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:250][168]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:258][169]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:267][170]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:275][171]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:283][172]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:292][173]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:300][174]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:308][175]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:317][176]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:325][177]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:333][178]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:342][179]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:350][180]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:359][181]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:367][182]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:375][183]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:384][184]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:392][185]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:400][186]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:409][187]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:417][188]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:425][189]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:433][190]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:442][191]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:450][192]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:458][193]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:467][194]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:475][195]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:484][196]PIE: Error: Blueprint Runtime Error: "Attempted to access Enemy_Character_2 via property Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty, but Enemy_Character_2 is pending kill". Blueprint:  1F_Boss Function:  Execute Ubergraph 1F Boss Graph:  EventGraph Node:  Branch
+[2023.06.19-20.25.28:484][196]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.06.19-20.25.28:490][196]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2023.06.19-20.25.28:519][196]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2023.06.19-20.25.28:520][196]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Login.Login:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Login.Login:PersistentLevel.Login' with GeneratedClass '/Game/Maps/Login.Login_C' with ClassGeneratedBy '/Game/Maps/Login.Login:PersistentLevel.Login'
+[2023.06.19-20.25.28:520][196]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-20.25.28:520][196]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_1F_Boss
+[2023.06.19-20.25.28:520][196]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.06.19-20.25.28:520][196]LogWorld: UWorld::CleanupWorld for 1F_Boss, bSessionEnded=true, bCleanupResources=true
+[2023.06.19-20.25.28:521][196]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-20.25.28:528][196]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.19-20.25.28:528][196]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Login.Login:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Login.Login:PersistentLevel.Login' with GeneratedClass '/Game/Maps/Login.Login_C' with ClassGeneratedBy '/Game/Maps/Login.Login:PersistentLevel.Login'
+[2023.06.19-20.25.28:533][196]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-20.25.28:555][196]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.06.19-20.25.28:557][196]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-20.25.28:561][196]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2023.06.19-20.25.28:616][197]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2023.06.19-20.29.54:672][126]Candidate modules for hot reload:
+[2023.06.19-20.29.54:672][126]  RossiNante
+[2023.06.19-20.29.54:673][126]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RossiNante,8050 Win64 Development -TargetType=Editor -Project="C:/Users/201911183/Desktop/unreal/0620/0511/RossiNante/RossiNante.uproject" "C:/Users/201911183/Desktop/unreal/0620/0511/RossiNante/RossiNante.uproject"  -IgnoreJunk]
+[2023.06.19-20.29.54:679][126]Warning: Starting HotReload took  0.0s.
+[2023.06.19-20.30.16:409][860]CompilerResultsLog: New page: Compilation - 2023. 6. 20. 오후 2:30:16
+[2023.06.19-20.30.16:409][860]CompilerResultsLog: Parsing headers for RossiNanteEditor
+[2023.06.19-20.30.16:409][860]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\201911183\Desktop\unreal\0620\0511\RossiNante\RossiNante.uproject" "C:\Users\201911183\Desktop\unreal\0620\0511\RossiNante\Intermediate\Build\Win64\RossiNanteEditor\Development\RossiNanteEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2023.06.19-20.30.16:409][860]CompilerResultsLog: Reflection code generated for RossiNanteEditor in 6.1345914 seconds
+[2023.06.19-20.30.16:409][860]CompilerResultsLog: Building RossiNanteEditor...
+[2023.06.19-20.30.16:409][860]CompilerResultsLog: Using Visual Studio 2019 14.33.31630 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.06.19-20.30.16:409][860]CompilerResultsLog: Building 10 actions with 16 processes...
+[2023.06.19-20.30.16:409][860]CompilerResultsLog:   [1/10] RossiNante.init.gen.cpp
+[2023.06.19-20.30.16:409][860]CompilerResultsLog:   [2/10] PlayMenuWidget.cpp
+[2023.06.19-20.30.16:409][860]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h(611): warning C4005: 'TEXT': ??ũ?? ??????
+[2023.06.19-20.30.16:409][860]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'?? ???? ???Ǹ? ?????Ͻʽÿ?.
+[2023.06.19-20.30.16:409][860]CompilerResultsLog:    C:\Users\201911183\Desktop\unreal\0620\0511\RossiNante\Source\RossiNante\PlayMenuWidget.cpp(50) : error C2601: 'UPlayMenuWidget::OnUpButtonClicked': ???? ?Լ? ???ǰ? ?߸??Ǿ????ϴ?.
+[2023.06.19-20.30.16:409][860]CompilerResultsLog:   C:\Users\201911183\Desktop\unreal\0620\0511\RossiNante\Source\RossiNante\PlayMenuWidget.cpp(40): note: ?? ?ٿ? ¦?? ???? ?ʴ? '{'?? ???? ?ֽ??ϴ?.
+[2023.06.19-20.30.16:409][860]CompilerResultsLog:    C:\Users\201911183\Desktop\unreal\0620\0511\RossiNante\Source\RossiNante\PlayMenuWidget.cpp(55) : error C2601: 'UPlayMenuWidget::OnDownButtonClicked': ???? ?Լ? ???ǰ? ?߸??Ǿ????ϴ?.
+[2023.06.19-20.30.16:409][860]CompilerResultsLog:   C:\Users\201911183\Desktop\unreal\0620\0511\RossiNante\Source\RossiNante\PlayMenuWidget.cpp(40): note: ?? ?ٿ? ¦?? ???? ?ʴ? '{'?? ???? ?ֽ??ϴ?.
+[2023.06.19-20.30.16:409][860]CompilerResultsLog:   C:\Users\201911183\Desktop\unreal\0620\0511\RossiNante\Source\RossiNante\PlayMenuWidget.cpp(40): fatal error C1075: '{': ??ġ?ϴ? ??ū?? ã?? ?? ?????ϴ?.
+[2023.06.19-20.30.16:409][860]CompilerResultsLog:   [3/10] MenuWidget.cpp
+[2023.06.19-20.30.16:409][860]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h(611): warning C4005: 'TEXT': ??ũ?? ??????
+[2023.06.19-20.30.16:409][860]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'?? ???? ???Ǹ? ?????Ͻʽÿ?.
+[2023.06.19-20.30.16:410][860]CompilerResultsLog:   [4/10] PlayMenuWidget.gen.cpp
+[2023.06.19-20.30.16:410][860]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h(611): warning C4005: 'TEXT': ??ũ?? ??????
+[2023.06.19-20.30.16:410][860]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'?? ???? ???Ǹ? ?????Ͻʽÿ?.
+[2023.06.19-20.30.16:410][860]CompilerResultsLog:   [5/10] MyGameModeBase.cpp
+[2023.06.19-20.30.16:410][860]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h(611): warning C4005: 'TEXT': ??ũ?? ??????
+[2023.06.19-20.30.16:410][860]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'?? ???? ???Ǹ? ?????Ͻʽÿ?.
+[2023.06.19-20.30.16:410][860]CompilerResultsLog:   C:\Users\201911183\Desktop\unreal\0620\0511\RossiNante\Source\RossiNante\MyGameModeBase.cpp(165): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[2023.06.19-20.30.16:410][860]CompilerResultsLog:   [6/10] MyCharacterEnemy.cpp
+[2023.06.19-20.30.16:410][860]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h(611): warning C4005: 'TEXT': ??ũ?? ??????
+[2023.06.19-20.30.16:410][860]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'?? ???? ???Ǹ? ?????Ͻʽÿ?.
+[2023.06.19-20.30.16:410][860]CompilerResultsLog:   [7/10] MyBossClass.cpp
+[2023.06.19-20.30.16:410][860]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h(611): warning C4005: 'TEXT': ??ũ?? ??????
+[2023.06.19-20.30.16:410][860]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'?? ???? ???Ǹ? ?????Ͻʽÿ?.
+[2023.06.19-20.30.16:410][860]LogMainFrame: MainFrame: Module compiling took 21.753 seconds
+[2023.06.19-20.30.16:410][860]Warning: HotReload failed, recompile failed
+[2023.06.19-20.32.10:267][273]Candidate modules for hot reload:
+[2023.06.19-20.32.10:267][273]  RossiNante
+[2023.06.19-20.32.10:267][273]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RossiNante,4327 Win64 Development -TargetType=Editor -Project="C:/Users/201911183/Desktop/unreal/0620/0511/RossiNante/RossiNante.uproject" "C:/Users/201911183/Desktop/unreal/0620/0511/RossiNante/RossiNante.uproject"  -IgnoreJunk]
+[2023.06.19-20.32.10:272][273]Warning: Starting HotReload took  0.0s.
+[2023.06.19-20.32.16:772][967]CompilerResultsLog: New page: Compilation - 2023. 6. 20. 오후 2:32:16
+[2023.06.19-20.32.16:772][967]CompilerResultsLog: Parsing headers for RossiNanteEditor
+[2023.06.19-20.32.16:772][967]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\201911183\Desktop\unreal\0620\0511\RossiNante\RossiNante.uproject" "C:\Users\201911183\Desktop\unreal\0620\0511\RossiNante\Intermediate\Build\Win64\RossiNanteEditor\Development\RossiNanteEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2023.06.19-20.32.16:772][967]CompilerResultsLog: Error: C:/Users/201911183/Desktop/unreal/0620/0511/RossiNante/Source/RossiNante/MyCharacterEnemy.h(31)  : Error: 'BlueprintCallable' is only allowed on a property when it is a multicast delegate
+[2023.06.19-20.32.16:772][967]LogMainFrame: MainFrame: Module compiling took 6.511 seconds
+[2023.06.19-20.32.16:772][967]Warning: HotReload failed, recompile failed
+[2023.06.19-20.34.38:776][ 95]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Boss/AI/Enemy_Character.Enemy_Character
+[2023.06.19-20.35.34:009][306]BlueprintLog: New page: Compile Enemy_Character
+[2023.06.19-20.35.34:294][306]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2023.06.19-20.35.34:915][345]LogSavePackage: Moving '../../../../../../Users/201911183/Desktop/unreal/0620/0511/RossiNante/Saved/Enemy_CharacterFB1274BA43CEA7C00F91E2BAEC65CF66.tmp' to '../../../../../../Users/201911183/Desktop/unreal/0620/0511/RossiNante/Content/Blueprints/Boss/AI/Enemy_Character.uasset'
+[2023.06.19-20.35.34:976][345]AssetCheck: New page: Asset Save: Enemy_Character
+[2023.06.19-20.35.34:976][345]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Boss/AI/Enemy_Character.Enemy_Character
+[2023.06.19-20.36.22:229][458]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2023.06.19-20.36.22:229][458]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-20.36.23:632][589]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Boss/AI/Enemy_Character.Enemy_Character
+[2023.06.19-20.36.29:067][ 99]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2023.06.19-20.36.29:067][ 99]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-20.36.31:041][324]Candidate modules for hot reload:
+[2023.06.19-20.36.31:041][324]  RossiNante
+[2023.06.19-20.36.31:041][324]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RossiNante,2899 Win64 Development -TargetType=Editor -Project="C:/Users/201911183/Desktop/unreal/0620/0511/RossiNante/RossiNante.uproject" "C:/Users/201911183/Desktop/unreal/0620/0511/RossiNante/RossiNante.uproject"  -IgnoreJunk]
+[2023.06.19-20.36.31:047][324]Warning: Starting HotReload took  0.0s.
+[2023.06.19-20.36.32:819][503]CompilerResultsLog: New page: Compilation - 2023. 6. 20. 오후 2:36:32
+[2023.06.19-20.36.32:819][503]CompilerResultsLog: Building RossiNanteEditor...
+[2023.06.19-20.36.32:819][503]CompilerResultsLog: Using Visual Studio 2019 14.33.31630 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.06.19-20.36.32:819][503]CompilerResultsLog: Building 3 actions with 16 processes...
+[2023.06.19-20.36.32:819][503]CompilerResultsLog:   [1/3] UE4Editor-RossiNante-2899.lib
+[2023.06.19-20.36.32:819][503]CompilerResultsLog:      C:\Users\201911183\Desktop\unreal\0620\0511\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-2899.lib ???̺귯?? ?? C:\Users\201911183\Desktop\unreal\0620\0511\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-2899.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2023.06.19-20.36.32:819][503]CompilerResultsLog:   [2/3] UE4Editor-RossiNante-2899.dll
+[2023.06.19-20.36.32:819][503]CompilerResultsLog:      C:\Users\201911183\Desktop\unreal\0620\0511\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-2899.suppressed.lib ???̺귯?? ?? C:\Users\201911183\Desktop\unreal\0620\0511\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-2899.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2023.06.19-20.36.32:819][503]CompilerResultsLog:   [3/3] RossiNanteEditor.target
+[2023.06.19-20.36.32:819][503]CompilerResultsLog: Total time in Parallel executor: 0.81 seconds
+[2023.06.19-20.36.32:819][503]CompilerResultsLog: Total execution time: 1.68 seconds
+[2023.06.19-20.36.32:819][503]LogMainFrame: MainFrame: Module compiling took 1.785 seconds
+[2023.06.19-20.36.32:848][503]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2023.06.19-20.36.32:893][503]LogClass: Could not find existing class MyCharacterEnemy in package /Script/RossiNante for HotReload, assuming new class
+[2023.06.19-20.36.32:893][503]LogClass: Function Attack_Melee is new.
+[2023.06.19-20.36.32:893][503]LogClass: Function Attack_Melee_End is new.
+[2023.06.19-20.36.32:893][503]LogClass: Function Attack_Skill_End is new.
+[2023.06.19-20.36.32:893][503]LogClass: Function Attack_Skill_Melee is new.
+[2023.06.19-20.36.32:893][503]LogClass: Function DieAnim is new.
+[2023.06.19-20.36.32:894][503]LogClass: Function EndGame is new.
+[2023.06.19-20.36.32:894][503]LogClass: Function HitReact is new.
+[2023.06.19-20.36.32:894][503]LogClass: Function JumpTowardsPlayer is new.
+[2023.06.19-20.36.32:894][503]LogClass: Function PlayerCameraShake is new.
+[2023.06.19-20.36.32:894][503]LogClass: Function Smash_Skill_Start is new.
+[2023.06.19-20.36.32:894][503]LogClass: Function SpawnAnim is new.
+[2023.06.19-20.36.32:894][503]LogClass: Function SpawnAnimEnd is new.
+[2023.06.19-20.36.32:901][503]LogClass: Could not find existing class PlayMenuWidget in package /Script/RossiNante for HotReload, assuming new class
+[2023.06.19-20.36.32:901][503]LogClass: Function OnDownButtonClicked is new.
+[2023.06.19-20.36.32:901][503]LogClass: Function OnPlayButtonClicked is new.
+[2023.06.19-20.36.32:901][503]LogClass: Function OnUpButtonClicked is new.
+[2023.06.19-20.36.32:904][503]LogClass: MyCharacterData HotReload.
+[2023.06.19-20.36.32:918][503]LogHotReload: Re-instancing MyCharacterEnemy after hot-reload.
+[2023.06.19-20.36.33:840][503]LogHotReload: Re-instancing PlayMenuWidget after hot-reload.
+[2023.06.19-20.36.34:065][503]LogContentBrowser: Native class hierarchy updated for 'RossiNante' in 0.0005 seconds. Added 15 classes and 2 folders.
+[2023.06.19-20.36.34:070][503]Display: HotReload successful (30 functions remapped  1 scriptstructs remapped)
+[2023.06.19-20.36.34:184][503]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2023.06.19-20.36.34:204][503]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 3032 classes and 722 folders.
+[2023.06.19-20.36.34:204][503]Display: HotReload took  3.2s.
+[2023.06.19-20.36.35:579][622]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Boss/AI/Enemy_Character.Enemy_Character
+[2023.06.19-20.38.04:273][801]BlueprintLog: New page: Compile Enemy_Character
+[2023.06.19-20.38.04:628][801]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
+[2023.06.19-20.38.15:785][905]LogHotReload: New module detected: UE4Editor-RossiNante-0006.dll
+[2023.06.19-20.38.16:480][908]LogHotReload: Starting Hot-Reload from IDE
+[2023.06.19-20.38.16:564][908]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2023.06.19-20.38.16:628][908]LogClass: MyCharacterData HotReload.
+[2023.06.19-20.38.16:637][908]LogContentBrowser: Native class hierarchy updated for 'RossiNante' in 0.0004 seconds. Added 15 classes and 2 folders.
+[2023.06.19-20.38.16:643][908]Display: HotReload successful (45 functions remapped  1 scriptstructs remapped)
+[2023.06.19-20.38.16:779][908]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2023.06.19-20.38.16:794][908]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 3032 classes and 722 folders.
+[2023.06.19-20.38.16:801][908]Display: HotReload took  0.3s.
+[2023.06.19-20.38.18:540][ 45]LogSavePackage: Moving '../../../../../../Users/201911183/Desktop/unreal/0620/0511/RossiNante/Saved/Enemy_Character0C1683414A0B5860F01105BDF670D212.tmp' to '../../../../../../Users/201911183/Desktop/unreal/0620/0511/RossiNante/Content/Blueprints/Boss/AI/Enemy_Character.uasset'
+[2023.06.19-20.38.18:598][ 45]AssetCheck: New page: Asset Save: Enemy_Character
+[2023.06.19-20.38.18:599][ 45]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Boss/AI/Enemy_Character.Enemy_Character
+[2023.06.19-20.39.34:059][ 97]LogTemp: Repeating last play command: Selected Viewport
+[2023.06.19-20.39.34:077][ 97]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Login.Login:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Login.Login:PersistentLevel.Login' with GeneratedClass '/Game/Maps/Login.Login_C' with ClassGeneratedBy '/Game/Maps/Login.Login:PersistentLevel.Login'
+[2023.06.19-20.39.34:077][ 97]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.19-20.39.34:077][ 97]PIE: New page: PIE session: Login (2023. 6. 20. 오후 2:39:34)
+[2023.06.19-20.39.34:077][ 97]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Login
+[2023.06.19-20.39.34:078][ 97]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001045s)
+[2023.06.19-20.39.34:079][ 97]LogAIModule: Creating AISystem for world Login
+[2023.06.19-20.39.34:079][ 97]LogPlayLevel: PIE: World Init took: (0.000759s)
+[2023.06.19-20.39.34:079][ 97]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Login.Login to /Game/Maps/UEDPIE_0_Login.Login (0.001917s)
+[2023.06.19-20.39.34:131][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2023.06.19-20.39.34:132][ 97]LogTemp: Warning: C2S
+
+[2023.06.19-20.39.34:148][ 97]LogTemp: Warning: CONNECT SUCCESS
+
+[2023.06.19-20.39.34:148][ 97]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.19-20.39.34:148][ 97]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.19-20.39.34:148][ 97]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.19-20.39.34:148][ 97]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.19-20.39.34:148][ 97]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.06.19-20.39.34:148][ 97]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.06.19-20.39.34:148][ 97]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.06.19-20.39.34:148][ 97]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.19-20.39.34:148][ 97]LogAudio: Display: Using built-in audio occlusion.
+[2023.06.19-20.39.34:148][ 97]LogAudioMixer: Display: Initializing audio mixer.
+[2023.06.19-20.39.34:164][ 97]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2023.06.19-20.39.34:164][ 97]LogAudioMixer: Display: Name: BenQ EX2710S(NVIDIA High Definition Audio)
+[2023.06.19-20.39.34:164][ 97]LogAudioMixer: Display: Is Default: Yes
+[2023.06.19-20.39.34:164][ 97]LogAudioMixer: Display: Sample Rate: 48000
+[2023.06.19-20.39.34:164][ 97]LogAudioMixer: Display: Channel Count Used: 2
+[2023.06.19-20.39.34:164][ 97]LogAudioMixer: Display: Device Channel Count: 2
+[2023.06.19-20.39.34:164][ 97]LogAudioMixer: Display: Channel Order:
+[2023.06.19-20.39.34:164][ 97]LogAudioMixer: Display: 0: FrontLeft
+[2023.06.19-20.39.34:164][ 97]LogAudioMixer: Display: 1: FrontRight
+[2023.06.19-20.39.34:176][ 97]LogAudioMixer: Display: Using Audio Device BenQ EX2710S(NVIDIA High Definition Audio)
+[2023.06.19-20.39.34:177][ 97]LogInit: FAudioDevice initialized.
+[2023.06.19-20.39.34:187][ 97]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.06.19-20.39.34:188][ 97]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Login.Login up for play (max tick rate 0) at 2023.06.20-05.39.34
+[2023.06.19-20.39.34:188][ 97]LogWorld: Bringing up level for play took: 0.000494
+[2023.06.19-20.39.34:188][ 97]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2023.06.19-20.39.34:194][ 97]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Login 0.874
+[2023.06.19-20.39.34:194][ 97]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Login.Login:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Login.Login:PersistentLevel.Login' with GeneratedClass '/Game/Maps/Login.Login_C' with ClassGeneratedBy '/Game/Maps/Login.Login:PersistentLevel.Login'
+[2023.06.19-20.39.37:519][478]LogTemp: Warning: level:3, exp:470, statpoint:32
+
+[2023.06.19-20.39.43:798][ 81]LogTemp: Warning: Upgrade Success!
+
+[2023.06.19-20.39.44:358][ 95]LogTemp: Warning: Upgrade Success!
+
+[2023.06.19-20.39.44:738][141]LogOutputDevice: Warning: 
+
+Script Stack (1 frames):
+MenuWidget.OnPlayMenuButtonClicked
+
+[2023.06.19-20.39.45:076][141]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.338 s
+[2023.06.19-20.39.45:076][141]LogOutputDevice: Error: === Handled ensure: ===
+[2023.06.19-20.39.45:076][141]LogOutputDevice: Error: 
+[2023.06.19-20.39.45:076][141]LogOutputDevice: Error: Ensure condition failed: InvocationList[ CurFunctionIndex ] != InDelegate [File:C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\UObject/ScriptDelegates.h] [Line: 556]
+[2023.06.19-20.39.45:076][141]LogOutputDevice: Error: 
+[2023.06.19-20.39.45:076][141]LogOutputDevice: Error: Stack: 
+[2023.06.19-20.39.45:076][141]LogOutputDevice: Error: [Callstack] 0x00007ffbb05d2249 UE4Editor-RossiNante-0006.dll!<lambda_90bcbc214ed092f6c6e654978b0f8551>::operator()() [C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\UObject\ScriptDelegates.h:556]
+[2023.06.19-20.39.45:076][141]LogOutputDevice: Error: [Callstack] 0x00007ffbb05b4ca5 UE4Editor-RossiNante-0006.dll!TMulticastScriptDelegate<FWeakObjectPtr>::Add() [C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\UObject\ScriptDelegates.h:327]
+[2023.06.19-20.39.45:076][141]LogOutputDevice: Error: [Callstack] 0x00007ffbb05c5063 UE4Editor-RossiNante-0006.dll!UPlayMenuWidget::NativeConstruct() [C:\Users\201911183\Desktop\unreal\0620\0511\RossiNante\Source\RossiNante\PlayMenuWidget.cpp:24]
+[2023.06.19-20.39.45:076][141]LogOutputDevice: Error: [Callstack] 0x00007ffc0589dffb UE4Editor-UMG.dll!UnknownFunction []
+[2023.06.19-20.39.45:076][141]LogOutputDevice: Error: [Callstack] 0x00007ffc0589d57d UE4Editor-UMG.dll!UnknownFunction []
+[2023.06.19-20.39.45:076][141]LogOutputDevice: Error: [Callstack] 0x00007ffc057dde1c UE4Editor-UMG.dll!UnknownFunction []
+[2023.06.19-20.39.45:076][141]LogOutputDevice: Error: [Callstack] 0x00007ffc0c6642e8 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2023.06.19-20.39.45:076][141]LogOutputDevice: Error: [Callstack] 0x00007ffc0c8b0148 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2023.06.19-20.39.45:076][141]LogOutputDevice: Error: [Callstack] 0x00007ffc0577e7d0 UE4Editor-UMG.dll!UnknownFunction []
+[2023.06.19-20.39.45:076][141]LogOutputDevice: Error: [Callstack] 0x00007ffc05890fa7 UE4Editor-UMG.dll!UnknownFunction []
+[2023.06.19-20.39.45:076][141]LogOutputDevice: Error: [Callstack] 0x00007ffc0580d5d0 UE4Editor-UMG.dll!UnknownFunction []
+[2023.06.19-20.39.45:076][141]LogOutputDevice: Error: [Callstack] 0x00007ffc08581498 UE4Editor-Slate.dll!UnknownFunction []
+[2023.06.19-20.39.45:076][141]LogOutputDevice: Error: [Callstack] 0x00007ffc08599281 UE4Editor-Slate.dll!UnknownFunction []
+[2023.06.19-20.39.45:076][141]LogOutputDevice: Error: [Callstack] 0x00007ffc083f323f UE4Editor-Slate.dll!UnknownFunction []
+[2023.06.19-20.39.45:076][141]LogOutputDevice: Error: [Callstack] 0x00007ffc08479175 UE4Editor-Slate.dll!UnknownFunction []
+[2023.06.19-20.39.45:076][141]LogOutputDevice: Error: [Callstack] 0x00007ffc0846413e UE4Editor-Slate.dll!UnknownFunction []
+[2023.06.19-20.39.45:076][141]LogOutputDevice: Error: [Callstack] 0x00007ffc08458f67 UE4Editor-Slate.dll!UnknownFunction []
+[2023.06.19-20.39.45:076][141]LogOutputDevice: Error: [Callstack] 0x00007ffc339c4ca1 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2023.06.19-20.39.45:076][141]LogOutputDevice: Error: [Callstack] 0x00007ffc339b242f UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2023.06.19-20.39.45:076][141]LogOutputDevice: Error: [Callstack] 0x00007ffc339c7195 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2023.06.19-20.39.45:076][141]LogOutputDevice: Error: [Callstack] 0x00007ffc339aec40 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2023.06.19-20.39.45:076][141]LogOutputDevice: Error: [Callstack] 0x00007ffc57121cac USER32.dll!UnknownFunction []
+[2023.06.19-20.39.45:076][141]LogOutputDevice: Error: [Callstack] 0x00007ffc57120f06 USER32.dll!UnknownFunction []
+[2023.06.19-20.39.45:076][141]LogOutputDevice: Error: [Callstack] 0x00007ffc339c8699 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2023.06.19-20.39.45:076][141]LogOutputDevice: Error: [Callstack] 0x00007ff7a6de6db0 UE4Editor.exe!UnknownFunction []
+[2023.06.19-20.39.45:076][141]LogOutputDevice: Error: [Callstack] 0x00007ff7a6dfc3ec UE4Editor.exe!UnknownFunction []
+[2023.06.19-20.39.45:076][141]LogOutputDevice: Error: [Callstack] 0x00007ff7a6dfc4ca UE4Editor.exe!UnknownFunction []
+[2023.06.19-20.39.45:076][141]LogOutputDevice: Error: [Callstack] 0x00007ff7a6e0ceae UE4Editor.exe!UnknownFunction []
+[2023.06.19-20.39.45:076][141]LogOutputDevice: Error: [Callstack] 0x00007ff7a6e0fcbe UE4Editor.exe!UnknownFunction []
+[2023.06.19-20.39.45:076][141]LogOutputDevice: Error: [Callstack] 0x00007ffc57be55a0 KERNEL32.DLL!UnknownFunction []
+[2023.06.19-20.39.45:076][141]LogOutputDevice: Error: [Callstack] 0x00007ffc58b2485b ntdll.dll!UnknownFunction []
+[2023.06.19-20.39.45:076][141]LogOutputDevice: Error: 
+[2023.06.19-20.39.45:080][141]LogStats:                SubmitErrorReport -  0.000 s

@@ -12,6 +12,7 @@
 #include "StatMenuWidget.h"
 #include "PlayMenuWidget.h"
 #include "LoginWidget.h"
+#include "BossHPWidget.h"
 #include "MyGameInstance.h"
 
 void AMyGameModeBase::BeginPlay()
@@ -51,7 +52,15 @@ UHUDWidget* AMyGameModeBase::CreateHUDWidget() {
 
 void AMyGameModeBase::EnableHUDWidget()
 {
-    if (GetWorld()->GetMapName() == GetWorld()->StreamingLevelsPrefix + "1F_Hall" || GetWorld()->GetMapName() == GetWorld()->StreamingLevelsPrefix + "1F_Boss") {
+    if (GetWorld()->GetMapName() == GetWorld()->StreamingLevelsPrefix + "1F_Hall" 
+        || GetWorld()->GetMapName() == GetWorld()->StreamingLevelsPrefix + "1F_Boss"
+        || GetWorld()->GetMapName() == GetWorld()->StreamingLevelsPrefix + "1F_Normal"
+        || GetWorld()->GetMapName() == GetWorld()->StreamingLevelsPrefix + "1F_Normal_2"
+        || GetWorld()->GetMapName() == GetWorld()->StreamingLevelsPrefix + "2F_Normal"
+        || GetWorld()->GetMapName() == GetWorld()->StreamingLevelsPrefix + "2F_Normal_2"
+        || GetWorld()->GetMapName() == GetWorld()->StreamingLevelsPrefix + "2F_Hall"
+        || GetWorld()->GetMapName() == GetWorld()->StreamingLevelsPrefix + "2F_Boss"
+        ) {
         HUDWidget->AddToViewport();
         PlayerController->bShowMouseCursor = false;
     }
@@ -101,6 +110,12 @@ void AMyGameModeBase::EnableStatMenuWidget()
 void AMyGameModeBase::DisableStatMenuWidget()
 {
     StatMenuWidget->RemoveFromViewport();
+}
+
+UBossHPWidget* AMyGameModeBase::CreateBossHPWidget()
+{
+    BossHPWidget = CreateWidget<UBossHPWidget>(GetWorld(), BP_BossHPWidget);
+    return BossHPWidget;
 }
 
 void AMyGameModeBase::CreateLoginWidget()
@@ -158,6 +173,16 @@ void AMyGameModeBase::UpdatePlayerInfo(UserDataPacket* ud)
 void AMyGameModeBase::SetIsLogin()
 {
     GameInstance->SetIsLogin();
+}
+
+void AMyGameModeBase::SetPlayerExp(int exp)
+{
+    GameInstance->PlayerInfo.exp += exp;
+}
+
+void AMyGameModeBase::SetPlayerLevelUP()
+{
+    GameInstance->PlayerInfo.level++;
 }
 
 bool AMyGameModeBase::GetIsLogin()

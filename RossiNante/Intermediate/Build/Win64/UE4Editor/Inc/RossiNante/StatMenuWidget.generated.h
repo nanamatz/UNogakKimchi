@@ -84,7 +84,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UStatMenuWidget); \
 	FORCEINLINE static uint32 __PPO__BT_Upgrade1() { return STRUCT_OFFSET(UStatMenuWidget, BT_Upgrade1); } \
 	FORCEINLINE static uint32 __PPO__TB_LevelValue() { return STRUCT_OFFSET(UStatMenuWidget, TB_LevelValue); } \
 	FORCEINLINE static uint32 __PPO__TB_ExpValue() { return STRUCT_OFFSET(UStatMenuWidget, TB_ExpValue); } \
-	FORCEINLINE static uint32 __PPO__TB_StatpointValue() { return STRUCT_OFFSET(UStatMenuWidget, TB_StatpointValue); }
+	FORCEINLINE static uint32 __PPO__TB_StatpointValue() { return STRUCT_OFFSET(UStatMenuWidget, TB_StatpointValue); } \
+	FORCEINLINE static uint32 __PPO__TB_AttackUpgradeValue() { return STRUCT_OFFSET(UStatMenuWidget, TB_AttackUpgradeValue); }
 
 
 #define RossiNante_Source_RossiNante_StatMenuWidget_h_15_PROLOG

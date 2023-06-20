@@ -4,6 +4,10 @@
 #include "MyCharacterEnemy.h"
 #include "MyAnimInstance.h"
 #include "Engine.h"
+#include "MyGameModeBase.h"
+#include "BossHPWidget.h"
+#include "MyCharacter.h"
+#include "MyStatComponent.h"
 
 // Sets default values
 AMyCharacterEnemy::AMyCharacterEnemy()
@@ -51,6 +55,9 @@ void AMyCharacterEnemy::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	GameMode = Cast<AMyGameModeBase>(GetWorld()->GetAuthGameMode());
+
+	InitHPWidget();
 }
 
 // Called every frame
@@ -58,8 +65,33 @@ void AMyCharacterEnemy::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	if (currentHPBarDuration > 0) {
+		currentHPBarDuration -= DeltaTime;
+		if (currentHPBarDuration < 0) {
+			currentHPBarDuration = 0;
+			BossHPWidget->RemoveFromViewport();
+		}
+	}
 }
 
+void AMyCharacterEnemy::InitHPWidget()
+{
+	BossHPWidget = GameMode->CreateBossHPWidget();
+	hpBarDuration = 10;
+	currentHPBarDuration = 0;
+}
+
+void AMyCharacterEnemy::UpdateHPWidget()
+{
+	if (currentHPBarDuration <= 0) {
+		currentHPBarDuration = hpBarDuration;
+		BossHPWidget->AddToViewport();
+		BossHPWidget->UpdateHealthPercent(DefaultHP, MaxHP);
+	}
+	else {
+		BossHPWidget->UpdateHealthPercent(DefaultHP, MaxHP);
+	}
+}
 
 // 기본 공격
 void AMyCharacterEnemy::Attack_Melee()
@@ -196,8 +228,15 @@ void AMyCharacterEnemy::HitReact(float damage) {
 
 		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("BossHit!"));
 
+		UpdateHPWidget();
+
 		//체력이 0이하면 죽는 애니메이션 실행
 		if (DefaultHP <= 0) {
+			AMyCharacter* PlayerCharacter = Cast<AMyCharacter>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0));
+			PlayerCharacter->Stat->SetExp(Exp);
+
+			BossHPWidget->RemoveFromViewport();
+
 			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Die!"));
 			isDie = true;
 			FTimerHandle TH_Hit_End;
@@ -208,7 +247,7 @@ void AMyCharacterEnemy::HitReact(float damage) {
 		}
 		else {
 			if (!isDuringAttack) {
-				PlayAnimMontage(Boss_HitReactMontage);
+				//PlayAnimMontage(Boss_HitReactMontage);
 			}
 		}
 
@@ -222,6 +261,20 @@ void AMyCharacterEnemy::DieAnim() {
 
 void AMyCharacterEnemy::PlayerCameraShake() {
 	GetWorld()->GetFirstPlayerController()->PlayerCameraManager->PlayCameraShake(MyShake, 1.0f);
+}
+
+void AMyCharacterEnemy::EndGame()
+{
+	if (DefaultHP <= 0) 
+	{
+		FTimerHandle EndTimerHandle;
+
+		GetWorldTimerManager().SetTimer(EndTimerHandle, FTimerDelegate::CreateLambda([&]() {
+			// 보스의 위치에서 일정 거리 위로 떨어지기
+			GameMode->ChangeLevel(GetWorld(), "Login");
+			}), 2.f, false);
+		
+	}
 }
 
 

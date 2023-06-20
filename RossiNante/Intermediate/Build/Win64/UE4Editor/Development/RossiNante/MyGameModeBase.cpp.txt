@@ -270,6 +270,8 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime/UMG/Public/Components/
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Slate\Public\Widgets/Text/ISlateEditableTextWidget.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\EditableText.generated.h
 C:\Users\owner\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\LoginWidget.generated.h
+C:\Users\owner\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Source\RossiNante\BossHPWidget.h
+C:\Users\owner\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Inc\RossiNante\BossHPWidget.generated.h
 C:\Users\owner\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Source\RossiNante\MyGameInstance.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/DataTable.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\DataTableUtils.h

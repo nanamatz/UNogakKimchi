@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\RossiNante.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{030B8333-F095-450C-A88E-C7BDD085D5C3}</UniqueIdentifier>
+      <UniqueIdentifier>{355F22D9-EF19-4356-A966-9BEA7B4D9628}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\RossiNante.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{1C30F454-B17F-405D-948C-1C1EB395AB5B}</UniqueIdentifier>
+      <UniqueIdentifier>{FC06A352-4BFD-4BCF-96DF-203E80A2467F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,8 +24,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\RossiNante">
-      <UniqueIdentifier>{5E7ED281-6595-492B-901F-605BCE1BF498}</UniqueIdentifier>
+      <UniqueIdentifier>{61B19A87-D72A-44AF-AD25-5A0873B713B0}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\RossiNante\BossHPWidget.cpp">
+      <Filter>Source\RossiNante</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RossiNante\BossHPWidget.h">
+      <Filter>Source\RossiNante</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\RossiNante\HUDWidget.cpp">
       <Filter>Source\RossiNante</Filter>
     </ClCompile>

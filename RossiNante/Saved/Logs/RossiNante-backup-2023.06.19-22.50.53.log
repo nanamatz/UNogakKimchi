@@ -1,0 +1,1699 @@
+﻿Log file open, 06/20/23 07:27:51
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: RossiNante
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.064038
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-11590370
+LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 2009) (), CPU: AMD Ryzen 5 5600X 6-Core Processor             , GPU: NVIDIA GeForce RTX 3060
+LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2023.06.19-22.27.51:816][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2023.06.19-22.27.51:816][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2023.06.19-22.27.51:816][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.06.19-22.27.51:816][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2023.06.19-22.27.51:816][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.06.19-22.27.51:816][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.06.19-22.27.51:816][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2023.06.19-22.27.51:816][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2023.06.19-22.27.51:816][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2023.06.19-22.27.51:816][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2023.06.19-22.27.51:816][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2023.06.19-22.27.51:816][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2023.06.19-22.27.51:816][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2023.06.19-22.27.51:816][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2023.06.19-22.27.51:816][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2023.06.19-22.27.51:816][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2023.06.19-22.27.51:816][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2023.06.19-22.27.51:816][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2023.06.19-22.27.51:816][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2023.06.19-22.27.51:816][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2023.06.19-22.27.51:816][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.06.19-22.27.51:816][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2023.06.19-22.27.51:816][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2023.06.19-22.27.51:817][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2023.06.19-22.27.51:817][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2023.06.19-22.27.51:817][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2023.06.19-22.27.51:817][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2023.06.19-22.27.51:817][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2023.06.19-22.27.51:817][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2023.06.19-22.27.51:817][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2023.06.19-22.27.51:817][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2023.06.19-22.27.51:817][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2023.06.19-22.27.51:817][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2023.06.19-22.27.51:817][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2023.06.19-22.27.51:817][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.06.19-22.27.51:817][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.06.19-22.27.51:819][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2023.06.19-22.27.51:819][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2023.06.19-22.27.51:820][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2023.06.19-22.27.51:820][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2023.06.19-22.27.51:820][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-22.27.51:820][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2023.06.19-22.27.51:820][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2023.06.19-22.27.51:820][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-22.27.51:820][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2023.06.19-22.27.51:820][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2023.06.19-22.27.51:820][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2023.06.19-22.27.51:820][  0]LogInit: Selected Device Profile: [Windows]
+[2023.06.19-22.27.51:820][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2023.06.19-22.27.51:822][  0]LogHAL: Display: Platform has ~ 16 GB [17101754368 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2023.06.19-22.27.51:822][  0]LogInit: Going up to parent DeviceProfile []
+[2023.06.19-22.27.51:822][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Saved/Config/Windows/Scalability.ini]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2023.06.19-22.27.51:822][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2023.06.19-22.27.51:823][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2023.06.19-22.27.51:823][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2023.06.19-22.27.51:823][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Saved/Config/Windows/Engine.ini]
+[2023.06.19-22.27.51:823][  0]LogInit: Computer: DESKTOP-0FM8J8U
+[2023.06.19-22.27.51:823][  0]LogInit: User: owner
+[2023.06.19-22.27.51:823][  0]LogInit: CPU Page size=4096, Cores=6
+[2023.06.19-22.27.51:823][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.06.19-22.27.51:823][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2023.06.19-22.27.51:823][  0]LogMemory: Platform Memory Stats for Windows
+[2023.06.19-22.27.51:823][  0]LogMemory: Process Physical Memory: 109.38 MB used, 109.38 MB peak
+[2023.06.19-22.27.51:823][  0]LogMemory: Process Virtual Memory: 101.74 MB used, 101.74 MB peak
+[2023.06.19-22.27.51:823][  0]LogMemory: Physical Memory: 7585.37 MB used,  8724.13 MB free, 16309.50 MB total
+[2023.06.19-22.27.51:823][  0]LogMemory: Virtual Memory: 5168.53 MB used,  134212560.00 MB free, 134217728.00 MB total
+[2023.06.19-22.27.51:826][  0]LogWindows: WindowsPlatformFeatures enabled
+[2023.06.19-22.27.51:895][  0]LogInit: Using OS detected language (ko-KR).
+[2023.06.19-22.27.51:895][  0]LogInit: Using OS detected locale (ko-KR).
+[2023.06.19-22.27.51:896][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2023.06.19-22.27.51:950][  0]LogInit: Setting process to per monitor DPI aware
+[2023.06.19-22.27.51:974][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2023.06.19-22.27.51:974][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2023.06.19-22.27.52:117][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.06.19-22.27.52:117][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2023.06.19-22.27.52:117][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2023.06.19-22.27.52:117][  0]LogD3D11RHI: D3D11 adapters:
+[2023.06.19-22.27.52:260][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3060' (Feature Level 11_0)
+[2023.06.19-22.27.52:260][  0]LogD3D11RHI:       12142/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2023.06.19-22.27.52:262][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2023.06.19-22.27.52:262][  0]LogD3D11RHI:       0/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2023.06.19-22.27.52:262][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2023.06.19-22.27.52:268][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2023.06.19-22.27.52:268][  0]LogD3D11RHI:     GPU DeviceId: 0x2504 (for the marketing name, search the web for "GPU Device Id")
+[2023.06.19-22.27.52:268][  0]LogWindows: EnumDisplayDevices:
+[2023.06.19-22.27.52:269][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3060' (P:1 D:1)
+[2023.06.19-22.27.52:269][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3060' (P:0 D:0)
+[2023.06.19-22.27.52:270][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3060' (P:0 D:0)
+[2023.06.19-22.27.52:271][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3060' (P:0 D:0)
+[2023.06.19-22.27.52:271][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2023.06.19-22.27.52:271][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3060
+[2023.06.19-22.27.52:271][  0]LogD3D11RHI:   Driver Version: 516.01 (internal:31.0.15.1601, unified:516.01)
+[2023.06.19-22.27.52:271][  0]LogD3D11RHI:      Driver Date: 4-24-2022
+[2023.06.19-22.27.52:271][  0]LogRHI: Texture pool is 8499 MB (70% of 12142 MB)
+[2023.06.19-22.27.52:324][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2023.06.19-22.27.52:324][  0]LogD3D11RHI: Async texture creation enabled
+[2023.06.19-22.27.52:335][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2023.06.19-22.27.52:609][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2023.06.19-22.27.52:637][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2023.06.19-22.27.52:637][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2023.06.19-22.27.52:637][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2023.06.19-22.27.52:637][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2023.06.19-22.27.52:637][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2023.06.19-22.27.52:637][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2023.06.19-22.27.52:637][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2023.06.19-22.27.52:637][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2023.06.19-22.27.52:637][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2023.06.19-22.27.52:637][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2023.06.19-22.27.52:637][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2023.06.19-22.27.52:637][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2023.06.19-22.27.52:637][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2023.06.19-22.27.52:637][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2023.06.19-22.27.52:637][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2023.06.19-22.27.52:637][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2023.06.19-22.27.52:637][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2023.06.19-22.27.52:637][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2023.06.19-22.27.52:652][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2023.06.19-22.27.52:652][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2023.06.19-22.27.52:658][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2023.06.19-22.27.52:664][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2023.06.19-22.27.52:669][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2023.06.19-22.27.52:674][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2023.06.19-22.27.52:681][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2023.06.19-22.27.52:688][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2023.06.19-22.27.52:708][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2023.06.19-22.27.52:708][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2023.06.19-22.27.52:719][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2023.06.19-22.27.52:719][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2023.06.19-22.27.52:724][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2023.06.19-22.27.52:730][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2023.06.19-22.27.52:736][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2023.06.19-22.27.52:741][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2023.06.19-22.27.52:741][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2023.06.19-22.27.52:744][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2023.06.19-22.27.52:765][  0]LogShaderCompilers: Guid format shader working directory is -51 characters bigger than the processId version (../../../../../../Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Intermediate/Shaders/WorkingDirectory/19692/).
+[2023.06.19-22.27.52:765][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/owner/AppData/Local/Temp/UnrealShaderWorkingDir/300F126B4ABC8FD74A955F88620FBFA9/'.
+[2023.06.19-22.27.52:765][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2023.06.19-22.27.52:765][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2023.06.19-22.27.52:765][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2023.06.19-22.27.53:251][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2023.06.19-22.27.53:286][  0]LogDerivedDataCache: Loaded boot cache 0.04s 81MB C:/Users/owner/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2023.06.19-22.27.53:286][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/owner/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2023.06.19-22.27.53:287][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.06.19-22.27.53:287][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2023.06.19-22.27.53:287][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.06.19-22.27.53:287][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2023.06.19-22.27.53:295][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2023.06.19-22.27.53:295][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.06.19-22.27.53:295][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2023.06.19-22.27.53:296][  0]LogDerivedDataCache: Using Local data cache path C:/Users/owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.06.19-22.27.53:296][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2023.06.19-22.27.53:296][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2023.06.19-22.27.53:312][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2023.06.19-22.27.53:315][  0]LogSlate: Using FreeType 2.10.0
+[2023.06.19-22.27.53:315][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.06.19-22.27.53:355][  0]LogAssetRegistry: FAssetRegistry took 0.0020 seconds to start up
+[2023.06.19-22.27.53:565][  0]LogInit: Selected Device Profile: [Windows]
+[2023.06.19-22.27.53:667][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.06.19-22.27.53:667][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2023.06.19-22.27.53:667][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2023.06.19-22.27.53:667][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2023.06.19-22.27.53:667][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2023.06.19-22.27.53:675][  0]LogNetVersion: RossiNante 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 557242147)
+[2023.06.19-22.27.54:399][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.023814 seconds
+[2023.06.19-22.27.54:404][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2023.06.19-22.27.54:404][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2023.06.19-22.27.54:404][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.06.19-22.27.54:658][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.06.19-22.27.54:660][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.06.19-22.27.54:920][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2023.06.19-22.27.54:920][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2023.06.19-22.27.54:921][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2023.06.19-22.27.54:922][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2023.06.19-22.27.54:922][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2023.06.19-22.27.54:978][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.06.19-22.27.54:983][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.06.19-22.27.54:983][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.06.19-22.27.55:036][  0]LogOcInput: OculusInput pre-init called
+[2023.06.19-22.27.55:042][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2023.06.19-22.27.55:042][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2023.06.19-22.27.55:092][  0]LogEngine: Initializing Engine...
+[2023.06.19-22.27.55:093][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.06.19-22.27.55:094][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2023.06.19-22.27.55:296][  0]LogInit: Initializing FReadOnlyCVARCache
+[2023.06.19-22.27.55:301][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.06.19-22.27.55:309][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.19-22.27.55:309][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.19-22.27.55:309][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.19-22.27.55:309][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.19-22.27.55:309][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.06.19-22.27.55:309][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.06.19-22.27.55:309][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.06.19-22.27.55:309][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.19-22.27.55:309][  0]LogAudio: Display: Using built-in audio occlusion.
+[2023.06.19-22.27.55:309][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2023.06.19-22.27.55:374][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2023.06.19-22.27.55:374][  0]LogAudioMixer: Display: Name: 스피커(Realtek(R) Audio)
+[2023.06.19-22.27.55:374][  0]LogAudioMixer: Display: Is Default: Yes
+[2023.06.19-22.27.55:374][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2023.06.19-22.27.55:374][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2023.06.19-22.27.55:374][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2023.06.19-22.27.55:374][  0]LogAudioMixer: Display: Channel Order:
+[2023.06.19-22.27.55:374][  0]LogAudioMixer: Display: 0: FrontLeft
+[2023.06.19-22.27.55:374][  0]LogAudioMixer: Display: 1: FrontRight
+[2023.06.19-22.27.55:408][  0]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2023.06.19-22.27.55:411][  0]LogInit: FAudioDevice initialized.
+[2023.06.19-22.27.55:412][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2023.06.19-22.27.55:477][  0]LogDerivedDataCache: Saved boot cache 0.07s 81MB C:/Users/owner/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2023.06.19-22.27.55:477][  0]LogInit: Texture streaming: Enabled
+[2023.06.19-22.27.55:486][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2023.06.19-22.27.55:486][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2023.06.19-22.27.55:489][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2023.06.19-22.27.55:519][  0]LogInit: Transaction tracking system initialized
+[2023.06.19-22.27.55:527][  0]BlueprintLog: New page: 에디터 로드
+[2023.06.19-22.27.55:549][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2023.06.19-22.27.55:735][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2023.06.19-22.27.55:735][  0]LogCook: Display: Mobile HDR setting 1
+[2023.06.19-22.27.55:791][  0]LogFileCache: Scanning file cache for directory 'C:/Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Content/' took 0.05s
+[2023.06.19-22.27.56:232][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2023.06.19-22.27.56:232][  0]Cmd: MAP LOAD FILE="../../../../../../Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Content/Maps/Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.06.19-22.27.56:232][  0]LightingResults: New page: 라이팅 빌드
+[2023.06.19-22.27.56:233][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.06.19-22.27.56:233][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-22.27.56:233][  0]MapCheck: New page: 맵 체크
+[2023.06.19-22.27.56:233][  0]LightingResults: New page: 라이팅 빌드
+[2023.06.19-22.27.56:255][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.06.19-22.27.56:537][  0]LogBlueprint: Warning: [Compiler BP_Character] MyCharacter.Stat : 블루프린트에서 보이도록 (BlueprintReadOnly 또는  BlueprintReadWrite) 되어있지 않습니다. 마크업을 수정하거나 접근을 중단하지 않으면, 앞으로 릴리즈에서 오류가 발생할 것입니다.  Stat 구하기
+[2023.06.19-22.27.57:347][  0]LogAIModule: Creating AISystem for world Default
+[2023.06.19-22.27.57:355][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.06.19-22.27.57:379][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2023.06.19-22.27.57:381][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.06.19-22.27.57:382][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.464ms.
+[2023.06.19-22.27.57:382][  0]LogFileHelpers: Loading map 'Default' took 1.149
+[2023.06.19-22.27.57:456][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2023.06.19-22.27.57:512][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-22.27.57:517][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-22.27.57:520][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-22.27.57:524][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-22.27.57:528][  0]LogCollectionManager: Loaded 0 collections in 0.001386 seconds
+[2023.06.19-22.27.57:539][  0]LogFileCache: Scanning file cache for directory 'C:/Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Saved/Collections/' took 0.00s
+[2023.06.19-22.27.57:539][  0]LogFileCache: Scanning file cache for directory 'C:/Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Content/Developers/owner/Collections/' took 0.00s
+[2023.06.19-22.27.57:539][  0]LogFileCache: Scanning file cache for directory 'C:/Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Content/Collections/' took 0.00s
+[2023.06.19-22.27.57:539][  0]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 3030 classes and 719 folders.
+[2023.06.19-22.27.57:540][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2023.06.19-22.27.57:587][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2023.06.19-22.27.57:592][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2023.06.19-22.27.57:707][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2023.06.19-22.27.57:707][  0]LogLoad: (Engine Initialization) Total time: 7.18 seconds
+[2023.06.19-22.27.57:707][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.06.19-22.27.57:763][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.06.19-22.27.57:763][  0]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.06.19-22.27.57:765][  0]LogSlate: Took 0.000957 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2023.06.19-22.27.57:766][  0]LogSlate: Took 0.001100 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2023.06.19-22.27.57:766][  0]LogSlate: Took 0.000122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.06.19-22.27.57:769][  0]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.06.19-22.27.57:854][  0]LogRenderer: Reallocating scene render targets to support 608x348 Format 10 NumSamples 1 (Frame:1).
+[2023.06.19-22.27.57:855][  0]LogSlate: Took 0.000114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.06.19-22.27.57:869][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Content/' took 0.15s
+[2023.06.19-22.27.57:893][  1]LogAssetRegistry: Asset discovery search completed in 4.5384 seconds
+[2023.06.19-22.27.57:896][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000006 seconds (updated 0 objects)
+[2023.06.19-22.27.58:738][ 88]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.06.19-22.28.14:761][826]LogAssetEditorSubsystem: Opening Asset editor for LevelSequence /Game/Scenes/IntroScene.IntroScene
+[2023.06.19-22.28.40:822][904]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.06.19-22.29.03:077][401]Cmd: TRANSACTION UNDO
+[2023.06.19-22.29.03:078][401]LogEditorTransaction: Undo 액터 이동
+[2023.06.19-22.30.28:877][581]LogEditorViewport: Clicking on Actor (LMB): Brush (Brush1)
+[2023.06.19-22.30.32:029][924]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-22.30.32:031][924]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-22.30.32:037][924]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-22.30.32:041][924]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-22.30.32:072][924]LogSlate: Took 0.000710 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.06.19-22.30.40:079][775]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-22.30.40:082][775]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-22.32.05:819][822]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2023.06.19-22.32.06:516][903]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2023.06.19-22.32.06:885][946]LogEditorViewport: Clicking on Actor (LMB): BP_Normal_Portal_C (BP_Normal_Portal)
+[2023.06.19-22.32.26:280][213]LogEditorViewport: Clicking Background
+[2023.06.19-22.32.40:004][767]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-22.32.56:708][766]LogEditorViewport: Clicking on Actor (LMB): BP_Normal_Portal_C (BP_Normal_Portal)
+[2023.06.19-22.34.01:594][409]LogEditorViewport: Clicking on Actor (LMB): BP_Normal_Portal_C (BP_Normal_Portal)
+[2023.06.19-22.34.02:281][488]LogEditorViewport: Clicking on Actor (LMB): BP_Normal_Portal_C (BP_Normal_Portal)
+[2023.06.19-22.34.03:311][611]LogEditorViewport: Clicking on Actor (LMB): BP_Normal_Portal_C (BP_Normal_Portal)
+[2023.06.19-22.34.06:258][961]LogEditorViewport: Clicking on Actor (LMB): BP_Normal_Portal_C (BP_Normal_Portal)
+[2023.06.19-22.34.07:231][ 77]LogEditorViewport: Clicking on Actor (LMB): BP_Normal_Portal_C (BP_Normal_Portal)
+[2023.06.19-22.34.08:964][283]LogEditorViewport: Clicking on Actor (LMB): BP_Normal_Portal_C (BP_Normal_Portal)
+[2023.06.19-22.34.09:531][349]LogEditorViewport: Clicking on Actor (LMB): BP_Normal_Portal_C (BP_Normal_Portal)
+[2023.06.19-22.34.09:872][389]LogEditorViewport: Clicking on Actor (LMB): BP_Normal_Portal_C (BP_Normal_Portal)
+[2023.06.19-22.34.47:361][824]Cmd: TRANSACTION UNDO
+[2023.06.19-22.34.47:361][824]LogEditorTransaction: Undo 액터 이동
+[2023.06.19-22.34.47:856][839]Cmd: TRANSACTION UNDO
+[2023.06.19-22.34.47:856][839]LogEditorTransaction: Undo 액터 이동
+[2023.06.19-22.34.56:041][629]Cmd: TRANSACTION UNDO
+[2023.06.19-22.34.56:041][629]LogEditorTransaction: Undo 액터 클릭
+[2023.06.19-22.35.00:129][ 58]Cmd: TRANSACTION UNDO
+[2023.06.19-22.35.00:129][ 58]LogEditorTransaction: Undo 액터 클릭
+[2023.06.19-22.35.01:166][128]Cmd: TRANSACTION UNDO
+[2023.06.19-22.35.01:166][128]LogEditorTransaction: Undo 액터 회전
+[2023.06.19-22.35.02:466][265]Cmd: TRANSACTION UNDO
+[2023.06.19-22.35.02:466][265]LogEditorTransaction: Undo 액터 이동
+[2023.06.19-22.35.03:198][347]Cmd: TRANSACTION UNDO
+[2023.06.19-22.35.03:198][347]LogEditorTransaction: Undo 액터 클릭
+[2023.06.19-22.35.04:099][452]Cmd: TRANSACTION UNDO
+[2023.06.19-22.35.04:099][452]LogEditorTransaction: Undo 액터 클릭
+[2023.06.19-22.35.05:066][568]Cmd: TRANSACTION UNDO
+[2023.06.19-22.35.05:066][568]LogEditorTransaction: Undo 배경 클릭
+[2023.06.19-22.35.06:580][742]Cmd: TRANSACTION UNDO
+[2023.06.19-22.35.06:580][742]LogEditorTransaction: Undo 키 값 설정
+[2023.06.19-22.35.08:071][903]Cmd: TRANSACTION UNDO
+[2023.06.19-22.35.08:071][903]LogEditorTransaction: Undo 키 값 설정
+[2023.06.19-22.35.24:051][749]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-22.35.29:635][378]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-22.35.29:639][378]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-22.35.34:275][894]LogEditorViewport: Clicking Background
+[2023.06.19-22.35.39:559][506]LogRenderer: Reallocating scene render targets to support 608x472 Format 10 NumSamples 1 (Frame:81136).
+[2023.06.19-22.35.42:901][887]LogRenderer: Reallocating scene render targets to support 628x472 Format 10 NumSamples 1 (Frame:81517).
+[2023.06.19-22.35.42:945][888]LogRenderer: Reallocating scene render targets to support 664x472 Format 10 NumSamples 1 (Frame:81521).
+[2023.06.19-22.35.42:983][889]LogRenderer: Reallocating scene render targets to support 688x472 Format 10 NumSamples 1 (Frame:81525).
+[2023.06.19-22.35.43:015][890]LogRenderer: Reallocating scene render targets to support 696x472 Format 10 NumSamples 1 (Frame:81529).
+[2023.06.19-22.35.49:685][642]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-22.35.49:692][642]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-22.36.00:070][791]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-22.36.00:075][791]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-22.36.23:726][508]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2023.06.19-22.36.28:340][ 55]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2023.06.19-22.36.28:833][113]LogEditorViewport: Clicking on Actor (LMB): BP_Character_C (BP_Character)
+[2023.06.19-22.36.56:049][253]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2023.06.19-22.36.56:693][304]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2023.06.19-22.38.12:310][ 84]Cmd: TRANSACTION UNDO
+[2023.06.19-22.38.12:310][ 84]LogEditorTransaction: Undo 현재 시간에 키 추가
+[2023.06.19-22.38.41:509][303]LogEditorViewport: Clicking on Actor (LMB): BP_Normal_Portal_C (BP_Normal_Portal)
+[2023.06.19-22.39.32:894][319]LogTemp: Repeating last play command: 선택된 뷰포트
+[2023.06.19-22.39.32:905][319]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Default.Default:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Default.Default:PersistentLevel.Default' with GeneratedClass '/Game/Maps/Default.Default_C' with ClassGeneratedBy '/Game/Maps/Default.Default:PersistentLevel.Default'
+[2023.06.19-22.39.32:905][319]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.19-22.39.32:906][319]PIE: New page: PIE 세션: Default (2023. 6. 20. 오후 4:39:32)
+[2023.06.19-22.39.32:906][319]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2023.06.19-22.39.32:907][319]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.06.19-22.39.32:907][319]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Default
+[2023.06.19-22.39.32:911][319]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003390s)
+[2023.06.19-22.39.32:912][319]LogAIModule: Creating AISystem for world Default
+[2023.06.19-22.39.32:912][319]LogPlayLevel: PIE: World Init took: (0.000798s)
+[2023.06.19-22.39.32:912][319]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Default.Default to /Game/Maps/UEDPIE_0_Default.Default (0.004365s)
+[2023.06.19-22.39.32:947][319]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.06.19-22.39.32:951][319]LogTemp: Warning: C2S
+
+[2023.06.19-22.39.32:956][319]LogTemp: Warning: CONNECT SUCCESS
+
+[2023.06.19-22.39.32:956][319]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.19-22.39.32:956][319]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.19-22.39.32:956][319]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.19-22.39.32:956][319]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.19-22.39.32:956][319]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.06.19-22.39.32:956][319]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.06.19-22.39.32:956][319]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.06.19-22.39.32:956][319]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.19-22.39.32:957][319]LogAudio: Display: Using built-in audio occlusion.
+[2023.06.19-22.39.32:957][319]LogAudioMixer: Display: Initializing audio mixer.
+[2023.06.19-22.39.33:013][319]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2023.06.19-22.39.33:013][319]LogAudioMixer: Display: Name: 스피커(Realtek(R) Audio)
+[2023.06.19-22.39.33:013][319]LogAudioMixer: Display: Is Default: Yes
+[2023.06.19-22.39.33:013][319]LogAudioMixer: Display: Sample Rate: 48000
+[2023.06.19-22.39.33:013][319]LogAudioMixer: Display: Channel Count Used: 2
+[2023.06.19-22.39.33:013][319]LogAudioMixer: Display: Device Channel Count: 2
+[2023.06.19-22.39.33:013][319]LogAudioMixer: Display: Channel Order:
+[2023.06.19-22.39.33:013][319]LogAudioMixer: Display: 0: FrontLeft
+[2023.06.19-22.39.33:013][319]LogAudioMixer: Display: 1: FrontRight
+[2023.06.19-22.39.33:041][319]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2023.06.19-22.39.33:043][319]LogInit: FAudioDevice initialized.
+[2023.06.19-22.39.33:051][319]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.06.19-22.39.33:054][319]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2023.06.20-07.39.33
+[2023.06.19-22.39.33:055][319]LogLinker: Warning: '{FileName}': 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2023.06.19-22.39.33:055][319]LogLinker: Warning: '{FileName}': 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2023.06.19-22.39.33:055][319]LogUObjectGlobals: Warning: 'Object /Game/Cinematics/Sequences/Sequence/SequenceMaster.SequenceMaster' 오브젝트를 찾는 데 실패했습니다.
+[2023.06.19-22.39.33:055][319]LogWorld: Bringing up level for play took: 0.003581
+[2023.06.19-22.39.33:056][319]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2023.06.19-22.39.33:058][319]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2023.06.19-22.39.33:062][319]PIE: /Game/Maps/UEDPIE_0_Default 에 대한 에디터에서 플레이 시작 시간: -0.496
+[2023.06.19-22.39.33:062][319]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Default.Default:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Default.Default:PersistentLevel.Default' with GeneratedClass '/Game/Maps/Default.Default_C' with ClassGeneratedBy '/Game/Maps/Default.Default:PersistentLevel.Default'
+[2023.06.19-22.40.30:221][474]LogTemp: Warning: Attack Damage: 0
+[2023.06.19-22.40.30:419][487]LogTemp: Warning: broadCast Attack
+[2023.06.19-22.40.49:659][793]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.06.19-22.40.49:663][793]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2023.06.19-22.40.49:693][793]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2023.06.19-22.40.49:693][793]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Default.Default:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Default.Default:PersistentLevel.Default' with GeneratedClass '/Game/Maps/Default.Default_C' with ClassGeneratedBy '/Game/Maps/Default.Default:PersistentLevel.Default'
+[2023.06.19-22.40.49:694][793]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-22.40.49:694][793]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Default
+[2023.06.19-22.40.49:694][793]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.06.19-22.40.49:694][793]LogWorld: UWorld::CleanupWorld for Default, bSessionEnded=true, bCleanupResources=true
+[2023.06.19-22.40.49:694][793]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-22.40.49:709][793]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.19-22.40.49:710][793]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Default.Default:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Default.Default:PersistentLevel.Default' with GeneratedClass '/Game/Maps/Default.Default_C' with ClassGeneratedBy '/Game/Maps/Default.Default:PersistentLevel.Default'
+[2023.06.19-22.40.49:713][793]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-22.40.49:733][793]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.06.19-22.40.49:735][793]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-22.40.49:738][793]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.06.19-22.40.49:761][795]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2023.06.19-22.41.35:852][851]LogTemp: Repeating last play command: 선택된 뷰포트
+[2023.06.19-22.41.35:862][851]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Default.Default:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Default.Default:PersistentLevel.Default' with GeneratedClass '/Game/Maps/Default.Default_C' with ClassGeneratedBy '/Game/Maps/Default.Default:PersistentLevel.Default'
+[2023.06.19-22.41.35:862][851]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.19-22.41.35:862][851]PIE: New page: PIE 세션: Default (2023. 6. 20. 오후 4:41:35)
+[2023.06.19-22.41.35:862][851]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Default
+[2023.06.19-22.41.35:865][851]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002753s)
+[2023.06.19-22.41.35:866][851]LogAIModule: Creating AISystem for world Default
+[2023.06.19-22.41.35:866][851]LogPlayLevel: PIE: World Init took: (0.000670s)
+[2023.06.19-22.41.35:866][851]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Default.Default to /Game/Maps/UEDPIE_0_Default.Default (0.003489s)
+[2023.06.19-22.41.35:887][851]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.06.19-22.41.35:888][851]LogTemp: Warning: C2S
+
+[2023.06.19-22.41.35:893][851]LogTemp: Warning: CONNECT SUCCESS
+
+[2023.06.19-22.41.35:893][851]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.19-22.41.35:893][851]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.19-22.41.35:893][851]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.19-22.41.35:893][851]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.19-22.41.35:893][851]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.06.19-22.41.35:893][851]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.06.19-22.41.35:893][851]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.06.19-22.41.35:893][851]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.19-22.41.35:895][851]LogAudio: Display: Using built-in audio occlusion.
+[2023.06.19-22.41.35:895][851]LogAudioMixer: Display: Initializing audio mixer.
+[2023.06.19-22.41.35:949][851]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2023.06.19-22.41.35:949][851]LogAudioMixer: Display: Name: 스피커(Realtek(R) Audio)
+[2023.06.19-22.41.35:949][851]LogAudioMixer: Display: Is Default: Yes
+[2023.06.19-22.41.35:949][851]LogAudioMixer: Display: Sample Rate: 48000
+[2023.06.19-22.41.35:949][851]LogAudioMixer: Display: Channel Count Used: 2
+[2023.06.19-22.41.35:949][851]LogAudioMixer: Display: Device Channel Count: 2
+[2023.06.19-22.41.35:949][851]LogAudioMixer: Display: Channel Order:
+[2023.06.19-22.41.35:949][851]LogAudioMixer: Display: 0: FrontLeft
+[2023.06.19-22.41.35:949][851]LogAudioMixer: Display: 1: FrontRight
+[2023.06.19-22.41.35:976][851]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2023.06.19-22.41.35:977][851]LogInit: FAudioDevice initialized.
+[2023.06.19-22.41.35:987][851]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.06.19-22.41.35:990][851]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2023.06.20-07.41.35
+[2023.06.19-22.41.35:990][851]LogWorld: Bringing up level for play took: 0.003051
+[2023.06.19-22.41.35:991][851]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2023.06.19-22.41.35:995][851]PIE: /Game/Maps/UEDPIE_0_Default 에 대한 에디터에서 플레이 시작 시간: 0.437
+[2023.06.19-22.41.35:995][851]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Default.Default:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Default.Default:PersistentLevel.Default' with GeneratedClass '/Game/Maps/Default.Default_C' with ClassGeneratedBy '/Game/Maps/Default.Default:PersistentLevel.Default'
+[2023.06.19-22.41.50:803][481]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.06.19-22.41.50:803][481]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2023.06.19-22.41.50:823][481]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2023.06.19-22.41.50:824][481]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Default.Default:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Default.Default:PersistentLevel.Default' with GeneratedClass '/Game/Maps/Default.Default_C' with ClassGeneratedBy '/Game/Maps/Default.Default:PersistentLevel.Default'
+[2023.06.19-22.41.50:824][481]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-22.41.50:824][481]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Default
+[2023.06.19-22.41.50:824][481]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.06.19-22.41.50:824][481]LogWorld: UWorld::CleanupWorld for Default, bSessionEnded=true, bCleanupResources=true
+[2023.06.19-22.41.50:824][481]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-22.41.50:831][481]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.19-22.41.50:831][481]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Default.Default:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Default.Default:PersistentLevel.Default' with GeneratedClass '/Game/Maps/Default.Default_C' with ClassGeneratedBy '/Game/Maps/Default.Default:PersistentLevel.Default'
+[2023.06.19-22.41.50:835][481]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-22.41.50:855][481]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.06.19-22.41.50:857][481]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-22.41.50:859][481]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.06.19-22.41.50:910][486]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2023.06.19-22.41.51:405][537]Cmd: TRANSACTION UNDO
+[2023.06.19-22.41.51:405][537]LogEditorTransaction: Undo 선택된 키 잘라내기
+[2023.06.19-22.42.05:039][ 73]LogTemp: Repeating last play command: 선택된 뷰포트
+[2023.06.19-22.42.05:050][ 73]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Default.Default:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Default.Default:PersistentLevel.Default' with GeneratedClass '/Game/Maps/Default.Default_C' with ClassGeneratedBy '/Game/Maps/Default.Default:PersistentLevel.Default'
+[2023.06.19-22.42.05:050][ 73]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.19-22.42.05:050][ 73]PIE: New page: PIE 세션: Default (2023. 6. 20. 오후 4:42:05)
+[2023.06.19-22.42.05:050][ 73]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Default
+[2023.06.19-22.42.05:053][ 73]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002703s)
+[2023.06.19-22.42.05:054][ 73]LogAIModule: Creating AISystem for world Default
+[2023.06.19-22.42.05:054][ 73]LogPlayLevel: PIE: World Init took: (0.000613s)
+[2023.06.19-22.42.05:054][ 73]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Default.Default to /Game/Maps/UEDPIE_0_Default.Default (0.003382s)
+[2023.06.19-22.42.05:074][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.06.19-22.42.05:075][ 73]LogTemp: Warning: C2S
+
+[2023.06.19-22.42.05:081][ 73]LogTemp: Warning: CONNECT SUCCESS
+
+[2023.06.19-22.42.05:082][ 73]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.19-22.42.05:082][ 73]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.19-22.42.05:082][ 73]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.19-22.42.05:082][ 73]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.19-22.42.05:082][ 73]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.06.19-22.42.05:082][ 73]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.06.19-22.42.05:082][ 73]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.06.19-22.42.05:082][ 73]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.19-22.42.05:082][ 73]LogAudio: Display: Using built-in audio occlusion.
+[2023.06.19-22.42.05:082][ 73]LogAudioMixer: Display: Initializing audio mixer.
+[2023.06.19-22.42.05:138][ 73]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2023.06.19-22.42.05:138][ 73]LogAudioMixer: Display: Name: 스피커(Realtek(R) Audio)
+[2023.06.19-22.42.05:138][ 73]LogAudioMixer: Display: Is Default: Yes
+[2023.06.19-22.42.05:138][ 73]LogAudioMixer: Display: Sample Rate: 48000
+[2023.06.19-22.42.05:138][ 73]LogAudioMixer: Display: Channel Count Used: 2
+[2023.06.19-22.42.05:138][ 73]LogAudioMixer: Display: Device Channel Count: 2
+[2023.06.19-22.42.05:138][ 73]LogAudioMixer: Display: Channel Order:
+[2023.06.19-22.42.05:138][ 73]LogAudioMixer: Display: 0: FrontLeft
+[2023.06.19-22.42.05:138][ 73]LogAudioMixer: Display: 1: FrontRight
+[2023.06.19-22.42.05:165][ 73]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2023.06.19-22.42.05:166][ 73]LogInit: FAudioDevice initialized.
+[2023.06.19-22.42.05:174][ 73]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.06.19-22.42.05:176][ 73]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2023.06.20-07.42.05
+[2023.06.19-22.42.05:177][ 73]LogWorld: Bringing up level for play took: 0.003113
+[2023.06.19-22.42.05:177][ 73]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2023.06.19-22.42.05:182][ 73]PIE: /Game/Maps/UEDPIE_0_Default 에 대한 에디터에서 플레이 시작 시간: -0.376
+[2023.06.19-22.42.05:182][ 73]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Default.Default:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Default.Default:PersistentLevel.Default' with GeneratedClass '/Game/Maps/Default.Default_C' with ClassGeneratedBy '/Game/Maps/Default.Default:PersistentLevel.Default'
+[2023.06.19-22.43.12:860][215]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.06.19-22.43.12:860][215]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.06.19-22.43.12:860][215]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Default.Default:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Default.Default:PersistentLevel.Default' with GeneratedClass '/Game/Maps/Default.Default_C' with ClassGeneratedBy '/Game/Maps/Default.Default:PersistentLevel.Default'
+[2023.06.19-22.43.12:861][215]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-22.43.12:861][215]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Default
+[2023.06.19-22.43.12:861][215]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.06.19-22.43.12:861][215]LogWorld: UWorld::CleanupWorld for Default, bSessionEnded=true, bCleanupResources=true
+[2023.06.19-22.43.12:861][215]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-22.43.12:865][215]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.19-22.43.12:865][215]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Default.Default:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Default.Default:PersistentLevel.Default' with GeneratedClass '/Game/Maps/Default.Default_C' with ClassGeneratedBy '/Game/Maps/Default.Default:PersistentLevel.Default'
+[2023.06.19-22.43.12:869][215]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-22.43.12:889][215]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.06.19-22.43.12:891][215]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-22.43.12:893][215]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.06.19-22.43.12:959][220]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2023.06.19-22.43.24:048][428]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-22.43.24:105][429]LogRenderer: Reallocating scene render targets to support 952x472 Format 10 NumSamples 1 (Frame:128493).
+[2023.06.19-22.43.26:192][662]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-22.44.23:847][457]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.06.19-22.44.23:999][467]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2023.06.19-22.44.24:195][467]LogSavePackage: Moving '../../../../../../Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Saved/Default_Auto1630C1E4241F7FC1DA690A0A21127E481.tmp' to '../../../../../../Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Saved/Autosaves/Game/Maps/Default_Auto1.umap'
+[2023.06.19-22.44.24:197][467]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Default' took 0.218
+[2023.06.19-22.44.24:197][467]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.218
+[2023.06.19-22.44.24:197][467]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Scenes/IntroScene] ([1] browsable assets)...
+[2023.06.19-22.44.24:197][467]OBJ SavePackage: Finished generating thumbnails for package [/Game/Scenes/IntroScene]
+[2023.06.19-22.44.24:253][467]LogSavePackage: Moving '../../../../../../Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Saved/IntroScene_Auto165443ADB40FC23C2BA4DD9898868B32E.tmp' to '../../../../../../Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Saved/Autosaves/Game/Scenes/IntroScene_Auto1.uasset'
+[2023.06.19-22.44.24:255][467]LogFileHelpers: Auto-saving content packages took 0.058
+[2023.06.19-22.44.26:682][738]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.06.19-22.44.27:949][887]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.06.19-22.44.30:726][219]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.06.19-22.44.34:147][597]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.06.19-22.44.37:779][ 30]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.06.19-22.44.39:664][254]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.06.19-22.44.40:928][405]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.06.19-22.44.41:575][482]Cmd: TRANSACTION UNDO
+[2023.06.19-22.44.41:575][482]LogEditorTransaction: Undo 액터 이동
+[2023.06.19-22.44.42:028][497]Cmd: TRANSACTION UNDO
+[2023.06.19-22.44.42:028][497]LogEditorTransaction: Undo 액터 이동
+[2023.06.19-22.44.42:433][537]Cmd: TRANSACTION UNDO
+[2023.06.19-22.44.42:433][537]LogEditorTransaction: Undo 액터 이동
+[2023.06.19-22.44.46:962][ 61]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.06.19-22.44.48:095][196]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.06.19-22.44.50:093][435]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.06.19-22.44.52:587][731]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.06.19-22.44.54:230][925]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.06.19-22.44.55:362][ 60]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.06.19-22.44.57:162][274]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.06.19-22.45.01:176][723]MapCheck: New page: 맵 체크
+[2023.06.19-22.45.01:191][723]LightingResults: New page: 라이팅 빌드 - 2023. 6. 20. 오후 4:45:01
+[2023.06.19-22.45.01:236][723]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2023.06.19-22.45.01:327][723]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2023.06.19-22.45.01:387][723]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2023.06.19-22.45.01:902][723]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2023.06.19-22.45.01:902][723]LogSwarmInterface: [TryOpenConnection] Local Process ID is 19692
+[2023.06.19-22.45.13:744][723]LightingResults: Warning: 설정된 임포턴스 볼륨이 없는데다 씬이 꽤 커서 자동 합성된 볼륨으로는 괜찮은 결과가 나지 않을 것입니다. 씬의 퀄리티와 라이팅 빌드 시간 최적화를 위해 라이트매스 임포턴스 볼륨을 꼭 맞게 추가해 주시기 바랍니다.
+[2023.06.19-22.45.13:744][723]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2023.06.19-22.45.13:744][723]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2023.06.19-22.45.13:744][723]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2023.06.19-22.45.13:744][723]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2023.06.19-22.45.13:744][723]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2023.06.19-22.45.13:898][723]LogEditorBuildUtils: Build time 0:12
+[2023.06.19-22.45.13:912][723]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Dawn_TermTower2, compiling. 
+[2023.06.19-22.45.13:929][723]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2023.06.19-22.45.13:929][723]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2023.06.19-22.45.13:929][723]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Dawn_TermTower2, compiling. 
+[2023.06.19-22.45.13:962][724]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2023.06.19-22.45.13:962][724]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2023.06.19-22.45.14:762][727]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2023.06.19-22.45.17:168][734]Job is a success!
+[2023.06.19-22.45.17:698][735]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.066s
+[2023.06.19-22.45.17:698][735]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2023.06.19-22.45.17:698][735]LogVolumetricLightmapImport:      BrickData (all levels) 0.0Mb
+[2023.06.19-22.45.17:698][735]LogVolumetricLightmapImport:      Bricks at depth
+[2023.06.19-22.45.17:698][735]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
+[2023.06.19-22.45.17:698][735]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
+[2023.06.19-22.45.17:698][735]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2023.06.19-22.45.17:698][735]LogVolumetricLightmapImport:      Bricks in each level
+[2023.06.19-22.45.17:698][735]LogVolumetricLightmapImport:          Default 			 8 bricks 	 100.0% (Persistent Level)
+[2023.06.19-22.45.17:748][735]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2023.06.19-22.45.17:748][735]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2023.06.19-22.45.17:748][735]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_0 (G8, 128X128)
+[2023.06.19-22.45.17:748][735]Lightmass on DESKTOP-0FM8J8U: 2.45 sec total, 170 ms importing, 15 ms setup, 714 ms photons, 1.48 sec processing, 0 ms extra exporting [1/1 mappings]. Threads: 16.3 sec total, 345 ms processing.
+[2023.06.19-22.45.17:772][735]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2023.06.19-22.45.17:816][735]LogStaticLightingSystem: Illumination: 16.2 sec (10 ms encoding lightmaps, 3 ms encoding shadowmaps)
+[2023.06.19-22.45.17:816][735]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 2 textures
+[2023.06.19-22.45.17:816][735]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2023.06.19-22.45.18:748][735]DumpUnbuiltLightIteractions
+[2023.06.19-22.45.18:748][735]Lights with unbuilt interactions: 0
+[2023.06.19-22.45.18:748][735]
+[2023.06.19-22.45.18:748][735]Primitives with unbuilt interactions: 0
+[2023.06.19-22.45.18:877][736]Cmd: MAP CHECK NOTIFYRESULTS
+[2023.06.19-22.45.18:877][736]MapCheck: New page: Default - 2023. 6. 20. 오후 4:45:18
+[2023.06.19-22.45.18:878][736]MapCheck: Warning: BP_Tower_4 커다란 액터가 프리-섀도를 받고 있어, bCastDynamicShadow 를 _False_ 로 설정하지 않으면 엄청난 퍼포먼스 영향이 있을 것입니다. 
+[2023.06.19-22.45.18:878][736]MapCheck: Warning: BP_Tower_4 커다란 액터가 프리-섀도를 받고 있어, bCastDynamicShadow 를 _False_ 로 설정하지 않으면 엄청난 퍼포먼스 영향이 있을 것입니다. 
+[2023.06.19-22.45.18:878][736]MapCheck: Warning: BP_Tower_4 커다란 액터가 프리-섀도를 받고 있어, bCastDynamicShadow 를 _False_ 로 설정하지 않으면 엄청난 퍼포먼스 영향이 있을 것입니다. 
+[2023.06.19-22.45.18:878][736]MapCheck: Warning: BP_Tower_4 커다란 액터가 프리-섀도를 받고 있어, bCastDynamicShadow 를 _False_ 로 설정하지 않으면 엄청난 퍼포먼스 영향이 있을 것입니다. 
+[2023.06.19-22.45.18:878][736]MapCheck: Warning: BP_Tower_4 커다란 액터가 프리-섀도를 받고 있어, bCastDynamicShadow 를 _False_ 로 설정하지 않으면 엄청난 퍼포먼스 영향이 있을 것입니다. 
+[2023.06.19-22.45.18:878][736]MapCheck: Warning: BP_Tower_4 커다란 액터가 프리-섀도를 받고 있어, bCastDynamicShadow 를 _False_ 로 설정하지 않으면 엄청난 퍼포먼스 영향이 있을 것입니다. 
+[2023.06.19-22.45.18:878][736]MapCheck: Warning: BP_Tower_4 커다란 액터가 프리-섀도를 받고 있어, bCastDynamicShadow 를 _False_ 로 설정하지 않으면 엄청난 퍼포먼스 영향이 있을 것입니다. 
+[2023.06.19-22.45.18:878][736]MapCheck: Warning: BP_Tower_4 커다란 액터가 프리-섀도를 받고 있어, bCastDynamicShadow 를 _False_ 로 설정하지 않으면 엄청난 퍼포먼스 영향이 있을 것입니다. 
+[2023.06.19-22.45.18:878][736]MapCheck: Warning: BP_Tower_4 커다란 액터가 프리-섀도를 받고 있어, bCastDynamicShadow 를 _False_ 로 설정하지 않으면 엄청난 퍼포먼스 영향이 있을 것입니다. 
+[2023.06.19-22.45.18:878][736]MapCheck: Warning: BP_Normal_Portal_2 커다란 액터가 프리-섀도를 받고 있어, bCastDynamicShadow 를 _False_ 로 설정하지 않으면 엄청난 퍼포먼스 영향이 있을 것입니다. 
+[2023.06.19-22.45.18:878][736]MapCheck: Warning: BP_Normal_Portal_2 커다란 액터가 프리-섀도를 받고 있어, bCastDynamicShadow 를 _False_ 로 설정하지 않으면 엄청난 퍼포먼스 영향이 있을 것입니다. 
+[2023.06.19-22.45.18:878][736]MapCheck: 맵 체크 완료: 오류 0 회, 경고 11 회, 소요 시간 1.391ms.
+[2023.06.19-22.45.43:973][267]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.06.19-22.45.44:882][375]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.06.19-22.45.51:645][185]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.06.19-22.45.53:463][402]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.06.19-22.45.56:669][785]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.06.19-22.46.00:427][171]LogTemp: Repeating last play command: 선택된 뷰포트
+[2023.06.19-22.46.00:438][171]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Default.Default:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Default.Default:PersistentLevel.Default' with GeneratedClass '/Game/Maps/Default.Default_C' with ClassGeneratedBy '/Game/Maps/Default.Default:PersistentLevel.Default'
+[2023.06.19-22.46.00:438][171]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.19-22.46.00:438][171]PIE: New page: PIE 세션: Default (2023. 6. 20. 오후 4:46:00)
+[2023.06.19-22.46.00:438][171]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Default
+[2023.06.19-22.46.00:441][171]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002906s)
+[2023.06.19-22.46.00:441][171]LogAIModule: Creating AISystem for world Default
+[2023.06.19-22.46.00:442][171]LogPlayLevel: PIE: World Init took: (0.000716s)
+[2023.06.19-22.46.00:442][171]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Default.Default to /Game/Maps/UEDPIE_0_Default.Default (0.003702s)
+[2023.06.19-22.46.00:462][171]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.06.19-22.46.00:464][171]LogTemp: Warning: C2S
+
+[2023.06.19-22.46.00:469][171]LogTemp: Warning: CONNECT SUCCESS
+
+[2023.06.19-22.46.00:469][171]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.19-22.46.00:469][171]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.19-22.46.00:469][171]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.19-22.46.00:469][171]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.19-22.46.00:469][171]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.06.19-22.46.00:469][171]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.06.19-22.46.00:469][171]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.06.19-22.46.00:469][171]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.19-22.46.00:469][171]LogAudio: Display: Using built-in audio occlusion.
+[2023.06.19-22.46.00:469][171]LogAudioMixer: Display: Initializing audio mixer.
+[2023.06.19-22.46.00:523][171]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2023.06.19-22.46.00:524][171]LogAudioMixer: Display: Name: 스피커(Realtek(R) Audio)
+[2023.06.19-22.46.00:524][171]LogAudioMixer: Display: Is Default: Yes
+[2023.06.19-22.46.00:524][171]LogAudioMixer: Display: Sample Rate: 48000
+[2023.06.19-22.46.00:524][171]LogAudioMixer: Display: Channel Count Used: 2
+[2023.06.19-22.46.00:524][171]LogAudioMixer: Display: Device Channel Count: 2
+[2023.06.19-22.46.00:524][171]LogAudioMixer: Display: Channel Order:
+[2023.06.19-22.46.00:524][171]LogAudioMixer: Display: 0: FrontLeft
+[2023.06.19-22.46.00:524][171]LogAudioMixer: Display: 1: FrontRight
+[2023.06.19-22.46.00:550][171]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2023.06.19-22.46.00:552][171]LogInit: FAudioDevice initialized.
+[2023.06.19-22.46.00:555][171]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.06.19-22.46.00:558][171]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2023.06.20-07.46.00
+[2023.06.19-22.46.00:558][171]LogWorld: Bringing up level for play took: 0.003201
+[2023.06.19-22.46.00:559][171]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2023.06.19-22.46.00:564][171]PIE: /Game/Maps/UEDPIE_0_Default 에 대한 에디터에서 플레이 시작 시간: 1.006
+[2023.06.19-22.46.00:564][171]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Default.Default:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Default.Default:PersistentLevel.Default' with GeneratedClass '/Game/Maps/Default.Default_C' with ClassGeneratedBy '/Game/Maps/Default.Default:PersistentLevel.Default'
+[2023.06.19-22.46.57:144][127]LogTemp: Warning: Attack Damage: 0
+[2023.06.19-22.46.57:344][151]LogTemp: Warning: broadCast Attack
+[2023.06.19-22.46.59:547][395]LogPackageName: SearchForPackageOnDisk took   0.169s, but failed to resolve None.umap.
+[2023.06.19-22.46.59:719][396]LogPackageName: SearchForPackageOnDisk took   0.167s, but failed to resolve None.umap.
+[2023.06.19-22.46.59:719][396]LogNet: Browse: /Game/Maps/Login
+[2023.06.19-22.46.59:719][396]LogNet: Warning: Travel Failure: [InvalidURL]: 잘못된 URL: /Game/Maps/Login
+[2023.06.19-22.46.59:719][396]LogNet: Warning: 트래블 실패: InvalidURL, 실패 이유: '잘못된 URL: /Game/Maps/Login'. PIE 종료.
+[2023.06.19-22.46.59:719][396]PIE: Warning: 트래블 실패: InvalidURL, 실패 이유: '잘못된 URL: /Game/Maps/Login'. PIE 종료.
+[2023.06.19-22.46.59:719][396]LogNet: Warning: Travel Failure: [ClientTravelFailure]: 잘못된 URL: /Game/Maps/Login
+[2023.06.19-22.46.59:719][396]LogNet: Warning: 트래블 실패: ClientTravelFailure, 실패 이유: '잘못된 URL: /Game/Maps/Login'. PIE 종료.
+[2023.06.19-22.46.59:719][396]PIE: Warning: 트래블 실패: ClientTravelFailure, 실패 이유: '잘못된 URL: /Game/Maps/Login'. PIE 종료.
+[2023.06.19-22.46.59:720][396]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.06.19-22.46.59:724][396]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2023.06.19-22.46.59:744][396]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2023.06.19-22.46.59:744][396]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Default.Default:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Default.Default:PersistentLevel.Default' with GeneratedClass '/Game/Maps/Default.Default_C' with ClassGeneratedBy '/Game/Maps/Default.Default:PersistentLevel.Default'
+[2023.06.19-22.46.59:744][396]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-22.46.59:744][396]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Default
+[2023.06.19-22.46.59:744][396]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.06.19-22.46.59:744][396]LogWorld: UWorld::CleanupWorld for Default, bSessionEnded=true, bCleanupResources=true
+[2023.06.19-22.46.59:745][396]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-22.46.59:751][396]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.19-22.46.59:751][396]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Default.Default:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Default.Default:PersistentLevel.Default' with GeneratedClass '/Game/Maps/Default.Default_C' with ClassGeneratedBy '/Game/Maps/Default.Default:PersistentLevel.Default'
+[2023.06.19-22.46.59:755][396]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-22.46.59:775][396]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.06.19-22.46.59:778][396]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-22.46.59:780][396]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2023.06.19-22.46.59:829][397]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2023.06.19-22.47.03:085][760]LogEditorViewport: Clicking on Actor (LMB): BP_Normal_Portal_C (BP_Normal_Portal)
+[2023.06.19-22.47.03:633][823]LogEditorViewport: Clicking on Actor (LMB): BP_Normal_Portal_C (BP_Normal_Portal)
+[2023.06.19-22.47.08:345][336]LogEditorViewport: Clicking on Actor (LMB): BP_Normal_Portal_C (BP_Normal_Portal)
+[2023.06.19-22.47.17:728][302]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/IntroScene" FILE="../../../../../../Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Content/Scenes/IntroScene.uasset" SILENT=true
+[2023.06.19-22.47.17:785][302]LogSavePackage: Moving '../../../../../../Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Saved/IntroSceneC8F4474F40D4BC4BBD00B1BD9C8E84E9.tmp' to '../../../../../../Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Content/Scenes/IntroScene.uasset'
+[2023.06.19-22.47.17:829][302]AssetCheck: New page: Asset Save: IntroScene
+[2023.06.19-22.47.17:829][302]LogContentValidation: Display: LevelSequence /Game/Scenes/IntroScene.IntroScene 유효성 검사
+[2023.06.19-22.47.24:556][ 57]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-22.47.39:242][681]LogEditorViewport: Clicking on Actor (LMB): BP_Character_C (BP_Character)
+[2023.06.19-22.48.24:894][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/IntroScene" FILE="../../../../../../Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Content/Scenes/IntroScene.uasset" SILENT=true
+[2023.06.19-22.48.24:949][695]LogSavePackage: Moving '../../../../../../Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Saved/IntroScene16818A2D497F4F6784E44DB2C4D231C1.tmp' to '../../../../../../Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Content/Scenes/IntroScene.uasset'
+[2023.06.19-22.48.24:979][695]AssetCheck: New page: Asset Save: IntroScene
+[2023.06.19-22.48.24:979][695]LogContentValidation: Display: LevelSequence /Game/Scenes/IntroScene.IntroScene 유효성 검사
+[2023.06.19-22.48.33:346][600]LogTemp: Repeating last play command: 선택된 뷰포트
+[2023.06.19-22.48.33:357][600]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Default.Default:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Default.Default:PersistentLevel.Default' with GeneratedClass '/Game/Maps/Default.Default_C' with ClassGeneratedBy '/Game/Maps/Default.Default:PersistentLevel.Default'
+[2023.06.19-22.48.33:357][600]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.19-22.48.33:357][600]PIE: New page: PIE 세션: Default (2023. 6. 20. 오후 4:48:33)
+[2023.06.19-22.48.33:357][600]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Default
+[2023.06.19-22.48.33:360][600]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002841s)
+[2023.06.19-22.48.33:360][600]LogAIModule: Creating AISystem for world Default
+[2023.06.19-22.48.33:360][600]LogPlayLevel: PIE: World Init took: (0.000610s)
+[2023.06.19-22.48.33:360][600]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Default.Default to /Game/Maps/UEDPIE_0_Default.Default (0.003521s)
+[2023.06.19-22.48.33:382][600]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2023.06.19-22.48.33:383][600]LogTemp: Warning: C2S
+
+[2023.06.19-22.48.33:389][600]LogTemp: Warning: CONNECT SUCCESS
+
+[2023.06.19-22.48.33:389][600]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.19-22.48.33:389][600]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.19-22.48.33:389][600]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.19-22.48.33:389][600]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.19-22.48.33:389][600]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.06.19-22.48.33:389][600]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.06.19-22.48.33:389][600]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.06.19-22.48.33:389][600]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.19-22.48.33:389][600]LogAudio: Display: Using built-in audio occlusion.
+[2023.06.19-22.48.33:389][600]LogAudioMixer: Display: Initializing audio mixer.
+[2023.06.19-22.48.33:444][600]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2023.06.19-22.48.33:444][600]LogAudioMixer: Display: Name: 스피커(Realtek(R) Audio)
+[2023.06.19-22.48.33:444][600]LogAudioMixer: Display: Is Default: Yes
+[2023.06.19-22.48.33:444][600]LogAudioMixer: Display: Sample Rate: 48000
+[2023.06.19-22.48.33:444][600]LogAudioMixer: Display: Channel Count Used: 2
+[2023.06.19-22.48.33:444][600]LogAudioMixer: Display: Device Channel Count: 2
+[2023.06.19-22.48.33:444][600]LogAudioMixer: Display: Channel Order:
+[2023.06.19-22.48.33:444][600]LogAudioMixer: Display: 0: FrontLeft
+[2023.06.19-22.48.33:444][600]LogAudioMixer: Display: 1: FrontRight
+[2023.06.19-22.48.33:471][600]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2023.06.19-22.48.33:472][600]LogInit: FAudioDevice initialized.
+[2023.06.19-22.48.33:479][600]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.06.19-22.48.33:482][600]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2023.06.20-07.48.33
+[2023.06.19-22.48.33:482][600]LogWorld: Bringing up level for play took: 0.003103
+[2023.06.19-22.48.33:483][600]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2023.06.19-22.48.33:488][600]PIE: /Game/Maps/UEDPIE_0_Default 에 대한 에디터에서 플레이 시작 시간: -0.07
+[2023.06.19-22.48.33:488][600]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Default.Default:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Default.Default:PersistentLevel.Default' with GeneratedClass '/Game/Maps/Default.Default_C' with ClassGeneratedBy '/Game/Maps/Default.Default:PersistentLevel.Default'
+[2023.06.19-22.48.40:249][367]Cmd: SELECT NONE
+[2023.06.19-22.48.41:913][548]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.06.19-22.48.41:913][548]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2023.06.19-22.48.41:933][548]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2023.06.19-22.48.41:933][548]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Default.Default:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Default.Default:PersistentLevel.Default' with GeneratedClass '/Game/Maps/Default.Default_C' with ClassGeneratedBy '/Game/Maps/Default.Default:PersistentLevel.Default'
+[2023.06.19-22.48.41:933][548]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-22.48.41:933][548]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Default
+[2023.06.19-22.48.41:933][548]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.06.19-22.48.41:935][548]LogWorld: UWorld::CleanupWorld for Default, bSessionEnded=true, bCleanupResources=true
+[2023.06.19-22.48.41:935][548]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-22.48.41:952][548]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.19-22.48.41:952][548]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Default.Default:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Default.Default:PersistentLevel.Default' with GeneratedClass '/Game/Maps/Default.Default_C' with ClassGeneratedBy '/Game/Maps/Default.Default:PersistentLevel.Default'
+[2023.06.19-22.48.41:955][548]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-22.48.41:975][548]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.06.19-22.48.41:978][548]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-22.48.41:980][548]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.06.19-22.48.42:009][551]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2023.06.19-22.48.44:055][772]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.19-22.48.46:856][ 40]LogTemp: Repeating last play command: 선택된 뷰포트
+[2023.06.19-22.48.46:865][ 40]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Default.Default:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Default.Default:PersistentLevel.Default' with GeneratedClass '/Game/Maps/Default.Default_C' with ClassGeneratedBy '/Game/Maps/Default.Default:PersistentLevel.Default'
+[2023.06.19-22.48.46:865][ 40]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.19-22.48.46:865][ 40]PIE: New page: PIE 세션: Default (2023. 6. 20. 오후 4:48:46)
+[2023.06.19-22.48.46:865][ 40]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Default
+[2023.06.19-22.48.46:868][ 40]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002801s)
+[2023.06.19-22.48.46:868][ 40]LogAIModule: Creating AISystem for world Default
+[2023.06.19-22.48.46:868][ 40]LogPlayLevel: PIE: World Init took: (0.000642s)
+[2023.06.19-22.48.46:868][ 40]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Default.Default to /Game/Maps/UEDPIE_0_Default.Default (0.003515s)
+[2023.06.19-22.48.46:889][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.06.19-22.48.46:890][ 40]LogTemp: Warning: C2S
+
+[2023.06.19-22.48.46:896][ 40]LogTemp: Warning: CONNECT SUCCESS
+
+[2023.06.19-22.48.46:896][ 40]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.19-22.48.46:896][ 40]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.19-22.48.46:896][ 40]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.19-22.48.46:896][ 40]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.19-22.48.46:896][ 40]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.06.19-22.48.46:896][ 40]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.06.19-22.48.46:896][ 40]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.06.19-22.48.46:896][ 40]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.19-22.48.46:897][ 40]LogAudio: Display: Using built-in audio occlusion.
+[2023.06.19-22.48.46:897][ 40]LogAudioMixer: Display: Initializing audio mixer.
+[2023.06.19-22.48.46:950][ 40]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2023.06.19-22.48.46:950][ 40]LogAudioMixer: Display: Name: 스피커(Realtek(R) Audio)
+[2023.06.19-22.48.46:950][ 40]LogAudioMixer: Display: Is Default: Yes
+[2023.06.19-22.48.46:950][ 40]LogAudioMixer: Display: Sample Rate: 48000
+[2023.06.19-22.48.46:950][ 40]LogAudioMixer: Display: Channel Count Used: 2
+[2023.06.19-22.48.46:950][ 40]LogAudioMixer: Display: Device Channel Count: 2
+[2023.06.19-22.48.46:950][ 40]LogAudioMixer: Display: Channel Order:
+[2023.06.19-22.48.46:950][ 40]LogAudioMixer: Display: 0: FrontLeft
+[2023.06.19-22.48.46:950][ 40]LogAudioMixer: Display: 1: FrontRight
+[2023.06.19-22.48.46:978][ 40]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2023.06.19-22.48.46:979][ 40]LogInit: FAudioDevice initialized.
+[2023.06.19-22.48.46:981][ 40]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.06.19-22.48.46:985][ 40]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2023.06.20-07.48.46
+[2023.06.19-22.48.46:985][ 40]LogWorld: Bringing up level for play took: 0.003052
+[2023.06.19-22.48.46:985][ 40]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2023.06.19-22.48.46:990][ 40]PIE: /Game/Maps/UEDPIE_0_Default 에 대한 에디터에서 플레이 시작 시간: -0.567
+[2023.06.19-22.48.46:990][ 40]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Default.Default:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Default.Default:PersistentLevel.Default' with GeneratedClass '/Game/Maps/Default.Default_C' with ClassGeneratedBy '/Game/Maps/Default.Default:PersistentLevel.Default'
+[2023.06.19-22.49.42:684][590]LogTemp: Warning: Attack Damage: 0
+[2023.06.19-22.49.42:882][614]LogTemp: Warning: broadCast Attack
+[2023.06.19-22.49.44:924][859]LogNet: Browse: /Game/Maps/1F_Hall
+[2023.06.19-22.49.44:924][859]LogLoad: LoadMap: /Game/Maps/1F_Hall
+[2023.06.19-22.49.44:924][859]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Default
+[2023.06.19-22.49.44:925][859]LogWorld: UWorld::CleanupWorld for Default, bSessionEnded=true, bCleanupResources=true
+[2023.06.19-22.49.44:925][859]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-22.49.44:943][859]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2023.06.19-22.49.44:963][859]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2023.06.19-22.49.44:985][859]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2023.06.19-22.49.45:128][859]LogAIModule: Creating AISystem for world 1F_Hall
+[2023.06.19-22.49.45:128][859]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.06.19-22.49.45:135][859]LogWorld: Bringing World /Game/Maps/UEDPIE_0_1F_Hall.1F_Hall up for play (max tick rate 0) at 2023.06.20-07.49.45
+[2023.06.19-22.49.45:135][859]LogWorld: Bringing up level for play took: 0.006815
+[2023.06.19-22.49.45:139][859]LogLoad: Took 0.215202 seconds to LoadMap(/Game/Maps/1F_Hall)
+[2023.06.19-22.49.49:581][391]LogTemp: Warning: broadCast Tumble
+[2023.06.19-22.49.49:581][391]LogTemp: Warning: Tumble End: 0
+[2023.06.19-22.49.52:155][700]LogTemp: Warning: broadCast Tumble
+[2023.06.19-22.49.52:155][700]LogTemp: Warning: Tumble End: 0
+[2023.06.19-22.49.52:789][776]LogTemp: Warning: broadCast Tumble
+[2023.06.19-22.49.52:789][776]LogTemp: Warning: Tumble End: 0
+[2023.06.19-22.49.53:165][821]LogNet: Browse: /Game/Maps/1F_Normal_2
+[2023.06.19-22.49.53:165][821]LogLoad: LoadMap: /Game/Maps/1F_Normal_2
+[2023.06.19-22.49.53:165][821]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_1F_Hall
+[2023.06.19-22.49.53:165][821]LogWorld: UWorld::CleanupWorld for 1F_Hall, bSessionEnded=true, bCleanupResources=true
+[2023.06.19-22.49.53:166][821]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-22.49.53:174][821]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2023.06.19-22.49.53:193][821]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2023.06.19-22.49.53:216][821]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.06.19-22.49.53:995][821]LogAudioDerivedData: Display: OGG 압축 오디오 포맷 monsterRoomBGM 웨이브 빌드중...
+[2023.06.19-22.49.54:006][821]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sounds/BGM/monsterRoomBGM.monsterRoomBGM will be modified from 40 to 40.
+[2023.06.19-22.49.55:564][821]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 26247168 while cooking SoundWave /Game/Sounds/BGM/monsterRoomBGM.monsterRoomBGM.
+[2023.06.19-22.49.55:633][821]LogAIModule: Creating AISystem for world 1F_Normal_2
+[2023.06.19-22.49.55:633][821]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.06.19-22.49.55:643][821]LogWorld: Bringing World /Game/Maps/UEDPIE_0_1F_Normal_2.1F_Normal_2 up for play (max tick rate 0) at 2023.06.20-07.49.55
+[2023.06.19-22.49.55:644][821]LogWorld: Bringing up level for play took: 0.010360
+[2023.06.19-22.49.55:649][821]LogLoad: Took 2.484813 seconds to LoadMap(/Game/Maps/1F_Normal_2)
+[2023.06.19-22.49.57:082][973]LogTemp: Warning: Attack Damage: 0
+[2023.06.19-22.49.57:282][997]LogTemp: Warning: broadCast Attack
+[2023.06.19-22.49.57:283][997]LogTemp: Hit Actor : DefaultMonsterBP_14
+[2023.06.19-22.49.57:283][997]LogBlueprintUserMessages: [DefaultMonsterBP_14] Hit
+[2023.06.19-22.49.57:284][997]LogBlueprintUserMessages: [DefaultMonsterBP_14] 10.0
+[2023.06.19-22.49.58:503][143]LogTemp: Warning: Attack Damage: 0
+[2023.06.19-22.49.58:753][173]LogTemp: Warning: broadCast Attack
+[2023.06.19-22.49.58:753][173]LogTemp: Hit Actor : DefaultMonsterBP_14
+[2023.06.19-22.49.58:753][173]LogBlueprintUserMessages: [DefaultMonsterBP_14] Hit
+[2023.06.19-22.49.58:753][173]LogBlueprintUserMessages: [DefaultMonsterBP_14] 0.0
+[2023.06.19-22.49.59:746][291]LogTemp: Warning: Attack Damage: 0
+[2023.06.19-22.49.59:945][315]LogTemp: Warning: broadCast Attack
+[2023.06.19-22.49.59:945][315]LogTemp: Hit Actor : DefaultMonsterBP4_11
+[2023.06.19-22.49.59:945][315]LogBlueprintUserMessages: [DefaultMonsterBP4_11] Hit
+[2023.06.19-22.49.59:945][315]LogBlueprintUserMessages: [DefaultMonsterBP4_11] 10.0
+[2023.06.19-22.50.00:887][428]LogTemp: Warning: Attack Damage: 0
+[2023.06.19-22.50.01:137][458]LogTemp: Warning: broadCast Attack
+[2023.06.19-22.50.01:137][458]LogTemp: Hit Actor : DefaultMonsterBP4_11
+[2023.06.19-22.50.01:137][458]LogBlueprintUserMessages: [DefaultMonsterBP4_11] Hit
+[2023.06.19-22.50.01:137][458]LogBlueprintUserMessages: [DefaultMonsterBP4_11] 0.0
+[2023.06.19-22.50.01:954][556]LogTemp: Warning: Attack Damage: 0
+[2023.06.19-22.50.02:153][580]LogTemp: Warning: broadCast Attack
+[2023.06.19-22.50.02:154][580]LogTemp: Hit Actor : DefaultMonsterBP3_8
+[2023.06.19-22.50.02:154][580]LogBlueprintUserMessages: [DefaultMonsterBP3_8] Hit
+[2023.06.19-22.50.02:154][580]LogBlueprintUserMessages: [DefaultMonsterBP3_8] 5.0
+[2023.06.19-22.50.03:006][682]LogTemp: Warning: Attack Damage: 0
+[2023.06.19-22.50.03:256][712]LogTemp: Warning: broadCast Attack
+[2023.06.19-22.50.03:256][712]LogTemp: Hit Actor : DefaultMonsterBP2_5
+[2023.06.19-22.50.03:256][712]LogBlueprintUserMessages: [DefaultMonsterBP2_5] Hit
+[2023.06.19-22.50.03:256][712]LogBlueprintUserMessages: [DefaultMonsterBP2_5] 5.0
+[2023.06.19-22.50.03:998][801]LogTemp: Warning: Attack Damage: 0
+[2023.06.19-22.50.04:198][825]LogTemp: Warning: broadCast Attack
+[2023.06.19-22.50.04:198][825]LogTemp: Hit Actor : DefaultMonsterBP3_8
+[2023.06.19-22.50.04:198][825]LogBlueprintUserMessages: [DefaultMonsterBP3_8] Hit
+[2023.06.19-22.50.04:198][825]LogBlueprintUserMessages: [DefaultMonsterBP3_8] -10.0
+[2023.06.19-22.50.04:965][917]LogTemp: Warning: Attack Damage: 0
+[2023.06.19-22.50.05:215][947]LogTemp: Warning: broadCast Attack
+[2023.06.19-22.50.05:215][947]LogTemp: Hit Actor : DefaultMonsterBP2_5
+[2023.06.19-22.50.05:215][947]LogBlueprintUserMessages: [DefaultMonsterBP2_5] Hit
+[2023.06.19-22.50.05:215][947]LogBlueprintUserMessages: [DefaultMonsterBP2_5] -10.0
+[2023.06.19-22.50.08:712][364]LogNet: Browse: /Game/Maps/1F_Hall
+[2023.06.19-22.50.08:712][364]LogLoad: LoadMap: /Game/Maps/1F_Hall
+[2023.06.19-22.50.08:712][364]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_1F_Normal_2
+[2023.06.19-22.50.08:712][364]LogWorld: UWorld::CleanupWorld for 1F_Normal_2, bSessionEnded=true, bCleanupResources=true
+[2023.06.19-22.50.08:712][364]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-22.50.08:723][364]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2023.06.19-22.50.08:754][364]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2023.06.19-22.50.08:778][364]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2023.06.19-22.50.08:787][364]LogAIModule: Creating AISystem for world 1F_Hall
+[2023.06.19-22.50.08:787][364]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.06.19-22.50.08:793][364]LogWorld: Bringing World /Game/Maps/UEDPIE_0_1F_Hall.1F_Hall up for play (max tick rate 0) at 2023.06.20-07.50.08
+[2023.06.19-22.50.08:793][364]LogWorld: Bringing up level for play took: 0.005642
+[2023.06.19-22.50.08:797][364]LogLoad: Took 0.085435 seconds to LoadMap(/Game/Maps/1F_Hall)
+[2023.06.19-22.50.12:135][764]LogNet: Browse: /Game/Maps/1F_Normal_2
+[2023.06.19-22.50.12:135][764]LogLoad: LoadMap: /Game/Maps/1F_Normal_2
+[2023.06.19-22.50.12:135][764]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_1F_Hall
+[2023.06.19-22.50.12:136][764]LogWorld: UWorld::CleanupWorld for 1F_Hall, bSessionEnded=true, bCleanupResources=true
+[2023.06.19-22.50.12:136][764]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-22.50.12:144][764]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2023.06.19-22.50.12:163][764]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2023.06.19-22.50.12:186][764]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.06.19-22.50.12:198][764]LogAIModule: Creating AISystem for world 1F_Normal_2
+[2023.06.19-22.50.12:199][764]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.06.19-22.50.12:208][764]LogWorld: Bringing World /Game/Maps/UEDPIE_0_1F_Normal_2.1F_Normal_2 up for play (max tick rate 0) at 2023.06.20-07.50.12
+[2023.06.19-22.50.12:209][764]LogWorld: Bringing up level for play took: 0.009854
+[2023.06.19-22.50.12:213][764]LogLoad: Took 0.077875 seconds to LoadMap(/Game/Maps/1F_Normal_2)
+[2023.06.19-22.50.13:335][898]LogTemp: Warning: Attack Damage: 0
+[2023.06.19-22.50.13:535][922]LogTemp: Warning: broadCast Attack
+[2023.06.19-22.50.13:535][922]LogTemp: Hit Actor : DefaultMonsterBP2_5
+[2023.06.19-22.50.13:535][922]LogBlueprintUserMessages: [DefaultMonsterBP2_5] Hit
+[2023.06.19-22.50.13:535][922]LogBlueprintUserMessages: [DefaultMonsterBP2_5] 5.0
+[2023.06.19-22.50.14:327][ 17]LogTemp: Warning: Attack Damage: 0
+[2023.06.19-22.50.14:577][ 47]LogTemp: Warning: broadCast Attack
+[2023.06.19-22.50.14:577][ 47]LogTemp: Hit Actor : DefaultMonsterBP_14
+[2023.06.19-22.50.14:577][ 47]LogBlueprintUserMessages: [DefaultMonsterBP_14] Hit
+[2023.06.19-22.50.14:577][ 47]LogBlueprintUserMessages: [DefaultMonsterBP_14] 5.0
+[2023.06.19-22.50.15:360][141]LogTemp: Warning: Attack Damage: 0
+[2023.06.19-22.50.15:561][165]LogTemp: Warning: broadCast Attack
+[2023.06.19-22.50.15:561][165]LogTemp: Hit Actor : DefaultMonsterBP_14
+[2023.06.19-22.50.15:561][165]LogBlueprintUserMessages: [DefaultMonsterBP_14] Hit
+[2023.06.19-22.50.15:561][165]LogBlueprintUserMessages: [DefaultMonsterBP_14] -10.0
+[2023.06.19-22.50.16:427][269]LogTemp: Warning: Attack Damage: 0
+[2023.06.19-22.50.16:678][299]LogTemp: Warning: broadCast Attack
+[2023.06.19-22.50.16:678][299]LogTemp: Hit Actor : DefaultMonsterBP4_11
+[2023.06.19-22.50.16:678][299]LogBlueprintUserMessages: [DefaultMonsterBP4_11] Hit
+[2023.06.19-22.50.16:678][299]LogBlueprintUserMessages: [DefaultMonsterBP4_11] 5.0
+[2023.06.19-22.50.17:360][381]LogTemp: Warning: Attack Damage: 0
+[2023.06.19-22.50.17:561][405]LogTemp: Warning: broadCast Attack
+[2023.06.19-22.50.17:561][405]LogTemp: Hit Actor : DefaultMonsterBP4_11
+[2023.06.19-22.50.17:561][405]LogBlueprintUserMessages: [DefaultMonsterBP4_11] Hit
+[2023.06.19-22.50.17:561][405]LogBlueprintUserMessages: [DefaultMonsterBP4_11] -10.0
+[2023.06.19-22.50.18:310][495]LogTemp: Warning: Attack Damage: 0
+[2023.06.19-22.50.18:560][525]LogTemp: Warning: broadCast Attack
+[2023.06.19-22.50.18:560][525]LogTemp: Hit Actor : DefaultMonsterBP3_8
+[2023.06.19-22.50.18:560][525]LogBlueprintUserMessages: [DefaultMonsterBP3_8] Hit
+[2023.06.19-22.50.18:560][525]LogBlueprintUserMessages: [DefaultMonsterBP3_8] 5.0
+[2023.06.19-22.50.19:344][619]LogTemp: Warning: Attack Damage: 0
+[2023.06.19-22.50.19:544][643]LogTemp: Warning: broadCast Attack
+[2023.06.19-22.50.19:544][643]LogTemp: Hit Actor : DefaultMonsterBP3_8
+[2023.06.19-22.50.19:544][643]LogBlueprintUserMessages: [DefaultMonsterBP3_8] Hit
+[2023.06.19-22.50.19:544][643]LogBlueprintUserMessages: [DefaultMonsterBP3_8] -10.0
+[2023.06.19-22.50.20:402][746]LogTemp: Warning: Attack Damage: 0
+[2023.06.19-22.50.20:652][776]LogTemp: Warning: broadCast Attack
+[2023.06.19-22.50.20:652][776]LogTemp: Hit Actor : DefaultMonsterBP2_5
+[2023.06.19-22.50.20:652][776]LogBlueprintUserMessages: [DefaultMonsterBP2_5] Hit
+[2023.06.19-22.50.20:652][776]LogBlueprintUserMessages: [DefaultMonsterBP2_5] -10.0
+[2023.06.19-22.50.22:227][965]LogNet: Browse: /Game/Maps/1F_Hall
+[2023.06.19-22.50.22:227][965]LogLoad: LoadMap: /Game/Maps/1F_Hall
+[2023.06.19-22.50.22:227][965]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_1F_Normal_2
+[2023.06.19-22.50.22:227][965]LogWorld: UWorld::CleanupWorld for 1F_Normal_2, bSessionEnded=true, bCleanupResources=true
+[2023.06.19-22.50.22:227][965]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-22.50.22:233][965]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2023.06.19-22.50.22:254][965]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2023.06.19-22.50.22:277][965]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.06.19-22.50.22:287][965]LogAIModule: Creating AISystem for world 1F_Hall
+[2023.06.19-22.50.22:287][965]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.06.19-22.50.22:292][965]LogWorld: Bringing World /Game/Maps/UEDPIE_0_1F_Hall.1F_Hall up for play (max tick rate 0) at 2023.06.20-07.50.22
+[2023.06.19-22.50.22:292][965]LogWorld: Bringing up level for play took: 0.005463
+[2023.06.19-22.50.22:296][965]LogLoad: Took 0.069281 seconds to LoadMap(/Game/Maps/1F_Hall)
+[2023.06.19-22.50.24:175][190]LogNet: Browse: /Game/Maps/1F_Normal
+[2023.06.19-22.50.24:175][190]LogLoad: LoadMap: /Game/Maps/1F_Normal
+[2023.06.19-22.50.24:175][190]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_1F_Hall
+[2023.06.19-22.50.24:176][190]LogWorld: UWorld::CleanupWorld for 1F_Hall, bSessionEnded=true, bCleanupResources=true
+[2023.06.19-22.50.24:176][190]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-22.50.24:193][190]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2023.06.19-22.50.24:213][190]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2023.06.19-22.50.24:236][190]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.06.19-22.50.24:256][190]LogAIModule: Creating AISystem for world 1F_Normal
+[2023.06.19-22.50.24:256][190]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.06.19-22.50.24:264][190]LogWorld: Bringing World /Game/Maps/UEDPIE_0_1F_Normal.1F_Normal up for play (max tick rate 0) at 2023.06.20-07.50.24
+[2023.06.19-22.50.24:265][190]LogWorld: Bringing up level for play took: 0.007278
+[2023.06.19-22.50.24:269][190]LogLoad: Took 0.092567 seconds to LoadMap(/Game/Maps/1F_Normal)
+[2023.06.19-22.50.25:608][350]LogTemp: Warning: Attack Damage: 0
+[2023.06.19-22.50.25:808][374]LogTemp: Warning: broadCast Attack
+[2023.06.19-22.50.25:808][374]LogTemp: Hit Actor : DefaultMonsterBP3_8
+[2023.06.19-22.50.25:808][374]LogBlueprintUserMessages: [DefaultMonsterBP3_8] Hit
+[2023.06.19-22.50.25:808][374]LogBlueprintUserMessages: [DefaultMonsterBP3_8] 5.0
+[2023.06.19-22.50.26:750][487]LogTemp: Warning: Attack Damage: 0
+[2023.06.19-22.50.27:000][517]LogTemp: Warning: broadCast Attack
+[2023.06.19-22.50.27:000][517]LogTemp: Hit Actor : DefaultMonsterBP3_8
+[2023.06.19-22.50.27:000][517]LogBlueprintUserMessages: [DefaultMonsterBP3_8] Hit
+[2023.06.19-22.50.27:000][517]LogBlueprintUserMessages: [DefaultMonsterBP3_8] -10.0
+[2023.06.19-22.50.27:766][609]LogTemp: Warning: Attack Damage: 0
+[2023.06.19-22.50.27:966][633]LogTemp: Warning: broadCast Attack
+[2023.06.19-22.50.27:966][633]LogTemp: Hit Actor : DefaultMonsterBP_2
+[2023.06.19-22.50.27:966][633]LogBlueprintUserMessages: [DefaultMonsterBP_2] Hit
+[2023.06.19-22.50.27:966][633]LogBlueprintUserMessages: [DefaultMonsterBP_2] 5.0
+[2023.06.19-22.50.28:775][730]LogTemp: Warning: Attack Damage: 0
+[2023.06.19-22.50.29:025][760]LogTemp: Warning: broadCast Attack
+[2023.06.19-22.50.29:025][760]LogTemp: Hit Actor : DefaultMonsterBP_2
+[2023.06.19-22.50.29:025][760]LogBlueprintUserMessages: [DefaultMonsterBP_2] Hit
+[2023.06.19-22.50.29:025][760]LogBlueprintUserMessages: [DefaultMonsterBP_2] -10.0
+[2023.06.19-22.50.29:810][854]LogTemp: Warning: Attack Damage: 0
+[2023.06.19-22.50.30:010][878]LogTemp: Warning: broadCast Attack
+[2023.06.19-22.50.30:010][878]LogTemp: Hit Actor : DefaultMonsterBP2_5
+[2023.06.19-22.50.30:010][878]LogBlueprintUserMessages: [DefaultMonsterBP2_5] Hit
+[2023.06.19-22.50.30:010][878]LogBlueprintUserMessages: [DefaultMonsterBP2_5] 5.0
+[2023.06.19-22.50.30:801][973]LogTemp: Warning: Attack Damage: 0
+[2023.06.19-22.50.31:051][  3]LogTemp: Warning: broadCast Attack
+[2023.06.19-22.50.31:051][  3]LogTemp: Hit Actor : DefaultMonsterBP2_5
+[2023.06.19-22.50.31:051][  3]LogBlueprintUserMessages: [DefaultMonsterBP2_5] Hit
+[2023.06.19-22.50.31:051][  3]LogBlueprintUserMessages: [DefaultMonsterBP2_5] -10.0
+[2023.06.19-22.50.33:077][246]LogNet: Browse: /Game/Maps/1F_Hall
+[2023.06.19-22.50.33:077][246]LogLoad: LoadMap: /Game/Maps/1F_Hall
+[2023.06.19-22.50.33:077][246]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_1F_Normal
+[2023.06.19-22.50.33:077][246]LogWorld: UWorld::CleanupWorld for 1F_Normal, bSessionEnded=true, bCleanupResources=true
+[2023.06.19-22.50.33:077][246]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-22.50.33:094][246]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2023.06.19-22.50.33:114][246]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2023.06.19-22.50.33:138][246]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.06.19-22.50.33:147][246]LogAIModule: Creating AISystem for world 1F_Hall
+[2023.06.19-22.50.33:147][246]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.06.19-22.50.33:154][246]LogWorld: Bringing World /Game/Maps/UEDPIE_0_1F_Hall.1F_Hall up for play (max tick rate 0) at 2023.06.20-07.50.33
+[2023.06.19-22.50.33:154][246]LogWorld: Bringing up level for play took: 0.005923
+[2023.06.19-22.50.33:158][246]LogLoad: Took 0.080910 seconds to LoadMap(/Game/Maps/1F_Hall)
+[2023.06.19-22.50.36:388][633]LogNet: Browse: /Game/Maps/1F_Boss
+[2023.06.19-22.50.36:388][633]LogLoad: LoadMap: /Game/Maps/1F_Boss
+[2023.06.19-22.50.36:388][633]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_1F_Hall
+[2023.06.19-22.50.36:389][633]LogWorld: UWorld::CleanupWorld for 1F_Hall, bSessionEnded=true, bCleanupResources=true
+[2023.06.19-22.50.36:389][633]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-22.50.36:394][633]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2023.06.19-22.50.36:413][633]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2023.06.19-22.50.36:436][633]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.06.19-22.50.36:565][633]LogLinker: Error: HOTRELOADED_MyCharacterEnemy_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Content/Blueprints/Boss/AI/Task/BTT_Jump.uasset)
+[2023.06.19-22.50.36:565][633]LogLinker: Error: HOTRELOADED_MyCharacterEnemy_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Content/Blueprints/Boss/AI/Task/BTT_Jump.uasset)
+[2023.06.19-22.50.36:566][633]LogLinker: Error: HOTRELOADED_MyCharacterEnemy_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Content/Blueprints/Boss/AI/Task/BTT_Jump.uasset)
+[2023.06.19-22.50.36:566][633]LogLinker: Error: HOTRELOADED_MyCharacterEnemy_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Content/Blueprints/Boss/AI/Task/BTT_Jump.uasset)
+[2023.06.19-22.50.36:619][633]LogLinker: Warning: '../../../../../../Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Content/Maps/1F_Boss.umap' 로드 도중 '/Game/Maps/1F_Boss_BuiltData' 로드에 실패했습니다: 파일을 찾을 수 없습니다.
+[2023.06.19-22.50.36:620][633]LogLinker: Warning: '../../../../../../Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Content/Maps/1F_Boss.umap' 로드 도중 '/Game/Maps/1F_Boss_BuiltData' 로드에 실패했습니다: 애셋에 대한 파일을 찾을 수 없습니다.
+[2023.06.19-22.50.36:621][633]LogLinker: Warning: '../../../../../../Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Content/Maps/1F_Boss.umap' 로드 도중 '/Game/Maps/1F_Boss_BuiltData' 로드에 실패했습니다: 파일을 찾을 수 없습니다.
+[2023.06.19-22.50.36:621][633]LogLinker: Warning: '../../../../../../Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Content/Maps/1F_Boss.umap' 로드 도중 '/Game/Maps/1F_Boss_BuiltData' 로드에 실패했습니다: 애셋에 대한 파일을 찾을 수 없습니다.
+[2023.06.19-22.50.36:622][633]LogLinker: Warning: '{FileName}': 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2023.06.19-22.50.36:622][633]LogLinker: Warning: '{FileName}': 애셋에 대한 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2023.06.19-22.50.36:622][633]LogLinker: Warning: '{FileName}': 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2023.06.19-22.50.36:622][633]LogLinker: Warning: '{FileName}': 애셋에 대한 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2023.06.19-22.50.36:629][633]LogLinker: Warning: '../../../../../../Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Content/Maps/1F_Boss.umap' 로드 도중 '/Game/Maps/1F_Boss_BuiltData' 로드에 실패했습니다: 파일을 찾을 수 없습니다.
+[2023.06.19-22.50.36:629][633]LoadErrors: 로드에 실패했습니다. /Game/Maps/1F_Boss_BuiltData.1F_Boss_BuiltData 참조한 것: PersistentLevel
+[2023.06.19-22.50.36:629][633]LogLinker: Warning: '../../../../../../Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Content/Maps/1F_Boss.umap' 로드 도중 '/Game/Maps/1F_Boss_BuiltData' 로드에 실패했습니다: 애셋에 대한 파일을 찾을 수 없습니다.
+[2023.06.19-22.50.36:925][633]LogAIModule: Creating AISystem for world 1F_Boss
+[2023.06.19-22.50.36:925][633]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.06.19-22.50.36:930][633]LogWorld: Bringing World /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss up for play (max tick rate 0) at 2023.06.20-07.50.36
+[2023.06.19-22.50.36:935][633]LogWorld: Bringing up level for play took: 0.009946
+[2023.06.19-22.50.36:939][633]LogLoad: Took 0.551242 seconds to LoadMap(/Game/Maps/1F_Boss)
+[2023.06.19-22.50.45:039][599]LogScript: Warning: Script Msg: SetTimer passed a negative time or initial start delay.  The associated timer may fail to fire!  If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2023.06.19-22.50.45:539][659]LogTemp: Warning: broadCast Tumble
+[2023.06.19-22.50.45:539][659]LogTemp: Warning: Tumble End: 0
+[2023.06.19-22.50.46:116][728]LogTemp: Warning: broadCast Tumble
+[2023.06.19-22.50.46:116][728]LogTemp: Warning: Tumble End: 0
+[2023.06.19-22.50.46:267][746]LogTemp: 0
+[2023.06.19-22.50.46:267][746]LogTemp: Warning: OnAttacked 190
+[2023.06.19-22.50.46:267][746]LogTemp: 1
+[2023.06.19-22.50.47:091][845]LogTemp: Warning: broadCast Hit
+[2023.06.19-22.50.47:616][908]LogTemp: Warning: Attack Damage: 0
+[2023.06.19-22.50.47:817][932]LogTemp: Warning: broadCast Attack
+[2023.06.19-22.50.47:817][932]LogTemp: Hit Actor : Enemy_Character_2
+[2023.06.19-22.50.49:329][113]LogScript: Warning: Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.
+	1F_Boss_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.1F_Boss_C_1
+	Function /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss_C:ExecuteUbergraph_1F_Boss:006C
+[2023.06.19-22.50.49:330][113]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:330][113]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Rock_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.Rock_C_0
+	Function /Game/Blueprints/Boss/AI/Rock.Rock_C:ExecuteUbergraph_Rock:03A0
+[2023.06.19-22.50.49:330][113]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:330][113]LogScript: Warning: None 에 접근
+	Rock_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.Rock_C_0
+	Function /Game/Blueprints/Boss/AI/Rock.Rock_C:ExecuteUbergraph_Rock:03B5
+[2023.06.19-22.50.49:330][113]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:334][114]LogScript: Warning: Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.
+	1F_Boss_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.1F_Boss_C_1
+	Function /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss_C:ExecuteUbergraph_1F_Boss:006C
+[2023.06.19-22.50.49:334][114]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:334][114]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Rock_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.Rock_C_0
+	Function /Game/Blueprints/Boss/AI/Rock.Rock_C:ExecuteUbergraph_Rock:03A0
+[2023.06.19-22.50.49:334][114]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:334][114]LogScript: Warning: None 에 접근
+	Rock_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.Rock_C_0
+	Function /Game/Blueprints/Boss/AI/Rock.Rock_C:ExecuteUbergraph_Rock:03B5
+[2023.06.19-22.50.49:334][114]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:342][115]LogScript: Warning: Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.
+	1F_Boss_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.1F_Boss_C_1
+	Function /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss_C:ExecuteUbergraph_1F_Boss:006C
+[2023.06.19-22.50.49:343][115]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:343][115]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Rock_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.Rock_C_0
+	Function /Game/Blueprints/Boss/AI/Rock.Rock_C:ExecuteUbergraph_Rock:03A0
+[2023.06.19-22.50.49:343][115]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:343][115]LogScript: Warning: None 에 접근
+	Rock_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.Rock_C_0
+	Function /Game/Blueprints/Boss/AI/Rock.Rock_C:ExecuteUbergraph_Rock:03B5
+[2023.06.19-22.50.49:343][115]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:351][116]LogScript: Warning: Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.
+	1F_Boss_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.1F_Boss_C_1
+	Function /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss_C:ExecuteUbergraph_1F_Boss:006C
+[2023.06.19-22.50.49:351][116]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:351][116]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Rock_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.Rock_C_0
+	Function /Game/Blueprints/Boss/AI/Rock.Rock_C:ExecuteUbergraph_Rock:03A0
+[2023.06.19-22.50.49:351][116]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:351][116]LogScript: Warning: None 에 접근
+	Rock_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.Rock_C_0
+	Function /Game/Blueprints/Boss/AI/Rock.Rock_C:ExecuteUbergraph_Rock:03B5
+[2023.06.19-22.50.49:351][116]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:359][117]LogScript: Warning: Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.
+	1F_Boss_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.1F_Boss_C_1
+	Function /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss_C:ExecuteUbergraph_1F_Boss:006C
+[2023.06.19-22.50.49:360][117]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:360][117]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Rock_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.Rock_C_0
+	Function /Game/Blueprints/Boss/AI/Rock.Rock_C:ExecuteUbergraph_Rock:03A0
+[2023.06.19-22.50.49:360][117]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:360][117]LogScript: Warning: None 에 접근
+	Rock_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.Rock_C_0
+	Function /Game/Blueprints/Boss/AI/Rock.Rock_C:ExecuteUbergraph_Rock:03B5
+[2023.06.19-22.50.49:360][117]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:367][118]LogScript: Warning: Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.
+	1F_Boss_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.1F_Boss_C_1
+	Function /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss_C:ExecuteUbergraph_1F_Boss:006C
+[2023.06.19-22.50.49:367][118]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:367][118]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Rock_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.Rock_C_0
+	Function /Game/Blueprints/Boss/AI/Rock.Rock_C:ExecuteUbergraph_Rock:03A0
+[2023.06.19-22.50.49:367][118]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:368][118]LogScript: Warning: None 에 접근
+	Rock_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.Rock_C_0
+	Function /Game/Blueprints/Boss/AI/Rock.Rock_C:ExecuteUbergraph_Rock:03B5
+[2023.06.19-22.50.49:368][118]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:377][119]LogScript: Warning: Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.
+	1F_Boss_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.1F_Boss_C_1
+	Function /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss_C:ExecuteUbergraph_1F_Boss:006C
+[2023.06.19-22.50.49:377][119]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:377][119]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Rock_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.Rock_C_0
+	Function /Game/Blueprints/Boss/AI/Rock.Rock_C:ExecuteUbergraph_Rock:03A0
+[2023.06.19-22.50.49:377][119]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:377][119]LogScript: Warning: None 에 접근
+	Rock_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.Rock_C_0
+	Function /Game/Blueprints/Boss/AI/Rock.Rock_C:ExecuteUbergraph_Rock:03B5
+[2023.06.19-22.50.49:377][119]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:384][120]LogScript: Warning: Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.
+	1F_Boss_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.1F_Boss_C_1
+	Function /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss_C:ExecuteUbergraph_1F_Boss:006C
+[2023.06.19-22.50.49:384][120]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:384][120]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Rock_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.Rock_C_0
+	Function /Game/Blueprints/Boss/AI/Rock.Rock_C:ExecuteUbergraph_Rock:03A0
+[2023.06.19-22.50.49:384][120]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:384][120]LogScript: Warning: None 에 접근
+	Rock_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.Rock_C_0
+	Function /Game/Blueprints/Boss/AI/Rock.Rock_C:ExecuteUbergraph_Rock:03B5
+[2023.06.19-22.50.49:384][120]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:392][121]LogScript: Warning: Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.
+	1F_Boss_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.1F_Boss_C_1
+	Function /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss_C:ExecuteUbergraph_1F_Boss:006C
+[2023.06.19-22.50.49:392][121]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:392][121]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Rock_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.Rock_C_0
+	Function /Game/Blueprints/Boss/AI/Rock.Rock_C:ExecuteUbergraph_Rock:03A0
+[2023.06.19-22.50.49:392][121]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:392][121]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:401][122]LogScript: Warning: Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.
+	1F_Boss_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.1F_Boss_C_1
+	Function /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss_C:ExecuteUbergraph_1F_Boss:006C
+[2023.06.19-22.50.49:401][122]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:401][122]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:401][122]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:409][123]LogScript: Warning: Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.
+	1F_Boss_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.1F_Boss_C_1
+	Function /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss_C:ExecuteUbergraph_1F_Boss:006C
+[2023.06.19-22.50.49:409][123]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:409][123]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:409][123]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:417][124]LogScript: Warning: Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.
+	1F_Boss_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.1F_Boss_C_1
+	Function /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss_C:ExecuteUbergraph_1F_Boss:006C
+[2023.06.19-22.50.49:417][124]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:418][124]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:418][124]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:426][125]LogScript: Warning: Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.
+	1F_Boss_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.1F_Boss_C_1
+	Function /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss_C:ExecuteUbergraph_1F_Boss:006C
+[2023.06.19-22.50.49:426][125]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:426][125]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:426][125]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:434][126]LogScript: Warning: Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.
+	1F_Boss_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.1F_Boss_C_1
+	Function /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss_C:ExecuteUbergraph_1F_Boss:006C
+[2023.06.19-22.50.49:434][126]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:434][126]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:434][126]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:442][127]LogScript: Warning: Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.
+	1F_Boss_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.1F_Boss_C_1
+	Function /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss_C:ExecuteUbergraph_1F_Boss:006C
+[2023.06.19-22.50.49:442][127]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:442][127]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:442][127]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:450][128]LogScript: Warning: Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.
+	1F_Boss_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.1F_Boss_C_1
+	Function /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss_C:ExecuteUbergraph_1F_Boss:006C
+[2023.06.19-22.50.49:451][128]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:451][128]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:451][128]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:459][129]LogScript: Warning: Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.
+	1F_Boss_C /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss:PersistentLevel.1F_Boss_C_1
+	Function /Game/Maps/UEDPIE_0_1F_Boss.1F_Boss_C:ExecuteUbergraph_1F_Boss:006C
+[2023.06.19-22.50.49:459][129]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:459][129]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:459][129]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:467][130]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:468][130]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:468][130]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:476][131]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:477][131]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:477][131]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:484][132]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:484][132]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:484][132]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:492][133]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:492][133]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:492][133]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:501][134]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:501][134]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:501][134]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:509][135]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:509][135]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:509][135]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:518][136]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:518][136]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:518][136]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:526][137]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:526][137]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:526][137]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:534][138]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:535][138]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:535][138]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:543][139]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:543][139]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:543][139]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:551][140]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:551][140]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:551][140]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:559][141]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:559][141]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:559][141]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:568][142]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:568][142]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:568][142]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:576][143]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:576][143]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:577][143]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:584][144]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:584][144]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:584][144]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:593][145]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:593][145]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:593][145]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:601][146]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:602][146]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:602][146]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:610][147]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:610][147]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:610][147]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:618][148]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:618][148]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:618][148]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:626][149]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:626][149]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:626][149]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:635][150]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:635][150]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:635][150]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:643][151]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:643][151]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:643][151]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:651][152]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:651][152]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:651][152]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:660][153]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:660][153]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:660][153]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:668][154]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:668][154]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:668][154]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:676][155]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:676][155]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:676][155]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:685][156]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:685][156]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:685][156]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:692][157]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:693][157]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:693][157]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:701][158]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:701][158]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:701][158]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:709][159]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:709][159]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:709][159]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:718][160]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:718][160]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:718][160]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:726][161]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:726][161]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:726][161]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:734][162]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:734][162]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:734][162]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:742][163]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:742][163]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:743][163]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:751][164]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:751][164]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:751][164]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:759][165]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:759][165]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:759][165]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:768][166]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:768][166]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:768][166]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:776][167]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:777][167]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:777][167]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:784][168]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:784][168]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:784][168]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:792][169]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:793][169]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:793][169]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:801][170]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:801][170]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:801][170]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:810][171]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:810][171]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:810][171]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:817][172]PIE: Error: 블루프린트 런타임 오류: "Enemy_Character_2_ExecuteUbergraph_1F_Boss_RefProperty 프로퍼티를 통해 Enemy_Character_2 에 접근하려 하였으나, Enemy_Character_2 는 킬 대기중입니다.". 블루프린트: 1F_Boss 함수: Execute Ubergraph 1F Boss 그래프: EventGraph 노드: Branch
+[2023.06.19-22.50.49:817][172]PIE: Error: 블루프린트 런타임 오류: "CallFunc_GetActorOfClass_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:818][172]PIE: Error: 블루프린트 런타임 오류: "None 에 접근". 블루프린트: Rock 함수: Execute Ubergraph Rock 그래프: EventGraph 노드: SetActorLocation
+[2023.06.19-22.50.49:826][173]LogNet: Browse: /Game/Maps/Login
+[2023.06.19-22.50.49:826][173]LogLoad: LoadMap: /Game/Maps/Login
+[2023.06.19-22.50.49:826][173]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_1F_Boss
+[2023.06.19-22.50.49:827][173]LogWorld: UWorld::CleanupWorld for 1F_Boss, bSessionEnded=true, bCleanupResources=true
+[2023.06.19-22.50.49:827][173]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.19-22.50.49:834][173]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2023.06.19-22.50.49:854][173]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2023.06.19-22.50.49:880][173]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2023.06.19-22.50.49:884][173]LogLinker: Warning: '../../../../../../Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Content/Maps/Login.umap' 로드 도중 '/Game/Maps/Login_BuiltData' 로드에 실패했습니다: 파일을 찾을 수 없습니다.
+[2023.06.19-22.50.49:884][173]LogLinker: Warning: '../../../../../../Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Content/Maps/Login.umap' 로드 도중 '/Game/Maps/Login_BuiltData' 로드에 실패했습니다: 애셋에 대한 파일을 찾을 수 없습니다.
+[2023.06.19-22.50.49:886][173]LogLinker: Warning: '../../../../../../Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Content/Maps/Login.umap' 로드 도중 '/Game/Maps/Login_BuiltData' 로드에 실패했습니다: 파일을 찾을 수 없습니다.
+[2023.06.19-22.50.49:886][173]LogLinker: Warning: '../../../../../../Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Content/Maps/Login.umap' 로드 도중 '/Game/Maps/Login_BuiltData' 로드에 실패했습니다: 애셋에 대한 파일을 찾을 수 없습니다.
+[2023.06.19-22.50.49:887][173]LogLinker: Warning: '{FileName}': 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2023.06.19-22.50.49:887][173]LogLinker: Warning: '{FileName}': 애셋에 대한 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2023.06.19-22.50.49:888][173]LogLinker: Warning: '{FileName}': 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2023.06.19-22.50.49:888][173]LogLinker: Warning: '{FileName}': 애셋에 대한 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2023.06.19-22.50.49:890][173]LogLinker: Warning: '../../../../../../Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Content/Maps/Login.umap' 로드 도중 '/Game/Maps/Login_BuiltData' 로드에 실패했습니다: 파일을 찾을 수 없습니다.
+[2023.06.19-22.50.49:890][173]LoadErrors: 로드에 실패했습니다. /Game/Maps/Login_BuiltData.Login_BuiltData 참조한 것: PersistentLevel
+[2023.06.19-22.50.49:890][173]LogLinker: Warning: '../../../../../../Users/owner/Downloads/UNogakKimchi-jeonghoon/UNogakKimchi-jeonghoon/RossiNante/Content/Maps/Login.umap' 로드 도중 '/Game/Maps/Login_BuiltData' 로드에 실패했습니다: 애셋에 대한 파일을 찾을 수 없습니다.
+[2023.06.19-22.50.49:890][173]LogAudioDerivedData: Display: OGG 압축 오디오 포맷 loginBGM 웨이브 빌드중...
+[2023.06.19-22.50.49:894][173]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sounds/BGM/loginBGM.loginBGM will be modified from 40 to 40.
+[2023.06.19-22.50.50:432][173]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 9683712 while cooking SoundWave /Game/Sounds/BGM/loginBGM.loginBGM.
+[2023.06.19-22.50.50:446][173]LogAIModule: Creating AISystem for world Login
+[2023.06.19-22.50.50:446][173]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.06.19-22.50.50:447][173]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Login.Login up for play (max tick rate 0) at 2023.06.20-07.50.50
+[2023.06.19-22.50.50:447][173]LogWorld: Bringing up level for play took: 0.000547
+[2023.06.19-22.50.50:452][173]LogLoad: Took 0.626584 seconds to LoadMap(/Game/Maps/Login)
+[2023.06.19-22.50.53:281][512]LogTemp: Warning: Attack Damage: 0
+[2023.06.19-22.50.53:480][536]LogTemp: Warning: broadCast Attack

@@ -16,6 +16,22 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define RossiNante_Source_RossiNante_PlayMenuWidget_h_18_SPARSE_DATA
 #define RossiNante_Source_RossiNante_PlayMenuWidget_h_18_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execOnDownButtonClicked) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnDownButtonClicked(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnUpButtonClicked) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnUpButtonClicked(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execOnPlayButtonClicked) \
 	{ \
 		P_FINISH; \
@@ -26,6 +42,22 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define RossiNante_Source_RossiNante_PlayMenuWidget_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnDownButtonClicked) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnDownButtonClicked(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnUpButtonClicked) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnUpButtonClicked(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execOnPlayButtonClicked) \
 	{ \
@@ -82,6 +114,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPlayMenuWidget); \
 
 #define RossiNante_Source_RossiNante_PlayMenuWidget_h_18_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__BT_Play() { return STRUCT_OFFSET(UPlayMenuWidget, BT_Play); } \
+	FORCEINLINE static uint32 __PPO__BT_Up() { return STRUCT_OFFSET(UPlayMenuWidget, BT_Up); } \
+	FORCEINLINE static uint32 __PPO__BT_Down() { return STRUCT_OFFSET(UPlayMenuWidget, BT_Down); } \
+	FORCEINLINE static uint32 __PPO__TB_Floor() { return STRUCT_OFFSET(UPlayMenuWidget, TB_Floor); } \
 	FORCEINLINE static uint32 __PPO__TB_LevelValue() { return STRUCT_OFFSET(UPlayMenuWidget, TB_LevelValue); } \
 	FORCEINLINE static uint32 __PPO__TB_ExpValue() { return STRUCT_OFFSET(UPlayMenuWidget, TB_ExpValue); }
 

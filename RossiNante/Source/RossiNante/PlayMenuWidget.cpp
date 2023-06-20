@@ -9,6 +9,8 @@ void UPlayMenuWidget::NativeConstruct()
 
     UWorld* World = GetWorld();
 
+    floor = 1;
+
     if (World)
     {
         GameMode = Cast<AMyGameModeBase>(World->GetAuthGameMode());
@@ -19,6 +21,14 @@ void UPlayMenuWidget::NativeConstruct()
     {
         BT_Play->OnClicked.AddDynamic(this, &UPlayMenuWidget::OnPlayButtonClicked);
     }
+    if (BT_Up)
+    {
+        BT_Up->OnClicked.AddDynamic(this, &UPlayMenuWidget::OnUpButtonClicked);
+    }
+    if (BT_Down)
+    {
+        BT_Down->OnClicked.AddDynamic(this, &UPlayMenuWidget::OnDownButtonClicked);
+    }
 
     UserDataPacket* ud = GameMode->GetPlayerInfo();
 
@@ -28,5 +38,24 @@ void UPlayMenuWidget::NativeConstruct()
 
 void UPlayMenuWidget::OnPlayButtonClicked()
 {
-   GameMode->ChangeLevel(GetWorld(), "1F_Hall");
+    switch (floor) {
+    case 1:
+        GameMode->ChangeLevel(GetWorld(), "1F_Hall");
+        break;
+    case 2:
+        GameMode->ChangeLevel(GetWorld(), "2F_Hall");
+        break;
+    }
+}
+
+void UPlayMenuWidget::OnUpButtonClicked()
+{
+    floor = 2;
+    TB_Floor->SetText(FText::FromString(FString::FromInt(floor)));
+}
+
+void UPlayMenuWidget::OnDownButtonClicked()
+{
+    floor = 1;
+    TB_Floor->SetText(FText::FromString(FString::FromInt(floor)));
 }

@@ -210,6 +210,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyBossClass); \
 
 #define RossiNante_Source_RossiNante_MyBossClass_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__AnimInstance() { return STRUCT_OFFSET(AMyBossClass, AnimInstance); } \
+	FORCEINLINE static uint32 __PPO__BossHPWidget() { return STRUCT_OFFSET(AMyBossClass, BossHPWidget); } \
+	FORCEINLINE static uint32 __PPO__MaxHP() { return STRUCT_OFFSET(AMyBossClass, MaxHP); } \
 	FORCEINLINE static uint32 __PPO__DefaultHP() { return STRUCT_OFFSET(AMyBossClass, DefaultHP); } \
 	FORCEINLINE static uint32 __PPO__BaseAttackDamage() { return STRUCT_OFFSET(AMyBossClass, BaseAttackDamage); } \
 	FORCEINLINE static uint32 __PPO__AttackRange() { return STRUCT_OFFSET(AMyBossClass, AttackRange); } \

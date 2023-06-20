@@ -125,7 +125,7 @@ void AMyCharacter::IsAttackHit()
 
 	FCollisionQueryParams Params(NAME_None, false, this);
 
-	float AttackRange = 1000.f;
+	float AttackRange = 1500.f;
 	float AttackRadius = 20.f;
 
 	bool bResult = GetWorld()->SweepSingleByChannel(OUT HitResult,
@@ -136,19 +136,19 @@ void AMyCharacter::IsAttackHit()
 		FCollisionShape::MakeSphere(AttackRadius),
 		Params);
 
-	FVector Vec = GetActorForwardVector() * AttackRange;
-	FVector Center = GetActorLocation() + Vec * 0.5f;
-	float HalfHeight = AttackRange * 0.5f;
-	FQuat Rotation = FRotationMatrix::MakeFromZ(Vec).ToQuat();
-	FColor DrawColor;
+	//FVector Vec = GetActorForwardVector() * AttackRange;
+	//FVector Center = GetActorLocation() + Vec * 0.5f;
+	//float HalfHeight = AttackRange * 0.5f;
+	//FQuat Rotation = FRotationMatrix::MakeFromZ(Vec).ToQuat();
+	//FColor DrawColor;
 
 
-	if (bResult)
-		DrawColor = FColor::Green;
-	else
-		DrawColor = FColor::Red;
+	//if (bResult)
+	//	DrawColor = FColor::Green;
+	//else
+	//	DrawColor = FColor::Red;
 
-	DrawDebugCapsule(GetWorld(), Center, HalfHeight, AttackRadius, Rotation, DrawColor, false, 3.f);
+	//DrawDebugCapsule(GetWorld(), Center, HalfHeight, AttackRadius, Rotation, DrawColor, false, 3.f);
 
 	if (bResult && HitResult.Actor.IsValid()) {
 		UE_LOG(LogTemp, Log, TEXT("Hit Actor : %s"), *HitResult.Actor->GetName());
@@ -209,6 +209,7 @@ float AMyCharacter::TakeDamage(float DamageAmount, struct FDamageEvent const& Da
 	HUDWidget->UpdateHealthPercent();
 
 	if (Stat->GetHp() <= 0) {
+		GameMode->C2S_SendData(GameMode->GetPlayerInfo());
 		UE_LOG(LogTemp, Log, TEXT("Die"));
 		IsDie = true;
 		

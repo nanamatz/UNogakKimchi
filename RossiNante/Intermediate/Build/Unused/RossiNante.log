@@ -1,13 +1,13 @@
 ﻿  Building RossiNanteEditor...
   Using Visual Studio 2019 14.29.30147 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 4 actions with 12 processes...
-    [1/4] MyCharacter.cpp
+    [1/4] MyCharacterEnemy.cpp
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h(611): warning C4005: 'TEXT': ��ũ�� ������
     C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h(996): note: 'TEXT'�� ���� ���Ǹ� �����Ͻʽÿ�.
-    [2/4] UE4Editor-RossiNante-0007.lib
-       C:\Users\owner\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0007.lib ���̺귯�� �� C:\Users\owner\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0007.exp ��ü�� �����ϰ� �ֽ��ϴ�.
-    [3/4] UE4Editor-RossiNante-0007.dll
-       C:\Users\owner\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0007.suppressed.lib ���̺귯�� �� C:\Users\owner\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0007.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [2/4] UE4Editor-RossiNante-0006.lib
+       C:\Users\owner\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0006.lib ���̺귯�� �� C:\Users\owner\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0006.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [3/4] UE4Editor-RossiNante-0006.dll
+       C:\Users\owner\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0006.suppressed.lib ���̺귯�� �� C:\Users\owner\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\UE4Editor-RossiNante-0006.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
     [4/4] RossiNanteEditor.target
-  Total time in Parallel executor: 27.75 seconds
-  Total execution time: 28.60 seconds
+  Total time in Parallel executor: 18.49 seconds
+  Total execution time: 19.31 seconds

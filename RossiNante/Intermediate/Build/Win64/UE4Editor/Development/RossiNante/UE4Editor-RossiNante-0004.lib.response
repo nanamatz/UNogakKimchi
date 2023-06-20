@@ -7,6 +7,7 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\Users\owner\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\RossiNanteEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\owner\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\BossHPWidget.cpp.obj"
 "C:\Users\owner\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\HUDWidget.cpp.obj"
 "C:\Users\owner\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\LoginWidget.cpp.obj"
 "C:\Users\owner\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\MenuWidget.cpp.obj"
@@ -22,6 +23,7 @@
 "C:\Users\owner\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\Portal.cpp.obj"
 "C:\Users\owner\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\RossiNante.cpp.obj"
 "C:\Users\owner\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\StatMenuWidget.cpp.obj"
+"C:\Users\owner\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\BossHPWidget.gen.cpp.obj"
 "C:\Users\owner\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\HUDWidget.gen.cpp.obj"
 "C:\Users\owner\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\LoginWidget.gen.cpp.obj"
 "C:\Users\owner\Downloads\UNogakKimchi-jeonghoon\UNogakKimchi-jeonghoon\RossiNante\Intermediate\Build\Win64\UE4Editor\Development\RossiNante\MenuWidget.gen.cpp.obj"

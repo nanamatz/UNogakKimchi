@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeMyGameModeBase() {}
 	ENGINE_API UClass* Z_Construct_UClass_AGameModeBase();
 	UPackage* Z_Construct_UPackage__Script_RossiNante();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	ROSSINANTE_API UClass* Z_Construct_UClass_UBossHPWidget_NoRegister();
 	ROSSINANTE_API UClass* Z_Construct_UClass_UStatMenuWidget_NoRegister();
 	ROSSINANTE_API UClass* Z_Construct_UClass_UPlayMenuWidget_NoRegister();
 	ROSSINANTE_API UClass* Z_Construct_UClass_UMenuWidget_NoRegister();
@@ -38,6 +39,10 @@ void EmptyLinkFunctionForGeneratedCodeMyGameModeBase() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BP_BossHPWidget_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_BP_BossHPWidget;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BP_StatMenuWidget_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_BP_StatMenuWidget;
@@ -57,6 +62,10 @@ void EmptyLinkFunctionForGeneratedCodeMyGameModeBase() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BP_HUDWidget_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_BP_HUDWidget;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BossHPWidget_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_BossHPWidget;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_StatMenuWidget_MetaData[];
 #endif
@@ -93,6 +102,13 @@ void EmptyLinkFunctionForGeneratedCodeMyGameModeBase() {}
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyGameModeBase_Statics::NewProp_BP_BossHPWidget_MetaData[] = {
+		{ "Category", "MyGameModeBase" },
+		{ "ModuleRelativePath", "MyGameModeBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AMyGameModeBase_Statics::NewProp_BP_BossHPWidget = { "BP_BossHPWidget", nullptr, (EPropertyFlags)0x0044000000010001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyGameModeBase, BP_BossHPWidget), Z_Construct_UClass_UBossHPWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AMyGameModeBase_Statics::NewProp_BP_BossHPWidget_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyGameModeBase_Statics::NewProp_BP_BossHPWidget_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyGameModeBase_Statics::NewProp_BP_StatMenuWidget_MetaData[] = {
 		{ "Category", "MyGameModeBase" },
@@ -131,6 +147,13 @@ void EmptyLinkFunctionForGeneratedCodeMyGameModeBase() {}
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AMyGameModeBase_Statics::NewProp_BP_HUDWidget = { "BP_HUDWidget", nullptr, (EPropertyFlags)0x0044000000010001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyGameModeBase, BP_HUDWidget), Z_Construct_UClass_UHUDWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AMyGameModeBase_Statics::NewProp_BP_HUDWidget_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyGameModeBase_Statics::NewProp_BP_HUDWidget_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyGameModeBase_Statics::NewProp_BossHPWidget_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "MyGameModeBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyGameModeBase_Statics::NewProp_BossHPWidget = { "BossHPWidget", nullptr, (EPropertyFlags)0x0010000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyGameModeBase, BossHPWidget), Z_Construct_UClass_UBossHPWidget_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyGameModeBase_Statics::NewProp_BossHPWidget_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyGameModeBase_Statics::NewProp_BossHPWidget_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyGameModeBase_Statics::NewProp_StatMenuWidget_MetaData[] = {
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "MyGameModeBase.h" },
@@ -166,11 +189,13 @@ void EmptyLinkFunctionForGeneratedCodeMyGameModeBase() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyGameModeBase_Statics::NewProp_HUDWidget = { "HUDWidget", nullptr, (EPropertyFlags)0x0010000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyGameModeBase, HUDWidget), Z_Construct_UClass_UHUDWidget_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyGameModeBase_Statics::NewProp_HUDWidget_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyGameModeBase_Statics::NewProp_HUDWidget_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMyGameModeBase_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyGameModeBase_Statics::NewProp_BP_BossHPWidget,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyGameModeBase_Statics::NewProp_BP_StatMenuWidget,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyGameModeBase_Statics::NewProp_BP_PlayMenuWidget,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyGameModeBase_Statics::NewProp_BP_MenuWidget,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyGameModeBase_Statics::NewProp_BP_LoginWidget,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyGameModeBase_Statics::NewProp_BP_HUDWidget,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyGameModeBase_Statics::NewProp_BossHPWidget,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyGameModeBase_Statics::NewProp_StatMenuWidget,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyGameModeBase_Statics::NewProp_PlayMenuWidget,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyGameModeBase_Statics::NewProp_MenuWidget,
@@ -204,7 +229,7 @@ void EmptyLinkFunctionForGeneratedCodeMyGameModeBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyGameModeBase, 2948454440);
+	IMPLEMENT_CLASS(AMyGameModeBase, 482233893);
 	template<> ROSSINANTE_API UClass* StaticClass<AMyGameModeBase>()
 	{
 		return AMyGameModeBase::StaticClass();

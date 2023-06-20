@@ -4,12 +4,17 @@
 #include "MyBossClass.h"
 #include "MyAnimInstance.h"
 #include "Engine.h"
+#include "MyGameModeBase.h"
+#include "BossHPWidget.h"
+#include "MyCharacter.h"
+#include "MyStatComponent.h"
 
 // Sets default values
 AMyBossClass::AMyBossClass()
 {
 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+
 	/*
 	ConstructorHelpers::FObjectFinder<UAnimMontage> Attack_AnimMt(TEXT("AnimMontage'/Game/MyBoss/Montage/MyBossAttack_Montage.BossAttack_Montage'"));
 	if (Attack_AnimMt.Succeeded()) {
@@ -35,8 +40,8 @@ AMyBossClass::AMyBossClass()
 	if (Spawn_AnimMt.Succeeded()) {
 		MyBossGameStart_Montage = Spawn_AnimMt.Object;
 	}
-
 	*/
+
 }
 
 void AMyBossClass::PostInitializeComponents()
@@ -45,11 +50,33 @@ void AMyBossClass::PostInitializeComponents()
 	AnimInstance = Cast<UMyAnimInstance>(GetMesh()->GetAnimInstance());
 }
 
+void AMyBossClass::InitHPWidget()
+{
+	BossHPWidget = GameMode->CreateBossHPWidget();
+	hpBarDuration = 10;
+	currentHPBarDuration = 0;
+}
+
+void AMyBossClass::UpdateHPWidget()
+{
+	if (currentHPBarDuration <= 0) {
+		currentHPBarDuration = hpBarDuration;
+		BossHPWidget->AddToViewport();
+		BossHPWidget->UpdateHealthPercent(DefaultHP, MaxHP);
+	}
+	else {
+		BossHPWidget->UpdateHealthPercent(DefaultHP, MaxHP);
+	}
+}
+
 // Called when the game starts or when spawned
 void AMyBossClass::BeginPlay()
 {
 	Super::BeginPlay();
 
+	GameMode = Cast<AMyGameModeBase>(GetWorld()->GetAuthGameMode());
+
+	InitHPWidget();
 }
 
 // Called every frame
@@ -57,6 +84,13 @@ void AMyBossClass::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	if (currentHPBarDuration > 0) {
+		currentHPBarDuration -= DeltaTime;
+		if (currentHPBarDuration < 0) {
+			currentHPBarDuration = 0;
+			BossHPWidget->RemoveFromViewport();
+		}
+	}
 }
 
 
@@ -112,6 +146,7 @@ void AMyBossClass::Attack_Skill_End()
 
 void AMyBossClass::PowerDash_Skill_Start()
 {
+	isDuringAttack = true;
 	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("PowerDash!"));
 	PlayAnimMontage(MyBoss_PowerDashMontage);
 
@@ -138,16 +173,26 @@ void AMyBossClass::HitReact(float damage) {
 
 	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("BossHit!"));
 
+	UpdateHPWidget();
 
 	//체력이 0이하면 죽는 애니메이션 실행
 	if (DefaultHP <= 0) {
+		isDie = true;
 		FTimerHandle TH_Hit_End;
 		PlayAnimMontage(Boss_DeathMontage);
+
+		BossHPWidget->RemoveFromViewport();
+
 		GetWorldTimerManager().SetTimer(TH_Hit_End, this, &AMyBossClass::DieAnim, 1.3f, false);
+		
+
+
 		return;
 	}
 	else {
-		PlayAnimMontage(Boss_HitReactMontage);
+		if (!isDuringAttack) {
+			PlayAnimMontage(Boss_HitReactMontage);
+		}
 	}
 
 	FTimerHandle TH_Hit_End;
@@ -156,6 +201,6 @@ void AMyBossClass::HitReact(float damage) {
 
 void AMyBossClass::DieAnim() {
 	this->Destroy();
+	//GameMode->ChangeLevel(GetWorld(), "Login");
 }
-
 

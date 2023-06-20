@@ -52,7 +52,9 @@ void ULoginWidget::OnSignInButtonClicked()
     if (ud.packet_type == (int)EPacketType::S2C_LOGIN_SUCCESS) {
         GameMode->SetIsLogin();
         GameMode->LoginWidget->RemoveFromViewport();
-        GameMode->EnableMenuWidget();
+        GameMode->ChangeLevel(GetWorld(), "Default");
+        //GameMode->EnableMenuWidget();
+
     }
     else if (ud.packet_type == (int)EPacketType::S2C_LOGIN_FAIL) {
         UE_LOG(LogTemp, Warning, TEXT("ID or PW error! However you can join the game in test mode."));

@@ -63,6 +63,10 @@ void EmptyLinkFunctionForGeneratedCodeStatMenuWidget() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TB_AttackUpgradeValue_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TB_AttackUpgradeValue;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TB_StatpointValue_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TB_StatpointValue;
@@ -96,6 +100,15 @@ void EmptyLinkFunctionForGeneratedCodeStatMenuWidget() {}
 		{ "ModuleRelativePath", "StatMenuWidget.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UStatMenuWidget_Statics::NewProp_TB_AttackUpgradeValue_MetaData[] = {
+		{ "BindWidget", "" },
+		{ "Category", "StatMenuWidget" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "StatMenuWidget.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UStatMenuWidget_Statics::NewProp_TB_AttackUpgradeValue = { "TB_AttackUpgradeValue", nullptr, (EPropertyFlags)0x002008000008001c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UStatMenuWidget, TB_AttackUpgradeValue), Z_Construct_UClass_UTextBlock_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UStatMenuWidget_Statics::NewProp_TB_AttackUpgradeValue_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UStatMenuWidget_Statics::NewProp_TB_AttackUpgradeValue_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UStatMenuWidget_Statics::NewProp_TB_StatpointValue_MetaData[] = {
 		{ "BindWidget", "" },
@@ -133,6 +146,7 @@ void EmptyLinkFunctionForGeneratedCodeStatMenuWidget() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UStatMenuWidget_Statics::NewProp_BT_Upgrade1 = { "BT_Upgrade1", nullptr, (EPropertyFlags)0x002008000008001c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UStatMenuWidget, BT_Upgrade1), Z_Construct_UClass_UButton_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UStatMenuWidget_Statics::NewProp_BT_Upgrade1_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UStatMenuWidget_Statics::NewProp_BT_Upgrade1_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UStatMenuWidget_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UStatMenuWidget_Statics::NewProp_TB_AttackUpgradeValue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UStatMenuWidget_Statics::NewProp_TB_StatpointValue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UStatMenuWidget_Statics::NewProp_TB_ExpValue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UStatMenuWidget_Statics::NewProp_TB_LevelValue,
@@ -165,7 +179,7 @@ void EmptyLinkFunctionForGeneratedCodeStatMenuWidget() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UStatMenuWidget, 2999725358);
+	IMPLEMENT_CLASS(UStatMenuWidget, 1542058051);
 	template<> ROSSINANTE_API UClass* StaticClass<UStatMenuWidget>()
 	{
 		return UStatMenuWidget::StaticClass();

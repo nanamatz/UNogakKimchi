@@ -22,6 +22,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacterEnemy() {}
 	ROSSINANTE_API UFunction* Z_Construct_UFunction_AMyCharacterEnemy_Attack_Skill_End();
 	ROSSINANTE_API UFunction* Z_Construct_UFunction_AMyCharacterEnemy_Attack_Skill_Melee();
 	ROSSINANTE_API UFunction* Z_Construct_UFunction_AMyCharacterEnemy_DieAnim();
+	ROSSINANTE_API UFunction* Z_Construct_UFunction_AMyCharacterEnemy_EndGame();
 	ROSSINANTE_API UFunction* Z_Construct_UFunction_AMyCharacterEnemy_HitReact();
 	ROSSINANTE_API UFunction* Z_Construct_UFunction_AMyCharacterEnemy_JumpTowardsPlayer();
 	ROSSINANTE_API UFunction* Z_Construct_UFunction_AMyCharacterEnemy_OnJumpDecal_End();
@@ -34,6 +35,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacterEnemy() {}
 	ENGINE_API UClass* Z_Construct_UClass_UCameraShake_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	ROSSINANTE_API UClass* Z_Construct_UClass_UBossHPWidget_NoRegister();
 	ROSSINANTE_API UClass* Z_Construct_UClass_UMyAnimInstance_NoRegister();
 // End Cross Module References
 	static FName NAME_AMyCharacterEnemy_OnJumpDecal_End = FName(TEXT("OnJumpDecal_End"));
@@ -55,6 +57,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacterEnemy() {}
 			{ "Attack_Skill_End", &AMyCharacterEnemy::execAttack_Skill_End },
 			{ "Attack_Skill_Melee", &AMyCharacterEnemy::execAttack_Skill_Melee },
 			{ "DieAnim", &AMyCharacterEnemy::execDieAnim },
+			{ "EndGame", &AMyCharacterEnemy::execEndGame },
 			{ "HitReact", &AMyCharacterEnemy::execHitReact },
 			{ "JumpTowardsPlayer", &AMyCharacterEnemy::execJumpTowardsPlayer },
 			{ "PlayerCameraShake", &AMyCharacterEnemy::execPlayerCameraShake },
@@ -171,6 +174,28 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacterEnemy() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMyCharacterEnemy_DieAnim_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AMyCharacterEnemy_EndGame_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMyCharacterEnemy_EndGame_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MyCharacterEnemy.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMyCharacterEnemy_EndGame_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMyCharacterEnemy, nullptr, "EndGame", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMyCharacterEnemy_EndGame_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyCharacterEnemy_EndGame_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AMyCharacterEnemy_EndGame()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMyCharacterEnemy_EndGame_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -483,6 +508,14 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacterEnemy() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_DefaultHP;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MaxHP_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MaxHP;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BossHPWidget_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_BossHPWidget;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AnimInstance_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_AnimInstance;
@@ -500,6 +533,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacterEnemy() {}
 		{ &Z_Construct_UFunction_AMyCharacterEnemy_Attack_Skill_End, "Attack_Skill_End" }, // 3233563442
 		{ &Z_Construct_UFunction_AMyCharacterEnemy_Attack_Skill_Melee, "Attack_Skill_Melee" }, // 1337519750
 		{ &Z_Construct_UFunction_AMyCharacterEnemy_DieAnim, "DieAnim" }, // 1411721034
+		{ &Z_Construct_UFunction_AMyCharacterEnemy_EndGame, "EndGame" }, // 2614880474
 		{ &Z_Construct_UFunction_AMyCharacterEnemy_HitReact, "HitReact" }, // 2012324601
 		{ &Z_Construct_UFunction_AMyCharacterEnemy_JumpTowardsPlayer, "JumpTowardsPlayer" }, // 4010715417
 		{ &Z_Construct_UFunction_AMyCharacterEnemy_OnJumpDecal_End, "OnJumpDecal_End" }, // 2309600848
@@ -758,6 +792,20 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacterEnemy() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_DefaultHP = { "DefaultHP", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyCharacterEnemy, DefaultHP), METADATA_PARAMS(Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_DefaultHP_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_DefaultHP_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_MaxHP_MetaData[] = {
+		{ "Category", "Boss Monster" },
+		{ "ModuleRelativePath", "MyCharacterEnemy.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_MaxHP = { "MaxHP", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyCharacterEnemy, MaxHP), METADATA_PARAMS(Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_MaxHP_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_MaxHP_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_BossHPWidget_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "MyCharacterEnemy.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_BossHPWidget = { "BossHPWidget", nullptr, (EPropertyFlags)0x0040000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyCharacterEnemy, BossHPWidget), Z_Construct_UClass_UBossHPWidget_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_BossHPWidget_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_BossHPWidget_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_AnimInstance_MetaData[] = {
 		{ "ModuleRelativePath", "MyCharacterEnemy.h" },
 	};
@@ -790,6 +838,8 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacterEnemy() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_AttackRange,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_BaseAttackDamage,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_DefaultHP,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_MaxHP,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_BossHPWidget,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacterEnemy_Statics::NewProp_AnimInstance,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AMyCharacterEnemy_Statics::StaticCppClassTypeInfo = {
@@ -819,7 +869,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacterEnemy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyCharacterEnemy, 2311273475);
+	IMPLEMENT_CLASS(AMyCharacterEnemy, 2793006833);
 	template<> ROSSINANTE_API UClass* StaticClass<AMyCharacterEnemy>()
 	{
 		return AMyCharacterEnemy::StaticClass();

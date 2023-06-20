@@ -271,6 +271,8 @@
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultInput.ini"/>
+    <ClCompile Include="..\..\Source\RossiNante\BossHPWidget.cpp"/>
+    <ClInclude Include="..\..\Source\RossiNante\BossHPWidget.h"/>
     <ClCompile Include="..\..\Source\RossiNante\HUDWidget.cpp"/>
     <ClInclude Include="..\..\Source\RossiNante\HUDWidget.h"/>
     <ClCompile Include="..\..\Source\RossiNante\LoginWidget.cpp"/>

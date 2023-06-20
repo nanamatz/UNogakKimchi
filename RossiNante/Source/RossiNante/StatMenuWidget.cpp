@@ -17,6 +17,7 @@ void UStatMenuWidget::NativeConstruct()
     TB_LevelValue->SetText(FText::FromString(FString::FromInt(GameMode->GetPlayerLevel())));
     TB_ExpValue->SetText(FText::FromString(FString::FromInt(GameMode->GetPlayerExp())));
     TB_StatpointValue->SetText(FText::FromString(FString::FromInt(GameMode->GetPlayerStatpoint())));
+    TB_AttackUpgradeValue->SetText(FText::FromString("x" + FString::FromInt(GameMode->GetPlayerAttackUpgrade())));
 
     // BT_SignIn 버튼의 클릭 이벤트에 OnSignInButtonClicked 함수를 연결합니다.
     if (BT_Upgrade1)
@@ -47,4 +48,5 @@ void UStatMenuWidget::OnUpgrade1ButtonClicked()
     TB_LevelValue->SetText(FText::FromString(FString::FromInt(ud->level)));
     TB_ExpValue->SetText(FText::FromString(FString::FromInt(ud->exp)));
     TB_StatpointValue->SetText(FText::FromString(FString::FromInt(ud->statpoint)));
+    TB_AttackUpgradeValue->SetText(FText::FromString("x" + FString::FromInt(GameMode->GetPlayerAttackUpgrade())));
 }
